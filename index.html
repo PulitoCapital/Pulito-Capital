@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>璞合资本 | Pulito Capital</title>
+  <meta name="description" content="璞合资本 — 专注出海、AI Agent、AI智能硬件三大方向的早期投资。用产业认知与战略陪伴，成就下一代全球化的华人创业者。">
+  <style>
+    /* ===== Reset & Variables ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --navy: #0B1A33;
+      --navy-light: #132A4A;
+      --gold: #C8A15E;
+      --gold-light: #E8D09E;
+      --white: #FFFFFF;
+      --off-white: #F5F3EF;
+      --text: #1A1A2E;
+      --text-light: #6B7280;
+      --font-serif: 'Noto Serif SC', 'STSong', 'SimSun', serif;
+      --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-sans);
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; height: auto; display: block; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* ===== Typography ===== */
+    h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 700; line-height: 1.3; }
+    .section-title {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .section-sub {
+      text-align: center;
+      color: var(--text-light);
+      font-size: 1rem;
+      margin-bottom: 3rem;
+    }
+    .gold-accent { color: var(--gold); }
+
+    /* ===== Navigation ===== */
+    .navbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      background: rgba(11, 26, 51, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(200, 161, 94, 0.15);
+      transition: background 0.3s;
+    }
+    .navbar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+    .nav-logo svg { width: 32px; height: 32px; }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      transition: color 0.3s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px; left: 0;
+      width: 0; height: 2px;
+      background: var(--gold);
+      transition: width 0.3s;
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy) !important;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .nav-cta::after { display: none !important; }
+    .nav-cta:hover { background: var(--gold-light); color: var(--navy) !important; }
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+    .nav-toggle span {
+      width: 24px; height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+
+    /* ===== Hero Section ===== */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--navy);
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.25;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(11, 26, 51, 0.92) 0%,
+        rgba(11, 26, 51, 0.75) 50%,
+        rgba(11, 26, 51, 0.90) 100%
+      );
+      z-index: 1;
+    }
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background-image:
+        radial-gradient(circle at 20% 50%, rgba(200, 161, 94, 0.06) 0%, transparent 50%),
+        radial-gradient(circle at 80% 30%, rgba(200, 161, 94, 0.04) 0%, transparent 40%),
+        radial-gradient(circle at 50% 80%, rgba(200, 161, 94, 0.03) 0%, transparent 50%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 120px 0 80px;
+    }
+    .hero-badge {
+      display: inline-block;
+      border: 1px solid rgba(200, 161, 94, 0.3);
+      color: var(--gold-light);
+      font-size: 0.8rem;
+      letter-spacing: 3px;
+      padding: 6px 18px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      color: var(--white);
+      margin-bottom: 8px;
+      letter-spacing: 2px;
+    }
+    .hero h1 .gold-accent { display: block; font-size: 3.8rem; margin-top: 4px; }
+    .hero h2 {
+      font-size: 1.2rem;
+      color: rgba(255,255,255,0.7);
+      font-weight: 400;
+      margin-bottom: 32px;
+      line-height: 1.8;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200, 161, 94, 0.25); }
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(200, 161, 94, 0.4);
+      color: var(--gold-light);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: all 0.3s;
+      background: transparent;
+      cursor: pointer;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); background: rgba(200, 161, 94, 0.08); }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      animation: float 2s ease-in-out infinite;
+    }
+    .hero-scroll .arrow { width: 20px; height: 20px; border-right: 2px solid rgba(255,255,255,0.3); border-bottom: 2px solid rgba(255,255,255,0.3); transform: rotate(45deg); }
+    @keyframes float { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(8px); } }
+
+    /* ===== Section Common ===== */
+    section { padding: 100px 0; }
+    .section-divider {
+      width: 60px; height: 3px;
+      background: var(--gold);
+      margin: 0 auto 1rem;
+      border-radius: 2px;
+    }
+
+    /* ===== About Section ===== */
+    .about {
+      background: var(--white);
+      position: relative;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .about-text p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.9;
+    }
+    .about-text .highlight {
+      font-family: var(--font-serif);
+      color: var(--navy);
+      font-size: 1.15rem;
+      font-weight: 600;
+      border-left: 3px solid var(--gold);
+      padding-left: 20px;
+      margin: 24px 0;
+    }
+    .about-image {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(11, 26, 51, 0.12);
+    }
+    .about-image img { width: 100%; height: auto; }
+
+    /* ===== Philosophy Section ===== */
+    .philosophy {
+      background: var(--off-white);
+    }
+    .phil-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin-top: 24px;
+    }
+    .phil-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 40px 32px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+      transition: all 0.3s;
+      border: 1px solid rgba(0,0,0,0.04);
+    }
+    .phil-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+      border-color: rgba(200, 161, 94, 0.2);
+    }
+    .phil-icon {
+      width: 64px; height: 64px;
+      margin: 0 auto 20px;
+      background: rgba(200, 161, 94, 0.08);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+    .phil-icon img { width: 100%; height: auto; }
+    .phil-card h3 { font-size: 1.15rem; margin-bottom: 12px; color: var(--navy); }
+    .phil-card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.7; }
+
+    /* ===== AI Agent Section ===== */
+    .ai-agent {
+      background: var(--navy);
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+    .ai-agent::before {
+      content: '';
+      position: absolute;
+      top: -50%; right: -20%;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(200,161,94,0.05) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .ai-agent .section-title { color: var(--white); }
+    .ai-agent .section-sub { color: rgba(255,255,255,0.5); }
+    .ai-agent .section-divider { background: var(--gold); }
+    .ai-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    .ai-text p {
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.9;
+    }
+    .ai-text .highlight {
+      font-family: var(--font-serif);
+      color: var(--gold-light);
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-left: 3px solid var(--gold);
+      padding-left: 20px;
+      margin: 24px 0;
+    }
+    .ai-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .ai-stat-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(200, 161, 94, 0.12);
+      border-radius: 12px;
+      padding: 28px 24px;
+      text-align: center;
+      transition: background 0.3s;
+    }
+    .ai-stat-card:hover { background: rgba(255,255,255,0.07); }
+    .ai-stat-card .number {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold);
+      display: block;
+    }
+    .ai-stat-card .label {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
+      margin-top: 4px;
+    }
+
+    /* ===== Contact Section ===== */
+    .contact {
+      background: var(--white);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .contact-info h3 {
+      font-size: 1.5rem;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+    .contact-info p {
+      color: var(--text-light);
+      margin-bottom: 32px;
+      line-height: 1.8;
+    }
+    .contact-method {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 24px;
+      background: var(--off-white);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      transition: background 0.3s;
+    }
+    .contact-method:hover { background: #EDE9E3; }
+    .contact-method-icon {
+      width: 44px; height: 44px;
+      background: rgba(200, 161, 94, 0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-method-info .label { font-size: 0.8rem; color: var(--text-light); }
+    .contact-method-info .value { font-size: 1rem; font-weight: 500; color: var(--navy); }
+    .contact-method-info .value a { color: var(--gold); }
+    .contact-method-info .value a:hover { text-decoration: underline; }
+    .contact-qr {
+      background: var(--off-white);
+      border-radius: 16px;
+      padding: 40px;
+      text-align: center;
+    }
+    .contact-qr h4 {
+      font-size: 1.1rem;
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+    .contact-qr img {
+      width: 200px; height: 200px;
+      margin: 0 auto 16px;
+      border-radius: 12px;
+      background: var(--white);
+      padding: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    .contact-qr p {
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+
+    /* ===== Footer ===== */
+    .footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.5);
+      padding: 48px 0 32px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .footer-brand .nav-logo { margin-bottom: 12px; }
+    .footer-brand p { font-size: 0.85rem; line-height: 1.8; max-width: 360px; }
+    .footer h4 { font-family: var(--font-sans); font-size: 0.9rem; color: var(--white); margin-bottom: 16px; font-weight: 600; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.5); transition: color 0.3s; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 24px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.3);
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      .nav-links { display: none; position: absolute; top: 68px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 20px 24px; gap: 20px; border-bottom: 1px solid rgba(200,161,94,0.15); }
+      .nav-links.open { display: flex; }
+      .nav-toggle { display: flex; }
+      .hero h1 { font-size: 2rem; }
+      .hero h1 .gold-accent { font-size: 2.4rem; }
+      .hero h2 { font-size: 1rem; }
+      .section-title { font-size: 1.6rem; }
+      .about-grid, .ai-content, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
+      .phil-grid { grid-template-columns: 1fr; }
+      section { padding: 64px 0; }
+      .ai-stats { grid-template-columns: 1fr 1fr; }
+      .contact-qr img { width: 160px; height: 160px; }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .phil-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#C8A15E"/>
+          <text x="16" y="22" text-anchor="middle" font-family="serif" font-size="18" font-weight="700" fill="#0B1A33">璞</text>
+        </svg>
+        璞合资本
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">首页</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#philosophy">投资理念</a></li>
+        <li><a href="#ai-agent">AI Agent 系统</a></li>
+        <li><a href="#contact" class="nav-cta">联系我们</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/hero-bg.jpg" alt="">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">PULITO CAPITAL</span>
+        <h1>
+          璞合资本
+          <span class="gold-accent">成就下一代全球化的华人创业者</span>
+        </h1>
+        <h2>
+          专注出海 · AI Agent · AI 智能硬件<br>
+          种子轮 / 天使轮 / A 轮 早期投资
+        </h2>
+        <div class="hero-actions">
+          <a href="#about" class="btn-primary">了解璞合 →</a>
+          <a href="#contact" class="btn-outline">联系我们</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>向下滚动</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-divider"></div>
+      <h2 class="section-title">关于 <span class="gold-accent">璞合</span></h2>
+      <p class="section-sub">以产业认知与战略陪伴，与创业者同行</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            璞合资本是一家专注于 <strong>出海 / AI Agent / AI 智能硬件</strong> 三大赛道的
+            早期投资机构。我们关注具有全球视野、技术实力和商业洞察力的华人创业者，
+            在种子轮、天使轮及 A 轮阶段进行布局。
+          </p>
+          <div class="highlight">
+            「璞」— 未经雕琢的美玉，代表着潜力与价值<br>
+            「合」— 汇聚之力，产业认知与资本的双重耦合
+          </div>
+          <p>
+            我们的独特之处在于：不仅提供资金，更深度参与项目孵化与商业化落地。
+            依托深厚的产业资源和跨境能力，帮助创业者从 0 到 1，从中国到全球。
+          </p>
+          <p>
+            核心团队拥有互联网大厂高管、连续创业、跨境投资等多重背景，
+            在 AI 技术、硬件产品、海外市场拓展方面积累了丰富的实战经验。
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="assets/img3.jpg" alt="璞合资本">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Philosophy ===== -->
+  <section class="philosophy" id="philosophy">
+    <div class="container">
+      <div class="section-divider"></div>
+      <h2 class="section-title">投资 <span class="gold-accent">理念</span></h2>
+      <p class="section-sub">精品化 · 深度赋能 · 长期主义</p>
+      <div class="phil-grid">
+        <div class="phil-card">
+          <div class="phil-icon">
+            <img src="assets/img2.jpg" alt="精品投资">
+          </div>
+          <h3>精品化投资</h3>
+          <p>
+            不追逐风口，不追求数量。每年精选少数项目，
+            深度投入，以 FA + 直投的双引擎模式陪跑创业者。
+          </p>
+        </div>
+        <div class="phil-card">
+          <div class="phil-icon">
+            <img src="assets/img4.jpg" alt="深度赋能">
+          </div>
+          <h3>深度产业赋能</h3>
+          <p>
+            对接海外渠道、供应链资源、核心人才、
+            技术合作伙伴，帮助项目快速落地与规模化。
+          </p>
+        </div>
+        <div class="phil-card">
+          <div class="phil-icon">
+            <img src="assets/img6.jpg" alt="全球化">
+          </div>
+          <h3>全球化视野</h3>
+          <p>
+            立足中国、放眼全球。深谙海外市场规则，
+            帮助中国企业高效出海，帮助华人创业者在全球建立壁垒。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI Agent ===== -->
+  <section class="ai-agent" id="ai-agent">
+    <div class="container">
+      <div class="section-divider"></div>
+      <h2 class="section-title">AI Agent 智能系统</h2>
+      <p class="section-sub">用 AI Agent 驱动募投管退全流程</p>
+      <div class="ai-content">
+        <div class="ai-text">
+          <p>
+            璞合资本自主研发的 AI Agent 系统，覆盖募、投、管、退全业务流程。
+            从项目筛选、尽职调查、投后管理到退出决策，AI Agent 辅助团队
+            提升效率、降低盲区。
+          </p>
+          <div class="highlight">
+            七分分析，三分直觉。AI 负责效率，人负责判断。
+          </div>
+          <p>
+            我们相信，在早期投资领域，AI 不是替代投资人，
+            而是让团队把更多时间花在真正重要的事情上——
+            与创始人的深度沟通、产业判断与战略决策。
+          </p>
+        </div>
+        <div class="ai-stats">
+          <div class="ai-stat-card">
+            <span class="number">24/7</span>
+            <span class="label">项目扫描不中断</span>
+          </div>
+          <div class="ai-stat-card">
+            <span class="number">3x</span>
+            <span class="label">调研效率提升</span>
+          </div>
+          <div class="ai-stat-card">
+            <span class="number">100+</span>
+            <span class="label">创始人数据库</span>
+          </div>
+          <div class="ai-stat-card">
+            <span class="number">5</span>
+            <span class="label">大模型协同决策</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-divider"></div>
+      <h2 class="section-title">联系 <span class="gold-accent">我们</span></h2>
+      <p class="section-sub">如果有好的项目或想法，欢迎交流</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>与我们建立联系</h3>
+          <p>
+            如果你在做出海、AI Agent 或 AI 智能硬件方向的创业项目，
+            或者在寻找早期投资，欢迎通过以下方式与我们取得联系。
+          </p>
+          <div class="contact-method">
+            <div class="contact-method-icon">✉</div>
+            <div class="contact-method-info">
+              <div class="label">邮箱</div>
+              <div class="value"><a href="mailto:contact@pulitocapital.com">contact@pulitocapital.com</a></div>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="contact-method-icon">📍</div>
+            <div class="contact-method-info">
+              <div class="label">地址</div>
+              <div class="value">中国 · 深圳 / 硅谷</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-qr">
+          <h4>扫码添加微信</h4>
+          <img src="assets/qrcode.jpg" alt="微信二维码">
+          <p>请备注「璞合资本 + 姓名 + 项目方向」</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="8" fill="#C8A15E"/>
+              <text x="16" y="22" text-anchor="middle" font-family="serif" font-size="18" font-weight="700" fill="#0B1A33">璞</text>
+            </svg>
+            璞合资本
+          </a>
+          <p>专注出海 · AI Agent · AI 智能硬件的早期投资机构。以产业认知与战略陪伴助力华人创业者走向全球。</p>
+        </div>
+        <div>
+          <h4>导航</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">首页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#philosophy">投资理念</a></li>
+            <li><a href="#ai-agent">AI Agent 系统</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>联系</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:contact@pulitocapital.com">contact@pulitocapital.com</a></li>
+            <li><a href="#contact">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 璞合资本 Pulito Capital. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Script ===== -->
+  <script>
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+    // Close nav on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => links.classList.remove('open'));
+    });
+
+    // Navbar transparency on scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        navbar.style.background = 'rgba(11, 26, 51, 0.98)';
+      } else {
+        navbar.style.background = 'rgba(11, 26, 51, 0.95)';
+      }
+    });
+  </script>
+</body>
+</html>
