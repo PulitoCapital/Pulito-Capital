@@ -4,448 +4,581 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>璞合资本 | Pulito Capital</title>
-  <meta name="description" content="Agent Era: Boutique FA for AI Agent & AI-powered Smart Hardware, Global from Day One. 专注出海 · AI硬件与应用 · 早期精品FA。">
+  <meta name="description" content="Agent Era: Boutique FA for AI Agent & AI-powered Smart Hardware, Global from Day One">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --navy: #0B1A33;
-      --gold: #C8A15E;
-      --gold-light: #E8D09E;
-      --white: #FFFFFF;
-      --off-white: #F5F3EF;
-      --text: #1A1A2E;
-      --text-light: #6B7280;
-      --font-serif: 'Noto Serif SC', 'STSong', 'SimSun', serif;
-      --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-    }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: var(--font-sans);
-      color: var(--text);
-      background: var(--white);
-      line-height: 1.7;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { text-decoration: none; color: inherit; }
-    img { max-width: 100%; height: auto; display: block; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--gold-rgb:212,175,55;--white:#FFFFFF;--text-muted:#8892B0;--btn-text:#020C45;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif;--font-logo:'Montserrat',sans-serif}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font-en);color:#fff;background:var(--navy);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;height:auto;display:block}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
 
-    h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 700; line-height: 1.3; }
-    .section-title {
-      font-size: 2rem;
-      text-align: center;
-      margin-bottom: 0.5rem;
-    }
-    .section-sub {
-      text-align: center;
-      color: var(--text-light);
-      font-size: 1rem;
-      margin-bottom: 3rem;
-    }
+    @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes pulse{0%,100%{opacity:0.5}50%{opacity:0.15}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @keyframes logoReveal{0%{opacity:0;transform:scale(0.85) rotate(-4deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+    .animate-pulse{animation:pulse 3s ease-in-out infinite}
+    .animate-float{animation:float 4s ease-in-out infinite}
+    .delay-1{animation-delay:1s}.delay-05{animation-delay:0.5s}.delay-15{animation-delay:1.5s}
+    .js .reveal{opacity:0;transform:translateY(20px);transition:opacity 0.7s ease,transform 0.7s ease}
+    .js .reveal.visible{opacity:1;transform:translateY(0)}
+    .reveal-d1{transition-delay:0.1s}.reveal-d2{transition-delay:0.2s}.reveal-d3{transition-delay:0.3s}.reveal-d4{transition-delay:0.4s}
 
-    /* ===== Navigation ===== */
-    .navbar {
-      position: fixed; top: 0; left: 0; right: 0;
-      z-index: 1000;
-      background: rgba(11, 26, 51, 0.95);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(200, 161, 94, 0.12);
-    }
-    .navbar .container {
-      display: flex; align-items: center; justify-content: space-between; height: 68px;
-    }
-    .nav-logo {
-      display: flex; align-items: center; gap: 12px;
-    }
-    .nav-logo-mark {
-      width: 32px; height: 32px;
-      background: var(--gold);
-      border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      font-family: var(--font-serif); font-size: 18px; font-weight: 700; color: var(--navy);
-    }
-    .nav-logo-text {
-      display: flex; flex-direction: column;
-    }
-    .nav-logo-text .cn { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; color: var(--white); }
-    .nav-logo-text .en { font-size: 0.65rem; color: var(--gold); letter-spacing: 1.5px; text-transform: uppercase; }
-    .nav-links {
-      display: flex; align-items: center; gap: 32px; list-style: none;
-    }
-    .nav-links a {
-      color: rgba(255,255,255,0.75); font-size: 0.9rem; letter-spacing: 0.5px;
-      transition: color 0.3s; position: relative;
-    }
-    .nav-links a::after {
-      content: ''; position: absolute; bottom: -4px; left: 0;
-      width: 0; height: 2px; background: var(--gold); transition: width 0.3s;
-    }
-    .nav-links a:hover { color: var(--white); }
-    .nav-links a:hover::after { width: 100%; }
-    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
-    .nav-toggle span { width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: 0.3s; }
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;transition:all 0.4s;padding:16px 0;background:transparent}
+    .navbar.scrolled{background:rgba(2,12,69,0.95);backdrop-filter:blur(12px);padding:8px 0}
+    .navbar .container{display:flex;align-items:center;justify-content:space-between}
+    .nav-logo{display:flex;align-items:center;gap:12px;cursor:pointer}
+    .nav-logo svg{width:32px;height:32px}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1}
+    .nav-logo-text .cn{font-family:var(--font-cn);font-size:16px;font-weight:500;color:#fff;letter-spacing:0.1em}
+    .nav-logo-text .en{font-size:7.04px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:4px}
+    .nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+    .nav-links a{font-family:var(--font-en);font-size:15px;font-weight:400;color:var(--text-muted);transition:color 0.2s}
+    .nav-links a.active,.nav-links a:hover{color:var(--gold);font-weight:600}
+    .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:8px}
+    .nav-toggle svg{width:24px;height:24px;stroke:var(--gold);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    section{padding:96px 0;background:var(--navy);position:relative;overflow:hidden}
+    .gold-divider{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:24px}
+    .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:var(--btn-text);padding:20px 40px;border:none;border-radius:8px;font-family:var(--font-en);font-size:18px;font-weight:600;cursor:pointer;transition:all 0.2s;line-height:1;min-height:48px}
+    .btn-primary:hover{opacity:0.9;transform:translateY(-1px);box-shadow:0 0 24px rgba(212,175,55,0.3)}
 
     /* ===== Hero ===== */
-    .hero {
-      min-height: 100vh; display: flex; align-items: center;
-      background: var(--navy); position: relative; overflow: hidden;
-    }
-    .hero-bg {
-      position: absolute; inset: 0; z-index: 0;
-    }
-    .hero-bg img {
-      width: 100%; height: 100%; object-fit: cover; opacity: 0.15;
-    }
-    .hero-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(135deg, rgba(11,26,51,0.95) 0%, rgba(11,26,51,0.8) 50%, rgba(11,26,51,0.95) 100%);
-      z-index: 1;
-    }
-    .hero-content {
-      position: relative; z-index: 2; max-width: 800px; padding: 120px 0 60px;
-    }
-    .hero-mark {
-      font-family: var(--font-serif); font-size: 3rem; color: var(--gold); margin-bottom: 8px;
-    }
-    .hero h1 {
-      font-size: 2.6rem; color: var(--white); margin-bottom: 12px;
-    }
-    .hero-tagline {
-      font-size: 1.1rem; color: rgba(255,255,255,0.7); font-weight: 400; margin-bottom: 8px;
-    }
-    .hero-sub {
-      font-size: 0.95rem; color: var(--gold-light); margin-bottom: 12px;
-    }
-    .hero-quote {
-      font-size: 0.9rem; color: rgba(255,255,255,0.5); margin-bottom: 36px; font-style: italic;
-    }
-    .btn-primary {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--gold); color: var(--navy);
-      padding: 14px 32px; border-radius: 8px;
-      font-weight: 600; font-size: 1rem;
-      transition: all 0.3s; border: none; cursor: pointer;
-    }
-    .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,161,94,0.25); }
+    .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:120px 24px 80px}
+    .hero-bg-pulse{position:absolute;top:-20%;right:-10%;width:600px;height:600px;border-radius:50%;opacity:0.1;filter:blur(64px);background:radial-gradient(circle,rgb(212,175,55) 0%,transparent 70%);pointer-events:none;z-index:0}
+    .hero-bg-pulse2{position:absolute;bottom:-20%;left:-10%;width:500px;height:500px;border-radius:50%;opacity:0.1;filter:blur(64px);background:radial-gradient(circle,rgb(65,105,225) 0%,transparent 70%);pointer-events:none;z-index:0;animation-delay:1s}
+    .hero-grid{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:0.05;background-image:linear-gradient(rgba(212,175,55,1) 1px,transparent 1px),linear-gradient(90deg,rgba(212,175,55,1) 1px,transparent 1px);background-size:100px 100px}
+    .hero-shape1{position:absolute;top:80px;left:40px;width:128px;height:128px;border:2px solid rgba(212,175,55,0.2);border-radius:50%;z-index:0;pointer-events:none}
+    .hero-shape2{position:absolute;bottom:160px;right:80px;width:96px;height:96px;border:2px solid rgba(212,175,55,0.2);transform:rotate(45deg);z-index:0;pointer-events:none;animation-delay:0.5s}
+    .hero-shape3{position:absolute;top:33%;right:40px;width:64px;height:64px;border:2px solid rgba(255,255,255,0.1);border-radius:50%;z-index:0;pointer-events:none;animation-delay:1s}
+    .hero-bottom-line{position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.3) 50%,transparent);z-index:1}
+    .hero .container{position:relative;z-index:1;text-align:center;max-width:900px}
+    .hero-logo{display:flex;justify-content:center;margin-bottom:48px;animation:logoReveal 0.8s ease forwards}
+    .hero-logo svg{width:80px;height:80px}
+    .hero h1{font-size:clamp(3rem,6vw,4.5rem);font-weight:700;color:#fff;margin-bottom:32px;letter-spacing:-0.02em;line-height:1.2}
+    .hero-tagline{font-size:clamp(0.9rem,1.8vw,1.25rem);font-weight:500;color:var(--gold);margin-bottom:40px;line-height:1.7;letter-spacing:0.08em}
+    .hero-focus{font-size:clamp(1.5rem,3.5vw,2.25rem);font-weight:600;color:var(--text-muted);margin-bottom:24px;line-height:1.5}
+    .hero-quote{font-size:clamp(1.125rem,2.2vw,1.5rem);font-weight:500;color:var(--gold);margin-bottom:64px;line-height:1.8;letter-spacing:0.02em}
 
-    /* ===== Stats / Focal Areas ===== */
-    .stats {
-      background: var(--white); padding: 80px 0;
-    }
-    .stats-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px;
-    }
-    .stat-item { text-align: center; }
-    .stat-number {
-      font-family: var(--font-serif); font-size: 2.5rem; font-weight: 700;
-      color: var(--gold); display: block; margin-bottom: 8px;
-    }
-    .stat-title {
-      font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700;
-      color: var(--navy); margin-bottom: 8px;
-    }
-    .stat-desc { font-size: 0.9rem; color: var(--text-light); }
-    .stat-divider {
-      width: 40px; height: 2px; background: var(--gold);
-      margin: 12px auto; border-radius: 1px;
-    }
+    /* ===== Stats Cards ===== */
+    .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;position:relative;z-index:1}
+    .stat-card{padding:24px 32px;border-radius:8px;position:relative;overflow:hidden;transition:all 0.3s;border:1px solid rgba(212,175,55,0.3);background:linear-gradient(135deg,rgba(212,175,55,0.1) 0%,transparent 100%)}
+    .stat-card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(0,0,0,0.3)}
+    .stat-card-hover{position:absolute;inset:0;opacity:0;transition:opacity 0.3s;background:radial-gradient(circle at right top,rgba(212,175,55,0.15),transparent 50%);pointer-events:none}
+    .stat-card:hover .stat-card-hover{opacity:1}
+    .stat-icon{margin-bottom:16px;opacity:0.9;transition:opacity 0.3s}
+    .stat-card:hover .stat-icon{opacity:1}
+    .stat-icon svg{width:52px;height:52px}
+    .stat-line{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:16px}
+    .stat-card h3{font-size:clamp(1.25rem,2vw,1.75rem);font-weight:700;color:var(--gold);margin-bottom:16px;letter-spacing:-0.01em;position:relative;z-index:1}
+    .stat-card p{font-size:clamp(0.95rem,1.5vw,1.125rem);color:var(--text-muted);line-height:1.9;position:relative;z-index:1}
+    .stat-number{position:absolute;bottom:16px;right:16px;font-size:60px;font-weight:700;color:var(--gold);opacity:0.05;pointer-events:none;user-select:none;line-height:60px}
+    .stat-divider-line1,.stat-divider-line2{position:absolute;top:50%;width:1px;height:100%;transform:translateY(-50%);z-index:0;pointer-events:none;opacity:0.1;background:linear-gradient(to bottom,transparent,rgba(212,175,55,0.5),transparent)}
+    .stat-divider-line1{left:33%}.stat-divider-line2{left:66%}
 
-    /* ===== Boutique FA Section ===== */
-    .boutique {
-      background: var(--off-white); padding: 100px 0;
-    }
-    .boutique-list {
-      max-width: 720px; margin: 0 auto; list-style: none;
-    }
-    .boutique-list li {
-      position: relative;
-      padding: 24px 0 24px 32px;
-      border-bottom: 1px solid rgba(0,0,0,0.05);
-      font-size: 1rem;
-      color: var(--text);
-      line-height: 1.8;
-    }
-    .boutique-list li:last-child { border-bottom: none; }
-    .boutique-list li::before {
-      content: ''; position: absolute; left: 0; top: 28px;
-      width: 12px; height: 12px;
-      border-radius: 50%;
-      background: var(--gold);
-      opacity: 0.4;
-    }
+    /* ===== Boutique 2-column ===== */
+    .boutique-bg{position:absolute;inset:0;z-index:0;opacity:0.05}
+    .boutique-bg img{width:100%;height:100%;object-fit:cover}
+    .boutique-overlay{position:absolute;inset:0;z-index:0;background:linear-gradient(to right,var(--navy),transparent,var(--navy))}
+    .boutique .container{position:relative;z-index:1}
+    .boutique-grid{display:grid;grid-template-columns:4fr 8fr;gap:48px}
+    .boutique-left{position:sticky;top:100px}
+    .boutique-left h2{font-size:clamp(2rem,3.5vw,3rem);font-weight:700;color:#fff;line-height:1.25;letter-spacing:-0.02em}
+    .boutique-items{display:flex;flex-direction:column;gap:32px}
+    .boutique-item{padding-left:24px;border-left:2px solid rgba(212,175,55,0.3)}
+    .boutique-item p{font-size:clamp(1.125rem,2.2vw,1.5rem);color:var(--text-muted);line-height:1.9;font-weight:400;transition:color 0.3s}
+    .boutique-item:hover p{color:var(--gold)}
 
-    /* ===== Partner Section ===== */
-    .partner {
-      background: var(--white); padding: 100px 0;
-    }
-    .partner-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;
-    }
-    .partner-left .exp-badge {
-      display: inline-block;
-      font-family: var(--font-serif); font-size: 3rem; font-weight: 700; color: var(--gold);
-      line-height: 1;
-    }
-    .partner-left .exp-badge small {
-      font-size: 1rem; font-family: var(--font-sans); font-weight: 400;
-      color: var(--text-light); display: block; margin-top: 4px;
-    }
-    .partner-left p {
-      color: var(--text-light); font-size: 1rem; line-height: 1.9; margin-top: 20px;
-    }
-    .partner-right p {
-      color: var(--text-light); font-size: 1rem; line-height: 1.9; margin-bottom: 16px;
-    }
-    .partner-right strong { color: var(--gold); }
+    /* ===== Partner ===== */
+    .partner-blur1{position:absolute;top:40px;right:40px;width:256px;height:256px;border-radius:50%;opacity:0.05;filter:blur(64px);background:var(--gold);pointer-events:none}
+    .partner-blur2{position:absolute;bottom:40px;left:40px;width:192px;height:192px;border-radius:50%;opacity:0.05;filter:blur(64px);background:royalblue;pointer-events:none}
+    .partner .container{position:relative;z-index:1;max-width:900px}
+    .partner h2{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;color:#fff;letter-spacing:-0.01em;margin-bottom:40px}
+    .partner-content p{font-size:clamp(1rem,1.8vw,1.25rem);color:var(--text-muted);line-height:2;margin-bottom:28px}
+    .partner-content p:last-child{margin-bottom:0}
+    .partner-exp{color:var(--gold);font-weight:700;font-size:clamp(1.25rem,2.5vw,1.75rem)}
+    .partner-highlight{color:var(--gold);font-weight:700;font-size:clamp(1.125rem,2vw,1.375rem)}
+    .partner-lead{font-size:clamp(1.125rem,2.2vw,1.5rem);font-weight:500;color:var(--text-muted);line-height:1.9}
+
+    /* ===== Insights ===== */
+    .insights-header{background:var(--navy);padding:140px 24px 80px}
+    .insights-header .container{max-width:900px}
+    .insights-header .insights-tagline{font-size:clamp(0.85rem,1.6vw,1.125rem);font-weight:500;color:var(--gold);margin-bottom:32px;line-height:1.7;letter-spacing:0.08em}
+    .insights-header h1{font-size:clamp(2.5rem,5vw,4rem);font-weight:700;color:#fff;margin-bottom:32px;line-height:1.2;letter-spacing:-0.02em}
+    .insights-header p{font-size:clamp(1.125rem,2.2vw,1.5rem);color:var(--text-muted);line-height:1.9;max-width:720px}
+    .insights-bg{position:absolute;top:-20%;right:-10%;width:384px;height:384px;border-radius:50%;opacity:0.1;filter:blur(64px);background:radial-gradient(circle,rgb(212,175,55) 0%,transparent 70%);pointer-events:none;z-index:0}
+    .insights-bg2{position:absolute;bottom:-10%;left:-5%;width:320px;height:320px;border-radius:50%;opacity:0.1;filter:blur(64px);background:radial-gradient(circle,rgb(65,105,225) 0%,transparent 70%);pointer-events:none;z-index:0;animation-delay:1s}
+    .insights-floating{position:absolute;top:50%;right:40px;width:96px;height:96px;border:2px solid rgba(212,175,55,0.2);border-radius:50%;z-index:0;pointer-events:none}
+    .insights-floating2{position:absolute;bottom:80px;left:25%;width:64px;height:64px;border:2px solid rgba(255,255,255,0.1);transform:rotate(45deg);z-index:0;pointer-events:none;animation-delay:0.5s}
+    .insights-cards{padding:0 24px 96px;background:var(--navy);position:relative;overflow:hidden}
+    .insights-cards-bg{position:absolute;inset:0;z-index:0;opacity:0.05}
+    .insights-cards-bg img{width:100%;height:100%;object-fit:cover}
+    .insights-cards .container{position:relative;z-index:1;max-width:900px}
+    .insight-article{display:block;padding:20px 32px;margin-bottom:32px;border-radius:8px;transition:all 0.3s;position:relative;overflow:hidden;background:var(--navy-footer);border:1px solid rgba(212,175,55,0.3);text-decoration:none}
+    .insight-article:last-child{margin-bottom:0}
+    .insight-article:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(0,0,0,0.3)}
+    .insight-article-hover{position:absolute;inset:0;opacity:0;transition:opacity 0.3s;background:linear-gradient(135deg,rgba(212,175,55,0.1) 0%,transparent 100%);pointer-events:none}
+    .insight-article:hover .insight-article-hover{opacity:1}
+    .insight-article-number{position:absolute;top:16px;right:16px;font-size:60px;font-weight:700;color:var(--gold);opacity:0.05;pointer-events:none;line-height:60px;user-select:none}
+    .insight-article-inner{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap;position:relative;z-index:1}
+    .insight-article-body{display:flex;gap:24px;flex:1;min-width:0}
+    .insight-article-icon{flex-shrink:0;opacity:0.9;transition:opacity 0.3s}
+    .insight-article:hover .insight-article-icon{opacity:1}
+    .insight-article-icon svg{width:48px;height:48px}
+    .insight-article-text{flex:1}
+    .insight-article-text h3{font-size:clamp(1.375rem,2.5vw,1.875rem);font-weight:700;color:#fff;line-height:1.4;letter-spacing:-0.01em;margin-bottom:16px}
+    .insight-article-text p{font-size:clamp(1rem,1.8vw,1.25rem);color:var(--text-muted);line-height:1.8;margin-bottom:20px}
+    .insight-article-link{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--gold);transition:all 0.2s}
+    .insight-article:hover .insight-article-link{gap:12px}
+    .insight-article-link svg{width:16px;height:16px;transition:transform 0.2s}
+    .insight-article:hover .insight-article-link svg{transform:translateX(4px)}
+    .insight-article-date{font-size:14px;color:var(--text-muted);flex-shrink:0}
+
+    /* ===== Subscribe ===== */
+    .insights-subscribe{padding:0 24px 96px;background:var(--navy)}
+    .insights-subscribe .container{position:relative;z-index:1;max-width:900px;text-align:center}
+    .subscribe-card{padding:48px;border-radius:8px;position:relative;overflow:hidden;background:var(--navy-footer);border:1px solid rgba(212,175,55,0.3);transition:all 0.3s}
+    .subscribe-card:hover{box-shadow:0 16px 32px rgba(0,0,0,0.3)}
+    .subscribe-card-hover{position:absolute;inset:0;opacity:0;transition:opacity 0.3s;background:radial-gradient(circle,rgba(212,175,55,0.1),transparent 70%);pointer-events:none}
+    .subscribe-card:hover .subscribe-card-hover{opacity:1}
+    .subscribe-card-inner{position:relative;z-index:1}
+    .subscribe-icon{margin-bottom:24px;display:flex;justify-content:center}
+    .subscribe-icon svg{width:56px;height:56px}
+    .subscribe-card h3{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;color:#fff;margin-bottom:24px;letter-spacing:-0.02em}
+    .subscribe-card .sub-desc{font-size:clamp(1.0625rem,2vw,1.375rem);color:var(--text-muted);line-height:1.8;margin-bottom:40px;max-width:600px;margin-left:auto;margin-right:auto}
+    .subscribe-card .sub-qr{display:inline-block;padding:16px;border-radius:8px;background:#fff;box-shadow:0 8px 32px rgba(212,175,55,0.15)}
+    .subscribe-card .sub-qr img{width:192px;height:192px;border-radius:8px;object-fit:cover}
+    .subscribe-card .sub-qr-label{font-size:14px;color:var(--text-muted);margin-top:16px}
 
     /* ===== CTA ===== */
-    .cta-section {
-      background: var(--navy); padding: 80px 0; text-align: center;
-    }
-    .cta-section h2 {
-      font-size: 1.6rem; color: var(--white); margin-bottom: 8px;
-    }
-    .cta-section .sub {
-      color: rgba(255,255,255,0.5); margin-bottom: 40px; font-size: 0.95rem;
-    }
-    .cta-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 40px;
-      max-width: 800px; margin: 0 auto; text-align: left;
-    }
-    .cta-email {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(200,161,94,0.12);
-      border-radius: 12px; padding: 32px;
-    }
-    .cta-email .label { font-size: 0.85rem; color: rgba(255,255,255,0.4); margin-bottom: 8px; }
-    .cta-email .email {
-      font-size: 1.2rem; font-weight: 600; color: var(--gold);
-      word-break: break-all;
-    }
-    .cta-email .email:hover { color: var(--gold-light); }
-    .cta-qr {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(200,161,94,0.12);
-      border-radius: 12px; padding: 32px; text-align: center;
-    }
-    .cta-qr img {
-      width: 140px; height: 140px;
-      margin: 0 auto 12px;
-      border-radius: 8px; background: var(--white); padding: 6px;
-    }
-    .cta-qr p { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
-    .cta-btn-wrapper { margin-top: 40px; }
-    .cta-section .btn-primary { font-size: 1rem; }
+    .cta-pulse1{position:absolute;top:0;left:25%;width:384px;height:384px;border-radius:50%;opacity:0.1;filter:blur(64px);background:var(--gold);pointer-events:none}
+    .cta-pulse2{position:absolute;bottom:0;right:25%;width:320px;height:320px;border-radius:50%;opacity:0.1;filter:blur(64px);background:royalblue;pointer-events:none;animation-delay:1.5s}
+    .cta-vline{position:absolute;top:0;left:50%;width:1px;height:100%;z-index:0;opacity:0.1;background:linear-gradient(to bottom,var(--gold),transparent,var(--gold));pointer-events:none}
+    .cta .container{position:relative;z-index:1;text-align:center;max-width:900px}
+    .cta h2{font-size:clamp(2rem,4.5vw,3rem);font-weight:700;color:#fff;line-height:1.3;letter-spacing:-0.02em;margin-bottom:40px}
+    .cta-email-wrap{font-size:18px;color:var(--text-muted);margin-bottom:48px}
+    .cta-email-wrap a{color:var(--gold)}
+    .cta-email-wrap a:hover{opacity:0.8;text-decoration:underline}
+    .cta-qr-wrap{display:flex;justify-content:center;margin-bottom:32px}
+    .cta-qr-inner{text-align:center}
+    .cta-qr-inner img{width:160px;height:160px;border-radius:8px;object-fit:cover;margin:0 auto 12px;border:4px solid #fff;transition:transform 0.3s}
+    .cta-qr-inner img:hover{transform:scale(1.05)}
+    .cta-qr-inner p{font-size:14px;color:var(--text-muted)}
+    .cta .cta-sub{font-size:18px;color:var(--text-muted);margin-bottom:40px}
 
     /* ===== Footer ===== */
-    .footer {
-      background: #081422; color: rgba(255,255,255,0.4); padding: 48px 0 24px;
-    }
-    .footer-grid {
-      display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 32px;
-    }
-    .footer-brand .nav-logo { margin-bottom: 12px; }
-    .footer-brand .nav-logo-text .cn { font-size: 1rem; }
-    .footer-tagline { font-size: 0.9rem; color: rgba(255,255,255,0.35); line-height: 1.6; margin-top: 4px; }
-    .footer h4 { font-family: var(--font-sans); font-size: 0.9rem; color: var(--white); margin-bottom: 16px; font-weight: 600; }
-    .footer-links { list-style: none; }
-    .footer-links li { margin-bottom: 10px; }
-    .footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.4); transition: color 0.3s; }
-    .footer-links a:hover { color: var(--gold); }
-    .footer-addr { font-size: 0.85rem; color: rgba(255,255,255,0.4); line-height: 1.6; margin-top: 8px; }
-    .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.05);
-      padding-top: 20px; text-align: center;
-      font-size: 0.8rem; color: rgba(255,255,255,0.25);
-    }
+    .footer{background:var(--navy-footer);padding:48px 24px;border-top:1px solid rgba(212,175,55,0.2)}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:32px;max-width:1200px;margin-left:auto;margin-right:auto}
+    .footer-brand{display:flex;flex-direction:column;gap:16px}
+    .footer-logo{display:flex;align-items:center;gap:12px}
+    .footer-logo svg{width:28px;height:28px}
+    .footer-logo-text{display:flex;flex-direction:column;line-height:1}
+    .footer-logo-text .cn{font-family:var(--font-cn);font-size:14px;font-weight:500;color:#fff;letter-spacing:0.1em}
+    .footer-logo-text .en{font-size:6.16px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:4px}
+    .footer-tagline{font-size:12px;color:var(--gold);line-height:1.5;letter-spacing:0.03em}
+    .footer-desc{font-size:14px;color:var(--text-muted);line-height:1.6}
+    .footer h4{font-size:14px;font-weight:600;color:#fff;margin-bottom:16px}
+    .footer-links{list-style:none}
+    .footer-links li{margin-bottom:8px}
+    .footer-links a,.footer-contacts a{font-size:14px;color:var(--text-muted);transition:color 0.2s;display:block}
+    .footer-links a:hover{color:var(--gold)}
+    .footer-addr{font-size:14px;color:var(--text-muted);line-height:1.6;margin-top:8px}
+    .footer-bottom{max-width:1200px;margin:0 auto;padding-top:32px;text-align:center;font-size:14px;color:var(--text-muted);border-top:1px solid rgba(212,175,55,0.2)}
 
-    /* ===== Responsive ===== */
-    @media (max-width: 768px) {
-      .nav-links { display: none; position: absolute; top: 68px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 20px 24px; gap: 20px; }
-      .nav-links.open { display: flex; }
-      .nav-toggle { display: flex; }
-      .hero h1 { font-size: 1.6rem; }
-      .hero-mark { font-size: 2rem; }
-      .hero-tagline { font-size: 0.95rem; }
-      .section-title { font-size: 1.5rem; }
-      .stats-grid, .partner-grid, .cta-grid, .footer-grid { grid-template-columns: 1fr; }
-      .stat-number { font-size: 2rem; }
-      .partner { padding: 64px 0; }
-      .boutique { padding: 64px 0; }
-      .cta-section { padding: 56px 0; }
+    @media(max-width:768px){
+      .nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;padding:20px 24px;gap:16px}
+      .nav-links.open{display:flex}
+      .nav-toggle{display:block}
+      .stats-grid,.boutique-grid,.footer-grid{grid-template-columns:1fr}
+      .boutique-left{position:static}
+      .stat-divider-line1,.stat-divider-line2{display:none}
+      .insight-article-inner{flex-direction:column}
+      .insight-article-date{align-self:flex-end}
+      .subscribe-card{padding:32px 24px}
     }
   </style>
 </head>
 <body>
 
-  <!-- ===== Navigation ===== -->
-  <nav class="navbar">
-    <div class="container">
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container" style="max-width:1200px">
       <a href="#" class="nav-logo">
-        <div class="nav-logo-mark">璞</div>
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" style="font-family:Montserrat,sans-serif;font-size:56px;font-weight:900;letter-spacing:-2px">P</text>
+        </svg>
         <div class="nav-logo-text">
           <span class="cn">璞合资本</span>
-          <span class="en">Pulito Capital</span>
+          <span class="en">PULITO CAPITAL</span>
         </div>
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="菜单">
-        <span></span><span></span><span></span>
+        <svg viewBox="0 0 24 24" fill="none">
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#hero">首页</a></li>
+        <li><a href="#hero" class="active">首页</a></li>
         <li><a href="#about">关于我们</a></li>
-        <li><a href="#insights">洞察</a></li>
+        <li><a href="/blog/">洞察</a></li>
         <li><a href="#contact">联系我们</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- ===== Hero ===== -->
+  <!-- Hero Section -->
   <section class="hero" id="hero">
-    <div class="hero-bg">
-      <img src="assets/hero-bg.jpg" alt="">
-    </div>
-    <div class="hero-overlay"></div>
+    <div class="hero-bg-pulse animate-pulse"></div>
+    <div class="hero-bg-pulse2 animate-pulse delay-1"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-shape1 animate-float"></div>
+    <div class="hero-shape2 animate-float delay-05"></div>
+    <div class="hero-shape3 animate-float delay-1"></div>
+    <div class="hero-bottom-line"></div>
     <div class="container">
-      <div class="hero-content">
-        <div class="hero-mark">P</div>
-        <h1>璞合资本</h1>
-        <p class="hero-tagline">Agent Era: Boutique FA for AI Agent &amp; AI-powered Smart Hardware,<br>Global from Day One</p>
-        <p class="hero-sub">专注出海 · AI硬件与应用 · 早期精品FA</p>
-        <p class="hero-quote">"资本只是起点，人机协同才是护城河。"</p>
-        <a href="#contact" class="btn-primary">与我们对话 →</a>
+      <div class="hero-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" style="font-family:Montserrat,sans-serif;font-size:56px;font-weight:900;letter-spacing:-2px">P</text>
+        </svg>
       </div>
+      <h1>璞合资本</h1>
+      <p class="hero-tagline">Agent Era: Boutique FA for AI Agent &amp; AI-powered Smart Hardware,<br>Global from Day One</p>
+      <p class="hero-focus">专注出海 · AI硬件与应用 · 早期精品FA</p>
+      <p class="hero-quote">资本只是起点，人机协同才是护城河。</p>
+      <a href="#contact" class="btn-primary">与我们对话</a>
     </div>
   </section>
 
-  <!-- ===== Stats / Focal Areas ===== -->
-  <section class="stats" id="about">
-    <div class="container">
-      <div class="section-divider" style="width:60px;height:3px;background:var(--gold);margin:0 auto 1rem;border-radius:2px;"></div>
+  <!-- Stats Section -->
+  <section id="about">
+    <div class="stat-divider-line1"></div>
+    <div class="stat-divider-line2"></div>
+    <div class="container" style="max-width:1200px">
       <div class="stats-grid">
-        <div class="stat-item">
-          <span class="stat-number">01</span>
-          <h3 class="stat-title">专注赛道</h3>
-          <div class="stat-divider"></div>
-          <p class="stat-desc">AI应用 / AI硬件 / 全球化</p>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">02</span>
-          <h3 class="stat-title">服务阶段</h3>
-          <div class="stat-divider"></div>
-          <p class="stat-desc">种子轮 · 天使轮 · Pre-A · A轮</p>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">03</span>
-          <h3 class="stat-title">融资金额</h3>
-          <div class="stat-divider"></div>
-          <p class="stat-desc">$500K–$10M 或等值人民币</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Boutique FA ===== -->
-  <section class="boutique" id="insights">
-    <div class="container">
-      <div class="section-divider" style="width:60px;height:3px;background:var(--gold);margin:0 auto 1rem;border-radius:2px;"></div>
-      <h2 class="section-title">精品FA <span style="color:var(--gold);">全栈赋能</span></h2>
-      <p class="section-sub">不止于融资，更参与战略、产品、全球化节奏的讨论</p>
-      <ul class="boutique-list">
-        <li>不止于融资，更参与战略、产品、全球化节奏的讨论</li>
-        <li>只同时服务少数项目，确保每个创业者直接与合伙人对话</li>
-        <li>每个项目背后都有一套AI分析系统，提升匹配效率与精准度</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ===== Founding Partner ===== -->
-  <section class="partner" id="partner">
-    <div class="container">
-      <div class="section-divider" style="width:60px;height:3px;background:var(--gold);margin:0 auto 1rem;border-radius:2px;"></div>
-      <h2 class="section-title">创始<span style="color:var(--gold);">合伙人</span></h2>
-      <p class="section-sub">累计 20 年硬件与应用出海产业投融资经验</p>
-      <div class="partner-grid">
-        <div class="partner-left">
-          <div class="exp-badge">
-            20<span style="font-size:1.2rem;">年</span>
-            <small>硬件与应用出海产业投融资经验<br>经历完整商业周期</small>
+        <div class="stat-card reveal reveal-d1">
+          <div class="stat-card-hover"></div>
+          <div class="stat-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="18" stroke="rgba(212,175,55,0.3)" stroke-width="1.5" fill="none"/>
+              <circle cx="24" cy="24" r="12" stroke="rgba(212,175,55,0.6)" stroke-width="2" fill="none"/>
+              <circle cx="24" cy="24" r="6" stroke="#D4AF37" stroke-width="2" fill="none"/>
+              <circle cx="24" cy="24" r="2.5" fill="#D4AF37"/>
+              <line x1="24" y1="6" x2="24" y2="14" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="24" y1="34" x2="24" y2="42" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="6" y1="24" x2="14" y2="24" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="34" y1="24" x2="42" y2="24" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
           </div>
-          <p>从产品定义、技术研发、生产制造，到市场众筹、用户增长、组织搭建；从物流供应、仓储配送、跨境平台运营，到品牌建设、联盟营销、线上分销与线下批发——我们亲历过全球化扩张的每一个核心环节，也深谙融资投资对创业者的战略意义。</p>
+          <div class="stat-line"></div>
+          <h3>专注赛道</h3>
+          <p>AI应用 / AI硬件 / 全球化</p>
+          <div class="stat-number">01</div>
         </div>
-        <div class="partner-right">
-          <p>与此同时，我们也将这份产业经验融入了一套持续运转的<strong>AI Agent系统</strong>。有Agent负责扫描全球早期项目信号，有Agent专职追踪华人投资人的偏好变化，有Agent定期整理出海AI赛道的融资动态与关键趋势，还有Agent确保每一个进入我们视野的项目都不会被遗漏。</p>
-          <p>传统FA依赖人脉和直觉，我们在此基础上，多了一套不知疲倦的信息网络——让项目匹配更精准，让融资节奏更可控。</p>
-          <p>我们相信，只有真正理解产业、理解出海、理解创业，同时也善用技术工具提升效率的人，才能成为新一代创业者最值得信赖的伙伴与战友。</p>
+        <div class="stat-card reveal reveal-d2">
+          <div class="stat-card-hover"></div>
+          <div class="stat-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8L28 18L38 22L28 26L24 36L20 26L10 22L20 18L24 8Z" stroke="#D4AF37" stroke-width="2" fill="none" stroke-linejoin="round"/>
+              <circle cx="24" cy="22" r="3" fill="#D4AF37"/>
+              <path d="M16 32C18 34 20 35 22 36M26 36C28 35 30 34 32 32" stroke="rgba(212,175,55,0.5)" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="12" cy="14" r="1.5" fill="rgba(212,175,55,0.6)"/>
+              <circle cx="36" cy="16" r="1.5" fill="rgba(212,175,55,0.6)"/>
+              <circle cx="34" cy="10" r="1" fill="rgba(212,175,55,0.4)"/>
+            </svg>
+          </div>
+          <div class="stat-line"></div>
+          <h3>服务阶段</h3>
+          <p>种子轮 · 天使轮 · Pre-A · A轮</p>
+          <div class="stat-number">02</div>
+        </div>
+        <div class="stat-card reveal reveal-d3">
+          <div class="stat-card-hover"></div>
+          <div class="stat-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="14" stroke="#D4AF37" stroke-width="2" fill="none"/>
+              <path d="M24 14V34M19 18H26C27.66 18 29 19.34 29 21C29 22.66 27.66 24 26 24H22C20.34 24 19 25.34 19 27C19 28.66 20.34 30 22 30H29" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="18" r="2" fill="rgba(212,175,55,0.5)"/>
+              <circle cx="36" cy="18" r="2" fill="rgba(212,175,55,0.5)"/>
+              <circle cx="12" cy="30" r="2" fill="rgba(212,175,55,0.5)"/>
+              <circle cx="36" cy="30" r="2" fill="rgba(212,175,55,0.5)"/>
+            </svg>
+          </div>
+          <div class="stat-line"></div>
+          <h3>融资金额</h3>
+          <p>$500K–$10M 或等值人民币</p>
+          <div class="stat-number">03</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Contact CTA ===== -->
-  <section class="cta-section" id="contact">
-    <div class="container">
-      <h2>准备启动融资？<br>我们愿意成为你的第一个听众。</h2>
-      <p class="sub">每个项目由创始合伙人亲自沟通</p>
-      <div class="cta-grid">
-        <div class="cta-email">
-          <div class="label">邮箱</div>
-          <a href="mailto:bp@pulitocapital.com" class="email">bp@pulitocapital.com</a>
+  <!-- Boutique -->
+  <section class="boutique">
+    <div class="boutique-bg"><img src="assets/hero-bg.jpg" alt=""></div>
+    <div class="boutique-overlay"></div>
+    <div class="container" style="max-width:1200px">
+      <div class="boutique-grid">
+        <div class="boutique-left reveal">
+          <div class="gold-divider"></div>
+          <h2>精品FA<br>全栈赋能</h2>
         </div>
-        <div class="cta-qr">
+        <div class="boutique-items">
+          <div class="boutique-item reveal reveal-d1"><p>不止于融资，更参与战略、产品、全球化节奏的讨论</p></div>
+          <div class="boutique-item reveal reveal-d2"><p>只同时服务少数项目，确保每个创业者直接与合伙人对话</p></div>
+          <div class="boutique-item reveal reveal-d3"><p>每个项目背后都有一套AI分析系统，提升匹配效率与精准度</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner -->
+  <section class="partner">
+    <div class="partner-blur1"></div>
+    <div class="partner-blur2"></div>
+    <div class="container">
+      <div class="gold-divider reveal"></div>
+      <h2 class="reveal">创始合伙人</h2>
+      <div class="partner-content">
+        <p class="partner-lead reveal reveal-d1">累计 <span class="partner-exp">20年</span> 硬件与应用出海产业投融资经验，经历完整商业周期。</p>
+        <p class="reveal reveal-d2">从产品定义、技术研发、生产制造，到市场众筹、用户增长、组织搭建；从物流供应、仓储配送、跨境平台运营，到品牌建设、联盟营销、线上分销与线下批发——我们亲历过全球化扩张的每一个核心环节，也深谙融资投资对创业者的战略意义。</p>
+        <p class="reveal reveal-d3">与此同时，我们也将这份产业经验融入了一套持续运转的 <span class="partner-highlight">AI Agent系统</span>。有Agent负责扫描全球早期项目信号，有Agent专职追踪华人投资人的偏好变化，有Agent定期整理出海AI赛道的融资动态与关键趋势，还有Agent确保每一个进入我们视野的项目都不会被遗漏。传统FA依赖人脉和直觉，我们在此基础上，多了一套不知疲倦的信息网络——让项目匹配更精准，让融资节奏更可控。</p>
+        <p class="reveal reveal-d4">我们相信，只有真正理解产业、理解出海、理解创业，同时也善用技术工具提升效率的人，才能成为新一代创业者最值得信赖的伙伴与战友。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights Section -->
+  <section id="insights">
+    <!-- Header -->
+    <div class="insights-bg animate-pulse"></div>
+    <div class="insights-bg2 animate-pulse delay-1"></div>
+    <div class="insights-floating animate-float"></div>
+    <div class="insights-floating2 animate-float delay-05"></div>
+    <div class="container">
+      <div class="gold-divider reveal"></div>
+      <p class="reveal reveal-d1 insights-tagline" style="font-size:clamp(0.85rem,1.6vw,1.125rem);font-weight:500;color:var(--gold);margin-bottom:32px;line-height:1.7;letter-spacing:0.08em">Agent Era: Boutique FA for AI Agent &amp; AI-powered Smart Hardware, Global from Day One</p>
+      <h1 class="reveal reveal-d2" style="font-size:clamp(2.5rem,5vw,4rem);font-weight:700;color:#fff;margin-bottom:32px;line-height:1.2;letter-spacing:-0.02em">洞察 · 出海AI赛道观察</h1>
+      <p class="reveal reveal-d3" style="font-size:clamp(1.125rem,2.2vw,1.5rem);color:var(--text-muted);line-height:1.9;max-width:720px">我们定期分享对出海AI硬件与应用赛道的融资趋势、行业动态与深度研究。</p>
+    </div>
+  </section>
+
+  <!-- Article Cards -->
+  <div class="insights-cards">
+    <div class="insights-cards-bg"><img src="assets/img3.jpg" alt=""></div>
+    <div class="container">
+
+      <a href="#" class="insight-article reveal reveal-d1">
+        <div class="insight-article-hover"></div>
+        <div class="insight-article-number">01</div>
+        <div class="insight-article-inner">
+          <div class="insight-article-body">
+            <div class="insight-article-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 32L16 24L24 28L32 16L40 20" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="16" cy="24" r="2.5" fill="#D4AF37"/><circle cx="24" cy="28" r="2.5" fill="#D4AF37"/>
+                <circle cx="32" cy="16" r="2.5" fill="#D4AF37"/><circle cx="40" cy="20" r="2.5" fill="#D4AF37"/>
+                <path d="M8 12H40M8 20H40M8 28H40M8 36H40" stroke="rgba(212,175,55,0.2)" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="insight-article-text">
+              <h3>2026年出海AI硬件融资趋势观察</h3>
+              <p>分析东南亚、拉美、中东市场AI硬件落地情况与融资环境</p>
+              <div class="insight-article-link">
+                <span>阅读更多</span>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="insight-article-date">2026-05</div>
+        </div>
+      </a>
+
+      <a href="#" class="insight-article reveal reveal-d2">
+        <div class="insight-article-hover"></div>
+        <div class="insight-article-number">02</div>
+        <div class="insight-article-inner">
+          <div class="insight-article-body">
+            <div class="insight-article-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="4" fill="#D4AF37"/>
+                <circle cx="12" cy="12" r="3" fill="rgba(212,175,55,0.6)"/><circle cx="36" cy="12" r="3" fill="rgba(212,175,55,0.6)"/>
+                <circle cx="12" cy="36" r="3" fill="rgba(212,175,55,0.6)"/><circle cx="36" cy="36" r="3" fill="rgba(212,175,55,0.6)"/>
+                <line x1="24" y1="24" x2="12" y2="12" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+                <line x1="24" y1="24" x2="36" y2="12" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+                <line x1="24" y1="24" x2="12" y2="36" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+                <line x1="24" y1="24" x2="36" y2="36" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+                <circle cx="24" cy="24" r="16" stroke="rgba(212,175,55,0.3)" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+              </svg>
+            </div>
+            <div class="insight-article-text">
+              <h3>AI应用出海：从产品到本地化的全链路思考</h3>
+              <p>从支付、合规到用户增长，AI应用出海的关键节点解析</p>
+              <div class="insight-article-link">
+                <span>阅读更多</span>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="insight-article-date">2026-04</div>
+        </div>
+      </a>
+
+      <a href="#" class="insight-article reveal reveal-d3">
+        <div class="insight-article-hover"></div>
+        <div class="insight-article-number">03</div>
+        <div class="insight-article-inner">
+          <div class="insight-article-body">
+            <div class="insight-article-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="14" width="20" height="20" rx="2" stroke="#D4AF37" stroke-width="2" fill="none"/>
+                <path d="M20 20L24 24L28 20M24 24V28" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="14" y1="18" x2="10" y2="18" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="14" y1="24" x2="10" y2="24" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="14" y1="30" x2="10" y2="30" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="34" y1="18" x2="38" y2="18" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="34" y1="24" x2="38" y2="24" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="34" y1="30" x2="38" y2="30" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="20" cy="20" r="1.5" fill="#D4AF37"/><circle cx="28" cy="20" r="1.5" fill="#D4AF37"/>
+              </svg>
+            </div>
+            <div class="insight-article-text">
+              <h3>早期AI项目如何讲好融资故事</h3>
+              <p>投资人最关注的5个问题与应对策略</p>
+              <div class="insight-article-link">
+                <span>阅读更多</span>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="insight-article-date">2026-03</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Subscribe -->
+  <div class="insights-subscribe">
+    <div class="container">
+      <!-- Blog CTA -->
+      <div class="subscribe-card reveal" style="margin-bottom:24px">
+        <div class="subscribe-card-hover"></div>
+        <div class="subscribe-card-inner">
+          <div class="subscribe-icon">
+            <svg width="56" height="56" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 32L16 24L24 28L32 16L40 20" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 12H40M8 36H40" stroke="rgba(212,175,55,0.3)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>每日内容矩阵</h3>
+          <p class="sub-desc">Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex法务合规<br>每天四位Agent从不同视角输出内容</p>
+          <a href="/blog/" style="display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--navy);padding:14px 32px;border-radius:8px;font-weight:600;font-size:16px;transition:all 0.2s">浏览所有文章 →</a>
+        </div>
+      </div>
+      <div class="subscribe-card reveal">
+        <div class="subscribe-card-hover"></div>
+        <div class="subscribe-card-inner">
+          <div class="subscribe-icon">
+            <svg width="56" height="56" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="12" width="28" height="24" rx="2" stroke="#D4AF37" stroke-width="2" fill="none"/>
+              <line x1="10" y1="18" x2="38" y2="18" stroke="#D4AF37" stroke-width="2"/>
+              <circle cx="24" cy="27" r="5" stroke="#D4AF37" stroke-width="2" fill="none"/>
+              <path d="M21 27L23 29L27 25" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 22H18M14 26H18M30 22H34M30 26H34" stroke="rgba(212,175,55,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>获取每周深度内容</h3>
+          <p class="sub-desc">关注璞合资本公众号，每周获取出海AI赛道的最新趋势与融资动态</p>
+          <div class="sub-qr">
+            <img src="assets/qrcode.jpg" alt="微信公众号二维码">
+          </div>
+          <p class="sub-qr-label">扫码关注公众号</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="cta-pulse1 animate-pulse"></div>
+    <div class="cta-pulse2 animate-pulse delay-15"></div>
+    <div class="cta-vline"></div>
+    <div class="container">
+      <h2 class="reveal">准备启动融资？<br>我们愿意成为你的第一个听众。</h2>
+      <div class="cta-email-wrap reveal reveal-d1">邮箱：<a href="mailto:bp@pulitocapital.com">bp@pulitocapital.com</a></div>
+      <div class="cta-qr-wrap reveal reveal-d2">
+        <div class="cta-qr-inner">
           <img src="assets/qrcode.jpg" alt="微信二维码">
           <p>扫码添加创始合伙人微信</p>
-          <p style="font-size:0.8rem;margin-top:4px;opacity:0.6;">请备注「璞合FA + 项目名」</p>
         </div>
       </div>
-      <div class="cta-btn-wrapper">
-        <a href="mailto:bp@pulitocapital.com" class="btn-primary">发送BP →</a>
-      </div>
+      <p class="cta-sub reveal reveal-d3">每个项目由创始合伙人亲自沟通</p>
+      <a href="mailto:bp@pulitocapital.com" class="btn-primary reveal reveal-d4">发送BP</a>
     </div>
   </section>
 
-  <!-- ===== Footer ===== -->
+  <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="#" class="nav-logo">
-            <div class="nav-logo-mark">璞</div>
-            <div class="nav-logo-text">
-              <span class="cn">璞合资本</span>
-              <span class="en">Pulito Capital</span>
-            </div>
-          </a>
-          <p class="footer-tagline">Agent Era: Boutique FA for AI Agent &amp; AI-powered Smart Hardware,<br>Global from Day One</p>
-          <p class="footer-tagline" style="margin-top:8px;">专注出海 · AI硬件与应用 · 早期精品FA</p>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+            <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+            <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" style="font-family:Montserrat,sans-serif;font-size:56px;font-weight:900;letter-spacing:-2px">P</text>
+          </svg>
+          <div class="footer-logo-text">
+            <span class="cn">璞合资本</span>
+            <span class="en">PULITO CAPITAL</span>
+          </div>
         </div>
-        <div>
-          <h4>快速链接</h4>
-          <ul class="footer-links">
-            <li><a href="#about">关于我们</a></li>
-            <li><a href="#insights">洞察</a></li>
-            <li><a href="#contact">联系我们</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>联系我们</h4>
-          <a href="mailto:bp@pulitocapital.com" style="font-size:0.85rem;color:rgba(255,255,255,0.4);">bp@pulitocapital.com</a>
-          <p class="footer-addr">上海自由贸易试验区环龙路65弄1号三层</p>
-        </div>
+        <p class="footer-tagline">Agent Era: Boutique FA for AI Agent &amp;<br>AI-powered Smart Hardware,<br>Global from Day One</p>
+        <p class="footer-desc">专注出海 · AI硬件与应用 · 早期精品FA</p>
       </div>
-      <div class="footer-bottom">
-        © 2026 璞合资本 Pulito Capital. All rights reserved.
+      <div>
+        <h4>快速链接</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">关于我们</a></li>
+          <li><a href="/blog/">洞察</a></li>
+          <li><a href="#contact">联系我们</a></li>
+        </ul>
+      </div>
+      <div class="footer-contacts">
+        <h4>联系我们</h4>
+        <a href="mailto:bp@pulitocapital.com">bp@pulitocapital.com</a>
+        <p class="footer-addr" style="margin-top:8px">上海自由贸易试验区环龙路65弄1号三层</p>
       </div>
     </div>
+    <div class="footer-bottom">© 2026 璞合资本 Pulito Capital. All rights reserved.</div>
   </footer>
 
   <script>
-    const toggle = document.getElementById('navToggle');
-    const links = document.getElementById('navLinks');
-    toggle.addEventListener('click', () => links.classList.toggle('open'));
-    document.querySelectorAll('.nav-links a').forEach(a => {
-      a.addEventListener('click', () => links.classList.remove('open'));
-    });
+    const toggle=document.getElementById('navToggle'),links=document.getElementById('navLinks');
+    toggle.addEventListener('click',()=>links.classList.toggle('open'));
+    document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>links.classList.remove('open'))});
+    window.addEventListener('scroll',()=>{const n=document.getElementById('navbar');if(window.scrollY>80)n.classList.add('scrolled');else n.classList.remove('scrolled')},{passive:true});
+    const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.05});
+    function checkVisible(){document.querySelectorAll('.reveal:not(.visible)').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<window.innerHeight&&r.bottom>0)el.classList.add('visible')})}
+    document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+    [0,200,400,600,1000,1500,2000].forEach(t=>setTimeout(checkVisible,t));
+    window.addEventListener('load',()=>setTimeout(checkVisible,500));
+    document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>setTimeout(checkVisible,800)));
   </script>
 </body>
 </html>

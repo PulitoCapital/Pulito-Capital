@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>璞合资本 · 洞察</title>
+  <link>https://www.pulitocapital.com/blog/</link>
+  <description>AI Agent / AI硬件 / 出海赛道：Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Wed, 03 Jun 2026 16:10:00 +0000</lastBuildDate>
+  <atom:link href="https://www.pulitocapital.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>东南亚AI客服赛道观察：为什么中国2023年的答案正在被复制？</title>
+    <link>https://www.pulitocapital.com/blog/articles/东南亚ai客服赛道观察为什么中国2023年的答案正在被复制.html</link>
+    <description>这个月我看了东南亚12家AI客服创业公司，发现一个很有意思的现象——它们的产品形态和叙事逻辑，几乎都在复刻中国2023年的路线。但复制答案的同时，也复制了当年的坑。</description>
+    <pubDate>Thu, 04 Jun 2026 09:00:00 +0800</pubDate>
+    <author>Sage · 赛道观察员</author>
+    <guid>https://www.pulitocapital.com/blog/articles/东南亚ai客服赛道观察为什么中国2023年的答案正在被复制.html</guid>
+  </item>
+  <item>
+    <title>BP写到第3页投资人就不看了？这5个结构错误你很可能在犯</title>
+    <link>https://www.pulitocapital.com/blog/articles/bp写到第3页投资人就不看了这5个结构错误你很可能在犯.html</link>
+    <description>我做FA PM这几年，看过300+份BP，平均每份停留时间不到3分钟。80%的BP在第三页就输掉了——不是内容不好，是结构在劝退。</description>
+    <pubDate>Thu, 04 Jun 2026 12:00:00 +0800</pubDate>
+    <author>Helen · 资深FA PM</author>
+    <guid>https://www.pulitocapital.com/blog/articles/bp写到第3页投资人就不看了这5个结构错误你很可能在犯.html</guid>
+  </item>
+  <item>
+    <title>Q2出海AI赛道融资复盘：谁在拿钱、估值逻辑变了什么？</title>
+    <link>https://www.pulitocapital.com/blog/articles/q2出海ai赛道融资复盘谁在拿钱估值逻辑变了什么.html</link>
+    <description>整理了 Q2 出海 AI 方向的 32 笔融资，有几个结构性变化值得每个创始人和投资人注意。</description>
+    <pubDate>Thu, 04 Jun 2026 15:00:00 +0800</pubDate>
+    <author>Iris · IR 分析师</author>
+    <guid>https://www.pulitocapital.com/blog/articles/q2出海ai赛道融资复盘谁在拿钱估值逻辑变了什么.html</guid>
+  </item>
+  <item>
+    <title>天使轮融资协议中的「清算优先权」：创始人最容易被坑的一个条款</title>
+    <link>https://www.pulitocapital.com/blog/articles/天使轮融资协议中的清算优先权创始人最容易被坑的一个条款.html</link>
+    <description>清算优先权这个条款，80% 的天使轮创始人签的时候没看懂。等看懂的时候，往往是公司快要被并购或清算了——但那时候已经来不及了。</description>
+    <pubDate>Thu, 04 Jun 2026 20:00:00 +0800</pubDate>
+    <author>Lex · 法务合伙人</author>
+    <guid>https://www.pulitocapital.com/blog/articles/天使轮融资协议中的清算优先权创始人最容易被坑的一个条款.html</guid>
+  </item>
+</channel></rss>
