@@ -555,22 +555,11 @@
       <div class="cta-email-wrap reveal reveal-d1">邮箱：<a href="mailto:bp@pulitocapital.com">bp@pulitocapital.com</a></div>
 
       <p class="cta-sub reveal reveal-d3">每个项目由创始合伙人亲自沟通</p>
-      <a href="javascript:void(0)" class="btn-primary reveal reveal-d4 open-wechat">📱 微信联系</a>
+      <a href="mailto:bp@pulitocapital.com" class="btn-primary reveal reveal-d4">📧 发送邮件</a>
     </div>
   </section>
 
-  <!-- Floating WeChat -->
-  <div class="wc-overlay" id="wcOverlay"></div>
-  <button class="wc-float" id="wcFloat" aria-label="微信联系">
-    <svg viewBox="0 0 24 24" fill="none"><path d="M17 10C17 6.13 14.1 3 10.5 3S4 6.13 4 10c0 1.77.77 3.37 2 4.54L5 18l3.5-1.68c.63.17 1.3.27 2 .27 3.6 0 6.5-3.13 6.5-6.59z" stroke="#020C45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="8.5" cy="10" r="1" fill="#020C45"/><circle cx="12.5" cy="10" r="1" fill="#020C45"/>
-    </svg>
-  </button>
-  <div class="wc-modal" id="wcModal">
-    <p style="font-size:18px;color:#D4AF37;margin-bottom:8px">📱 添加创始合伙人</p>
-    <p class="sub">bp@pulitocapital.com</p>
-    <p style="font-size:14px;color:#8892B0;margin-top:12px">或直接发送邮件，我们将在24小时内回复</p>
-  </div>
+  <!-- Footer -->
 
   <!-- Footer -->
   <footer class="footer">
@@ -620,15 +609,7 @@
     window.addEventListener('load',()=>setTimeout(checkVisible,500));
     document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>setTimeout(checkVisible,800)));
 
-    // WeChat floating modal
-    const wcFloat=document.getElementById('wcFloat'),wcModal=document.getElementById('wcModal'),wcOverlay=document.getElementById('wcOverlay');
-    function toggleWc(){
-      wcModal.classList.toggle('show');
-      wcOverlay.classList.toggle('show');
-    }
-    wcFloat.addEventListener('click',toggleWc);
-    wcOverlay.addEventListener('click',toggleWc);
-    document.querySelectorAll('.open-wechat').forEach(btn=>btn.addEventListener('click',toggleWc));
+    // Contact: direct email link
   </script>
   <!-- Baidu auto-push -->
   <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();</script>
