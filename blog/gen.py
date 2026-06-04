@@ -265,6 +265,22 @@ def generate_sitemap(articles):
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(sitemap)
     print(f"  ✅ blog/sitemap.xml (SEO)")
+    # Also update root sitemap.xml
+    root_urls = [
+        f'  <url><loc>{SITE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
+        f'  <url><loc>{SITE_URL}/blog/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{SITE_URL}/events/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+    ]
+    for art in articles:
+        root_urls.append(f'  <url><loc>{SITE_URL}/blog/articles/{art["slug"]}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>')
+    root_sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{chr(10).join(root_urls)}
+</urlset>"""
+    root_path = os.path.join(BASE, "..", "sitemap.xml")
+    with open(root_path, "w", encoding="utf-8") as f:
+        f.write(root_sitemap)
+    print(f"  ✅ ../sitemap.xml (root SEO)")
 
 def main():
     articles = load_articles()
