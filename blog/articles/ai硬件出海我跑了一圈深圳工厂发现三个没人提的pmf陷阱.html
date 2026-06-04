@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱 — 璞合资本</title>
+  <meta name="description" content="这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。">
+  <meta name="keywords" content="{{TAGS}},璞合资本,AI Agent,AI硬件,出海融资">
+  <meta name="author" content="Sage">
+  <!-- Article meta -->
+  <meta property="article:published_time" content="2026-06-05">
+  <meta property="article:tag" content="{{TAGS}}">
+  <meta property="article:author" content="Sage">
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱">
+  <meta property="og:description" content="这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.pulitocapital.com/blog/articles/ai硬件出海我跑了一圈深圳工厂发现三个没人提的pmf陷阱">
+  <meta property="og:site_name" content="璞合资本 Pulito Capital">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://www.pulitocapital.com/assets/og-image.jpg">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱">
+  <meta name="twitter:description" content="这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.pulitocapital.com/blog/articles/ai硬件出海我跑了一圈深圳工厂发现三个没人提的pmf陷阱">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--gold-rgb:212,175,55;--white:#FFFFFF;--text-muted:#8892B0;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font-en);color:#fff;background:var(--navy);line-height:1.8;-webkit-font-smoothing:antialiased}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;height:auto;display:block;border-radius:8px}
+    .container{max-width:800px;margin:0 auto;padding:0 24px}
+    .gold{color:var(--gold)}
+    .gold-divider{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:24px}
+
+    /* Nav */
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:12px 0;background:rgba(2,12,69,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.1)}
+    .navbar .container{display:flex;align-items:center;justify-content:space-between;max-width:1200px}
+    .nav-logo{display:flex;align-items:center;gap:10px}
+    .nav-logo svg{width:28px;height:28px}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1}
+    .nav-logo-text .cn{font-family:var(--font-cn);font-size:14px;font-weight:500;letter-spacing:0.1em}
+    .nav-logo-text .en{font-size:6px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:3px}
+    .nav-links{display:flex;gap:24px;list-style:none}
+    .nav-links a{font-size:14px;color:var(--text-muted);transition:color 0.2s}
+    .nav-links a:hover{color:var(--gold)}
+
+    /* Article Header */
+    .article-header{padding:120px 0 48px;position:relative;overflow:hidden}
+    .article-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.3),transparent)}
+    .article-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.3);padding:4px 12px;border-radius:4px;font-size:12px;color:var(--gold);margin-bottom:20px}
+    .article-header h1{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;line-height:1.3;letter-spacing:-0.02em;margin-bottom:20px}
+    .article-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--text-muted);margin-bottom:8px}
+    .article-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--text-muted);display:inline-block}
+    .article-author{display:flex;align-items:center;gap:10px}
+    .article-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)}
+    .article-header .excerpt{font-size:clamp(1rem,1.8vw,1.2rem);color:var(--text-muted);line-height:1.7;margin-top:24px;padding:16px 20px;border-left:3px solid var(--gold);background:rgba(212,175,55,0.03);border-radius:0 4px 4px 0}
+
+    /* Article Body */
+    .article-body{padding:48px 0 64px;position:relative}
+    .article-body h2{font-size:clamp(1.4rem,2.5vw,1.75rem);font-weight:700;margin:48px 0 16px;color:#fff;letter-spacing:-0.01em;line-height:1.4}
+    .article-body h3{font-size:clamp(1.15rem,2vw,1.35rem);font-weight:600;margin:36px 0 12px;color:var(--gold);line-height:1.4}
+    .article-body p{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:20px;line-height:1.9}
+    .article-body p.gold{color:var(--gold);font-weight:500}
+    .article-body ul,.article-body ol{padding-left:24px;margin-bottom:24px}
+    .article-body li{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:10px;line-height:1.8}
+    .article-body li::marker{color:var(--gold)}
+    .article-body strong{color:#fff}
+    .article-body blockquote{padding:20px 24px;margin:32px 0;border-left:3px solid var(--gold);background:rgba(212,175,55,0.05);border-radius:0 8px 8px 0;font-style:italic;color:#d0d0e0}
+    .article-body blockquote p{margin-bottom:0;color:#d0d0e0}
+    .article-body .highlight-box{padding:24px;margin:32px 0;border-radius:8px;border:1px solid rgba(212,175,55,0.3);background:rgba(10,26,92,0.5)}
+    .article-body .highlight-box p:last-child{margin-bottom:0}
+    .article-body .highlight-box .box-title{font-size:14px;font-weight:600;color:var(--gold);margin-bottom:12px}
+    .article-body code{background:rgba(212,175,55,0.1);padding:2px 8px;border-radius:3px;font-size:0.9em;color:var(--gold)}
+    .article-body img{margin:32px auto;border-radius:8px;max-width:100%}
+    .article-body .caption{text-align:center;font-size:13px;color:var(--text-muted);margin-top:-24px;margin-bottom:32px}
+
+    /* Divider */
+    .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0;color:var(--text-muted);font-size:12px}
+    .section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.2))}
+    .section-divider::after{background:linear-gradient(270deg,transparent,rgba(212,175,55,0.2))}
+
+    /* Footer */
+    .article-footer{padding:48px 0;border-top:1px solid rgba(212,175,55,0.15)}
+    .article-footer .back-link{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:15px;transition:gap 0.2s}
+    .article-footer .back-link:hover{gap:12px}
+    .article-footer .back-link svg{width:16px;height:16px}
+
+    /* Tags */
+    .article-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}
+    .article-tags span{padding:4px 12px;border-radius:4px;font-size:12px;background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.2);color:var(--gold)}
+
+    .page-footer{background:var(--navy-footer);padding:32px 24px;text-align:center;font-size:13px;color:var(--text-muted);border-top:1px solid rgba(212,175,55,0.1)}
+
+    /* SVG illustration container */
+    .article-illustration{margin:32px 0;padding:24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.1);text-align:center}
+    .article-illustration svg{max-width:100%}
+
+    @media(max-width:600px){
+      .nav-links{display:none}
+      .article-header{padding:100px 0 32px}
+      .article-body{padding:32px 0 48px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱",
+    "description": "这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。",
+    "author": {
+      "@type": "Person",
+      "name": "Sage",
+      "jobTitle": "赛道观察员"
+    },
+    "datePublished": "2026-06-05",
+    "publisher": {
+      "@type": "Organization",
+      "name": "璞合资本 Pulito Capital"
+    }
+  }
+  </script>
+  <!-- Baidu Verification -->
+  <meta name="baidu-site-verification" content="codeva-TAH0cRBC6P">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" font-family="Montserrat,sans-serif" font-size="56" font-weight="900" letter-spacing="-2">P</text>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="cn">璞合资本</span>
+          <span class="en">PULITO CAPITAL</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">首页</a></li>
+        <li><a href="/blog/">洞察</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <article class="article-header">
+    <div class="container">
+      <div class="article-badge">🏷️ 赛道观察</div>
+      <h1>AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱</h1>
+      <div class="article-meta">
+        <div class="article-author">
+          <div class="article-avatar">S</div>
+          <span>Sage · 赛道观察员</span>
+        </div>
+        <span class="dot"></span>
+        <span>2026.06.05</span>
+      </div>
+      <div class="excerpt">这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。</div>
+    </div>
+  </article>
+
+  <div class="article-body">
+    <div class="container">
+      <p>先说一个反直觉的事实：</p>
+
+<p class="gold">2026 Q1 AI硬件出海项目的死亡率高达63%——但死因不是技术不行，而是第一批货没卖出去。</p>
+
+<p>我花了两周时间，跑了深圳宝安、东莞长安一共12家AI硬件代工厂，见了20多位创业者。覆盖品类从AI眼镜、AI录音笔到AI宠物陪伴机器人。本来想看看技术进展，结果发现了一个更值得说的事——<strong>PMF陷阱正在批量消耗创始人的钱和信心</strong>。</p>
+
+
+<h2>陷阱一：把「工具」当成「产品」</h2>
+
+<p>这可能是最普遍的坑。一个AI录音笔项目的创始人是大厂语音算法出身，技术能力没得说。他给我看产品时很兴奋：「我们把Whisper做了硬件适配，离线转录准确率97%，还加了实时翻译。」</p>
+
+<p>我问了一句：「第一批1000台卖给谁了？」</p>
+
+<p>他说：「还没量产，先发Kickstarter看看。」</p>
+
+<p>这就是问题。他做的是一个<strong>功能</strong>（离线转录+翻译），而不是一个<strong>产品</strong>（为什么非要用这个硬件而不是App？在什么场景下用户会掏出这个而不是手机？）</p>
+
+<p>在工厂的视角看，这种项目的生命周期是：开模→试产→发现问题→改模→再试产→放弃。</p>
+
+<div class="highlight-box">
+  <div class="box-title">💡 区分方法</div>
+  <p>问自己一个问题：<strong>如果这个AI功能被做成App免费了，你的硬件还卖得掉吗？</strong>如果答案是不确定，你很可能在做工具而不是产品。</p>
+</div>
+
+
+<h2>陷阱二：低估「ID→量产」之间的隐形死胡同</h2>
+
+<p>深圳工厂的朋友跟我说了句话我印象很深：<strong>「很多创始人以为ID设计做完就完成了大半，其实ID做完，真正的坑才开始。」</strong></p>
+
+<p>几个真实案例：</p>
+
+<ul>
+  <li>某AI眼镜项目，ID很漂亮，但散热方案没留空间。量产时才发现芯片在连续使用20分钟后表面温度达到53°C——不能戴。改结构，重新开模，+8周，+¥30万。</li>
+  <li>某AI宠物摄像头，结构设计时没考虑东南亚高湿度环境。第一批1000台出货到曼谷后，15%在两周内出现镜头起雾。退货率炸了。</li>
+  <li>某AI学习机，选择了全金属外壳做高端感，结果忽略了海外物流成本——单台运费从预估的$5.2涨到$12.8，直接把毛利打平了。</li>
+</ul>
+
+<p>这些坑的共同点：<strong>创始人在做ID的时候，脑子里只有「好看」，没有「活着」</strong>。散热、防水、防震、物流成本、包装体积——每一件事都能杀死一条产品线。</p>
+
+
+<h2>陷阱三：用「国内打法」做「海外渠道」</h2>
+
+<p>出海AI硬件最惨烈的死法是什么？按国内的打法备货、定价、铺渠道，然后发现海外不吃这一套。</p>
+
+<p>一个做AI学习机的项目，国内打法很熟：抖音投流→直播间转化→抖音小店成交。出海选了TikTok Shop+独立站。第一批备了5000台。</p>
+
+<p>结果：</p>
+<ul>
+  <li>TikTok Shop上架的审核周期4周（国内2天）</li>
+  <li>用户从看到到购买的转化链路拖长2-3倍</li>
+  <li>退货率12%（国内同类产品5-6%）</li>
+  <li>物流+关税让成本上升40%</li>
+</ul>
+
+<p>5000台只卖出不到1000台，剩下的4000台堆在海外仓每天吃仓储费。</p>
+
+<p>创始人复盘时说了一句话：「在国内我们什么渠道打法都懂，到了海外就像换了个游戏。」</p>
+
+
+<h2>给创始人的四个建议</h2>
+
+<ol>
+  <li><strong>先做100台MVP</strong> — 别一上来就开模5000台。用手板+小批量试产（100-200台）卖给目标用户，验证「有人真的愿意花钱买」再放大。</li>
+  <li><strong>找有出海经验的硬件PM</strong> — 深圳不缺硬件工程师，缺的是出过货到海外、踩过坑的PM。这个角色值他年薪的十倍。</li>
+  <li><strong>把物流成本算进定价模型</strong> — 很多创始人的定价公式是 BOM×3=出厂价。但出海硬件的实际成本是：BOM+模具摊销+物流+关税+海外仓+退货损耗。按这个算，BOM×5都未必有正毛利。</li>
+  <li><strong>渠道验证前置</strong> — 在开模之前，先搞清楚目标市场的渠道逻辑。Amazon还是独立站？批发还是DTC？每个渠道的获客成本和退货率是多少？这些数据应该出现在BP的第2页，而不是第9页。</li>
+</ol>
+
+<blockquote>
+  <p>AI硬件是个好赛道，但这个赛道不奖励「想法最强」的人，只奖励「第一批货卖得掉」的人。</p>
+</blockquote>
+
+<div class="section-divider">END</div>
+
+<p style="color:var(--text-muted);font-size:14px">本文基于深圳-东莞硬件供应链实地调研整理。如有AI硬件出海项目融资需求，欢迎扫码添加微信联系</p>
+    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="container">
+      <a href="/blog/" class="back-link">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>← 返回所有文章</span>
+      </a>
+      <div class="article-tags">
+        <span>AI硬件</span><span>深圳工厂</span><span>PMF</span><span>出海供应链</span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <p>© 2026 璞合资本 Pulito Capital. All rights reserved.</p>
+  </footer>
+  <!-- Baidu auto-push -->
+  <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();</script>
+</body>
+</html>

@@ -5,7 +5,7 @@
   <link>https://www.pulitocapital.com/blog/</link>
   <description>AI Agent / AI硬件 / 出海赛道：Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务</description>
   <language>zh-CN</language>
-  <lastBuildDate>Thu, 04 Jun 2026 18:47:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 04 Jun 2026 22:56:41 +0000</lastBuildDate>
   <atom:link href="https://www.pulitocapital.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>东南亚AI客服赛道观察：为什么中国2023年的答案正在被复制？</title>
@@ -38,5 +38,45 @@
     <pubDate>Thu, 04 Jun 2026 20:00:00 +0800</pubDate>
     <author>Lex · 法务合伙人</author>
     <guid>https://www.pulitocapital.com/blog/articles/天使轮融资协议中的清算优先权创始人最容易被坑的一个条款.html</guid>
+  </item>
+  <item>
+    <title>AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱</title>
+    <link>https://www.pulitocapital.com/blog/articles/ai硬件出海我跑了一圈深圳工厂发现三个没人提的pmf陷阱.html</link>
+    <description>这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。</description>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0800</pubDate>
+    <author>Sage · 赛道观察员</author>
+    <guid>https://www.pulitocapital.com/blog/articles/ai硬件出海我跑了一圈深圳工厂发现三个没人提的pmf陷阱.html</guid>
+  </item>
+  <item>
+    <title>投资人问「你的壁垒是什么？」——别告诉我你答的是「技术领先」</title>
+    <link>https://www.pulitocapital.com/blog/articles/投资人问你的壁垒是什么别告诉我你答的是技术领先.html</link>
+    <description>我审过的300+份BP里，「壁垒」页的平均质量是最低的。90%的创始人把「技术领先」「先发优势」「团队背景」写上去了——而这三点在投资人眼里几乎等于「没有壁垒」。</description>
+    <pubDate>Fri, 05 Jun 2026 12:00:00 +0800</pubDate>
+    <author>Helen · 资深FA PM</author>
+    <guid>https://www.pulitocapital.com/blog/articles/投资人问你的壁垒是什么别告诉我你答的是技术领先.html</guid>
+  </item>
+  <item>
+    <title>中东主权基金正在系统性地布局AI——这波钱怎么拿？</title>
+    <link>https://www.pulitocapital.com/blog/articles/中东主权基金正在系统性地布局ai这波钱怎么拿.html</link>
+    <description>Q2以来，PIF和Mubadala的AI投资团队明显在加速。我梳理了最近6个月中东资本在AI领域的投资图谱，发现他们的逻辑和美元基金完全不同。</description>
+    <pubDate>Fri, 05 Jun 2026 15:00:00 +0800</pubDate>
+    <author>Iris · IR 分析师</author>
+    <guid>https://www.pulitocapital.com/blog/articles/中东主权基金正在系统性地布局ai这波钱怎么拿.html</guid>
+  </item>
+  <item>
+    <title>Vesting Schedule还在用标准4年？你可能会后悔的3个场景</title>
+    <link>https://www.pulitocapital.com/blog/articles/vesting-schedule还在用标准4年你可能会后悔的3个场景.html</link>
+    <description>标准的4年Vesting + 1年Cliff，在硅谷是标配。但在出海的早期项目里，这个标配正在变成创始人的枷锁。</description>
+    <pubDate>Fri, 05 Jun 2026 20:00:00 +0800</pubDate>
+    <author>Lex · 法务合伙人</author>
+    <guid>https://www.pulitocapital.com/blog/articles/vesting-schedule还在用标准4年你可能会后悔的3个场景.html</guid>
+  </item>
+  <item>
+    <title>上海活动｜AI出海·早期融资闭门交流会（6月20日）</title>
+    <link>https://www.pulitocapital.com/blog/articles/上海活动ai出海早期融资闭门交流会6月20日.html</link>
+    <description>璞合资本联合极光加速器，6月20日在上海举办AI出海早期融资闭门交流会。仅限20位早期AI出海项目创始人参加，扫码报名。</description>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0800</pubDate>
+    <author>Pulito · 璞合资本</author>
+    <guid>https://www.pulitocapital.com/blog/articles/上海活动ai出海早期融资闭门交流会6月20日.html</guid>
   </item>
 </channel></rss>
