@@ -282,7 +282,7 @@ def generate_sitemap(articles):
         f.write(root_sitemap)
     print(f"  ✅ ../sitemap.xml (root SEO)")
 
-BAIDU_TOKEN = os.environ.get("BAIDU_ZIYUAN_TOKEN", "")
+BAIDU_TOKEN = os.environ.get("BAIDU_ZIYUAN_TOKEN", "AgshR8YotwUmhPcT")
 BAIDU_PUSH_API = "http://data.zz.baidu.com/urls?site=https://www.pulitocapital.com&token="
 
 def push_to_baidu(articles):
