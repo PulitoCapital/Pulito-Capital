@@ -4,7 +4,7 @@
 读取 articles.json → 渲染模板 → 生成文章 HTML + 列表页 + RSS + sitemap
 """
 import json, os, shutil, glob
-from datetime import datetime
+from datetime import datetime, timezone
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE = os.path.join(BASE, "template.html")
@@ -234,7 +234,7 @@ def generate_rss(articles):
   <link>{SITE_URL}/blog/</link>
   <description>AI Agent / AI硬件 / 出海赛道：Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务</description>
   <language>zh-CN</language>
-  <lastBuildDate>{datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
+  <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
   <atom:link href="{SITE_URL}/blog/rss.xml" rel="self" type="application/rss+xml"/>
 """
     for art in articles:
@@ -282,15 +282,19 @@ def generate_sitemap(articles):
         f.write(root_sitemap)
     print(f"  ✅ ../sitemap.xml (root SEO)")
 
-import urllib.request
-
 BAIDU_TOKEN = os.environ.get("BAIDU_ZIYUAN_TOKEN", "")
-BAIDU_PUSH_API = "https://data.zone.baidu.com/urls?site=www.pulitocapital.com&token="
+BAIDU_PUSH_API = "http://data.zz.baidu.com/urls?site=https://www.pulitocapital.com&token="
 
 def push_to_baidu(articles):
     """推送给百度搜索资源平台（主动推送）"""
     if not BAIDU_TOKEN:
         print("  ⏭️  百度推送跳过：未设置 BAIDU_ZIYUAN_TOKEN")
+        return
+
+    try:
+        import requests
+    except ImportError:
+        print("  ⏭️  百度推送跳过：需要 requests 库（pip install requests）")
         return
 
     urls = []
@@ -299,16 +303,15 @@ def push_to_baidu(articles):
     for art in articles:
         urls.append(f"{SITE_URL}/blog/articles/{art['slug']}.html")
 
-    data = "\n".join(urls).encode("utf-8")
-    req = urllib.request.Request(
-        BAIDU_PUSH_API + BAIDU_TOKEN,
-        data=data,
-        headers={"Content-Type": "text/plain"},
-        method="POST"
-    )
+    data = "\n".join(urls)
     try:
-        resp = urllib.request.urlopen(req, timeout=10)
-        result = json.loads(resp.read().decode())
+        resp = requests.post(
+            BAIDU_PUSH_API + BAIDU_TOKEN,
+            data=data.encode("utf-8"),
+            headers={"Content-Type": "text/plain"},
+            timeout=10
+        )
+        result = resp.json()
         print(f"  📡 百度推送: 成功{result.get('success',0)}条 剩余{result.get('remain',0)}条/天")
         if result.get("not_same_site"):
             print(f"  ⚠️  未验证站点，{result['not_same_site']}条未推送")
