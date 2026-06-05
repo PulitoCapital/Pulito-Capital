@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.pulitocapital.com/sitemap.xml
+
+# 百度爬虫优先
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 30
