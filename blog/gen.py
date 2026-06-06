@@ -58,7 +58,8 @@ def generate_articles(articles):
             "CATEGORY": art["category"],
             "SLUG": slug,
             "CONTENT": art["content"],
-            "TAGS_HTML": tags_html
+            "TAGS_HTML": tags_html,
+            "TAGS": " · ".join(tags)
         }
 
         article_html = render_template(tmpl, subs)

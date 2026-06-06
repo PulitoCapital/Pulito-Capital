@@ -126,6 +126,17 @@
       "name": "璞合资本 Pulito Capital"
     }
   }
+    <!-- FAQ Schema (GEO - AI引擎问答引用) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "{{TITLE}}", "acceptedAnswer": {"@type": "Answer", "text": "{{EXCERPT}}"}},
+      {"@type": "Question", "name": "{{CATEGORY}}：{{AUTHOR}}的观点", "acceptedAnswer": {"@type": "Answer", "text": "本文由{{AUTHOR}}（{{AUTHOR_ROLE}}）撰写，讨论了{{TAGS}}等话题。"}}
+    ]
+  }
+  </script>
   <!-- BreadcrumbList (GEO) -->
   <script type="application/ld+json">
   {
@@ -185,7 +196,16 @@
 
   <div class="article-body">
     <div class="container">
-      {{CONTENT}}
+          <!-- Key Takeaways (GEO - AI引擎高频提取区) -->
+    <div class="geo-tldr" style="background:rgba(10,26,92,0.5);border:1px solid rgba(212,175,55,0.25);border-radius:8px;padding:20px 24px;margin-bottom:32px">
+      <div style="font-size:12px;color:var(--gold);font-weight:600;margin-bottom:10px;letter-spacing:0.05em">📌 KEY TAKEAWAYS</div>
+      <ul style="margin:0;padding-left:18px;font-size:clamp(0.9rem,1.6vw,1rem);color:#e8e8f0;line-height:1.8">
+        <li>赛道：{{CATEGORY}} · 作者：{{AUTHOR}} · {{AUTHOR_ROLE}}</li>
+        <li>核心洞察：{{EXCERPT}}</li>
+        <li>标签：{{TAGS}}</li>
+      </ul>
+    </div>
+    {{CONTENT}}
     </div>
   </div>
 
@@ -197,8 +217,22 @@
       </a>
       <div class="article-tags">
         {{TAGS_HTML}}
+        {{TAGS_HTML}}
       </div>
     </div>
+  </div>
+
+  <!-- Author & Related (GEO) -->
+  <div style="margin-top:32px;padding:20px 24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12)">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)">{{AUTHOR_INITIAL}}</div>
+      <div>
+        <div style="font-size:14px;color:#fff;font-weight:600">{{AUTHOR}} · {{AUTHOR_ROLE}}</div>
+        <div style="font-size:12px;color:var(--text-muted)">璞合资本内容矩阵 · 每日更新</div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin-bottom:8px">📖 查看更多 <a href="/blog/" style="color:var(--gold)">璞合洞察</a> · 赛道观察 · BP实战 · 资本视角 · 合规法务</p>
+    <p style="font-size:12px;color:var(--text-muted)">分享本文：<span style="color:var(--gold)">https://www.pulitocapital.com/blog/articles/{{SLUG}}</span></p>
   </div>
 
   <footer class="page-footer">
