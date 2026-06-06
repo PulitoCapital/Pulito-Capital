@@ -322,6 +322,9 @@ def push_to_baidu(articles):
 def main():
     articles = load_articles()
 
+    # 按日期倒序排列（最新在前）
+    articles.sort(key=lambda a: a['date'], reverse=True)
+
     print(f"📝 Generating {len(articles)} articles...")
     generate_articles(articles)
     generate_index(articles)
