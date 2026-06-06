@@ -20,7 +20,6 @@
   <meta name="twitter:description" content="Boutique FA for AI Agent & AI-powered Smart Hardware, Global from Day One">
   <!-- Canonical -->
   <link rel="canonical" href="https://www.pulitocapital.com">
-  <link rel="alternate" hreflang="zh-CN" href="https://www.pulitocapital.com">
   <!-- Baidu Verification -->
   <meta name="baidu-site-verification" content="codeva-TAH0cRBC6P">
   <!-- Fonts -->
@@ -351,7 +350,7 @@
 
   <!-- Boutique -->
   <section class="boutique">
-    <div class="boutique-bg"><img src="assets/hero-bg.jpg" alt="璞合资本背景装饰"></div>
+    <div class="boutique-bg"><img src="assets/hero-bg.jpg" alt=""></div>
     <div class="boutique-overlay"></div>
     <div class="container" style="max-width:1200px">
       <div class="boutique-grid">
@@ -401,10 +400,10 @@
 
   <!-- Article Cards -->
   <div class="insights-cards">
-    <div class="insights-cards-bg"><img src="assets/img3.jpg" alt="璞合资本洞察模块背景装饰"></div>
+    <div class="insights-cards-bg"><img src="assets/img3.jpg" alt=""></div>
     <div class="container">
 
-      <a href="/blog/" class="insight-article reveal reveal-d1">
+      <a href="#" class="insight-article reveal reveal-d1">
         <div class="insight-article-hover"></div>
         <div class="insight-article-number">01</div>
         <div class="insight-article-inner">
@@ -418,21 +417,21 @@
               </svg>
             </div>
             <div class="insight-article-text">
-              <h3>每日内容矩阵 · 出海AI赛道深度洞察</h3>
-              <p>Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务，每天四位Agent持续输出</p>
+              <h3>2026年出海AI硬件融资趋势观察</h3>
+              <p>分析东南亚、拉美、中东市场AI硬件落地情况与融资环境</p>
               <div class="insight-article-link">
-                <span>浏览所有文章</span>
+                <span>阅读更多</span>
                 <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
             </div>
           </div>
-          <div class="insight-article-date">每日更新</div>
+          <div class="insight-article-date">2026-05</div>
         </div>
       </a>
 
-      <a href="/blog/" class="insight-article reveal reveal-d2">
+      <a href="#" class="insight-article reveal reveal-d2">
         <div class="insight-article-hover"></div>
         <div class="insight-article-number">02</div>
         <div class="insight-article-inner">
@@ -450,21 +449,21 @@
               </svg>
             </div>
             <div class="insight-article-text">
-              <h3>赛道观察 · 资本视角 · BP实战 · 合规法务</h3>
-              <p>覆盖AI Agent、AI硬件、出海三大方向，每周多篇深度内容</p>
+              <h3>AI应用出海：从产品到本地化的全链路思考</h3>
+              <p>从支付、合规到用户增长，AI应用出海的关键节点解析</p>
               <div class="insight-article-link">
-                <span>浏览所有文章</span>
+                <span>阅读更多</span>
                 <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
             </div>
           </div>
-          <div class="insight-article-date">海量内容</div>
+          <div class="insight-article-date">2026-04</div>
         </div>
       </a>
 
-      <a href="/blog/" class="insight-article reveal reveal-d3">
+      <a href="#" class="insight-article reveal reveal-d3">
         <div class="insight-article-hover"></div>
         <div class="insight-article-number">03</div>
         <div class="insight-article-inner">
@@ -483,17 +482,17 @@
               </svg>
             </div>
             <div class="insight-article-text">
-              <h3>已发布10+篇深度文章</h3>
-              <p>从AI客服赛道、深圳工厂调研到融资条款、中东主权基金——覆盖你关心的每一个话题</p>
+              <h3>早期AI项目如何讲好融资故事</h3>
+              <p>投资人最关注的5个问题与应对策略</p>
               <div class="insight-article-link">
-                <span>浏览所有文章</span>
+                <span>阅读更多</span>
                 <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
             </div>
           </div>
-          <div class="insight-article-date">持续更新</div>
+          <div class="insight-article-date">2026-03</div>
         </div>
       </a>
 
@@ -533,7 +532,7 @@
           <h3>获取每周深度内容</h3>
           <p class="sub-desc">关注璞合资本公众号，每周获取出海AI赛道的最新趋势与融资动态</p>
           <div class="sub-qr">
-            <img src="assets/gh-qrcode.jpg" alt="璞合资本公众号二维码 · 扫码关注获取每周深度内容">
+            <img src="assets/gh-qrcode.jpg" alt="璞合资本公众号二维码">
           </div>
           <p class="sub-qr-label">扫码关注璞合资本公众号</p>
         </div>
