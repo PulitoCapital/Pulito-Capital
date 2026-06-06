@@ -39,13 +39,49 @@ def generate_articles(articles):
     with open(TEMPLATE, "r", encoding="utf-8") as f:
         tmpl = f.read()
 
+    # First pass: assign slugs to all articles
     for art in articles:
-        slug = slugify(art["title"])
-        art["slug"] = slug
+        art["slug"] = slugify(art["title"])
+
+    for i, art in enumerate(articles):
+        slug = art["slug"]
 
         # Build tags HTML
         tags = art.get("tags", [])
         tags_html = "".join(f'<span>{t}</span>' for t in tags)
+
+        # Build related articles (max 2: same category first, then next)
+        related = []
+        for j, other in enumerate(articles):
+            if j == i: continue
+            if len(related) < 1 and other.get("category") == art.get("category"):
+                related.append(other)
+            elif len(related) < 2:
+                related.append(other)
+            if len(related) >= 2: break
+        # If fewer than 2 found, pad with whatever's next
+        for j, other in enumerate(articles):
+            if j == i: continue
+            if other not in related and len(related) < 2:
+                related.append(other)
+        
+        related_html = ""
+        if related:
+            related_html = '<div style="margin-top:32px;padding-top:24px;border-top:1px solid rgba(212,175,55,0.15)">'
+            related_html += '<div style="font-size:13px;color:var(--text-muted);margin-bottom:16px">📖 继续阅读</div>'
+            related_html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">'
+            for r in related:
+                r_slug = r["slug"]
+                r_cat = r.get("category", "")
+                r_title = r["title"]
+                r_date = r.get("date_display", "")
+                related_html += f'''
+          <a href="/blog/articles/{r_slug}.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">{r_cat}</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">{r_title}</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">{r_date}</div>
+          </a>'''
+            related_html += '\n        </div>\n      </div>'
 
         subs = {
             "TITLE": art["title"],
@@ -59,7 +95,8 @@ def generate_articles(articles):
             "SLUG": slug,
             "CONTENT": art["content"],
             "TAGS_HTML": tags_html,
-            "TAGS": " · ".join(tags)
+            "TAGS": " · ".join(tags),
+            "RELATED_HTML": related_html
         }
 
         article_html = render_template(tmpl, subs)
@@ -320,6 +357,71 @@ def push_to_baidu(articles):
         print(f"  ⚠️  百度推送失败: {e}")
 
 
+def generate_homepage_insights(articles):
+    """更新首页的洞察区为最新3篇文章。"""
+    import re
+    
+    top3 = articles[:3]
+    index_path = os.path.join(BASE, "..", "index.html")
+    
+    cards = []
+    for i, art in enumerate(top3):
+        d_num = i + 1
+        slug = art.get("slug", slugify(art["title"]))
+        title = art["title"]
+        excerpt = art["excerpt"]
+        date = art["date_display"]
+        
+        card = f'''          <a href="/blog/articles/{slug}.html" class="insight-article reveal reveal-d{d_num}">
+        <div class="insight-article-hover"></div>
+        <div class="insight-article-number">0{d_num}</div>
+        <div class="insight-article-inner">
+          <div class="insight-article-body">
+            <div class="insight-article-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 32L16 24L24 28L32 16L40 20" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="16" cy="24" r="2.5" fill="#D4AF37"/><circle cx="24" cy="28" r="2.5" fill="#D4AF37"/>
+                <circle cx="32" cy="16" r="2.5" fill="#D4AF37"/><circle cx="40" cy="20" r="2.5" fill="#D4AF37"/>
+                <path d="M8 12H40M8 20H40M8 28H40M8 36H40" stroke="rgba(212,175,55,0.2)" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="insight-article-text">
+              <h3>{title[:50]}</h3>
+              <p>{excerpt[:80]}…</p>
+              <div class="insight-article-link">
+                <span>阅读全文 →</span>
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="insight-article-date">{date}</div>
+        </div>
+      </a>'''
+        cards.append(card)
+    
+    with open(index_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    pattern = r'<a href="/blog/" class="insight-article reveal reveal-d1">.*?</a>\s*\n\s*<a href="/blog/" class="insight-article reveal reveal-d2">.*?</a>\s*\n\s*<a href="/blog/" class="insight-article reveal reveal-d3">.*?</a>'
+    new_content = re.sub(pattern, '\n'.join(cards), content, flags=re.DOTALL)
+    
+    with open(index_path, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    print(f"  ✅ ../index.html insights updated ({len(top3)} articles)")
+
+
+def update_homepage_article_count(articles):
+    """更新首页的文章计数。"""
+    index_path = os.path.join(BASE, "..", "index.html")
+    with open(index_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    # Update the insights-blog CTA link text (optional)
+    with open(index_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+
 def main():
     articles = load_articles()
 
@@ -331,6 +433,7 @@ def main():
     generate_index(articles)
     generate_rss(articles)
     generate_sitemap(articles)
+    generate_homepage_insights(articles)
     push_to_baidu(articles)
     print(f"\n✅ Done! All files in {BASE}")
 
