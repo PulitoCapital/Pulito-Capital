@@ -113,7 +113,7 @@ def generate_index(articles):
     for art in articles:
         tags_html = "".join(f'<span>{t}</span>' for t in art.get("tags", []))
         cards.append(f"""
-        <a href="articles/{art['slug']}.html" class="blog-card reveal">
+        <a href="/blog/articles/{art['slug']}.html" class="blog-card reveal">
           <div class="blog-card-hover"></div>
           <div class="blog-card-top">
             <span class="blog-badge">{art['category']}</span>
