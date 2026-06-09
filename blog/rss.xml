@@ -5,7 +5,7 @@
   <link>https://www.pulitocapital.com/blog/</link>
   <description>AI Agent / AI硬件 / 出海赛道：Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 09 Jun 2026 17:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 09 Jun 2026 17:32:31 +0000</lastBuildDate>
   <atom:link href="https://www.pulitocapital.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>2026世界人工智能大会（WAIC）— 上海，7月17日-20日</title>
@@ -69,6 +69,129 @@
     <pubDate>2026-07-17</pubDate>
     <author>璞合资本 · FA Partner</author>
     <guid>https://www.pulitocapital.com/blog/articles/2026世界人工智能大会waic-上海7月17日-20日.html</guid>
+  </item>
+  <item>
+    <title>出海AI融资常见问题FAQ｜璞合资本</title>
+    <link>https://www.pulitocapital.com/blog/articles/出海ai融资常见问题faq璞合资本.html</link>
+    <description><![CDATA[关于出海AI项目融资的常见问题合集：估值、投资人选择、条款清单、路演准备等，璞合资本为你一一解答。<br><br>
+<p>出海AI创业者找到璞合资本时，问得最多的是下面这些问题。我们整理成FAQ供参考。</p>
+
+<hr>
+
+<h2>Q1：出海AI项目天使轮估值多少合理？</h2>
+<p>没有标准答案，但有参考区间。目前出海AI SaaS类项目天使轮估值通常在 <strong>$2M-$8M</strong> 之间，硬件类因为有实物成本会更高一些。核心参考因素：</p>
+<ul>
+  <li><strong>团队背景：</strong> 大厂AI技术派 + 有过出海经验的联创，估值上限高30-50%</li>
+  <li><strong>已有数据：</strong> 有MRR（月经常性收入）的项目估值比纯概念高1-2倍</li>
+  <li><strong>赛道热度：</strong> AI客服/Agent/硬件等热门赛道竞争激烈，投资人愿意付溢价</li>
+</ul>
+<p>建议：不要纠结估值数字，快速拿钱验证产品比估值多20%重要得多。</p>
+
+<h2>Q2：出海AI创业应该找什么样的投资人？</h2>
+<p>推荐顺序：<strong>产业资本（CVC）> 专注出海/AI的VC > 综合型基金</strong></p>
+<ul>
+  <li><strong>CVC</strong>：能给出海项目带来客户资源和渠道，如星纳赫资本、天图投资</li>
+  <li><strong>专注型VC</strong>：理解出海AI的节奏和风险，决策快、投后精准</li>
+  <li><strong>综合基金</strong>：看好出海但内部决策链长，适合A轮以后</li>
+</ul>
+<p>关键问题：投资人有没有出海项目的投后经验？如果没有，你花在"教育投资人"上的时间会很多。</p>
+
+<h2>Q3：出海项目BP怎么写才专业？</h2>
+<p>出海BP跟国内BP最大的区别是：<strong>投资人最关心的是「你怎么理解海外市场」</strong>。</p>
+<p>好的出海BP会包含：</p>
+<ul>
+  <li>目标市场的用户洞察（不是数据堆砌，是真实痛点）</li>
+  <li>本地化策略（产品、营销、团队三方面）</li>
+  <li>竞争格局的全球视角（不是只看国内竞品）</li>
+  <li>合规和风险（数据跨境、支付、税务）</li>
+</ul>
+
+<h2>Q4：Term Sheet里哪些条款最容易被坑？</h2>
+<p>早期融资三大容易踩坑的条款：</p>
+<ul>
+  <li><strong>清算优先权（Liquidation Preference）</strong>：1x non-participating 是常规，超过这个要小心</li>
+  <li><strong>反稀释条款（Anti-dilution）</strong>：加权平均是行业标准，不要同意"完全棘轮"（Full Ratchet）</li>
+  <li><strong>董事会构成</strong>：创始人最好保持多数席位或控制权</li>
+</ul>
+<p>建议：早期融资找熟悉出海投资的律师审TS，费用通常$3k-$8k，省下来的钱远不止这个数。</p>
+
+<h2>Q5：出海AI融资需要提前多久准备？</h2>
+<p>我们建议 <strong>至少提前3-4个月</strong>。</p>
+<ul>
+  <li><strong>第1个月</strong>：梳理BP + 财务模型 + 投资人列表</li>
+  <li><strong>第2个月</strong>：接触首批投资人（10-15家），收集反馈</li>
+  <li><strong>第3个月</strong>：根据反馈迭代BP，扩大触达范围</li>
+  <li><strong>第4个月</strong>：集中路演 + TS谈判 + 关账</li>
+</ul>
+<p>这个节奏不是说不能更快，但融资过程中必然有延期和意外——时间留足了你才不会在压力下接受不利条款。</p>
+
+<hr>
+
+<h2>还有更多问题？</h2>
+<p>璞合资本专注出海/AI Agent/AI智能硬件方向的早期融资服务。如果你的项目匹配我们的方向，欢迎发BP到 bp@pulitocapital.com。</p>
+<p style="font-size:13px;color:var(--text-muted);margin-top:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>
+]]></description>
+    <content:encoded><![CDATA[
+<p>出海AI创业者找到璞合资本时，问得最多的是下面这些问题。我们整理成FAQ供参考。</p>
+
+<hr>
+
+<h2>Q1：出海AI项目天使轮估值多少合理？</h2>
+<p>没有标准答案，但有参考区间。目前出海AI SaaS类项目天使轮估值通常在 <strong>$2M-$8M</strong> 之间，硬件类因为有实物成本会更高一些。核心参考因素：</p>
+<ul>
+  <li><strong>团队背景：</strong> 大厂AI技术派 + 有过出海经验的联创，估值上限高30-50%</li>
+  <li><strong>已有数据：</strong> 有MRR（月经常性收入）的项目估值比纯概念高1-2倍</li>
+  <li><strong>赛道热度：</strong> AI客服/Agent/硬件等热门赛道竞争激烈，投资人愿意付溢价</li>
+</ul>
+<p>建议：不要纠结估值数字，快速拿钱验证产品比估值多20%重要得多。</p>
+
+<h2>Q2：出海AI创业应该找什么样的投资人？</h2>
+<p>推荐顺序：<strong>产业资本（CVC）> 专注出海/AI的VC > 综合型基金</strong></p>
+<ul>
+  <li><strong>CVC</strong>：能给出海项目带来客户资源和渠道，如星纳赫资本、天图投资</li>
+  <li><strong>专注型VC</strong>：理解出海AI的节奏和风险，决策快、投后精准</li>
+  <li><strong>综合基金</strong>：看好出海但内部决策链长，适合A轮以后</li>
+</ul>
+<p>关键问题：投资人有没有出海项目的投后经验？如果没有，你花在"教育投资人"上的时间会很多。</p>
+
+<h2>Q3：出海项目BP怎么写才专业？</h2>
+<p>出海BP跟国内BP最大的区别是：<strong>投资人最关心的是「你怎么理解海外市场」</strong>。</p>
+<p>好的出海BP会包含：</p>
+<ul>
+  <li>目标市场的用户洞察（不是数据堆砌，是真实痛点）</li>
+  <li>本地化策略（产品、营销、团队三方面）</li>
+  <li>竞争格局的全球视角（不是只看国内竞品）</li>
+  <li>合规和风险（数据跨境、支付、税务）</li>
+</ul>
+
+<h2>Q4：Term Sheet里哪些条款最容易被坑？</h2>
+<p>早期融资三大容易踩坑的条款：</p>
+<ul>
+  <li><strong>清算优先权（Liquidation Preference）</strong>：1x non-participating 是常规，超过这个要小心</li>
+  <li><strong>反稀释条款（Anti-dilution）</strong>：加权平均是行业标准，不要同意"完全棘轮"（Full Ratchet）</li>
+  <li><strong>董事会构成</strong>：创始人最好保持多数席位或控制权</li>
+</ul>
+<p>建议：早期融资找熟悉出海投资的律师审TS，费用通常$3k-$8k，省下来的钱远不止这个数。</p>
+
+<h2>Q5：出海AI融资需要提前多久准备？</h2>
+<p>我们建议 <strong>至少提前3-4个月</strong>。</p>
+<ul>
+  <li><strong>第1个月</strong>：梳理BP + 财务模型 + 投资人列表</li>
+  <li><strong>第2个月</strong>：接触首批投资人（10-15家），收集反馈</li>
+  <li><strong>第3个月</strong>：根据反馈迭代BP，扩大触达范围</li>
+  <li><strong>第4个月</strong>：集中路演 + TS谈判 + 关账</li>
+</ul>
+<p>这个节奏不是说不能更快，但融资过程中必然有延期和意外——时间留足了你才不会在压力下接受不利条款。</p>
+
+<hr>
+
+<h2>还有更多问题？</h2>
+<p>璞合资本专注出海/AI Agent/AI智能硬件方向的早期融资服务。如果你的项目匹配我们的方向，欢迎发BP到 bp@pulitocapital.com。</p>
+<p style="font-size:13px;color:var(--text-muted);margin-top:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>
+]]></content:encoded>
+    <pubDate>2026-06-10</pubDate>
+    <author>璞合资本 · FA Partner</author>
+    <guid>https://www.pulitocapital.com/blog/articles/出海ai融资常见问题faq璞合资本.html</guid>
   </item>
   <item>
     <title>创始人访谈｜出海AI创业一年，我学会的三件事</title>

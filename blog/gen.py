@@ -96,6 +96,9 @@ def generate_articles(articles):
         safe_role = safe_json_str(art["author_role"])
         safe_tags = safe_json_str(" · ".join(tags))
         safe_cat = safe_json_str(art["category"])
+        geo_qs = art.get("geo_questions", [])
+        safe_geo_q1 = safe_json_str(geo_qs[0]) if len(geo_qs) > 0 else safe_cat
+        safe_geo_q2 = safe_json_str(geo_qs[1]) if len(geo_qs) > 1 else "更多内容请查看原文"
 
         subs = {
             "TITLE": art["title"],
@@ -111,6 +114,8 @@ def generate_articles(articles):
             "DATE_DISPLAY": art["date_display"],
             "CATEGORY": art["category"],
             "CATEGORY_SAFE": safe_cat,
+            "GEO_Q1_SAFE": safe_geo_q1,
+            "GEO_Q2_SAFE": safe_geo_q2,
             "SLUG": slug,
             "CONTENT": art["content"],
             "TAGS_HTML": tags_html,
