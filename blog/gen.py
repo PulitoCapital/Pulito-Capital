@@ -5,6 +5,12 @@
 """
 import json, os, shutil, glob
 from datetime import datetime, timezone
+import html as html_mod
+
+
+def safe_json_str(s):
+    """Escape a string for safe embedding in JSON within HTML."""
+    return s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n').replace('\r', '\\r').replace('\t', '\\t')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE = os.path.join(BASE, "template.html")
@@ -83,19 +89,33 @@ def generate_articles(articles):
           </a>'''
             related_html += '\n        </div>\n      </div>'
 
+        # Safe versions for JSON embedding (escape quotes/backslash/newlines)
+        safe_title = safe_json_str(art["title"])
+        safe_excerpt = safe_json_str(art["excerpt"])
+        safe_author = safe_json_str(art["author"])
+        safe_role = safe_json_str(art["author_role"])
+        safe_tags = safe_json_str(" · ".join(tags))
+        safe_cat = safe_json_str(art["category"])
+
         subs = {
             "TITLE": art["title"],
+            "TITLE_SAFE": safe_title,
             "EXCERPT": art["excerpt"],
+            "EXCERPT_SAFE": safe_excerpt,
             "AUTHOR": art["author"],
+            "AUTHOR_SAFE": safe_author,
             "AUTHOR_ROLE": art["author_role"],
+            "AUTHOR_ROLE_SAFE": safe_role,
             "AUTHOR_INITIAL": art["author"][0],
             "DATE": art["date"],
             "DATE_DISPLAY": art["date_display"],
             "CATEGORY": art["category"],
+            "CATEGORY_SAFE": safe_cat,
             "SLUG": slug,
             "CONTENT": art["content"],
             "TAGS_HTML": tags_html,
             "TAGS": " · ".join(tags),
+            "TAGS_SAFE": safe_tags,
             "RELATED_HTML": related_html
         }
 

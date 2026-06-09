@@ -113,12 +113,12 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "{{TITLE}}",
-    "description": "{{EXCERPT}}",
+    "headline": "{{TITLE_SAFE}}",
+    "description": "{{EXCERPT_SAFE}}",
     "author": {
       "@type": "Person",
-      "name": "{{AUTHOR}}",
-      "jobTitle": "{{AUTHOR_ROLE}}"
+      "name": "{{AUTHOR_SAFE}}",
+      "jobTitle": "{{AUTHOR_ROLE_SAFE}}"
     },
     "datePublished": "{{DATE}}",
     "publisher": {
@@ -133,8 +133,8 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {"@type": "Question", "name": "{{TITLE}}", "acceptedAnswer": {"@type": "Answer", "text": "{{EXCERPT}}"}},
-      {"@type": "Question", "name": "{{CATEGORY}}：{{AUTHOR}}的观点", "acceptedAnswer": {"@type": "Answer", "text": "本文由{{AUTHOR}}（{{AUTHOR_ROLE}}）撰写，讨论了{{TAGS}}等话题。"}}
+      {"@type": "Question", "name": "{{TITLE_SAFE}}", "acceptedAnswer": {"@type": "Answer", "text": "{{EXCERPT_SAFE}}"}},
+      {"@type": "Question", "name": "{{CATEGORY_SAFE}}：{{AUTHOR_SAFE}}的观点", "acceptedAnswer": {"@type": "Answer", "text": "本文由{{AUTHOR_SAFE}}（{{AUTHOR_ROLE_SAFE}}）撰写，讨论了{{TAGS_SAFE}}等话题。"}}
     ]
   }
   </script>
@@ -146,7 +146,7 @@
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pulitocapital.com"},
       {"@type": "ListItem", "position": 2, "name": "洞察", "item": "https://www.pulitocapital.com/blog/"},
-      {"@type": "ListItem", "position": 3, "name": "{{TITLE}}"}
+      {"@type": "ListItem", "position": 3, "name": "{{TITLE_SAFE}}"}
     ]
   }
   </script>
