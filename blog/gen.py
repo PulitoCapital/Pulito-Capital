@@ -56,20 +56,20 @@ def generate_articles(articles):
         tags = art.get("tags", [])
         tags_html = "".join(f'<span>{t}</span>' for t in tags)
 
-        # Build related articles (max 2: same category first, then next)
-        related = []
-        for j, other in enumerate(articles):
-            if j == i: continue
-            if len(related) < 1 and other.get("category") == art.get("category"):
-                related.append(other)
-            elif len(related) < 2:
-                related.append(other)
-            if len(related) >= 2: break
+        # Build related articles (max 3: same category first, then latest)
+        same_cat = [other for j, other in enumerate(articles) if j != i and other.get("category") == art.get("category")]
+        other_cat = [other for j, other in enumerate(articles) if j != i and other.get("category") != art.get("category")]
+        related = same_cat[:2] + other_cat[:1]
+        # Ensure we have at least 2
+        if len(related) < 2:
+            remaining = [o for o in other_cat if o not in related]
+            related.extend(remaining[:2-len(related)])
         # If fewer than 2 found, pad with whatever's next
-        for j, other in enumerate(articles):
-            if j == i: continue
-            if other not in related and len(related) < 2:
-                related.append(other)
+        if len(related) < 2:
+            for o in articles:
+                if o != art and o not in related:
+                    related.append(o)
+                    if len(related) >= 2: break
         
         related_html = ""
         if related:
@@ -286,7 +286,7 @@ def generate_index(articles):
 
 def generate_rss(articles):
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>璞合资本 · 洞察</title>
   <link>{SITE_URL}/blog/</link>
@@ -299,7 +299,8 @@ def generate_rss(articles):
         rss += f"""  <item>
     <title>{art['title']}</title>
     <link>{SITE_URL}/blog/articles/{art['slug']}.html</link>
-    <description>{art['excerpt']}</description>
+    <description><![CDATA[{art['excerpt']}<br><br>{art['content'][:3000]}]]></description>
+    <content:encoded><![CDATA[{art['content']}]]></content:encoded>
     <pubDate>{art.get('date_rfc', art['date'])}</pubDate>
     <author>{art['author']} · {art['author_role']}</author>
     <guid>{SITE_URL}/blog/articles/{art['slug']}.html</guid>
