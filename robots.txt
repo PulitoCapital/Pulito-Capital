@@ -2,9 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.pulitocapital.com/sitemap.xml
+
 # 百度站长平台抓取适配
 User-agent: Baiduspider
 Allow: /
-
-# 禁止爬取管理路径
-Disallow: /assets/
