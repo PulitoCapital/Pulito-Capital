@@ -430,7 +430,8 @@ def generate_homepage_insights(articles):
     with open(index_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    pattern = r'<a href="/blog/" class="insight-article reveal reveal-d1">.*?</a>\s*\n\s*<a href="/blog/" class="insight-article reveal reveal-d2">.*?</a>\s*\n\s*<a href="/blog/" class="insight-article reveal reveal-d3">.*?</a>'
+    # 只匹配以 .html 结尾的常规卡片（跳过手工定制的特卡，如 pulito-loova-deal-closure-75-days）
+    pattern = r'<a href="/blog/articles/[^"]+\.html" class="insight-article reveal reveal-d1">.*?</a>\s*\n\s*<a href="/blog/articles/[^"]+\.html" class="insight-article reveal reveal-d2">.*?</a>\s*\n\s*<a href="/blog/articles/[^"]+\.html" class="insight-article reveal reveal-d3">.*?</a>'
     new_content = re.sub(pattern, '\n'.join(cards), content, flags=re.DOTALL)
     
     with open(index_path, 'w', encoding='utf-8') as f:
