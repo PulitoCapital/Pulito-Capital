@@ -8,8 +8,8 @@
   window.__pulitoChatLoaded = true;
 
   var script = document.currentScript;
-  // 默认指向璞合官网服务器双客服后端；可用 data-worker 属性覆盖
-  var WORKER = (script && script.getAttribute("data-worker")) || "http://114.132.236.63:8787";
+  // 默认指向璞合官网服务器双客服后端（HTTPS）；可用 data-worker 属性覆盖
+  var WORKER = (script && script.getAttribute("data-worker")) || "https://chat.pulitocapital.com";
 
   // 按路径分流：/en/ → investor(小合)，其余 → founder(小璞)
   var isEn = location.pathname.indexOf("/en/") === 0;
