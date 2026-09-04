@@ -45,9 +45,9 @@ def generate_articles(articles):
     with open(TEMPLATE, "r", encoding="utf-8") as f:
         tmpl = f.read()
 
-    # First pass: assign slugs to all articles
+    # First pass: assign slugs (explicit 'slug' field wins; else slugify title)
     for art in articles:
-        art["slug"] = slugify(art["title"])
+        art["slug"] = art.get("slug") or slugify(art["title"])
 
     for i, art in enumerate(articles):
         slug = art["slug"]

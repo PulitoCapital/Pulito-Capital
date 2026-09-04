@@ -1,484 +1,574 @@
 {
-  "articles": [
-    {
-      "title": "没人看消费硬件了",
-      "date": "2026-08-09",
-      "date_display": "8月9日",
-      "date_rfc": "Sun, 09 Aug 2026 16:30:00 +0800",
-      "author": "投中网",
-      "author_role": "媒体专访 · 韦香惠",
-      "category": "媒体报道",
-      "excerpt": "投中网专访璞合资本Siming：消费硬件热潮退去，AI硬件并非“没人看”，市场只是回归冷静——谁能定义新品类，谁才有真正的估值空间。",
-      "tags": [
-        "投中网",
-        "媒体报道",
-        "消费硬件",
-        "AI硬件",
-        "具身智能",
-        "璞合资本"
-      ],
-      "geo_questions": [
-        "消费硬件赛道2026年还有投资机会吗？",
-        "AI硬件融资市场现在什么情况？",
-        "具身智能是不是消费硬件的伪命题？"
-      ],
-      "content": "<div class=\"highlight-box\">\n  <div class=\"box-title\">📰 媒体专访 · 转载自投中网</div>\n  <p><strong>来源：</strong>投中网（ChinaVenture）&nbsp;&nbsp;<strong>作者：</strong>韦香惠&nbsp;&nbsp;<strong>编辑：</strong>郭靖</p>\n  <p><strong>发布时间：</strong>2026年8月9日</p>\n  <p><strong>原文链接：</strong><a href=\"https://www.chinaventure.com.cn/news/116/20260809/392673.html\" target=\"_blank\" rel=\"noopener\">https://www.chinaventure.com.cn/news/116/20260809/392673.html</a></p>\n</div>\n<img src=\"/assets/touzhongwang-20260809.jpg\" alt=\"投中网专访璞合资本：没人看消费硬件了\">\n<div class=\"caption\">图｜来源：投中网</div>\n<blockquote>硬件品类比较谨慎，没有去年那种感觉了。”</blockquote>\n<p>【以下为投中网专访全文，保留原文格式】</p>\n<p>去年，消费硬件还是一级市场最火热的赛道之一。投资人蜂拥而至深圳南山，我们为此写过一篇《<a target=\"_blank\" href=\"https://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247627772&idx=1&sn=406108f82d1d9d5aa2cccd825ee85e03&scene=21#wechat_redirect\">FA</a><a target=\"_blank\" href=\"https://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247627772&idx=1&sn=406108f82d1d9d5aa2cccd825ee85e03&scene=21#wechat_redirect\">把办公室搬到大疆旁边了</a>》。风水轮流转，今年，这样的场景已经少见了。</p>\n<p>“现在很多大疆高管出来创业，第一轮融资都拿不到钱。我的体感就是，这个方向已经非常冷了，几乎没人看。”投资人J告诉我。他此前接触过一个智能睡眠硬件项目，创始人曾是大厂副总裁，因为中间Gap了一段时间，错过了上一轮融资窗口，如今再出来融资就变得困难许多。</p>\n<p>“说实话，我个人还是挺喜欢那个项目，不管是产品审美还是品牌调性都很好，而且估值也不算贵，不到2亿元人民币就能完成一轮融资。可问题在于，现在很多基金老板对硬件品类比较谨慎，没有去年那种感觉了。”他说。</p>\n<p>要知道，伴随消费硬件的火热，这个赛道一度越投越抽象。从去年开始，我们陆续接触到一些听上去有些新奇的项目信息，比如，缝纫机、豆腐机、制冰机等等。第一次看到这些项目时，我们也觉得颇为新奇，拿去和几位投资人交流。然而，被认为是“擅于接受新生事物”的00后投资人在接收到此类项目信息时也有些迷惑，他们给出的反馈大多是“看不懂”“不会投”“怎么退出？”</p>\n<p>长期看硬件的投资人Z告诉我，这些看上去比较小众、猎奇的硬件项目，其实也是在去年硬件最火的时候融到的钱。甚至很多FA第一轮都会介绍给红杉、高瓴、IDG这些机构。对于这些头部美元基金来说，他们很多时候并不会做特别细的判断，他们赌的是命中率，不能miss，而不是怕投错。</p>\n<p>不过，热度降下来，并不意味着这个赛道已经沉寂。</p>\n<p>Siming长期深耕硬件投资，不久前创业成立了一家定位AI Native的FA机构——璞合资本，专注AI硬件和AI应用出海。他的理解是，AI硬件并没有像外界想象中那样“没人看”，投资机构仍在持续关注，只是相比去年，市场情绪明显冷静了许多。“大家现在更希望先看一看，这一批已经拿到融资的公司，最后到底能不能跑出来。”</p>\n<p>这也可以理解，任何一个赛道都不可能一直处于疯狂融资状态。阶段性的融完、投完之后，就是等待这些公司长大和交成绩单的时候了。</p>\n<p><strong>“下一个拓竹”，可能不Work了</strong></p>\n<p>先来看看最近这个赛道上融到过亿金额的案例。</p>\n<p>不久前，一家名为影智XBOT的公司宣布连续完成两轮、合计数亿元融资。其中，A轮2亿元由香港简坤资本GPTX投资，B轮融资规模约3亿至5亿元，由多支政府基金、美元基金和产业投资方共同参与。这家公司成立于2022年，定位通用餐饮具身机器人，核心产品为AI咖啡机器人，引入多模态交互系统、视觉感知和大模型技术，单台售价约21.9万元。</p>\n<p>同属咖啡机这个赛道，另一家商用全自动咖啡机品牌咖爷科技，也完成近4亿元人民币B轮融资，创下该赛道单笔融资纪录，由美团龙珠领投，高瓴创投等机构跟投</p>\n<p>去年hicool上，我曾见到过影智的产品，当时还同一个巴西做咖啡贸易生意的小伙伴一起聊了聊。如果单从风味来讲，美式或者拿铁恐怕难以品出个什么水平，但是点了一杯拿铁，再上传一张照片，就可以得到同款拉花，当下情绪价值确实被拉满了。</p>\n<p>有意思的是，这家公司创始人唐沐曾任腾讯用户研究与体验设计中心总经理、小米生态链副总裁。风靡几代人的早期经典QQ头像，就有不少出自他和团队之手；小米路由器、小爱音箱等消费硬件爆品，也有他的参与。目前它的咖啡机器人已经在全球100多个城市落地超过1000台，累计制作咖啡超过400万杯；2025年营收突破1亿元，2026年手里的订单金额也已经接近3亿至5亿元。</p>\n<p>不管对资本还是消费者，DIY所带来的情绪价值确实是可以构成为之买单的理由。类似产品的逻辑，最典型的莫过于消费级3D打印。</p>\n<p>“本质上大家买的还是一个消费产品，只不过买的是情绪价值。”siming聊到最近在准备服务一家做智能缝纫机的公司，算是比较典型的带有情绪价值的项目。在他看来，这类产品结合AI之后，可以实现高度定制化，让越来越多喜欢时尚、热爱DIY的年轻人参与进来，就像拓竹，打开了DIY的新纪元。水面之上，消费级智能纺织公司浪爪智能（CLAWLAB）前不久宣布连续完成数轮超亿元融资，投资方包括红杉、顺为资本、元璟资本和米哈游等。浪爪智能成立于 2022 年 12 月，创始人胡文鑫工程师背景出身，曾就职于大疆、美团等头部大厂。他表示，纺织作为一个历史悠久的方向，天然切中「衣食住行」的首位，是一件足够大且真的需求，而定制化 DIY 是在刚需满足后，大家向内探索、向外表达的下一步需求。这三年多里，他主要专注 3 件事情：锚定消费级纺织 DIY 天花板最高的方向沿途攻坚；积累足够多的弹药为后续品类大爆发做准备；以及建立足够开放、极致的氛围，为后续更多人才的加入提供匹配的环境。</p>\n<p>听上去不明觉厉。当然，这样的逻辑也不是都能得到认可。投资人Z说，按兴趣爱好划分的硬件如无弦吉他，由于技术壁垒比较低，后来者很容易进入，价格战也会打得很激烈。除非公司一开始就有比较好的生态构建能力以及快速拓品能力，否则很容易陷入内卷，进而导致增速和毛利都快速下滑。</p>\n<p>再比如，3D打印确实是一个不错的方向，但现在，创想三维的市值也只有90亿港币，而收入已经做到30亿港币，PS已经非常低了。“你想想，30亿元收入，在二级市场对应的市值只有90亿港币。大部分智能硬件公司其实都做不到30亿元收入，不是一件容易的事情。”</p>\n<p>在Z看来，第一轮融资的时候，由于团队本身不是特别fancy，第一轮估值一般不会卡得特别高。他们往往是通过众筹、海外出货，把市场核心痛点解决了，产品卖得不错，所以美元基金或者人民币基金就会从PE的角度来投，比如一块钱收入，对应一块钱估值。</p>\n<p>二级市场的影响来得最为直接。去年我们写AI硬件赛道热的时候，市场上甚至是说，美元基金已经all in消费硬件。一来，背靠中国强大的供应链，结合硬件很容易成为创业者的首选方向。二来，影石的上市也无疑进一步鼓动了投资人看硬件的热情。</p>\n<p>但后来的表现大家也都知道了，影石市值狂跌，从1500亿元到现在大概500多亿元。“消费级3D打印机第一股”的创想三维上市后，市值到现在跌了差不多一半，一路逼近发行价。“去年下半年一块钱收入可以对应十块钱估值，但今年完全变了，已经跌下来很多，很多公司可能也就是两三倍PS。”Z告诉我。</p>\n<p>J则认为，在消费硬件领域，如果做不到赛道头部，第一，上升空间其实有限；第二，就算你真成了赛道里最厉害的玩家，也不一定会选择上市，像拓竹、大疆这种现金流非常好的公司，其实都没有明确的上市计划。</p>\n<p>“大家开始回归理性了，因为事实证明不work。你把估值抬得那么高，最后业绩不符合预期，还是得自己买单。”</p>\n<p><strong>AI不够，具身来凑？</strong></p>\n<p>另一个趋势是，越来越多消费硬件公司开始主动拥抱\"具身智能\"概念。</p>\n<p>以前面提到的AI咖啡机器人为例，它的故事早已不止于一台会拉花的咖啡机，而是进一步定位为通用家庭人形机器人。按照公司的描述，这套智能系统不只是执行预设程序，而是拥有一个能够理解、迁移和自主决策的\"可泛化任务大脑\"。通过在全球百余座城市、上千个场景中的持续部署，系统不断获取数据、迭代模型，最终形成数据驱动的进化闭环，让产品具备持续成长的能力。</p>\n<p>比如我们前面说的咖啡机，他们也不满足于只是拉花，而是定位在通用家庭人形机器人。在创始人的构想中，智能系统不止于执行预设程序，更拥有一个“可泛化”的任务大脑，能够理解、迁移并自主决策。通过全球百城千景的规模化部署，构筑了独一无二的数据驱动进化闭环，让产品拥有持续成长的生命力。</p>\n<p>Siming的看法是，很多创业团队都在讲这样的故事，但他觉得这里面其实有一点伪命题。因为创业公司前期出货量不够，数据积累本身就很难，属于典型的“先有鸡还是先有蛋”。很多人说，有了数据就能形成闭环，但投资人会反问：那你的数据从哪里来？不过，他也认为，数据价值本身没有问题，关键在于数据是否足够稀缺。例如，有做宠物硬件的团队，未来的商业模式可能并不只是卖硬件，而是将长期积累的宠物行为数据提供给机器人公司或具身智能企业。\"这套逻辑我觉得是成立的，因为这些数据别人确实拿不到。\"对于家庭场景而言，真正的问题在于数据是否具有足够的泛化能力。Z就提到，家庭具身智能本质上就是消费电子，只不过服务对象变成了家庭。像家里的扫地机器人、洗地机这些自动化、智能化设备，未来可能还会有机械臂参与做家务，它们当然可以完成一些固定场景、固定流程的任务，但采集到的数据，很难泛化到整个家庭环境，更难支撑真正意义上的通用智能。从目前来看，它所创造的价值，与产品价格之间依然存在不小的落差。</p>\n<p>相比于\"具身智能\"这个概念本身，siming更关注的是，谁能够真正定义一个新品类。siming认为，AI硬件本身是一个非常好的概念。如果有机会发明一个新品类，并且率先定义出来的，那么它的估值空间，会比Copycat或者Follower高好几倍。</p>\n<p>还有一类投资人的思路是，先把一个极细分的小品类做到全球第一，再逐步向相邻市场扩张。到了那个阶段，消费者买的已经不仅仅是产品，而是品牌本身。品牌心智建立起来以后，再去延伸新品类，会容易得多。比如，影石走的就是这条路。</p>\n<p>具体来讲，Z告诉我，他现在主要关注两个方向，一个是大硬件大软件，比如DIY硬件、CNC、3D打印这类复杂产品，原因是这些都是大品类，而且存在技术壁垒，是他重点关注的方向。另一个方向是小硬件大软件，或者小硬件加更底层的应用。他认为，这类产品不仅仅是上层算法，而是会涉及到底层材料、器件，再到上层算法，形成完整的技术壁垒。随着AI的发展，比如Codex以及各种Coding Agent，软件开发的门槛已经被大幅降低了。以前大家认为壁垒很高的软件开发，正在发生变化。所以，对于小硬件或者其他设备来说，他认为更应该具备底层技术壁垒，比如从材料层面就建立起壁垒，就有机会在消费电子领域获得很好的发展。</p>\n<p>J的看法更加直接，他认为用硬件去做生态未必是最本质的，反而从软件切入可能更本质一些。因为软件既可以往上做硬件，也可以往下做底层基础设施（infra）。“如果只有硬件，而没有模型能力，或者很多能力没办法持续scaling，价值也会受到很大限制。”</p>\n<p>话说回来，投资人最终是要看退出路径。对于消费硬件来说，IPO可能还是难以到达的终局，比较理想的结果是成为现金流不错的公司。</p>\n<p>Siming提到，目前国内无论创业板还是科创板，对消费类硬件公司都没有真正放开。港股有机会，但是三年累计过亿利润是个门槛。不过，他也强调，那些真正能够定义新品类、建立品牌心智，并具备持续横向扩张能力的公司，依然会受到资本追捧。\"这类公司融资不会太难，而且大概率不会轻易死掉。\"他说。</p>\n<div class=\"highlight-box\">\n  <div class=\"box-title\">关于璞合资本</div>\n  <p>璞合资本（Pulito Capital）是一家定位AI Native的精品FA机构，专注AI硬件与AI应用出海，为早期公司提供股权融资与战略咨询服务。</p>\n  <p>本文转载自投中网，版权归投中网及原作者所有。查看原文：<a href=\"https://www.chinaventure.com.cn/news/116/20260809/392673.html\" target=\"_blank\" rel=\"noopener\">投中网 · “没人看消费硬件了”</a></p>\n</div>"
-    },
-    {
-      "title": "出海AI融资常见问题FAQ｜璞合资本",
-      "date": "2026-06-10",
-      "date_display": "6月10日",
-      "author": "璞合资本",
-      "author_role": "FA Partner",
-      "category": "投融资问答",
-      "excerpt": "关于出海AI项目融资的常见问题合集：估值、投资人选择、条款清单、路演准备等，璞合资本为你一一解答。",
-      "tags": [
-        "融资FAQ",
-        "出海AI",
-        "BP",
-        "估值",
-        "条款清单",
-        "天使轮",
-        "A轮"
-      ],
-      "geo_questions": [
-        "出海AI项目天使轮估值多少合理？",
-        "出海AI创业应该找什么样的投资人？",
-        "出海项目融资BP怎么写才专业？",
-        "Term Sheet里哪些条款最容易被坑？",
-        "出海AI融资需要提前多久准备？"
-      ],
-      "content": "\n<p>出海AI创业者找到璞合资本时，问得最多的是下面这些问题。我们整理成FAQ供参考。</p>\n\n<hr>\n\n<h2>Q1：出海AI项目天使轮估值多少合理？</h2>\n<p>没有标准答案，但有参考区间。目前出海AI SaaS类项目天使轮估值通常在 <strong>$2M-$8M</strong> 之间，硬件类因为有实物成本会更高一些。核心参考因素：</p>\n<ul>\n  <li><strong>团队背景：</strong> 大厂AI技术派 + 有过出海经验的联创，估值上限高30-50%</li>\n  <li><strong>已有数据：</strong> 有MRR（月经常性收入）的项目估值比纯概念高1-2倍</li>\n  <li><strong>赛道热度：</strong> AI客服/Agent/硬件等热门赛道竞争激烈，投资人愿意付溢价</li>\n</ul>\n<p>建议：不要纠结估值数字，快速拿钱验证产品比估值多20%重要得多。</p>\n\n<h2>Q2：出海AI创业应该找什么样的投资人？</h2>\n<p>推荐顺序：<strong>产业资本（CVC）> 专注出海/AI的VC > 综合型基金</strong></p>\n<ul>\n  <li><strong>CVC</strong>：能给出海项目带来客户资源和渠道，如星纳赫资本、天图投资</li>\n  <li><strong>专注型VC</strong>：理解出海AI的节奏和风险，决策快、投后精准</li>\n  <li><strong>综合基金</strong>：看好出海但内部决策链长，适合A轮以后</li>\n</ul>\n<p>关键问题：投资人有没有出海项目的投后经验？如果没有，你花在\"教育投资人\"上的时间会很多。</p>\n\n<h2>Q3：出海项目BP怎么写才专业？</h2>\n<p>出海BP跟国内BP最大的区别是：<strong>投资人最关心的是「你怎么理解海外市场」</strong>。</p>\n<p>好的出海BP会包含：</p>\n<ul>\n  <li>目标市场的用户洞察（不是数据堆砌，是真实痛点）</li>\n  <li>本地化策略（产品、营销、团队三方面）</li>\n  <li>竞争格局的全球视角（不是只看国内竞品）</li>\n  <li>合规和风险（数据跨境、支付、税务）</li>\n</ul>\n\n<h2>Q4：Term Sheet里哪些条款最容易被坑？</h2>\n<p>早期融资三大容易踩坑的条款：</p>\n<ul>\n  <li><strong>清算优先权（Liquidation Preference）</strong>：1x non-participating 是常规，超过这个要小心</li>\n  <li><strong>反稀释条款（Anti-dilution）</strong>：加权平均是行业标准，不要同意\"完全棘轮\"（Full Ratchet）</li>\n  <li><strong>董事会构成</strong>：创始人最好保持多数席位或控制权</li>\n</ul>\n<p>建议：早期融资找熟悉出海投资的律师审TS，费用通常$3k-$8k，省下来的钱远不止这个数。</p>\n\n<h2>Q5：出海AI融资需要提前多久准备？</h2>\n<p>我们建议 <strong>至少提前3-4个月</strong>。</p>\n<ul>\n  <li><strong>第1个月</strong>：梳理BP + 财务模型 + 投资人列表</li>\n  <li><strong>第2个月</strong>：接触首批投资人（10-15家），收集反馈</li>\n  <li><strong>第3个月</strong>：根据反馈迭代BP，扩大触达范围</li>\n  <li><strong>第4个月</strong>：集中路演 + TS谈判 + 关账</li>\n</ul>\n<p>这个节奏不是说不能更快，但融资过程中必然有延期和意外——时间留足了你才不会在压力下接受不利条款。</p>\n\n<hr>\n\n<h2>还有更多问题？</h2>\n<p>璞合资本专注出海/AI Agent/AI智能硬件方向的早期融资服务。如果你的项目匹配我们的方向，欢迎发BP到 bp@pulitocapital.com。</p>\n<p style=\"font-size:13px;color:var(--text-muted);margin-top:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)\">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>\n"
-    },
-    {
-      "title": "创始人访谈｜出海AI创业一年，我学会的三件事",
-      "date": "2026-06-10",
-      "date_display": "6月10日",
-      "author": "璞合资本",
-      "author_role": "FA Partner",
-      "category": "创始人访谈",
-      "excerpt": "和一位做出海AI客服的创始人聊了3个小时，从他踩过的坑里总结出三条值得所有出海AI创业者警醒的经验。",
-      "tags": [
-        "创始人访谈",
-        "出海AI",
-        "创业心得",
-        "AI客服"
-      ],
-      "content": "\n<p><strong>编者按：</strong>璞合资本的「创始人访谈」系列，邀请我们在跟投和服务过程中深度接触的创业者，分享他们最真实的创业心得。本期嘉宾是一位出海AI客服赛道的创始人（应要求匿名），公司已服务超200家海外客户，月活用户破百万。</p>\n\n<p>以下是他自述整理——</p>\n\n<hr>\n\n<h2>第一件事：别迷信「技术壁垒」，你的护城河在产品之外</h2>\n\n<p>我犯过最大的错误，就是在第一年拼命堆技术，以为模型效果比别人好5%就是壁垒。</p>\n\n<p>后来发现客户根本不在乎。他们在乎的是：你能不能直接对接Zendesk？能不能处理WhatsApp的24小时断开重连？能不能自动识别东南亚客户混杂英语和本地语言的留言？</p>\n\n<p><strong>出海AI的技术壁垒是伪命题。</strong> 你的模型效果比竞品好10%，客户感受不出来。但你多接了一个渠道、少了一次掉线、快了一天的响应速度——这些客户能直接感受到。</p>\n\n<p>现在我团队的研发资源配比是 40% 产品化 + 30% 渠道对接 + 30% 模型优化。产品化能力才是真正的护城河。</p>\n\n<h2>第二件事：你的第一批客户决定你的产品方向</h2>\n\n<p>我们最早一批客户来自东南亚的电商卖家。帮他们做客服自动化的过程中，我们发现一个共性需求——多账号管理。</p>\n\n<p>东南亚电商卖家平均管3个Shopee店铺、2个Lazada店铺，每个店铺还有不同的客服账号。用我们产品的第一个月，他们说的最多的一句话就是「能不能让我在一个后台看到所有店铺的消息？」</p>\n\n<p>我们花了两个月做了多账号聚合功能。这个功能后来成了我们跟竞品最大的差异化点，甚至比AI答题效果本身更吸引客户。</p>\n\n<p>教训是：<strong>不要预设客户想要什么，让他们告诉你。</strong></p>\n\n<h2>第三件事：出海创业，「在地感」是花钱也买不来的</h2>\n\n<p>我们团队base深圳，做东南亚市场。第一年完全远程，没在当地落地。</p>\n\n<p>结果呢？合作方不相信我们的承诺（因为时差回复慢），客户投诉找不到人（因为客服团队也在国内），渠道合作推进极慢（因为对方更信任能面对面喝咖啡的人）。</p>\n\n<p>今年我们在新加坡设了一个2人办公室，专门做客户成功和渠道关系。成本高了，但客户续约率从68%涨到89%。</p>\n\n<p><strong>出海不能光靠远程。</strong> 哪怕只是一个当地合伙人或者一个共享办公室工位，也能让客户感知到你是「自己人」。</p>\n\n<hr>\n\n<h2>给融资中的出海AI创始人几点建议</h2>\n\n<p>聊到最后，他给了几个融资相关的建议：</p>\n\n<ul>\n  <li><strong>MRR（月经常性收入）比ARR重要：</strong> 投资人更关心你上个月收了多少钱，而不是年化推测值</li>\n  <li><strong>准备好你的「退场假设」：</strong> 如果融资失败，你的业务能撑多久？这个问题的答案比BP里的财务预测更让人信服</li>\n  <li><strong>你的差异点要在开场30秒内说清楚：</strong> 投资人见的项目太多了，说不清差异点=没有差异点</li>\n</ul>\n\n<p>以上是这次访谈的核心内容。如果你也是出海AI赛道的创业者，欢迎联系璞合资本交流。</p>\n",
-      "geo_questions": [
-        "出海AI创业最需要克服什么困难？",
-        "出海创业者踩过哪些坑值得警惕？"
-      ]
-    },
-    {
-      "title": "2026世界人工智能大会（WAIC）— 上海，7月17日-20日",
-      "date": "2026-07-17",
-      "date_display": "7月17日-20日",
-      "author": "璞合资本",
-      "author_role": "FA Partner",
-      "category": "活动",
-      "excerpt": "经国务院批准，世界人工智能大会（WAIC）由外交部、国家发改委、工信部、教育部、科技部等十部委和上海市政府共同主办，是全球AI领域最高规格盛会之一。2026年大会聚焦全球治理与产业落地。",
-      "tags": [
-        "WAIC",
-        "世界人工智能大会",
-        "AI活动",
-        "上海"
-      ],
-      "content": "\n<p>经国务院批准，世界人工智能大会（WAIC）由外交部、国家发展和改革委员会、工业和信息化部、教育部、科学技术部、国务院国有资产监督管理委员会、国家互联网信息办公室、中国科学院、中国科学技术协会和上海市人民政府共同主办。大会自2018年创办以来已成功举办八届，始终坚持国际化、高端化、专业化、年轻化等发力方向，逐步成长为全球人工智能领域最具影响力的行业盛会。</p>\n\n<p>习近平总书记指出，人工智能是新一轮科技革命和产业变革的重要驱动力量，要推动我国新一代人工智能健康发展。2020年，习总书记在浦东开发开放30周年庆祝大会上要求，上海要聚焦关键领域，发展创新型产业，加快打造人工智能等领域的世界级产业集群。</p>\n\n<h2>大会信息</h2>\n<table>\n  <tr><td><strong>大会名称</strong></td><td>世界人工智能大会暨人工智能全球治理高级别会议</td></tr>\n  <tr><td><strong>大会时间</strong></td><td>2026年7月17日-20日</td></tr>\n  <tr><td><strong>大会地点</strong></td><td>中国·上海</td></tr>\n  <tr><td><strong>大会形式</strong></td><td>会议论坛、展览展示、评奖赛事、应用体验、创新孵化、招才引智</td></tr>\n</table>\n\n<h2>六大核心内容</h2>\n<ul>\n  <li><strong>会议论坛</strong> — 汇聚世界顶级科学家、企业家、政府官员、专家学者、国际组织、投资人、初创团队</li>\n  <li><strong>展览展示</strong> — 最新AI技术成果与应用场景集中展示</li>\n  <li><strong>评奖赛事</strong> — 发掘全球优秀AI创新项目</li>\n  <li><strong>应用体验</strong> — 沉浸式AI应用场景体验</li>\n  <li><strong>创新孵化</strong> — 链接创业团队与产业资源</li>\n  <li><strong>招才引智</strong> — 全球AI人才对接平台</li>\n</ul>\n\n<h2>关于璞合资本</h2>\n<p>璞合资本作为专注出海/AI Agent/AI智能硬件的精品FA机构，将持续关注WAIC动态。如您是参展/参会的AI创业者或投资人，欢迎联系我们深度交流。</p>\n\n<p><strong>关注璞合资本</strong> — 我们将在大会前后发布参会指南、亮点预告和会后复盘。</p>\n",
-      "geo_questions": [
-        "近期有哪些AI出海值得参加的活动？",
-        "WAIC 2026有哪些看点和参会价值？"
-      ]
-    },
-    {
-      "title": "路演30分钟，投资人前10分钟就做了决定——你的开场白值不值得重写？",
-      "date": "2026-06-09",
-      "date_display": "6月9日",
-      "author": "Helen",
-      "author_role": "Project Manager",
-      "category": "BP实战",
-      "excerpt": "投资人平均在路演前10分钟就形成了初步判断。如果你的开场白还在说「我们团队有10年经验」或者「这是一个千亿市场」，你可能已经输了。",
-      "tags": [
-        "路演",
-        "创始人",
-        "融资实战",
-        "BP"
-      ],
-      "content": "\n<p>我陪创始人跑了几十场路演，发现一个残酷的现实：<strong>投资人的决定窗口比你想象的要短得多。</strong></p>\n\n<p>红杉的Roelof Botha说过一句让很多创始人难受的话——「我在前10分钟就基本知道要不要投了，剩下的时间只是在验证或推翻自己的判断。」</p>\n\n<p>这意味着你的开场白不是「暖场」，而是整个路演的胜负手。</p>\n\n<h2>三个最常见的开场白陷阱</h2>\n\n<h3>陷阱一：「我们先介绍一下市场背景」</h3>\n<p>很多创始人习惯用行业宏观数据开场：全球AI市场规模xxxx亿、年复合增长率xx%……</p>\n<p><strong>问题：</strong>投资人每天都在看赛道，你念的数字他们比你熟。占用最宝贵的注意力窗口讲他们已知的信息，等于浪费。</p>\n<p><strong>建议：</strong>直接切入具体问题。第一句话就让他们觉得「咦，这个角度我没想过」。</p>\n\n<h3>陷阱二：「我们团队有十年经验」</h3>\n<p>团队背景很重要，但它不该是开场第一件事。</p>\n<p><strong>问题：</strong>团队介绍是对你「是谁」的回答，但投资人最先想知道的是「你解决了什么问题」。顺序反了。</p>\n<p><strong>建议：</strong>前3分钟讲清楚「什么变化让你的产品现在必须存在」，再自然过渡到「为什么是我们来做」。</p>\n\n<h3>陷阱三：「我们的目标是三年内做到行业第一」</h3>\n<p>这种话投资人一年听几百遍，已经免疫了。</p>\n<p><strong>问题：</strong>宏大愿景没有错，但路演不是发布会。投资人要的是可验证的路径，而不是一个愿望。</p>\n<p><strong>建议：</strong>把愿景拆解为「未来12个月的3个里程碑」——具体、可衡量、有执行路径。</p>\n\n<h2>一个有效的开场白结构</h2>\n<p>我见过最有效的路演开场，基本都长这样：</p>\n<blockquote>「过去18个月，[某个具体行业] 发生了一个根本变化：[一句话描述变化]。这个变化导致 [目标用户] 遇到了 [一个具体的、正在痛的问题]。我们做了一个 [产品一句话]，上线 [时间] 以来，已经 [一个具体的数据验证]。」</blockquote>\n<p>这个结构的精髓在于：</p>\n<ul>\n  <li><strong>时间锚点</strong>（「过去18个月」）→制造紧迫感</li>\n  <li><strong>具体变化</strong> → 展示你对行业的洞察深度</li>\n  <li><strong>具体的用户痛</strong> → 让投资人立刻能带入场景</li>\n  <li><strong>数据验证</strong> → 证明你不是在画饼</li>\n</ul>\n\n<h2>投资人最想验证的三个问题</h2>\n<p>不管你用什么方式开场，整场路演本质上只回答三个问题：</p>\n<ol>\n  <li><strong>为什么是现在？</strong> —— 什么市场/技术/环境变化让这个窗口打开</li>\n  <li><strong>为什么是你？</strong> —— 你的团队为什么是这个赛道最合适的团队</li>\n  <li><strong>为什么是这条路？</strong> —— 你的产品/商业模式选择背后的逻辑</li>\n</ol>\n<p>30分钟的路演，最好在15-20分钟内把这三个问题讲清楚，留下10分钟深度对话。</p>\n\n<h2>一句话建议</h2>\n<p>下次路演前，把第一页PPT删掉。从第二页开始讲。</p>\n<p>因为你的第一页，投资人大概率不会记得。</p>\n",
-      "geo_questions": [
-        "创始人融资路演有哪些常见错误？",
-        "BP怎么写才能让投资人感兴趣？",
-        "早期融资BP最重要的几个要素是什么？"
-      ]
-    },
-    {
-      "title": "AI Agent正在从「万能助手」走向「垂直工人」——三个最值得关注的方向",
-      "date": "2026-06-09",
-      "date_display": "6月9日",
-      "author": "Sage",
-      "author_role": "BD Analyst",
-      "category": "赛道观察",
-      "excerpt": "2025年的AI Agent赛道在卷「通用能力」，2026年风向变了——投资人开始追捧能解决特定行业痛点的「垂直Agent」。本文拆解三个正在跑出来的方向。",
-      "tags": [
-        "AI Agent",
-        "赛道观察",
-        "智能硬件",
-        "AI出海"
-      ],
-      "content": "\n<p>这半年我密集看了40+个AI Agent项目，一个明显的变化正在发生——</p>\n\n<p><strong>2025年的时候，每个BP都说「我们的AI Agent什么都能做」。</strong></p>\n<p><strong>2026年，投资人只问你「你能做什么？」</strong></p>\n\n<p>从「万能」到「专精」的转向，背后有两个驱动因素：一是大模型能力趋同让通用Agent很难建立壁垒，二是行业客户愿意为「解决一个具体问题」付费，但不愿意为「全能演示」买单。</p>\n\n<p>以下三个方向是我认为当前最值得关注的：</p>\n\n<h2>方向一：客服Agent的「出海本地化」升级</h2>\n<p>AI客服不新鲜，但出海场景下有一个被忽视的刚需：<strong>多语言+多时区+多渠道的协同问题</strong>。</p>\n<p>东南亚一个电商品牌可能同时运营Shopee、Lazada、TikTok Shop、独立站4个渠道，覆盖5种语言，客户咨询分布在3个时区。传统方案要么贵（招本地团队），要么体验差（翻译插件）。</p>\n<p>出海Agent玩家的机会在于：<strong>不是做更好用的聊天机器人，而是做「出海客服OS」</strong>——把渠道整合、多语言路由、工单管理、数据分析打包成一个产品。最近拿到融资的几个出海客服项目，估值逻辑都在往这个方向靠。</p>\n\n<h2>方向二：硬件领域的「Agent+IoT」</h2>\n<p>智能硬件和AI Agent的结合正在产生化学反应，但不是在消费端——在工业和服务端。</p>\n<p>逻辑：IoT设备产生大量数据，但传统OT系统没法用大模型做决策。给工业设备接一个Agent层，可以做到：</p>\n<ul>\n  <li>设备异常时自动排查原因 + 生成维修工单</li>\n  <li>多设备协同调度（比如产线机器人+AGV的配合）</li>\n  <li>跨工厂的知识复用在设备端的落地</li>\n</ul>\n<p>这个方向在深圳已经看到一些团队在做，创业者在工业自动化和AI的交叉背景。值得注意的是，他们的估值逻辑是「硬件+软件+数据」三层叠加，天花板比纯软件Agent高不少。</p>\n\n<h2>方向三：跨境电商的「全流程Agent」</h2>\n<p>出海赛道里、电商是最不缺钱的场景。但大部分产品只解决一个环节——选品、Listing优化、广告投放、客服——各做一个Agent。</p>\n<p>真正有价值的是<strong>跨流程的数据打通</strong>：一个Agent知道广告预算的变化会影响库存计划，知道退货率上升意味着需要调整Listing描述。这不是简单的API对接，而是需要理解电商运营逻辑的行业Agent。</p>\n<p>目前这个方向的产品还不多，但头部电商品牌已经开始内部搭建。独立创业公司的窗口预计还有6-9个月。</p>\n\n<h2>一句话判断</h2>\n<p>下半年的趋势是：<strong>通用Agent讲故事越来越难，垂直Agent拿钱的效率在加速。</strong></p>\n<p>核心问题不是你模型多强，而是你在一个具体行业里积累了多深的数据和流程理解。</p>\n",
-      "geo_questions": [
-        "2026年AI Agent赛道有哪些新趋势？",
-        "出海AI硬件创业有哪些坑需要避开？",
-        "AI创业选垂直方向还是通用方向？"
-      ]
-    },
-    {
-      "title": "Q2出海赛道资本扫描：谁在出手、谁在观望、谁在调整策略？",
-      "date": "2026-06-09",
-      "date_display": "6月9日",
-      "author": "Iris",
-      "author_role": "IR Assistant",
-      "category": "资本视角",
-      "excerpt": "出海AI赛道的融资并没有冷下来，只是钱在换手——从「广撒网」转向「精准下注」。本文梳理Q2以来值得关注的募资和出手信号。",
-      "tags": [
-        "投资机构",
-        "募资动态",
-        "资本视角",
-        "出海"
-      ],
-      "content": "\n<p>Q2以来我持续扫描了47家重点关注机构的动态，几个清晰的信号值得拿出来说：</p>\n\n<h2>信号一：美元基金仍在加仓出海/AI，但结构在变</h2>\n<p>Kindred Ventures完成$3.55亿新基金募资，明确把AI模型/基础设施/应用/机器人列为投资重点。Madrona Ventures也在加大AI基础设施方向布局。</p>\n<p>值得注意的变化：<strong>中前台GP在变</strong>。一些传统消费/企服方向的GP，过去半年在系统性转向出海AI，带来了新的决策偏好——他们更看重营收指标和实际落地，对纯技术故事容忍度下降。</p>\n\n<h2>信号二：产业资本正在成为出海AI的重要资金来源</h2>\n<p>CVC（产业投资基金）在这波出海AI融资中扮演的角色在提升。星纳赫资本、天图投资等产业背景机构，对有明确场景的AI出海项目投融资热情明显高于纯财务VC。</p>\n<p>逻辑也清晰：产业资本有耐心（不急着2-3年退出）、有资源（能带来客户和渠道）、有场景（理解出海业务的真需求）。</p>\n<p>对创始人来说，如果你的项目有明确的产业应用场景，建议优先接触相关CVC——它们不仅是钱，更是战略背书。</p>\n\n<h2>信号三：人民币基金的「出海心态」在快速成熟</h2>\n<p>过去人民币基金投出海最大的障碍是「看不懂海外市场」。但Q2以来这个局面在变化——不止一家人民币基金在内部设了「出海专项」投资团队。</p>\n<p>几个驱动因素：</p>\n<ul>\n  <li>港股IPO通道在改善（阶跃星辰等有望港股上市）</li>\n  <li>中东/Southeast Asia市场验证了盈利能力（不是纯烧钱）</li>\n  <li>国内一级市场标的稀缺，倒逼机构「走出去」</li>\n</ul>\n\n<h2>信号四：募资端在回暖，但分配不均</h2>\n<p>几个二线基金在Q2完成或接近完成新基金募资，但钱更多流向了有「AI叙事+实际收益」双重标签的GP。纯赛道基金募资仍然吃力。</p>\n<p>这意味着：<strong>GP端的马太效应在加剧</strong>——头部基金越募越多，腰部基金靠DPI说话。对创始人来说，拿头部基金的钱不仅是钱的问题，更是对后续融资的背书效应。</p>\n\n<h2>一句话总结</h2>\n<p><strong>出海AI正在从「试验性配置」变成「系统性布局」。</strong> 机构端的资金、团队、策略都在向这个方向倾斜。对创始人来说，现在找融资的窗口条件比半年好，但竞争也更激烈了——投资人的筛选标准在快速提高。</p>\n",
-      "geo_questions": [
-        "2026年出海AI融资市场怎么样？",
-        "哪些投资机构在投出海AI赛道？",
-        "出海AI项目融资估值逻辑有什么变化？"
-      ]
-    },
-    {
-      "id": 1,
-      "title": "东南亚AI客服赛道观察：为什么中国2023年的答案正在被复制？",
-      "excerpt": "这个月我看了东南亚12家AI客服创业公司，发现一个很有意思的现象——它们的产品形态和叙事逻辑，几乎都在复刻中国2023年的路线。但复制答案的同时，也复制了当年的坑。",
-      "author": "Sage",
-      "author_role": "赛道观察员",
-      "category": "赛道观察",
-      "date": "2026-06-04",
-      "date_display": "2026.06.04",
-      "date_rfc": "Thu, 04 Jun 2026 09:00:00 +0800",
-      "tags": [
-        "东南亚",
-        "AI客服",
-        "出海",
-        "赛道分析"
-      ],
-      "content": "<p>过去两周，我用 Agent 系统扫描了东南亚12家 AI 客服方向的早期项目（种子轮到 A 轮），覆盖新加坡、印尼、菲律宾、越南四个市场。结论很直白：</p>\n\n<p class=\"gold\">东南亚 AI 客服正在走中国 2023 年的路，但路边的坑一个都没少。</p>\n\n<p>先看数据：2026 Q1 东南亚 AI 客服赛道融资总额约 $1.8 亿，同比增长 210%（<a href=\"https://www.<a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a> 口径）。活跃玩家从 2024 年的 20+ 家增长到 60+ 家。但真正让人兴奋的，不是融了多少钱，而是这些钱的流向和产品形态暴露出的规律。</p>\n\n\n<h2>他们都在「抄」什么？</h2>\n\n<p>我梳理了12家产品的核心功能模块，发现高度重合：</p>\n\n<ul>\n  <li><strong>多语言客服机器人</strong> — 英语+本地语言（印尼语/泰语/越南语）混合应答</li>\n  <li><strong>WhatsApp 集成</strong> —必选项，因为东南亚电商 70%+ 客服发生在 WhatsApp</li>\n  <li><strong>知识库 RAG</strong> —上传文档自动生成 FAQ 答案库</li>\n  <li><strong>人工转接 + 工单系统</strong> — 类似 <a href=\"https://www.<a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a> 的基础能力</li>\n</ul>\n\n<p>这跟中国 2023 年 AI 客服创业公司的功能清单几乎一模一样。区别在于：中国玩家 2024 年已经开始卷 Agentic Workflow（自动执行多步任务），而东南亚大部分还停留在「被动问答」阶段。</p>\n\n\n<h2>三个被忽视的坑</h2>\n\n<p>复制路线不可怕，可怕的是连坑一起复制。我看下来，三个典型问题：</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑一：多语言 ≠ 本地化</div>\n  <p>印尼语有 700+ 方言，越南语南北口音差异巨大。大部分产品用 <a href=\"https://translate.google.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Google Translate</a> 级别的 NLP 做本地化，导致精准率在 65-75% 之间徘徊。中国 2023 年的教训是：方言覆盖不够，客服机器人会变成「客户劝退器」。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑二：SaaS 定价不适合当地 LTV</div>\n  <p>中国 SaaS 经历了 2023-2024 的惨烈教育——中小企业根本付不起 $500+/月。东南亚大部分国家人均 GDP 还低于中国，$200/月就是天花板。我看到几家项目还按美国定价逻辑在打，危险。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑三：基础设施差带来的交付成本</div>\n  <p>印尼和菲律宾的互联网稳定性、支付基础设施（不到 40% 人口有银行卡）、以及 WhatsApp API 的政策限制，让原本简单的 SaaS 部署变成「半定制化项目制」。有一家创业公司告诉我，50% 的技术团队时间花在解决集成问题上。</p>\n</div>\n\n\n<h2>谁在真正的创新？</h2>\n\n<p>12 家里，有 2 家让我印象深刻：</p>\n\n<ul>\n  <li><strong>一家新加坡的种子轮项目</strong>：不做通用客服，只做跨境电商退换货场景的 AI Agent。每天处理 10,000+ 退换请求，自动化率 87%。垂直得狠，数据壁垒深。</li>\n  <li><strong>一家雅加达的 Pre-A 项目</strong>：把客服 AI 和当地支付系统（<a href=\"https://www.gopay.co.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">GoPay/OVO/DANA</a>）深度打通，用户直接在对话里完成退款。这是东南亚特有场景，中国玩家做不了。</li>\n</ul>\n\n<p>这两家的共性是：<strong>没有试图复制硅谷模板，而是从本地真实场景长出产品</strong>。</p>\n\n\n<h2>对创始人的建议</h2>\n\n<p>如果你想在东南亚做 AI 客服方向，我的建议很简单：</p>\n\n<ol>\n  <li><strong>别卷通用型</strong> — 大厂（Zendesk、Intercom）和本地巨头（GoTo、Grab）早晚入场</li>\n  <li><strong>选一个东南亚独有的垂直场景</strong> — 退换货、跨境支付客服、本地物流追踪，都是好切入点</li>\n  <li><strong>定价腰斩再腰斩</strong> — 按印尼中小企业能承受的价格倒推，而不是按你的成本</li>\n  <li><strong>从交付能力建立壁垒</strong> — 把集成经验产品化，让后来者追不上</li>\n</ol>\n\n<blockquote>\n  <p>东南亚 AI 客服赛道正在经历中国 2023 的翻版——窗口期有 12-18 个月，第一批跑通 PMF 的团队会拿到最大红利。但前提是，别把 2023 年的坑一起搬过来。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://developers.facebook.com/docs/whatsapp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">WhatsApp Business API</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资数据与创始人访谈整理，不构成投资建议。如有出海 AI 项目融资需求，欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "2026年AI Agent赛道有哪些新趋势？",
-        "出海AI硬件创业有哪些坑需要避开？",
-        "AI创业选垂直方向还是通用方向？"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "BP写到第3页投资人就不看了？这5个结构错误你很可能在犯",
-      "excerpt": "我做FA PM这几年，看过300+份BP，平均每份停留时间不到3分钟。80%的BP在第三页就输掉了——不是内容不好，是结构在劝退。",
-      "author": "Helen",
-      "author_role": "资深FA PM",
-      "category": "BP实战",
-      "date": "2026-06-04",
-      "date_display": "2026.06.04",
-      "date_rfc": "Thu, 04 Jun 2026 12:00:00 +0800",
-      "tags": [
-        "BP",
-        "融资",
-        "路演",
-        "创始人"
-      ],
-      "content": "<h2>3分钟法则</h2>\n\n<p>先做一道算术题：一个合伙人平均一天看 5-10 份 BP，每份 15-20 页。他的注意力曲线在第 3 页达到峰值，之后直线下降。如果你前 3 页没有回答他真正关心的 3 个问题，后面 12 页写得再好也没用。</p>\n\n<p>哪三个问题？</p>\n\n<ol>\n  <li><strong>你是做什么的？</strong> — 一句话说清楚（不是 slogan，是业务本质）</li>\n  <li><strong>你凭什么能做成？</strong> — 团队+壁垒</li>\n  <li><strong>为什么是现在？</strong> — 市场窗口 + 时机</li>\n</ol>\n\n\n<h2>最常见的 5 个结构错误</h2>\n\n<h3>❌ 错误1：第一页放公司简介而非问题</h3>\n\n<p>大部分 BP 第一页：「XX 公司成立于 X 年，致力于打造……」投资人内心 OS：「关我什么事？」</p>\n\n<p><strong>✅ 正确做法：</strong> 第一页直接上「痛点」——用一张图或一组数据让投资人感受到「这个市场出问题了，不解决不行」。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 案例</div>\n  <p>一个出海项目第一页放了一张东南亚物流延误的实时数据图：<em>「72% 的跨境订单在雅加达滞留超过3天，每天损失 $2.3M」</em>。比任何公司介绍都有力。</p>\n</div>\n\n\n<h3>❌ 错误2：TAM/SAM/SOM 放前三页</h3>\n\n<p>「AI 客服市场 2030 年将达到 $500 亿」——这句废话投资人每天听 10 遍。你放第三页，等于告诉他「我没什么特别要说的」。</p>\n\n<p><strong>✅ 正确做法：</strong> 市场数据放到第 7-8 页，或者直接跟 GTM 策略合并——用市场数据来支撑你的「为什么现在进场」。前三页是抢注意力的，不是做报告的。</p>\n\n\n<h3>❌ 错误3：团队页只有头像和经历</h3>\n\n<p>「CEO 曾在腾讯工作 5 年」「CTO 前阿里 P8」——然后就没了。投资人会想：这跟我有什么关系？</p>\n\n<p><strong>✅ 正确做法：</strong> 团队页要回答「为什么是这些人能做成这件事」——</p>\n\n<ul>\n  <li>CEO 在腾讯期间负责的某条业务线，年 GMV $X 亿，正好跟现在做的方向高度相关</li>\n  <li>CTO 在大厂做的某个技术框架，恰好是当前产品的底层能力</li>\n  <li>或者更重要的：<strong>你们团队之前一起共事过吗？合作多久了？</strong></li>\n</ul>\n\n\n<h3>❌ 错误4：产品功能介绍堆砌</h3>\n\n<p>用半页列了 8 个功能模块，每个配一个截图。</p>\n\n<p><strong>✅ 正确做法：</strong> 只讲 1-2 个核心功能——最能体现壁垒和差异性的那个。用「为什么别家做不了」代替「我们有什么」。</p>\n\n\n<h3>❌ 错误5：财务预测变成「自嗨曲线」</h3>\n\n<p>「2027 年营收 $50M」下面没有任何支撑假设。投资人的反应：「凭什么？」</p>\n\n<p><strong>✅ 正确做法：</strong> 每一行预测都写清楚假设：</p>\n\n<ul>\n  <li>用户数增长 = 基于某个渠道的获客测试数据 × 投入预算</li>\n  <li>客单价 = 已经签下的种子客户合同单价</li>\n  <li>毛利率 = 同类 SaaS 的平均值或你的 pilot 数据</li>\n</ul>\n\n\n<h2>一份好 BP 的黄金结构（10页版）</h2>\n\n<p>我帮项目改得最多的一个结构模板：</p>\n\n<ol>\n  <li><strong>痛点</strong> — 一张图触发共鸣</li>\n  <li><strong>解决方案</strong> — 一句话+一张示意图</li>\n  <li><strong>为什么是现在</strong> — 市场窗口 + 技术拐点</li>\n  <li><strong>产品亮点</strong> — 1-2 个核心差异（Demo 截图）</li>\n  <li><strong>商业模式</strong> — 怎么挣钱，算清 unit economics</li>\n  <li><strong>壁垒</strong> — 技术/数据/网络效应/渠道（选最强的一个）</li>\n  <li><strong>团队</strong> — 不是简历堆砌，是「为什么是我们」</li>\n  <li><strong>市场与GTM</strong> — 优先攻哪个客户群，为什么</li>\n  <li><strong>财务与预测</strong> — 有假设依据的预测</li>\n  <li><strong>融资需求</strong> — 多少钱，花在哪，里程碑是什么</li>\n</ol>\n\n<blockquote>\n  <p>最后说一句：BP 不是产品说明书，是「约 meeting 的工具」。目的是让投资人想见你，不是看完 BP 就做决定。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.intercom.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Intercom</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.investopedia.com/terms/t/total-addressable-market-tam.asp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Investopedia</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.docsend.com/blog/how-much-time-do-investors-spend-reading-pitch-decks/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">DocSend</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为早期出海 AI 项目提供 BP 打磨和路演培训。如需帮助，欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "创始人融资路演有哪些常见错误？",
-        "BP怎么写才能让投资人感兴趣？",
-        "早期融资BP最重要的几个要素是什么？"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Q2出海AI赛道融资复盘：谁在拿钱、估值逻辑变了什么？",
-      "excerpt": "整理了 Q2 出海 AI 方向的 32 笔融资，有几个结构性变化值得每个创始人和投资人注意。",
-      "author": "Iris",
-      "author_role": "IR 分析师",
-      "category": "资本视角",
-      "date": "2026-06-04",
-      "date_display": "2026.06.04",
-      "date_rfc": "Thu, 04 Jun 2026 15:00:00 +0800",
-      "tags": [
-        "融资趋势",
-        "估值",
-        "出海",
-        "Q2复盘"
-      ],
-      "content": "<h2>Q2 出海 AI 赛道融资全景</h2>\n\n<p>Pulito Capital IR 团队跟踪了 2026 Q2（4月-6月）出海 AI 方向的 32 笔公开融资事件，覆盖 Agent、硬件、应用三个子赛道，阶段从种子轮到 B 轮。</p>\n\n<p>几个核心数据：</p>\n\n<div class=\"highlight-box\">\n  <p><strong>总融资额：</strong> 约 $4.2 亿（已披露）<br>\n  <strong>平均轮次金额：</strong> 种子轮 $120 万 / 天使轮 $280 万 / A 轮 $850 万<br>\n  <strong>美元基金占比：</strong> 58% · 人民币基金 32% · 混合型 10%<br>\n  <strong>地理分布：</strong> 东南亚 45% / 中东 22% / 拉美 15% / 非洲 10% / 其他 8%</p>\n</div>\n\n\n<h2>三个结构性变化</h2>\n\n<h3>1. 投资人开始区分「AI+」和「+AI」了</h3>\n\n<p>Q1 的时候，很多标的只要贴上「AI」就能拿到溢价。Q2 开始变了——投资人问的是：</p>\n\n<blockquote>\n  <p>「你这到底是用 AI 重新定义一个品类（AI+），还是在现有产品上加个 AI 功能（+AI）」</p>\n</blockquote>\n\n<p>我们的数据验证了这一点：</p>\n\n<ul>\n  <li><strong>AI+ 项目</strong>（Agent Native / AI First）平均估值溢价 35%，融资速度快 2 倍</li>\n  <li><strong>+AI 项目</strong>（传统 SaaS 加了 copilot）估值与 Q4 2025 持平，且投资人 DD 周期拉长了 40%</li>\n</ul>\n\n<p>换句话说：<strong>AI 的「标签红利」正在消退，结构红利才开始</strong>。如果你的产品设计不是从 AI 能力倒推的，投资人越来越不买账。</p>\n\n\n<h3>2. 估值锚点从「对标美国」切换到「对标本地」</h3>\n\n<p>2025 年出海项目讲估值故事的标准句式：「这个赛道在美国是 $X 亿，东南亚只有 1/10，所以我们……」</p>\n\n<p>2026 Q2 这个逻辑失效了。投资人开始问更具体的问题：</p>\n\n<ul>\n  <li>你瞄准的这个东南亚市场的 ARPU 到底是多少？</li>\n  <li>对标的是 <a href=\"https://investors.grab.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Grab/GoTo</a> 还是 Goto 的估值，还是他们收购的某个业务线的估值？</li>\n  <li>当地有没有上市公司可以类比？P/S 倍数多少？</li>\n</ul>\n\n<p>我们的观察：<strong>能用「本地上市公司对标+Unit Economics」讲估值故事的创始人，融资成功率高出 2.3 倍</strong>。</p>\n\n\n<h3>3.「深度科技」标签在硬件赛道失效</h3>\n\n<p>Q1 我们注意到一批 AI 硬件项目靠「自研芯片」「多模态模型」「空间计算平台」拿到不错估值。Q2 投资人的态度变了——他们开始做一个更简单的选择题：</p>\n\n<p><strong>「你这个硬件，第一天能卖给谁？」</strong></p>\n\n<p>能回答清楚的，拿钱。回答不清楚的，一律按「没有 PMF」处理，估值打 7 折。硬件赛道的投资人正在从技术崇拜转向场景导向——这对出海项目尤其关键，因为海外市场的渠道验证本身就需要时间。</p>\n\n\n<h2>Q3 展望：三个信号值得关注</h2>\n\n<ol>\n  <li><strong>中东主权基金加速入场</strong> — <a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a>、PIF 都在组建专门的 AI 投资团队，关注跨境 SaaS 和 AI 硬件。对出海项目，这可能是一个被低估的融资来源</li>\n  <li><strong>美元基金的回流趋势</strong> — 几家头部美元基金 Q2 在东南亚设立办公室，东南亚本地基金也在募资，人民币-美元混合结构的需求在上升</li>\n  <li><strong>垂直 Agent 融资窗口持续</strong> — 通用 Agent 融资越来越难，但做垂直场景（电商客服、跨境物流、出海合规）的 Agent 项目估值仍然坚挺</li>\n</ol>\n\n<blockquote>\n  <p>以上数据基于公开信息和 Pulito Capital 尽职调查网络的交叉验证。如需完整版 Q2 融资分析报告，欢迎扫码添加微信联系</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://investors.grab.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Grab Investor Relations</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：<a href=\"https://www.<a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>、<a href=\"https://<a href=\"https://pitchbook.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a>、<a href=\"https://36kr.com/overseas\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\"><a href=\"https://36kr.com/overseas\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">36氪出海</a></a>、Pulito Capital IR 追踪网络</p>",
-      "geo_questions": [
-        "2026年出海AI融资市场怎么样？",
-        "哪些投资机构在投出海AI赛道？",
-        "出海AI项目融资估值逻辑有什么变化？"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "天使轮融资协议中的「清算优先权」：创始人最容易被坑的一个条款",
-      "excerpt": "清算优先权这个条款，80% 的天使轮创始人签的时候没看懂。等看懂的时候，往往是公司快要被并购或清算了——但那时候已经来不及了。",
-      "author": "Lex",
-      "author_role": "法务合伙人",
-      "category": "合规法务",
-      "date": "2026-06-04",
-      "date_display": "2026.06.04",
-      "date_rfc": "Thu, 04 Jun 2026 20:00:00 +0800",
-      "tags": [
-        "法务",
-        "条款陷阱",
-        "天使轮",
-        "股权架构"
-      ],
-      "content": "<h2>一个真实的案例</h2>\n\n<p>去年有个出海 AI 硬件项目找我审协议。创始人在天使轮拿了 $200 万，条款里写的是「1x 非参与清算优先权」，看起来没问题对吧？</p>\n\n<p>结果 A 轮的时候，A 轮投资方要求加上「参与权」（Participating），并且追索到天使轮。创始人没太在意。今年公司以 $1,500 万被收购——创始人算完账发现，自己到手的比预期少了 60%。</p>\n\n<p>问题就出在清算优先权的「参与」二字上。</p>\n\n\n<h2>清算优先权到底在说什么？</h2>\n\n<p>一句话：<strong>公司被并购或清算时，钱先分给投资人，再分给创始人</strong>。</p>\n\n<p>但「先分多少」「分完还有没有」——这就是条款的微妙之处。</p>\n\n\n<h2>三种常见形态（从好到坏排序）</h2>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🟢 1x 非参与清算优先权（Non-Participating）</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额（$200 万），剩下按持股比例分配。</p>\n  <p><strong>对创始人：</strong> ⭐⭐⭐⭐⭐ 最佳</p>\n  <p><strong>适用场景：</strong> 优质项目、强势创始人。这是市场标准条款（Market Standard）。如果你的项目足够好，就坚持要这个。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🟡 1x 参与清算优先权（Participating）——但设上限（Capped）</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额，再按持股比例参与剩余分配——但总额不超过投资额的 2x/3x。</p>\n  <p><strong>对创始人：</strong> ⭐⭐⭐ 可以接受</p>\n  <p><strong>适用场景：</strong> 如果必须给参与权，一定要争取加上 cap。常见的 cap 是 2x-3x。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🔴 1x 参与清算优先权（Participating）——无上限</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额，再按持股比例参与剩余分配，没有上限。</p>\n  <p><strong>对创始人：</strong> ⭐ 最差，慎签</p>\n  <p><strong>后果：</strong> 上面的案例就是这种。公司稍微卖得不好，创始人可能一分都拿不到。</p>\n</div>\n\n\n<h2>一个算账的例子</h2>\n\n<p>假设：公司天使轮融资 $200 万，投资人占 20%。3 年后公司以 $1,000 万被收购。</p>\n\n<table style=\"width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;color:#e8e8f0\">\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.3)\">\n    <th style=\"text-align:left;padding:10px;color:var(--gold);font-weight:600\">条款类型</th>\n    <th style=\"text-align:right;padding:10px;color:var(--gold);font-weight:600\">投资人拿到</th>\n    <th style=\"text-align:right;padding:10px;color:var(--gold);font-weight:600\">创始人团队拿到</th>\n  </tr>\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.1)\">\n    <td style=\"padding:10px\">非参与 (最好)</td>\n    <td style=\"text-align:right;padding:10px\">$200 万</td>\n    <td style=\"text-align:right;padding:10px\">$800 万</td>\n  </tr>\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.1)\">\n    <td style=\"padding:10px\">参与·有上限 (2x)</td>\n    <td style=\"text-align:right;padding:10px\">$360 万</td>\n    <td style=\"text-align:right;padding:10px\">$640 万</td>\n  </tr>\n  <tr>\n    <td style=\"padding:10px\">参与·无上限 (最差)</td>\n    <td style=\"text-align:right;padding:10px\">$400 万</td>\n    <td style=\"text-align:right;padding:10px\">$600 万</td>\n  </tr>\n</table>\n\n<p>如果公司卖得再低一点（$500 万）：</p>\n\n<ul>\n  <li>非参与：投资人拿 $200 万，创始人拿 $300 万</li>\n  <li>参与·无上限：投资人拿 $200 万 + ($300 万 × 20%) = $260 万，创始人拿 $240 万</li>\n</ul>\n\n<p>差距 60 万，对早期创始人来说，可能是一套房的首付。</p>\n\n\n<h2>给创始人的 3 条建议</h2>\n\n<ol>\n  <li><strong>天使轮一定争取「Non-Participating」</strong> — 这个阶段项目不确定性最高，保留下行保护是合理的。大多数专业机构不会在天使轮强推参与权。</li>\n  <li><strong>如果必须给「Participating」，一定要加 Cap</strong> — 上限设在 2x-3x。同时争取在 A 轮时把参与权取消（或是把天使轮转为 Non-participating）。</li>\n  <li><strong>让律师审查，并且让律师解释清楚「worst case scenario」</strong> — 不要只看模版。让律师算一遍：如果我卖 $X，我能拿多少？X 从低到高跑三个场景。</li>\n</ol>\n\n<blockquote>\n  <p>提醒一句：条款没有绝对的好坏，核心是「你理解了你在签什么」。签完协议后看不懂的条款，大概率对你不利。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://angel.co/<a href=\"https://www.nvca.org/model-legal-documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Term Sheet</a>s\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">AngelList</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">YC <a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">SAFE</a></a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.nvca.org/model-legal-documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">NVCA</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。融资协议审核请咨询专业律师。璞合资本提供融资协议审阅服务，欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "天使轮融资协议有哪些关键条款需要注意？",
-        "出海项目的股权架构怎么设计？",
-        "Vesting Schedule怎么设置才合理？"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱",
-      "excerpt": "这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。",
-      "author": "Sage",
-      "author_role": "赛道观察员",
-      "category": "赛道观察",
-      "date": "2026-06-05",
-      "date_display": "2026.06.05",
-      "date_rfc": "Fri, 05 Jun 2026 09:00:00 +0800",
-      "tags": [
-        "AI硬件",
-        "深圳工厂",
-        "PMF",
-        "出海供应链"
-      ],
-      "content": "<p>先说一个反直觉的事实：</p>\n\n<p class=\"gold\">2026 Q1 AI硬件出海项目的死亡率高达63%——但死因不是技术不行，而是第一批货没卖出去。</p>\n\n<p>我花了两周时间，跑了深圳宝安、东莞长安一共12家AI硬件代工厂，见了20多位创业者。覆盖品类从AI眼镜、AI录音笔到AI宠物陪伴机器人。本来想看看技术进展，结果发现了一个更值得说的事——<strong>PMF陷阱正在批量消耗创始人的钱和信心</strong>。</p>\n\n\n<h2>陷阱一：把「工具」当成「产品」</h2>\n\n<p>这可能是最普遍的坑。一个AI录音笔项目的创始人是大厂语音算法出身，技术能力没得说。他给我看产品时很兴奋：「我们把Whisper做了硬件适配，离线转录准确率97%，还加了实时翻译。」</p>\n\n<p>我问了一句：「第一批1000台卖给谁了？」</p>\n\n<p>他说：「还没量产，先发<a href=\"https://www.<a href=\"https://www.kickstarter.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Kickstarter</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Kickstarter</a>看看。」</p>\n\n<p>这就是问题。他做的是一个<strong>功能</strong>（离线转录+翻译），而不是一个<strong>产品</strong>（为什么非要用这个硬件而不是App？在什么场景下用户会掏出这个而不是手机？）</p>\n\n<p>在工厂的视角看，这种项目的生命周期是：开模→试产→发现问题→改模→再试产→放弃。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 区分方法</div>\n  <p>问自己一个问题：<strong>如果这个AI功能被做成App免费了，你的硬件还卖得掉吗？</strong>如果答案是不确定，你很可能在做工具而不是产品。</p>\n</div>\n\n\n<h2>陷阱二：低估「ID→量产」之间的隐形死胡同</h2>\n\n<p>深圳工厂的朋友跟我说了句话我印象很深：<strong>「很多创始人以为ID设计做完就完成了大半，其实ID做完，真正的坑才开始。」</strong></p>\n\n<p>几个真实案例：</p>\n\n<ul>\n  <li>某AI眼镜项目，ID很漂亮，但散热方案没留空间。量产时才发现芯片在连续使用20分钟后表面温度达到53°C——不能戴。改结构，重新开模，+8周，+¥30万。</li>\n  <li>某AI宠物摄像头，结构设计时没考虑东南亚高湿度环境。第一批1000台出货到曼谷后，15%在两周内出现镜头起雾。退货率炸了。</li>\n  <li>某AI学习机，选择了全金属外壳做高端感，结果忽略了海外物流成本——单台运费从预估的$5.2涨到$12.8，直接把毛利打平了。</li>\n</ul>\n\n<p>这些坑的共同点：<strong>创始人在做ID的时候，脑子里只有「好看」，没有「活着」</strong>。散热、防水、防震、物流成本、包装体积——每一件事都能杀死一条产品线。</p>\n\n\n<h2>陷阱三：用「国内打法」做「海外渠道」</h2>\n\n<p>出海AI硬件最惨烈的死法是什么？按国内的打法备货、定价、铺渠道，然后发现海外不吃这一套。</p>\n\n<p>一个做AI学习机的项目，国内打法很熟：抖音投流→直播间转化→抖音小店成交。出海选了<a href=\"https://seller.tiktokglobalshop.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">TikTok Shop</a>+独立站。第一批备了5000台。</p>\n\n<p>结果：</p>\n<ul>\n  <li>TikTok Shop上架的审核周期4周（国内2天）</li>\n  <li>用户从看到到购买的转化链路拖长2-3倍</li>\n  <li>退货率12%（国内同类产品5-6%）</li>\n  <li>物流+关税让成本上升40%</li>\n</ul>\n\n<p>5000台只卖出不到1000台，剩下的4000台堆在海外仓每天吃仓储费。</p>\n\n<p>创始人复盘时说了一句话：「在国内我们什么渠道打法都懂，到了海外就像换了个游戏。」</p>\n\n\n<h2>给创始人的四个建议</h2>\n\n<ol>\n  <li><strong>先做100台MVP</strong> — 别一上来就开模5000台。用手板+小批量试产（100-200台）卖给目标用户，验证「有人真的愿意花钱买」再放大。</li>\n  <li><strong>找有出海经验的硬件PM</strong> — 深圳不缺硬件工程师，缺的是出过货到海外、踩过坑的PM。这个角色值他年薪的十倍。</li>\n  <li><strong>把物流成本算进定价模型</strong> — 很多创始人的定价公式是 <a href=\"https://www.investopedia.com/terms/b/bill-of-materials.asp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">BOM</a>×3=出厂价。但出海硬件的实际成本是：BOM+模具摊销+物流+关税+海外仓+退货损耗。按这个算，BOM×5都未必有正毛利。</li>\n  <li><strong>渠道验证前置</strong> — 在开模之前，先搞清楚目标市场的渠道逻辑。<a href=\"https://sellercentral.amazon.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Amazon</a>还是独立站？批发还是DTC？每个渠道的获客成本和退货率是多少？这些数据应该出现在BP的第2页，而不是第9页。</li>\n</ol>\n\n<blockquote>\n  <p>AI硬件是个好赛道，但这个赛道不奖励「想法最强」的人，只奖励「第一批货卖得掉」的人。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://sellercentral.amazon.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Amazon</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://seller.tiktokglobalshop.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">TikTok Shop</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://github.com/openai/whisper\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Whisper</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于深圳-东莞硬件供应链实地调研整理。如有AI硬件出海项目融资需求，欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "2026年AI Agent赛道有哪些新趋势？",
-        "出海AI硬件创业有哪些坑需要避开？",
-        "AI创业选垂直方向还是通用方向？"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "投资人问「你的壁垒是什么？」——别告诉我你答的是「技术领先」",
-      "excerpt": "我审过的300+份BP里，「壁垒」页的平均质量是最低的。90%的创始人把「技术领先」「先发优势」「团队背景」写上去了——而这三点在投资人眼里几乎等于「没有壁垒」。",
-      "author": "Helen",
-      "author_role": "资深FA PM",
-      "category": "BP实战",
-      "date": "2026-06-05",
-      "date_display": "2026.06.05",
-      "date_rfc": "Fri, 05 Jun 2026 12:00:00 +0800",
-      "tags": [
-        "壁垒",
-        "BP",
-        "融资技巧",
-        "竞争分析"
-      ],
-      "content": "<h2>为什么「技术领先」不算壁垒？</h2>\n\n<p>每次看BP翻到壁垒页，我内心都是复杂的——因为我知道接下来大概率会看到这三个词中的一个：</p>\n\n<ul>\n  <li><strong>技术领先</strong> — 大厂能挖你的人，能花更多钱</li>\n  <li><strong>先发优势</strong> — 先发不是壁垒，先发后跑得快才是</li>\n  <li><strong>团队背景</strong> — 投资人是投你这个人，不是投你的壁垒</li>\n</ul>\n\n<p>不是说这些不重要，而是——<strong>它们经不起<a href=\"https://www.cbinsights.com/research/tech-moat/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">压力测试</a></strong>。</p>\n\n<p>投资人问壁垒的时候，真正在问的是：</p>\n\n<div class=\"highlight-box\">\n  <p style=\"font-size:1.1rem;color:var(--gold);font-weight:500\">「如果腾讯/字节/阿里明天决定做你这件事，你还能活多久？」</p>\n</div>\n\n<p>大部分创始人的「技术领先」在这个问题面前撑不过三秒。</p>\n\n\n<h2>真正有效的四种壁垒</h2>\n\n<p>我过去一年看过几百个项目，真正让我觉得「这个壁垒靠谱」的不超过10%。总结下来，有效的壁垒只有四种：</p>\n\n\n<h3>🛡️ 1. 数据网络效应</h3>\n\n<p><strong>最强的一种。</strong> 用户越多→数据越多→模型越好→产品越好→用户越多。这是一个自我强化的飞轮。</p>\n\n<p>典型案例：一个做AI跨境电商选品的项目，早期就是靠工具卖 $29/月 拉用户。两年后积累了1.2亿条 SKU 级销售数据。新竞争者从零开始，即使技术一样好，没有数据就做不到同样的预测准确率。</p>\n\n<p><strong>在BP里怎么呈现：</strong></p>\n<ul>\n  <li>不用写「我们有数据积累」——要写「我们积累了X条数据，新竞争者要达到同等水平需要Y个月和$Z万」</li>\n  <li>给投资人算时间账和资金账</li>\n</ul>\n\n\n<h3>🛡️ 2. 渠道独占</h3>\n\n<p><strong>被低估的一种。</strong> 尤其是在出海赛道。如果某个市场/渠道只有你能进去，这就是最强壁垒。</p>\n\n<p>案例：一个做印尼 B2B 食材供应链的 AI 项目。他们的壁垒不是什么 AI 算法，而是签下了雅加达最大的生鲜批发市场的数字结算独家协议。所有交易数据从他们手上过，竞争对手要进来只能铺地推硬抢。</p>\n\n<p><strong>关键区别：</strong> 渠道独占是有「排他性」的。如果你只是「跟渠道关系好」，那不算独占。</p>\n\n\n<h3>🛡️ 3. 规模化成本优势</h3>\n\n<p>不是靠低价，而是靠结构性的成本差异。比如AI驱动的自动化让边际成本接近零，或者供应链整合让采购成本低30%。</p>\n\n<p>一个出海AI翻译项目，壁垒是他们在菲律宾自建了人机协同的质量审核团队。纯机器翻译质量不够，纯人工太贵，他们找到的结合方式把成本压到了竞品的60%。而且规模越大，成本差距越大。</p>\n\n\n<h3>🛡️ 4. 监管准入</h3>\n\n<p><strong>在海外市场尤其好用。</strong> 金融、医疗、教育、数据合规——这些领域的牌照和认证本身就是壁垒。</p>\n\n<p>一个做东南亚<a href=\"https://en.wikipedia.org/wiki/Buy_now,_pay_later\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">BNPL</a>+AI风控的项目，最大壁垒是在印尼拿到了<a href=\"https://www.ojk.go.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OJK</a>的注册号。光走完审批流程就花了14个月。14个月够干什么？够一个竞争对手融两轮钱然后去别的国家了。</p>\n\n\n<h2>如果以上都没有，怎么办？</h2>\n\n<p>诚实比硬造一个壁垒好。</p>\n\n<p>我看到过最好的一个BP，壁垒页就写了一句话：</p>\n\n<blockquote>\n  <p>「目前我们还没有结构性壁垒。但我们通过两个手段快速建立：①我们用18个月跑通的数据管道，竞争对手要花24个月+$200万复现；②我们与3个头部渠道签了数据共享协议，锁定12个月窗口期。我们的时间线如下——」</p>\n</blockquote>\n\n<p>这个创始人没骗自己，也没骗投资人。他最后的融资结果是：TS在3周内签下来了。</p>\n\n\n<h2>一句话总结</h2>\n\n<p>投资人关于壁垒只有一个问题：<strong>「你凭什么认为3年后你还活着，而你最大的竞争对手死了？」</strong></p>\n\n<p>你的壁垒页，只要能扎扎实实回答这个问题，就赢了90%的BP。</p>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ojk.go.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OJK Indonesia</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.cbinsights.com/research/tech-moat/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">CB Insights</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为早期项目提供BP打磨和壁垒梳理服务。欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "创始人融资路演有哪些常见错误？",
-        "BP怎么写才能让投资人感兴趣？",
-        "早期融资BP最重要的几个要素是什么？"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "中东主权基金正在系统性地布局AI——这波钱怎么拿？",
-      "excerpt": "Q2以来，PIF和Mubadala的AI投资团队明显在加速。我梳理了最近6个月中东资本在AI领域的投资图谱，发现他们的逻辑和美元基金完全不同。",
-      "author": "Iris",
-      "author_role": "IR 分析师",
-      "category": "资本视角",
-      "date": "2026-06-05",
-      "date_display": "2026.06.05",
-      "date_rfc": "Fri, 05 Jun 2026 15:00:00 +0800",
-      "tags": [
-        "中东资本",
-        "主权基金",
-        "AI投资",
-        "PIF",
-        "Mubadala",
-        "出海融资"
-      ],
-      "content": "<h2>先看几个数据</h2>\n\n<p>2026年前5个月，中东主权基金在AI领域的投资总额达到$28亿，超过2024全年的$22亿。而且这个数字还在加速——仅5月份就有$7.3亿的新增交易。</p>\n\n<p>几个值得关注的交易：</p>\n\n<ul>\n  <li><strong><a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></strong> 领投了某AI基础设施公司$4.5亿的C轮（沙特）</li>\n  <li><strong>Mubadala</strong> 参与了某AI Agent平台$2亿的B轮（阿布扎比）</li>\n  <li><strong><a href=\"https://www.qia.qa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">QIA</a></strong> 通过旗下基金对5家AI初创进行了战略投资（多哈）</li>\n  <li><strong>ADQ</strong> 宣布设立$10亿规模的AI专项基金（阿布扎比）</li>\n</ul>\n\n<p>但真正重要的不是这些数字，而是数字背后的逻辑。</p>\n\n\n<h2>中东主权基金的AI投资逻辑，和美元基金完全不一样</h2>\n\n<p>我花了点时间梳理了PIF、Mubadala、QIA、ADQ这四家基金的AI投资图谱，发现一个清晰的模式：</p>\n\n\n<h3>逻辑一：不是追求IRR，是追求「国家资产」</h3>\n\n<p>美元基金的逻辑是：投一笔钱→等5-7年→卖股份→拿回报。</p>\n\n<p>中东主权基金的逻辑是：投一笔钱→把技术/能力/团队搬回本国→变成国家基础设施的一部分。</p>\n\n<p>PIF投资AI公司时，几乎都会要求在沙特设立区域总部或研发中心。Mubadala更温和一些，但「技术本地化」也是加分项。</p>\n\n<p><strong>这对出海项目的启示：</strong></p>\n<ul>\n  <li>如果你的BP里写的是「我们会把技术留在国内，只把产品卖过去」——中东基金兴趣不大</li>\n  <li>如果你的BP里写的是「我们愿意在利雅得/阿布扎比设立团队，培训当地人才，跟本地大学合作」——他们会认真看</li>\n</ul>\n\n\n<h3>逻辑二：偏好「能源+AI」和「金融+AI」</h3>\n\n<p>中东经济的两个核心是能源和金融。AI investments 的优先排序非常清楚：</p>\n\n<ol>\n  <li><strong>AI优化能源生产/管理</strong>（包括碳捕捉、电网优化、石油勘探AI）</li>\n  <li><strong>AI驱动的金融基础设施</strong>（特别是跨境支付、伊斯兰金融合规、风险定价）</li>\n  <li><strong>AI+政府服务</strong>（智慧城市、交通、医疗）</li>\n  <li><strong>其他</strong>（电商、物流、教育——这些优先级明显低一些）</li>\n</ol>\n\n<p>你的项目如果正好在前两类里，拿钱的概率比第四类高3-4倍。</p>\n\n\n<h3>逻辑三：喜欢「有人陪跑」的交易</h3>\n\n<p>中东主权基金很少做单独领投（除了非常大额的交易）。他们更习惯跟知名美元VC一起投。</p>\n\n<p>一个典型的交易结构：某硅谷VC领投$2000万，PIF跟投$500万。这个结构的好处是——硅谷VC做DD、做投后、做管理，PIF只出钱、拿资源回报。</p>\n\n<p><strong>潜台词：</strong> 如果你的这轮领投方是中东基金自己，大概率不是他们的核心打法。找一个大家都认识的美元VC做lead，中东基金作为co-investor，融资效率更高。</p>\n\n\n<h2>怎么拿这笔钱？实操建议</h2>\n\n<ol>\n  <li><strong>BP里加上「中东落地方案」</strong> — 不需要很深，但至少要展示你思考过：你的技术怎么适配中东市场？需要本地化什么？可能需要什么样的本地团队？</li>\n  <li><strong>主动接触中东基金的新加坡/伦敦办公室</strong> — PIF和Mubadala在SG和伦敦都有team，比去利雅得敲门的触达效率高得多。</li>\n  <li><strong>准备好回答这个问题</strong>：「你能不能帮沙特/阿联酋培养20个AI工程师？」这是他们最常问的问题之一。</li>\n  <li><strong>注意时间线</strong> — 中东基金的DD周期通常比美元基金长30-50%（6-10周是常态）。做好资金规划。</li>\n</ol>\n\n<blockquote>\n  <p>中东主权基金的入场，可能是2026年出海AI融资市场最大的结构性变量。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://pitchbook.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.adq.ae\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">ADQ</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.adq.ae\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">ADQ</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.qia.qa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">QIA</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：Crunchbase、PitchBook、PIF年度报告、Mubadala投资组合公开信息。Pulito Capital IR追踪网络交叉验证。</p>",
-      "geo_questions": [
-        "2026年出海AI融资市场怎么样？",
-        "哪些投资机构在投出海AI赛道？",
-        "出海AI项目融资估值逻辑有什么变化？"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Vesting Schedule还在用标准4年？你可能会后悔的3个场景",
-      "excerpt": "标准的4年Vesting + 1年Cliff，在硅谷是标配。但在出海的早期项目里，这个标配正在变成创始人的枷锁。",
-      "author": "Lex",
-      "author_role": "法务合伙人",
-      "category": "合规法务",
-      "date": "2026-06-05",
-      "date_display": "2026.06.05",
-      "date_rfc": "Fri, 05 Jun 2026 20:00:00 +0800",
-      "tags": [
-        "Vesting",
-        "股权架构",
-        "出海法务",
-        "创始人权益"
-      ],
-      "content": "<h2>标准方案的问题在哪？</h2>\n\n<p>4年Vesting + 1年Cliff——这个方案来源于<a href=\"https://carta.com/learn/equity/vesting/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">硅谷（标准4年Vesting惯例）</a>，适用于一个假设：公司会在4年内完成从A轮到退出的路径。</p>\n\n<p>但对于出海早期项目，这个假设越来越不成立。</p>\n\n<p>先算一笔账：</p>\n\n<p>出海AI项目的典型时间线：</p>\n<ul>\n  <li>Year 0-1：产品研发+PMF验证（东南亚/拉美市场，每个市场的验证周期是中国国内市场的1.5-2倍）</li>\n  <li>Year 1-2：准备出海、第一笔海外客户、第一轮融资</li>\n  <li>Year 2-3：A轮融资+初步规模化</li>\n  <li>Year 3-4：真正意义上的增长</li>\n</ul>\n\n<p>看到了吗？在第4年的节点，大部分出海项目才刚刚进入增长期。而创始人的Vesting已经到顶了。</p>\n\n\n<h2>三个创始人可能后悔的场景</h2>\n\n\n<h3>🔴 场景一：核心联合创始人在第13个月走了</h3>\n\n<p>标准方案：Cliff 12个月。这意味着联合创始人在第13个月离职，他会带走——</p>\n\n<p><strong>25%的股权。</strong></p>\n\n<p>对于一个早期项目，核心联合创始人在第13个月走人，意味着他在公司最需要他的时候离开了，但他保留了1/4的股份。这1/4的股份会变成：</p>\n\n<ul>\n  <li>A轮投资人的一个「这25%怎么处理？」的问题</li>\n  <li>接替他的人需要的期权从哪里来？</li>\n  <li>如果公司真的做起来了，这25%的投票权和分红权会是一个长期隐患</li>\n</ul>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>考虑将Cliff延长到18-24个月。在出海项目中——尤其是需要跨国协作的——一个联合创始人的第一个12月往往还在「蜜月期」，真正的工作习惯和贡献度在第12-18个月才暴露出来。</p>\n  <p>18个月Cliff能让你在更清楚每个人的实际价值后做决定。</p>\n</div>\n\n\n<h3>🔴 场景二：B轮融资时需要给新高管留期权池</h3>\n\n<p>4年标准Vesting，创始人到第3年的时候手上股份已经全部解锁了。然后B轮融资时，投资人要求设立新的期权池——</p>\n\n<p>问题就来了：新期权池从哪来？</p>\n\n<ul>\n  <li>让创始人稀释？——创始人会觉得不公平（我已经做了3年，凭什么还要我出）</li>\n  <li>让所有股东等比稀释？——老投资人也不愿意</li>\n</ul>\n\n<p>结果是，B轮谈判中多了一个本不需要的摩擦点。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>考虑将创始人的Vesting周期延长到5-6年。不是说控制创始人，而是为了保护创始人自己。</p>\n  <p>逻辑：出海项目的时间线天然比国内项目长。5年Vesting更匹配实际的业务节奏。而且B轮（通常是Year 3-4）需要期权池时，创始人的剩余Vesting可以作为平缓稀释的缓冲。</p>\n</div>\n\n\n<h3>🔴 场景三：公司被并购时触发「单触发加速」</h3>\n\n<p>「单触发加速」（Single Trigger Acceleration）是指在公司被并购时，创始人尚未解锁的股份自动加速解锁。</p>\n\n<p>这听起来是好事对吧？但出海项目中有一个被忽略的问题：</p>\n\n<p><strong>跨境并购往往涉及earn-out机制</strong>——收购方先付一部分，剩下的根据未来2-3年的业绩支付。而如果创始人的股份在交割时全部加速解锁了，后续2年创始人继续留在公司做业绩的动力是什么？</p>\n\n<p>这会直接影响收购方的报价——他们会在估值时把这个风险折价进去。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>在Term Sheet阶段就和投资人谈清楚：「双触发加速」（Double Trigger）是更合理的方案——即并购完成后+创始人被无因解雇两个条件同时触发，才加速解锁。</p>\n  <p>这既保护了创始人（不会被新老板扫地出门还拿不到股份），也保护了deal（收购方不需要在估值里打折）。</p>\n</div>\n\n\n<h2>总结：出海项目Vesting的三个建议</h2>\n\n<ol>\n  <li><strong>Cliff 18个月 vs 12个月</strong> — 更匹配出海团队的磨合周期</li>\n  <li><strong>Vesting 5年 vs 4年</strong> — 更匹配出海项目的实际增长曲线</li>\n  <li><strong>坚持双触发加速</strong> — 保护你，也保护你的deal</li>\n</ol>\n\n<blockquote>\n  <p>条款不该是「别人都这么签所以我也这么签」。真正负责任的建议，是根据你的项目节奏来设计条款。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ycombinator.com/library/4q-how-to-handle-vesting\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\"><a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Y Combinator</a></a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://carta.com/learn/equity/vesting/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Carta</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。融资协议及股权架构设计请咨询专业律师。璞合资本提供融资协议审阅服务。</p>",
-      "geo_questions": [
-        "天使轮融资协议有哪些关键条款需要注意？",
-        "出海项目的股权架构怎么设计？",
-        "Vesting Schedule怎么设置才合理？"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "上海活动｜AI出海·早期融资闭门交流会（6月20日）",
-      "excerpt": "璞合资本联合极光加速器，6月20日在上海举办AI出海早期融资闭门交流会。仅限20位早期AI出海项目创始人参加，扫码报名。",
-      "author": "Pulito",
-      "author_role": "璞合资本",
-      "category": "活动",
-      "date": "2026-06-05",
-      "date_display": "2026.06.05",
-      "date_rfc": "Fri, 05 Jun 2026 09:00:00 +0800",
-      "tags": [
-        "活动",
-        "AI出海",
-        "上海",
-        "融资对接",
-        "闭门会"
-      ],
-      "content": "<div class=\"highlight-box\" style=\"border-color:var(--gold);background:rgba(212,175,55,0.08);text-align:center;padding:32px\">\n  <p style=\"font-size:14px;color:var(--gold);font-weight:600;margin-bottom:8px\">🎯 闭门活动 · 仅限20席</p>\n  <h2 style=\"font-size:1.6rem;margin-bottom:8px\">AI出海 · 早期融资闭门交流会</h2>\n  <p style=\"font-size:14px;color:var(--text-muted)\">璞合资本 × 极光加速器</p>\n</div>\n\n<h2>为什么办这场活动？</h2>\n\n<p>过去一个季度，我们见了100+个出海AI项目，发现一个普遍的瓶颈：创始人不知道怎么高效地和投资人沟通。不是项目不行，是叙事和节奏出了问题。</p>\n\n<p>所以这一次，不做路演，不做Panel——只做三件事：</p>\n\n<ol>\n  <li><strong>Sage分享</strong> — 30分钟讲透当前<a href=\"/blog/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">出海AI赛道</a>的融资窗口和结构性机会</li>\n  <li><strong>Helen 1v1 BP诊断</strong> — 每位参会创始人可获得15分钟一对一BP反馈</li>\n  <li><strong>自由交流</strong> — 现场投资人+Founder深度对接</li>\n</ol>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">📋 活动信息</div>\n  <p><strong>时间：</strong> 2026年6月20日（周六）14:00-17:00<br>\n  <strong>地点：</strong> 上海 · 静安区（具体地址报名后通知）<br>\n  <strong>人数：</strong> 仅限20人（出海AI赛道早期创始人优先）<br>\n  <strong>费用：</strong> 免费（审核制）<br>\n  <strong>报名方式：</strong> 扫码添加微信，备注「闭门会+项目名」</p>\n</div>\n\n<h2>适合谁来？</h2>\n\n<ul>\n  <li>出海AI方向种子轮/A轮项目创始人</li>\n  <li>已有MVP/早期客户，正在准备融资</li>\n  <li>对中东/东南亚/拉美市场有实际布局</li>\n</ul>\n\n<h2>不适合谁？</h2>\n\n<ul>\n  <li>还在idea阶段，没有具体产品方向（建议您过三个月再来）</li>\n  <li>纯国内市场，不考虑出海</li>\n  <li>服务机构/FA等其他角色</li>\n</ul>\n\n<p style=\"color:var(--text-muted);font-size:14px\">名额有限，审核制参与。扫码添加微信，备注「闭门会+项目名+职位」</p>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本活动由璞合资本与极光加速器联合主办。活动解释权归主办方所有。</p>",
-      "geo_questions": [
-        "近期有哪些AI出海值得参加的活动？",
-        "WAIC 2026有哪些看点和参会价值？"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "AI视频Agent赛道深度解析：从仿剪到教学，三个方向刚拿了10个亿",
-      "excerpt": "2026年上半年，AI视频Agent这个细分赛道正在成为资本最密集的押注方向之一。近半年来仅我们追踪到的公开融资就已超过10亿元人民币。这波钱流向了三个不同的方向——AI视频剪辑、AI教育视频、AI视频理解。",
-      "author": "Sage",
-      "author_role": "赛道观察员",
-      "category": "赛道观察",
-      "date": "2026-06-06",
-      "date_display": "2026.06.06",
-      "date_rfc": "Sat, 06 Jun 2026 09:00:00 +0800",
-      "tags": [
-        "AI视频Agent",
-        "资本市场",
-        "赛道分析",
-        "出海"
-      ],
-      "content": "<p>2026年上半年，AI视频Agent这个细分赛道正在成为资本最密集的押注方向之一。近半年来仅我们追踪到的公开融资就已超过10亿元人民币。这波钱流向了三个不同的方向——AI视频剪辑、AI教育视频、AI视频理解。每个方向背后的逻辑、团队、壁垒完全不同。本文尝试做一次系统梳理。</p>\n\n<h2>一、AI视频Agent≠AI视频生成</h2>\n\n<p>在讨论之前，需要先做一次重要的概念区隔。</p>\n\n<p>2024年到2025年，大众认知中的\"AI视频\"主要等于<strong>文生视频</strong>——输入一句话，AI从像素层面生成一段视频。代表产品是<a href=\"https://openai.com/<a href=\"https://openai.com/sora\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a>\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a>的Sora、字节跳动的Seedance、爱诗科技的<a href=\"https://<a href=\"https://pixverse.ai\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PixVerse</a>.ai\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PixVerse</a>等。这是\"AI视频生成\"赛道，核心壁垒在<strong>基座模型能力</strong>，烧钱烧算力，大厂和少数头部创业公司的游戏。</p>\n\n<p><strong>AI视频Agent</strong>则完全不同。它不（主要）从零生成像素，而是在<strong>已有的视频素材或内容基础上，用AI Agent自主完成一个具体的创作或分析任务</strong>。它的核心不是生成，而是<strong>理解、编辑、转化</strong>。</p>\n\n<p>这两者的区别，类比一下：</p>\n\n<pre><code>AI视频生成 = 让AI画一幅油画（从空白画布开始）\nAI视频Agent = 让AI把一堆素材剪成一部短片（加工现有材料）</code></pre>\n\n<p>后者不需要卷基座模型，而是需要在<strong>工程架构、领域知识、用户体验</strong>上建立壁垒。这正是创业公司的机会窗口——也是过去半年十亿级资本涌入的原因。</p>\n\n<h2>二、三个方向，三条路径</h2>\n\n<p>我们把过去半年公开融资的代表性项目按方向归类，发现清晰的三大路径：</p>\n\n<h3>方向一：AI视频剪辑Agent</h3>\n\n<p>这是融资最密集、玩家最多的方向。核心理念是：让AI像一个成熟的剪辑师一样，理解素材、选择片段、组织叙事。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>长视频→短视频切片（播客/直播/NBA比赛 → 抖音/TikTok短视频）</li>\n  <li>口播视频自动剪辑（去语气词、自动加字幕/BGM/特效）</li>\n  <li>电商直播自动剪辑（高光时刻提取+商品卖点标注）</li>\n</ul>\n\n<p>核心竞争力：<strong>工程架构能力</strong>。基座模型大家都能调用，但怎么在30秒内处理完1小时视频、怎么让画面和文案对齐、怎么保证输出节奏感——这些是工程问题，不是模型问题。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>某北京团队，纯工程背景（字节+快手出身），产品上线8个月做到月活30万，Tools for Creators 方向。2026 Q1 完成 $3M 天使轮，估值$15M。客户是中小内容创作者和MCN机构，按产出视频数量收费。</p>\n</div>\n\n<h3>方向二：AI教育视频Agent</h3>\n\n<p>这是一个被严重低估的方向。核心理念：把课本/讲义/文献用AI转化为视频课程。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>论文→5分钟科普视频（自动配图+语音+动画）</li>\n  <li>教材→多语言教学视频（出海场景需求旺盛）</li>\n  <li>企业内部培训材料→标准化视频课件</li>\n</ul>\n\n<p>核心壁垒：<strong>领域知识+叙事结构</strong>。不是把文字朗读出来，而是要根据内容类型自动设计教学节奏——什么时候举例、什么时候画图、什么时候提问。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>一家新加坡团队，专注东南亚K12教育视频生成。技术用开源模型+自研Agent编排层，产品已经进入马来西亚和印尼的50+学校。2026 Q1 完成$5M Pre-A，投资方重点关注出海教育科技。</p>\n</div>\n\n<h3>方向三：AI视频理解Agent</h3>\n\n<p>和前面两个方向不同，这个方向不做视频输出，做视频输入——让AI Agent深度理解视频内容，然后为下游做决策支持。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>电商直播分析（自动识别每件商品的出现时长、讲解转化率、观众情绪变化）</li>\n  <li>视频监控中的行为识别（仓储物流、工业质检）</li>\n  <li>视频内容合规审查（跨境直播的自动审核需求旺盛）</li>\n</ul>\n\n<p>核心壁垒：<strong>准确率+延迟+成本</strong>。在保持高准确率的前提下把延迟和成本压到可商用水平——这不是模型问题，是系统架构问题。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>深圳出海团队，拿的深圳某产业基金+美元VC合投$2M天使轮。产品用AI Agent做跨境直播审核，已经接入3家出海电商平台。差异化在于对马来语/泰语/印尼语的口语识别和内容理解。</p>\n</div>\n\n<h2>三、三个值得关注的趋势</h2>\n\n<ol>\n  <li><strong>工具型→Agent型</strong>：2024年的产品是\"用AI帮忙剪\"（辅助），2026年的产品是\"告诉AI剪什么\"（委托）。这个转变决定了产品形态和定价模型——工具型收月费，Agent型按结果抽成。</li>\n  <li><strong>国内卷完→出海</strong>：视频Agent赛道的国内竞争已经比较激烈，但东南亚、中东、拉美市场几乎空白。教育视频Agent尤其适合出海——本地化成本低、内容合规门槛相对低、需求旺盛。</li>\n  <li><strong>视频Agent+电商</strong>可能是最大的PMF出口：直播切片、商品理解、自动化投放——这三件事凑在一起就是一个完整的\"AI电商内容运营Agent\"。</li>\n</ol>\n\n<h2>四、给创始人和投资人的建议</h2>\n\n<p><strong>对创始人：</strong></p>\n<ul>\n  <li>别碰文生视频，那是有钱人的游戏</li>\n  <li>选择一个垂直场景扎下去，不要做通用视频Agent</li>\n  <li>工程团队>算法团队（在这个赛道）</li>\n  <li>出海窗口还有6-9个月</li>\n</ul>\n\n<p><strong>对投资人：</strong></p>\n<ul>\n  <li>关注团队的执行力而非技术先进性——这个赛道真正稀缺的是能把产品做到\"省心\"的团队</li>\n  <li>三个方向里，教育视频Agent的竞争密度最低，但GTM验证周期最长</li>\n  <li>视频理解Agent在出海场景下有很强的合规壁垒，适合中长期布局</li>\n</ul>\n\n<blockquote>\n  <p>AI视频Agent赛道正在复刻SAAS的工具到Agent的进化路径。第一波做工具的公司活得一般，第二波做Agent的公司正在拿大钱。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.intercom.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Intercom</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.volcengine.com/product/seedance\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">字节跳动 Seedance</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.volcengine.com/product/seedance\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Seedance / 火山引擎</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://openai.com/sora\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资数据与行业访谈整理，不构成投资建议。如有出海AI项目融资需求，欢迎扫码添加微信联系</p>",
-      "geo_questions": [
-        "2026年AI Agent赛道有哪些新趋势？",
-        "出海AI硬件创业有哪些坑需要避开？",
-        "AI创业选垂直方向还是通用方向？"
-      ]
-    },
-    {
-      "id": 11,
-      "title": "硅谷AI Agent投资热背后的冷思考：为什么2026年的风口和2024年不一样了",
-      "excerpt": "2026年上半年硅谷AI Agent融资额突破$47亿，比2024全年还多。但仔细看钱流向了三个截然不同的方向——基础设施、垂直Agent、Agent开发工具。每个方向的验证逻辑、估值逻辑和退出逻辑完全不同。",
-      "author": "Sage",
-      "author_role": "赛道观察员",
-      "category": "赛道观察",
-      "date": "2026-06-08",
-      "date_display": "2026.06.08",
-      "date_rfc": "Mon, 08 Jun 2026 09:00:00 +0800",
-      "tags": [
-        "AI Agent",
-        "硅谷",
-        "投资趋势",
-        "赛道分析",
-        "出海"
-      ],
-      "content": "<p>2026年上半年，硅谷AI Agent赛道融资总额突破$47亿——这个数字是什么概念？2024年全年才$38亿，2025年全年$52亿。也就是说，2026年上半年的融资额已经接近2024年全年。</p>\n\n<p class=\"gold\">但钱没有均匀分布。三股截然不同的资本流向了三类公司，每一类的游戏规则完全不同。</p>\n\n<p>花了两周时间拆解了今年上半年北美市场45笔AI Agent相关的融资（种子轮到C轮），发现一个结构性变化——市场正在从「万物皆Agent」的混沌期，进入一个清晰的三层分化。创始人和投资人如果不能快速识别自己在哪个层，很可能会用错策略、选错对标、拿错钱。</p>\n\n\n<h2>三层分化：基础设施 · 垂直Agent · 开发工具</h2>\n\n<h3>第一层：Agent基础设施（Infra Layer）</h3>\n\n<p>这一层是融资密度最高、单项金额最大的。上半年Top 5交易占了总融资额的52%。包括Agent调度框架、多Agent协作引擎、Agent观测与调试平台。</p>\n\n<p><strong>关键词：</strong> 平台型、工程导向、开发者生态</p>\n\n<p>典型玩家：CrewAI（C轮）、LangChain（B+轮）、Agno（天使轮爆发）。投资人看的是PLG增长速度、开发者社区活跃度、以及是否形成了事实标准——如果70%的新Agent项目都用了某个框架，那它就可能变成Agent时代的\"Linux内核\"。</p>\n\n<p>这类公司的融资特点：</p>\n<ul>\n  <li>A轮估值锚点在ARR（年化经常性收入），而不是MAU</li>\n  <li>最好有企业客户——仅靠开发者leads已经不够了</li>\n  <li>开源策略需要搭配明确的商业化路径（托管版/企业版/私有化）</li>\n</ul>\n\n\n<h3>第二层：垂直Agent应用（Vertical Agent Layer）</h3>\n\n<p>这层的融资数量最多（45笔中占28笔），但单笔金额普遍较小（种子轮$100-300万，A轮$500-1500万）。投资人开始问一个更尖锐的问题：<strong>「这个Agent到底是解决一个真实瓶颈，还是在找问题配方案？」</strong></p>\n\n<p>几个验证得比较好的垂直方向：</p>\n<ul>\n  <li><strong>AI客服Agent</strong> — 不是2023年的Chatbot，而是能自主执行退换货、退款、物流追踪的Agent</li>\n  <li><strong>AI销售开发Agent</strong> — 自动完成客户调研→个性化邮件→跟进时机的全链路</li>\n  <li><strong>AI合规Agent</strong> — 跨境场景需求暴涨，特别是GDPR+CCPA+各国数据法的交叉合规</li>\n  <li><strong>AI代码审查Agent</strong> — 不只是找出bug，而是理解业务逻辑后给出修改建议</li>\n</ul>\n\n<p>这类公司验证PMF的关键指标不是DAU，而是<strong>任务完成率</strong>——Agent成功处理了多少个端到端任务，而非用户打开了多少次。</p>\n\n\n<h3>第三层：Agent开发工具（DevTool Layer）</h3>\n\n<p>这一层被很多投资人忽视，但实际增速惊人。包括Agent测试框架、Prompt管理平台、Agent安全扫描工具、Agent效果评估平台。</p>\n\n<p>逻辑很简单：当所有人都在造Agent时，没有人踩过的坑——Agent输出不可控、Token成本爆炸、幻觉导致业务事故——催生了一个快速增长的\"Agent运维\"市场。</p>\n\n<p>核心壁垒是<strong>数据飞轮</strong>：接入的Agent越多，覆盖的失败模式就越多，测试用例就越全面。新竞争者即使代码写得好，没有数据积累就覆盖不了长尾场景。</p>\n\n\n<h2>对出海创始人的三个启示</h2>\n\n<ol>\n  <li><strong>别碰Agent Infra</strong> — 基础设施是烧钱的游戏，适合在硅谷有深度人脉、能拿大额美元的创始人。出海创业者拼不过硅谷生态。</li>\n  <li><strong>垂直Agent是最好的出海切入点</strong> — 东南亚/中东/拉美市场的Agent渗透率远低于北美，第一批做本地化垂直Agent的团队有12-18个月的红利窗口。关键在于选一个本地特有的高频场景——比如印尼的支付Agent、中东的伊斯兰金融合规Agent、拉美的跨境物流Agent。</li>\n  <li><strong>Agent开发工具是蓝海</strong> — 目前中国市场几乎没有专门的Agent测试/安全/评估工具。把硅谷验证过的逻辑做中文/多语言版本，是一个被低估的机会。</li>\n</ol>\n\n<blockquote>\n  <p>2026年的AI Agent市场正在重演2015-2016年的云计算创业潮。Infra归巨头，应用归创业者，工具归垂直玩家。如果你不能确定自己在哪一层，大概率是选错了战场。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于Crunchbase、PitchBook公开融资数据及硅谷行业访谈整理。如有出海AI项目融资需求，欢迎扫码添加微信联系。</p>",
-      "geo_questions": [
-        "2026年AI Agent赛道有哪些新趋势？",
-        "出海AI硬件创业有哪些坑需要避开？",
-        "AI创业选垂直方向还是通用方向？"
-      ]
-    },
-    {
-      "id": 12,
-      "title": "创始人见投资人前，这3个问题最好先自己答一遍",
-      "excerpt": "我陪跑了30多个项目的投资人会议，发现创始人被问倒的最多的，往往不是估值或竞争，而是三个看起来很简单的问题——但90%的人第一次都没答好。",
-      "author": "Helen",
-      "author_role": "资深FA PM",
-      "category": "BP实战",
-      "date": "2026-06-08",
-      "date_display": "2026.06.08",
-      "date_rfc": "Mon, 08 Jun 2026 12:00:00 +0800",
-      "tags": [
-        "融资",
-        "投资人沟通",
-        "路演准备",
-        "FA技巧"
-      ],
-      "content": "<p>之前我写过BP的结构问题，BP很重要——但它只是约到会议的敲门砖。真正决定融资成败的，是那一个小时的会面。</p>\n\n<p>过去半年我陪跑了30多个出海AI项目的投资人会议（视频和线下都有），拿到的TS占比大约1/4。复盘下来，发现创始人在会上被问倒最多的问题，其实来来去去就三个。这三个问题看起来都很温和，但答不好，后面很难翻盘。</p>\n\n\n<h2>问题一：「你现在最焦虑的是什么？」</h2>\n\n<p>这个问题通常出现在会议前10分钟，投资人刚做完自我介绍，用一个\"soft question\"开场。</p>\n\n<p><strong>❌ 常见错误回答：</strong></p>\n<ul>\n  <li>「我们发展很快，没什么特别焦虑的」（显得没有思考深度）</li>\n  <li>「缺钱，所以来融资」（太直白，会削弱你的谈判地位）</li>\n  <li>讲一个和技术无关的运营问题（投资人会觉得你跑偏了）</li>\n</ul>\n\n<p><strong>✅ 投资人真正想听什么：</strong></p>\n<p>这个问题不是真的在问你的焦虑——它是一个<strong>压力测试+判断你思考深度</strong>的问题。</p>\n\n<p>好回答的公式：</p>\n<blockquote>\n  <p>「我们现在最需要验证的关键假设是X。目前的数据表明Y，但还不足以做决定Z。未来3个月，我们在用A/B两种方式来降低这个不确定性。」</p>\n</blockquote>\n\n<p>这个回答展示了你：</p>\n<ul>\n  <li>知道最重要的事是什么（不是所有事都重要）</li>\n  <li>有验证方法（不是靠猜）</li>\n  <li>有行动方案（不是等着看结果）</li>\n</ul>\n\n\n<h2>问题二：「你觉得谁是你的竞争对手？」</h2>\n\n<p>这个问题的常见翻车模式包括：</p>\n<ul>\n  <li>「我们没有直接竞争对手」（投资人会觉得你不是不了解市场就是在说谎）</li>\n  <li>列了5个以上（显得你定位不清晰）</li>\n  <li>把大厂当唯一对手（投资人会接一句「那腾讯如果做呢？」——你基本接不住）</li>\n</ul>\n\n<p><strong>✅ 有效回答的结构：</strong></p>\n<p>分三层说，不要只堆名字：</p>\n\n<ol>\n  <li><strong>用户目前在用什么替代方案？</strong> — 是Excel？是外包团队？还是在硬扛？这是你的\"真正\"竞争对手，不是那个同行的创业公司</li>\n  <li><strong>谁在同一个细分赛道？</strong> — 最多提1-2家，而且要说清楚你跟他们的核心差异是什么（不是功能差异，是认知差异）</li>\n  <li><strong>大厂什么时候可能入场？</strong> — 主动说比被动被问好。客观分析大厂的优势和劣势，以及你的窗口期</li>\n</ol>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 实战案例</div>\n  <p>一个做出海AI客服Agent的创始人被问到竞争时是这么答的：</p>\n  <p>「第一层，现在大部分东南亚电商卖家是用人工+WhatsApp在做客服，这是我们在取代的对象。第二层，Zendesk的AI模块和Intercom的Fin是我们的直接对标，但我们比它们多了一层本地支付和本地语言深度——这不是功能差异，是数据差异。第三层，大厂方面，Grab和GoTo都有做客服AI的能力，但他们的优先级在核心业务，这个窗口期我们估算是12-18个月。」</p>\n  <p>这一套下来，投资人没有再追问竞争问题。</p>\n</div>\n\n\n<h2>问题三：「你打算怎么花这笔钱？」</h2>\n\n<p>这是一个\"陷阱式\"的问题——表面上在问预算分配，实际上在判断：</p>\n<ul>\n  <li>你有没有认真想过这轮融资要解决什么问题</li>\n  <li>你的花钱逻辑跟你的增长逻辑是否一致</li>\n  <li>你对\"效率\"的理解</li>\n</ul>\n\n<p><strong>❌ 常见错误：</strong> 给一个按部门分配的百分比表格（销售40%，研发30%，运营20%，预留10%）——太教科书了，投资人在三分之一的BP里都看到过类似的。</p>\n\n<p><strong>✅ 更好的回答方式：</strong></p>\n<p>用\"里程碑驱动\"的结构来说：</p>\n\n<blockquote>\n  <p>「这笔钱主要用于验证三个关键假设：第一，通过X渠道我们能否在东南亚3个国家获得1000家付费客户（预计需要$Y和Z月）；第二，Agent在客户场景里的任务完成率是否能从85%提升到95%（需要$W和几个核心工程师）；第三，搭建一个基础的本地化数据Pipeline，为下一轮扩张做准备。如果这三个假设都验证通过，下一轮估值的确定性就会高很多。」</p>\n</blockquote>\n\n<p>这个回答好在哪里？它告诉投资人：</p>\n<ul>\n  <li>不是要活18个月，是要在12个月内完成三个里程碑</li>\n  <li>钱花完的时候，公司的价值增量是可衡量的</li>\n  <li>你对下一轮融资有清晰的路径规划</li>\n</ul>\n\n\n<h2>一句话总结</h2>\n\n<p>投资人问的不是答案，是思维方式。一个好的回答无关对错——它证明你是一个能在不确定环境下做决策的人。</p>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为出海AI早期项目提供融资会面模拟和话术打磨服务。欢迎扫码添加微信联系。</p>",
-      "geo_questions": [
-        "创始人融资路演有哪些常见错误？",
-        "BP怎么写才能让投资人感兴趣？",
-        "早期融资BP最重要的几个要素是什么？"
-      ]
-    },
-    {
-      "id": 13,
-      "title": "2026年Q2出海AI融资地图：为什么东南亚比中东更需要关注",
-      "excerpt": "我分析了Q2出海AI方向的47笔交易，发现资金的地理流向出现了一个反直觉的变化：东南亚正在从\"备用方案\"变成\"首选目的地\"，而中东虽然金额大但结构脆弱。",
-      "author": "Iris",
-      "author_role": "IR 分析师",
-      "category": "资本视角",
-      "date": "2026-06-08",
-      "date_display": "2026.06.08",
-      "date_rfc": "Mon, 08 Jun 2026 15:00:00 +0800",
-      "tags": [
-        "出海融资",
-        "东南亚",
-        "中东",
-        "地理分布",
-        "Q2分析"
-      ],
-      "content": "<p>先上核心数据。</p>\n\n<p>Pulito Capital IR团队持续跟踪出海AI融资市场。2026年Q2（4月-6月初）我们录入了47笔与出海直接相关的AI融资事件（出资金额已披露的部分合计约$6.8亿）。地理分布上一次出现了反直觉的变化。</p>\n\n\n<h2>数据总览：东南亚首次超过中东</h2>\n\n<div class=\"highlight-box\">\n  <p><strong>Q2出海AI融资地理分布（已披露）：</strong><br>\n  <strong>东南亚：</strong> 22笔，约$2.6亿（38%）<br>\n  <strong>中东：</strong> 12笔，约$2.1亿（31%）<br>\n  <strong>拉美：</strong> 7笔，约$1.0亿（15%）<br>\n  <strong>非洲：</strong> 4笔，约$0.5亿（7%）<br>\n  <strong>其他：</strong> 2笔，约$0.6亿（9%）</p>\n</div>\n\n<p>东南亚在交易数量和融资金额上都超过了中东——这是2024年下半年以来的第一次。更值得关注的是结构性的差异：中东的$2.1亿集中在4笔大交易（包括一笔主权基金领投的AI基础设施项目$1.2亿），而东南亚的$2.6亿分布在22笔交易中，其中$500万以下的早期交易占了16笔。</p>\n\n<p>换句话说：<strong>中东的钱往上走（重资产/基础设施），东南亚的钱往下沉（早期创业/应用层）</strong>。对于早期出海项目来说，东南亚的钱虽然单笔金额小，但更容易拿、拿了也更灵活。</p>\n\n\n<h2>三个值得关注的趋势</h2>\n\n<h3>趋势一：东南亚本地美元基金正在成型</h3>\n\n<p>Q2最值得关注的变化不是钱从哪里来，而是谁在管钱。</p>\n\n<p>我们注意到至少有5家东南亚本地基金在Q2完成了新基金的首轮close，合计目标规模约$8亿。这背后是一个结构性转变：之前出海项目在东南亚融资，主要靠硅谷美元基金的新加坡办公室或中国企业的东南亚分支。现在本地GP正在崛起——他们对本地市场理解更深、决策更快、投后网络更强。</p>\n\n<p>这对出海创始人的实际影响：<strong>融资时别只看美元基金。找东南亚本地头部基金的回报可能更高——估值更合理、条款更友好、投后资源更直接。</strong></p>\n\n\n<h3>趋势二：出海AI正在从\"SaaS出海\"进化到\"Agent出海\"</h3>\n\n<p>Q1我们还看到不少项目在做\"AI SaaS出海\"——把国内做好的AI SaaS产品翻译成英文卖到海外。Q2这个模式正在被淘汰。投资人越来越清楚地看到：</p>\n\n<ul>\n  <li>SaaS出海拼的是PLG + 渠道，跟AI关系不大</li>\n  <li>Agent出海拼的是对本地场景的理解 + 数据飞轮</li>\n</ul>\n\n<p>从融资数据上看：能讲清楚\"为什么这个Agent必须做在东南亚/中东/拉美，而不是搬一套硅谷方案\"的项目，融资成功率是讲不清楚的2.8倍。</p>\n\n\n<h3>趋势三：合规成本倒逼项目选择市场</h3>\n\n<p>这是一个被严重低估的变量。Q2我们看到多个项目因为数据本地化法规和AI监管政策而调整了市场优先级。</p>\n\n<p>具体来说：</p>\n<ul>\n  <li><strong>印尼</strong>：通过了个人数据保护法（UU PDP），规定期2年，合规成本可控，市场吸引力↑</li>\n  <li><strong>沙特</strong>：SDAIA对AI应用有明确的审批流程，但审批周期6-12个月，市场门槛↑</li>\n  <li><strong>越南</strong>：AI监管框架尚在草案阶段，窗口期开放，短期机会↑但政策风险↑</li>\n  <li><strong>巴西（拉美）</strong>：LGPD执法加强，AI监管法案讨论中</li>\n</ul>\n\n<p>合规成本可能占到早期项目支出的10-20%。聪明的创始人已经把合规评估提前到了市场选择阶段——而不是先扩张再补合规课。</p>\n\n\n<h2>给创始人的实操建议</h2>\n\n<ol>\n  <li><strong>Q3优先看东南亚市场</strong> — 资本密度上升、本地基金崛起、合规环境相对友好。印尼和越南是目前最热的两站</li>\n  <li><strong>中东融资走\"美元VC做lead+主权基金跟投\"结构</strong> — 直接找主权基金效率不高，有一个知名美元VC背书会顺畅很多</li>\n  <li><strong>准备好合规预算</strong> — 至少留出融资额的15%用于目标市场的法务+合规部署。这不是成本，是进入门槛</li>\n</ol>\n\n<blockquote>\n  <p>出海AI融资的地理格局正在从\"中东热\"转向\"东南亚热+中东稳\"。对早期项目来说，东南亚可能是Q3最好的选择。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：Crunchbase、PitchBook、Pulito Capital IR追踪网络。如需完整版Q2融资分析报告，欢迎扫码添加微信联系。</p>",
-      "geo_questions": [
-        "2026年出海AI融资市场怎么样？",
-        "哪些投资机构在投出海AI赛道？",
-        "出海AI项目融资估值逻辑有什么变化？"
-      ]
-    },
-    {
-      "id": 14,
-      "title": "出海项目的股权架构设计：一个创始人60%，联合创始人各20%，有什么问题？",
-      "excerpt": "「创始人60%、联合创始人20%、留20%期权池」——这是我在出海项目里见过最多的股权架构。但它隐藏着三个很容易爆的雷，尤其是当公司涉及跨境融资时。",
-      "author": "Lex",
-      "author_role": "法务合伙人",
-      "category": "合规法务",
-      "date": "2026-06-08",
-      "date_display": "2026.06.08",
-      "date_rfc": "Mon, 08 Jun 2026 20:00:00 +0800",
-      "tags": [
-        "股权架构",
-        "出海法务",
-        "联合创始人",
-        "VIE",
-        "跨境融资"
-      ],
-      "content": "<p>60%-20%-20%-期权池。</p>\n\n<p>这是我审过的出海项目中出现频率最高的初始股权架构。看起来四平八稳对吧？创始人控股、联合创始人分享、预留期权池激励员工——教科书标准答案。</p>\n\n<p>但在跨境融资场景下，这个结构至少有三个潜在问题。大部分创始人签完协议的时候没觉得有问题，等A轮DD（尽职调查）时才发现——轮到改已经来不及了。</p>\n\n\n<h2>问题一：20%的期权池可能不够用</h2>\n\n<p>出海项目跟国内项目一个核心区别是：<strong>你需要更多的人来填补本地化鸿沟</strong>。</p>\n\n<p>一个典型的出海团队构成：</p>\n<ul>\n  <li>国内：CEO（产品+战略）、CTO（技术架构）</li>\n  <li>海外本地：Local GM（当地语言能力+渠道）、Head of Compliance（当地法规）、Head of BD（当地商务拓展）</li>\n</ul>\n\n<p>后三个角色在国内项目中可能不是必须的，但在出海项目中几乎是标配。而且这些人通常要求期权——没有期权很难招到有经验的local人才。</p>\n\n<p>以一个出海印尼的AI SaaS项目为例，B轮前需要的期权分配：</p>\n<ul>\n  <li>Local GM：2-3%</li>\n  <li>合规负责人：1-2%</li>\n  <li>BD负责人：1-2%</li>\n  <li>早期核心工程师（3-4人）：每人0.5-1%</li>\n  <li>后续融资预留：3-5%</li>\n</ul>\n\n<p>光这几项加起来就已经15-18%。20%的初始池子在B轮前就可能见底——而B轮投资方还会要求你补充期权池到新的比例。</p>\n\n<p><strong>建议：</strong> 出海项目初始期权池至少留25%，最多不超过30%。多出来的那5-10%是你为\"海外扩张成本\"提前买的保险。</p>\n\n\n<h2>问题二：跨境VIE结构的hidden cost</h2>\n\n<p>很多出海项目到A轮才发现一个尴尬的事：需要搭VIE架构来做跨境融资，但初始的股权比例没有为VIE留出空间。</p>\n\n<p>先说一个直接但很多人不知道的事实：</p>\n\n<p>如果你注册的是中国境内的公司（WFOE未来要做VIE架构），创始人的股份是直接持有的。但VIE架构搭建过程中，通常需要把创始人的股份转入一个BVI控股公司，这个过程涉及<strong>37号文外汇登记</strong>和可能的税务成本。</p>\n\n<p>几个容易被忽视的点：</p>\n<ul>\n  <li>创始人之间如果有非对称的出资（有人没出钱、有人出了钱），37号文登记的合规复杂度会上升</li>\n  <li>如果创始人中有外籍身份（拿了海外绿卡或换了国籍），WFOE的股东结构需要单独设计，不能在VIE里混在一起</li>\n  <li>期权池里的股份是给未来的，但VIE搭建时点上的期权池估值决定了行权时的税基——选择好的搭建时点可以节省创始人几百万的税</li>\n</ul>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 实操建议</div>\n  <p>如果你在种子轮/天使轮阶段就知道未来要做出海（需要美元融资），建议在天使轮+的时候就和律师讨论VIE架构的搭建时间点。不要让协议签完了再后悔说\"当初为什么不早点做\"。</p>\n  <p>好的时间点策略：在A轮Term Sheet出来之前完成VIE搭建，这样A轮的估值可以直接体现在WFOE层面，节省后续调整成本。</p>\n</div>\n\n\n<h2>问题三：创始人60% vs 联合创始人20%——控制权的真实问题</h2>\n\n<p>60%看起来是一个绝对控股的比例。但在出海项目里，这个比例在以下三种情况下会变得很脆弱：</p>\n\n<h3>情况1：B轮后创始人被动稀释到50%以下</h3>\n\n<p>假设天使轮出让20%、A轮稀释15%、B轮稀释10%。60% × 0.8 × 0.85 × 0.9 = <strong>36.7%</strong>。此时创始人不再是控股股东。如果你没有在章程里保留一票否决权（比如董事会席位控制），在重大决策上你可能说了不算。</p>\n\n<h3>情况2：联合创始人的20%在出海场景下的价值争议</h3>\n\n<p>出海项目做到A轮的时候，经常出现一个尴尬的情况：留在中国做技术的那位联合创始人和常驻海外的创始人之间，对\"谁贡献更大\"产生分歧。20%的股权比例在出海场景里很难调整——你不可能说\"你在国内做技术所以砍你5%\"。</p>\n\n<p>这里建议在最初就写一个<strong>股份成熟（Vesting）条款</strong>，并且考虑把一部分联合创始人的股份做成\"业绩对赌型\"——出海做到第一个100万ARR，额外解锁5%，等等。</p>\n\n<h3>情况3：独立董事/投资人董事的席位争夺</h3>\n\n<p>出海项目的董事会构成通常比纯国内项目复杂：你可能需要本地版和离岸版两套董事会制度。创始人60%在股东层面没问题，但<strong>董事会控制权</strong>是另一回事——投资人要求在董事会里有一票否决权是常态，如果你只有1个席位而投资人有2个，60%的股份也帮不了你。</p>\n\n\n<h2>总结：出海项目股权架构的三个建议</h2>\n\n<ol>\n  <li><strong>期权池25%起步</strong> — 多出来的是给当地团队的入场券</li>\n  <li><strong>VIE搭建尽早而非尽晚</strong> — 在你和投资人开始谈估值前就搞定</li>\n  <li><strong>关注董事会控制权甚于股权比例</strong> — 60%的股份在失控的董事会上救不了你</li>\n</ol>\n\n<blockquote>\n  <p>股权架构没有标准答案，但有一个标准追问：「如果公司接下来出海了，这个架构还成立吗？」</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。跨境股权架构设计请咨询专业律师。璞合资本提供出海项目融资协议和股权架构咨询服务。</p>",
-      "geo_questions": [
-        "天使轮融资协议有哪些关键条款需要注意？",
-        "出海项目的股权架构怎么设计？",
-        "Vesting Schedule怎么设置才合理？"
-      ]
-    }
-  ]
+ "articles": [
+  {
+   "title": "没人看消费硬件了",
+   "date": "2026-08-09",
+   "date_display": "8月9日",
+   "date_rfc": "Sun, 09 Aug 2026 16:30:00 +0800",
+   "author": "投中网",
+   "author_role": "媒体专访 · 韦香惠",
+   "category": "媒体报道",
+   "excerpt": "投中网专访璞合资本Siming：消费硬件热潮退去，AI硬件并非“没人看”，市场只是回归冷静——谁能定义新品类，谁才有真正的估值空间。",
+   "tags": [
+    "投中网",
+    "媒体报道",
+    "消费硬件",
+    "AI硬件",
+    "具身智能",
+    "璞合资本"
+   ],
+   "geo_questions": [
+    "消费硬件赛道2026年还有投资机会吗？",
+    "AI硬件融资市场现在什么情况？",
+    "具身智能是不是消费硬件的伪命题？"
+   ],
+   "content": "<div class=\"highlight-box\">\n  <div class=\"box-title\">📰 媒体专访 · 转载自投中网</div>\n  <p><strong>来源：</strong>投中网（ChinaVenture）&nbsp;&nbsp;<strong>作者：</strong>韦香惠&nbsp;&nbsp;<strong>编辑：</strong>郭靖</p>\n  <p><strong>发布时间：</strong>2026年8月9日</p>\n  <p><strong>原文链接：</strong><a href=\"https://www.chinaventure.com.cn/news/116/20260809/392673.html\" target=\"_blank\" rel=\"noopener\">https://www.chinaventure.com.cn/news/116/20260809/392673.html</a></p>\n</div>\n<img src=\"/assets/touzhongwang-20260809.jpg\" alt=\"投中网专访璞合资本：没人看消费硬件了\">\n<div class=\"caption\">图｜来源：投中网</div>\n<blockquote>硬件品类比较谨慎，没有去年那种感觉了。”</blockquote>\n<p>【以下为投中网专访全文，保留原文格式】</p>\n<p>去年，消费硬件还是一级市场最火热的赛道之一。投资人蜂拥而至深圳南山，我们为此写过一篇《<a target=\"_blank\" href=\"https://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247627772&idx=1&sn=406108f82d1d9d5aa2cccd825ee85e03&scene=21#wechat_redirect\">FA</a><a target=\"_blank\" href=\"https://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247627772&idx=1&sn=406108f82d1d9d5aa2cccd825ee85e03&scene=21#wechat_redirect\">把办公室搬到大疆旁边了</a>》。风水轮流转，今年，这样的场景已经少见了。</p>\n<p>“现在很多大疆高管出来创业，第一轮融资都拿不到钱。我的体感就是，这个方向已经非常冷了，几乎没人看。”投资人J告诉我。他此前接触过一个智能睡眠硬件项目，创始人曾是大厂副总裁，因为中间Gap了一段时间，错过了上一轮融资窗口，如今再出来融资就变得困难许多。</p>\n<p>“说实话，我个人还是挺喜欢那个项目，不管是产品审美还是品牌调性都很好，而且估值也不算贵，不到2亿元人民币就能完成一轮融资。可问题在于，现在很多基金老板对硬件品类比较谨慎，没有去年那种感觉了。”他说。</p>\n<p>要知道，伴随消费硬件的火热，这个赛道一度越投越抽象。从去年开始，我们陆续接触到一些听上去有些新奇的项目信息，比如，缝纫机、豆腐机、制冰机等等。第一次看到这些项目时，我们也觉得颇为新奇，拿去和几位投资人交流。然而，被认为是“擅于接受新生事物”的00后投资人在接收到此类项目信息时也有些迷惑，他们给出的反馈大多是“看不懂”“不会投”“怎么退出？”</p>\n<p>长期看硬件的投资人Z告诉我，这些看上去比较小众、猎奇的硬件项目，其实也是在去年硬件最火的时候融到的钱。甚至很多FA第一轮都会介绍给红杉、高瓴、IDG这些机构。对于这些头部美元基金来说，他们很多时候并不会做特别细的判断，他们赌的是命中率，不能miss，而不是怕投错。</p>\n<p>不过，热度降下来，并不意味着这个赛道已经沉寂。</p>\n<p>Siming长期深耕硬件投资，不久前创业成立了一家定位AI Native的FA机构——璞合资本，专注AI硬件和AI应用出海。他的理解是，AI硬件并没有像外界想象中那样“没人看”，投资机构仍在持续关注，只是相比去年，市场情绪明显冷静了许多。“大家现在更希望先看一看，这一批已经拿到融资的公司，最后到底能不能跑出来。”</p>\n<p>这也可以理解，任何一个赛道都不可能一直处于疯狂融资状态。阶段性的融完、投完之后，就是等待这些公司长大和交成绩单的时候了。</p>\n<p><strong>“下一个拓竹”，可能不Work了</strong></p>\n<p>先来看看最近这个赛道上融到过亿金额的案例。</p>\n<p>不久前，一家名为影智XBOT的公司宣布连续完成两轮、合计数亿元融资。其中，A轮2亿元由香港简坤资本GPTX投资，B轮融资规模约3亿至5亿元，由多支政府基金、美元基金和产业投资方共同参与。这家公司成立于2022年，定位通用餐饮具身机器人，核心产品为AI咖啡机器人，引入多模态交互系统、视觉感知和大模型技术，单台售价约21.9万元。</p>\n<p>同属咖啡机这个赛道，另一家商用全自动咖啡机品牌咖爷科技，也完成近4亿元人民币B轮融资，创下该赛道单笔融资纪录，由美团龙珠领投，高瓴创投等机构跟投</p>\n<p>去年hicool上，我曾见到过影智的产品，当时还同一个巴西做咖啡贸易生意的小伙伴一起聊了聊。如果单从风味来讲，美式或者拿铁恐怕难以品出个什么水平，但是点了一杯拿铁，再上传一张照片，就可以得到同款拉花，当下情绪价值确实被拉满了。</p>\n<p>有意思的是，这家公司创始人唐沐曾任腾讯用户研究与体验设计中心总经理、小米生态链副总裁。风靡几代人的早期经典QQ头像，就有不少出自他和团队之手；小米路由器、小爱音箱等消费硬件爆品，也有他的参与。目前它的咖啡机器人已经在全球100多个城市落地超过1000台，累计制作咖啡超过400万杯；2025年营收突破1亿元，2026年手里的订单金额也已经接近3亿至5亿元。</p>\n<p>不管对资本还是消费者，DIY所带来的情绪价值确实是可以构成为之买单的理由。类似产品的逻辑，最典型的莫过于消费级3D打印。</p>\n<p>“本质上大家买的还是一个消费产品，只不过买的是情绪价值。”siming聊到最近在准备服务一家做智能缝纫机的公司，算是比较典型的带有情绪价值的项目。在他看来，这类产品结合AI之后，可以实现高度定制化，让越来越多喜欢时尚、热爱DIY的年轻人参与进来，就像拓竹，打开了DIY的新纪元。水面之上，消费级智能纺织公司浪爪智能（CLAWLAB）前不久宣布连续完成数轮超亿元融资，投资方包括红杉、顺为资本、元璟资本和米哈游等。浪爪智能成立于 2022 年 12 月，创始人胡文鑫工程师背景出身，曾就职于大疆、美团等头部大厂。他表示，纺织作为一个历史悠久的方向，天然切中「衣食住行」的首位，是一件足够大且真的需求，而定制化 DIY 是在刚需满足后，大家向内探索、向外表达的下一步需求。这三年多里，他主要专注 3 件事情：锚定消费级纺织 DIY 天花板最高的方向沿途攻坚；积累足够多的弹药为后续品类大爆发做准备；以及建立足够开放、极致的氛围，为后续更多人才的加入提供匹配的环境。</p>\n<p>听上去不明觉厉。当然，这样的逻辑也不是都能得到认可。投资人Z说，按兴趣爱好划分的硬件如无弦吉他，由于技术壁垒比较低，后来者很容易进入，价格战也会打得很激烈。除非公司一开始就有比较好的生态构建能力以及快速拓品能力，否则很容易陷入内卷，进而导致增速和毛利都快速下滑。</p>\n<p>再比如，3D打印确实是一个不错的方向，但现在，创想三维的市值也只有90亿港币，而收入已经做到30亿港币，PS已经非常低了。“你想想，30亿元收入，在二级市场对应的市值只有90亿港币。大部分智能硬件公司其实都做不到30亿元收入，不是一件容易的事情。”</p>\n<p>在Z看来，第一轮融资的时候，由于团队本身不是特别fancy，第一轮估值一般不会卡得特别高。他们往往是通过众筹、海外出货，把市场核心痛点解决了，产品卖得不错，所以美元基金或者人民币基金就会从PE的角度来投，比如一块钱收入，对应一块钱估值。</p>\n<p>二级市场的影响来得最为直接。去年我们写AI硬件赛道热的时候，市场上甚至是说，美元基金已经all in消费硬件。一来，背靠中国强大的供应链，结合硬件很容易成为创业者的首选方向。二来，影石的上市也无疑进一步鼓动了投资人看硬件的热情。</p>\n<p>但后来的表现大家也都知道了，影石市值狂跌，从1500亿元到现在大概500多亿元。“消费级3D打印机第一股”的创想三维上市后，市值到现在跌了差不多一半，一路逼近发行价。“去年下半年一块钱收入可以对应十块钱估值，但今年完全变了，已经跌下来很多，很多公司可能也就是两三倍PS。”Z告诉我。</p>\n<p>J则认为，在消费硬件领域，如果做不到赛道头部，第一，上升空间其实有限；第二，就算你真成了赛道里最厉害的玩家，也不一定会选择上市，像拓竹、大疆这种现金流非常好的公司，其实都没有明确的上市计划。</p>\n<p>“大家开始回归理性了，因为事实证明不work。你把估值抬得那么高，最后业绩不符合预期，还是得自己买单。”</p>\n<p><strong>AI不够，具身来凑？</strong></p>\n<p>另一个趋势是，越来越多消费硬件公司开始主动拥抱\"具身智能\"概念。</p>\n<p>以前面提到的AI咖啡机器人为例，它的故事早已不止于一台会拉花的咖啡机，而是进一步定位为通用家庭人形机器人。按照公司的描述，这套智能系统不只是执行预设程序，而是拥有一个能够理解、迁移和自主决策的\"可泛化任务大脑\"。通过在全球百余座城市、上千个场景中的持续部署，系统不断获取数据、迭代模型，最终形成数据驱动的进化闭环，让产品具备持续成长的能力。</p>\n<p>比如我们前面说的咖啡机，他们也不满足于只是拉花，而是定位在通用家庭人形机器人。在创始人的构想中，智能系统不止于执行预设程序，更拥有一个“可泛化”的任务大脑，能够理解、迁移并自主决策。通过全球百城千景的规模化部署，构筑了独一无二的数据驱动进化闭环，让产品拥有持续成长的生命力。</p>\n<p>Siming的看法是，很多创业团队都在讲这样的故事，但他觉得这里面其实有一点伪命题。因为创业公司前期出货量不够，数据积累本身就很难，属于典型的“先有鸡还是先有蛋”。很多人说，有了数据就能形成闭环，但投资人会反问：那你的数据从哪里来？不过，他也认为，数据价值本身没有问题，关键在于数据是否足够稀缺。例如，有做宠物硬件的团队，未来的商业模式可能并不只是卖硬件，而是将长期积累的宠物行为数据提供给机器人公司或具身智能企业。\"这套逻辑我觉得是成立的，因为这些数据别人确实拿不到。\"对于家庭场景而言，真正的问题在于数据是否具有足够的泛化能力。Z就提到，家庭具身智能本质上就是消费电子，只不过服务对象变成了家庭。像家里的扫地机器人、洗地机这些自动化、智能化设备，未来可能还会有机械臂参与做家务，它们当然可以完成一些固定场景、固定流程的任务，但采集到的数据，很难泛化到整个家庭环境，更难支撑真正意义上的通用智能。从目前来看，它所创造的价值，与产品价格之间依然存在不小的落差。</p>\n<p>相比于\"具身智能\"这个概念本身，siming更关注的是，谁能够真正定义一个新品类。siming认为，AI硬件本身是一个非常好的概念。如果有机会发明一个新品类，并且率先定义出来的，那么它的估值空间，会比Copycat或者Follower高好几倍。</p>\n<p>还有一类投资人的思路是，先把一个极细分的小品类做到全球第一，再逐步向相邻市场扩张。到了那个阶段，消费者买的已经不仅仅是产品，而是品牌本身。品牌心智建立起来以后，再去延伸新品类，会容易得多。比如，影石走的就是这条路。</p>\n<p>具体来讲，Z告诉我，他现在主要关注两个方向，一个是大硬件大软件，比如DIY硬件、CNC、3D打印这类复杂产品，原因是这些都是大品类，而且存在技术壁垒，是他重点关注的方向。另一个方向是小硬件大软件，或者小硬件加更底层的应用。他认为，这类产品不仅仅是上层算法，而是会涉及到底层材料、器件，再到上层算法，形成完整的技术壁垒。随着AI的发展，比如Codex以及各种Coding Agent，软件开发的门槛已经被大幅降低了。以前大家认为壁垒很高的软件开发，正在发生变化。所以，对于小硬件或者其他设备来说，他认为更应该具备底层技术壁垒，比如从材料层面就建立起壁垒，就有机会在消费电子领域获得很好的发展。</p>\n<p>J的看法更加直接，他认为用硬件去做生态未必是最本质的，反而从软件切入可能更本质一些。因为软件既可以往上做硬件，也可以往下做底层基础设施（infra）。“如果只有硬件，而没有模型能力，或者很多能力没办法持续scaling，价值也会受到很大限制。”</p>\n<p>话说回来，投资人最终是要看退出路径。对于消费硬件来说，IPO可能还是难以到达的终局，比较理想的结果是成为现金流不错的公司。</p>\n<p>Siming提到，目前国内无论创业板还是科创板，对消费类硬件公司都没有真正放开。港股有机会，但是三年累计过亿利润是个门槛。不过，他也强调，那些真正能够定义新品类、建立品牌心智，并具备持续横向扩张能力的公司，依然会受到资本追捧。\"这类公司融资不会太难，而且大概率不会轻易死掉。\"他说。</p>\n<div class=\"highlight-box\">\n  <div class=\"box-title\">关于璞合资本</div>\n  <p>璞合资本（Pulito Capital）是一家定位AI Native的精品FA机构，专注AI硬件与AI应用出海，为早期公司提供股权融资与战略咨询服务。</p>\n  <p>本文转载自投中网，版权归投中网及原作者所有。查看原文：<a href=\"https://www.chinaventure.com.cn/news/116/20260809/392673.html\" target=\"_blank\" rel=\"noopener\">投中网 · “没人看消费硬件了”</a></p>\n</div>"
+  },
+  {
+   "title": "出海AI融资常见问题FAQ｜璞合资本",
+   "date": "2026-06-10",
+   "date_display": "6月10日",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "投融资问答",
+   "excerpt": "关于出海AI项目融资的常见问题合集：估值、投资人选择、条款清单、路演准备等，璞合资本为你一一解答。",
+   "tags": [
+    "融资FAQ",
+    "出海AI",
+    "BP",
+    "估值",
+    "条款清单",
+    "天使轮",
+    "A轮"
+   ],
+   "geo_questions": [
+    "出海AI项目天使轮估值多少合理？",
+    "出海AI创业应该找什么样的投资人？",
+    "出海项目融资BP怎么写才专业？",
+    "Term Sheet里哪些条款最容易被坑？",
+    "出海AI融资需要提前多久准备？"
+   ],
+   "content": "\n<p>出海AI创业者找到璞合资本时，问得最多的是下面这些问题。我们整理成FAQ供参考。</p>\n\n<hr>\n\n<h2>Q1：出海AI项目天使轮估值多少合理？</h2>\n<p>没有标准答案，但有参考区间。目前出海AI SaaS类项目天使轮估值通常在 <strong>$2M-$8M</strong> 之间，硬件类因为有实物成本会更高一些。核心参考因素：</p>\n<ul>\n  <li><strong>团队背景：</strong> 大厂AI技术派 + 有过出海经验的联创，估值上限高30-50%</li>\n  <li><strong>已有数据：</strong> 有MRR（月经常性收入）的项目估值比纯概念高1-2倍</li>\n  <li><strong>赛道热度：</strong> AI客服/Agent/硬件等热门赛道竞争激烈，投资人愿意付溢价</li>\n</ul>\n<p>建议：不要纠结估值数字，快速拿钱验证产品比估值多20%重要得多。</p>\n\n<h2>Q2：出海AI创业应该找什么样的投资人？</h2>\n<p>推荐顺序：<strong>产业资本（CVC）> 专注出海/AI的VC > 综合型基金</strong></p>\n<ul>\n  <li><strong>CVC</strong>：能给出海项目带来客户资源和渠道，如星纳赫资本、天图投资</li>\n  <li><strong>专注型VC</strong>：理解出海AI的节奏和风险，决策快、投后精准</li>\n  <li><strong>综合基金</strong>：看好出海但内部决策链长，适合A轮以后</li>\n</ul>\n<p>关键问题：投资人有没有出海项目的投后经验？如果没有，你花在\"教育投资人\"上的时间会很多。</p>\n\n<h2>Q3：出海项目BP怎么写才专业？</h2>\n<p>出海BP跟国内BP最大的区别是：<strong>投资人最关心的是「你怎么理解海外市场」</strong>。</p>\n<p>好的出海BP会包含：</p>\n<ul>\n  <li>目标市场的用户洞察（不是数据堆砌，是真实痛点）</li>\n  <li>本地化策略（产品、营销、团队三方面）</li>\n  <li>竞争格局的全球视角（不是只看国内竞品）</li>\n  <li>合规和风险（数据跨境、支付、税务）</li>\n</ul>\n\n<h2>Q4：Term Sheet里哪些条款最容易被坑？</h2>\n<p>早期融资三大容易踩坑的条款：</p>\n<ul>\n  <li><strong>清算优先权（Liquidation Preference）</strong>：1x non-participating 是常规，超过这个要小心</li>\n  <li><strong>反稀释条款（Anti-dilution）</strong>：加权平均是行业标准，不要同意\"完全棘轮\"（Full Ratchet）</li>\n  <li><strong>董事会构成</strong>：创始人最好保持多数席位或控制权</li>\n</ul>\n<p>建议：早期融资找熟悉出海投资的律师审TS，费用通常$3k-$8k，省下来的钱远不止这个数。</p>\n\n<h2>Q5：出海AI融资需要提前多久准备？</h2>\n<p>我们建议 <strong>至少提前3-4个月</strong>。</p>\n<ul>\n  <li><strong>第1个月</strong>：梳理BP + 财务模型 + 投资人列表</li>\n  <li><strong>第2个月</strong>：接触首批投资人（10-15家），收集反馈</li>\n  <li><strong>第3个月</strong>：根据反馈迭代BP，扩大触达范围</li>\n  <li><strong>第4个月</strong>：集中路演 + TS谈判 + 关账</li>\n</ul>\n<p>这个节奏不是说不能更快，但融资过程中必然有延期和意外——时间留足了你才不会在压力下接受不利条款。</p>\n\n<hr>\n\n<h2>还有更多问题？</h2>\n<p>璞合资本专注出海/AI Agent/AI智能硬件方向的早期融资服务。如果你的项目匹配我们的方向，欢迎发BP到 bp@pulitocapital.com。</p>\n<p style=\"font-size:13px;color:var(--text-muted);margin-top:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)\">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>\n"
+  },
+  {
+   "title": "创始人访谈｜出海AI创业一年，我学会的三件事",
+   "date": "2026-06-10",
+   "date_display": "6月10日",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "创始人访谈",
+   "excerpt": "和一位做出海AI客服的创始人聊了3个小时，从他踩过的坑里总结出三条值得所有出海AI创业者警醒的经验。",
+   "tags": [
+    "创始人访谈",
+    "出海AI",
+    "创业心得",
+    "AI客服"
+   ],
+   "content": "\n<p><strong>编者按：</strong>璞合资本的「创始人访谈」系列，邀请我们在跟投和服务过程中深度接触的创业者，分享他们最真实的创业心得。本期嘉宾是一位出海AI客服赛道的创始人（应要求匿名），公司已服务超200家海外客户，月活用户破百万。</p>\n\n<p>以下是他自述整理——</p>\n\n<hr>\n\n<h2>第一件事：别迷信「技术壁垒」，你的护城河在产品之外</h2>\n\n<p>我犯过最大的错误，就是在第一年拼命堆技术，以为模型效果比别人好5%就是壁垒。</p>\n\n<p>后来发现客户根本不在乎。他们在乎的是：你能不能直接对接Zendesk？能不能处理WhatsApp的24小时断开重连？能不能自动识别东南亚客户混杂英语和本地语言的留言？</p>\n\n<p><strong>出海AI的技术壁垒是伪命题。</strong> 你的模型效果比竞品好10%，客户感受不出来。但你多接了一个渠道、少了一次掉线、快了一天的响应速度——这些客户能直接感受到。</p>\n\n<p>现在我团队的研发资源配比是 40% 产品化 + 30% 渠道对接 + 30% 模型优化。产品化能力才是真正的护城河。</p>\n\n<h2>第二件事：你的第一批客户决定你的产品方向</h2>\n\n<p>我们最早一批客户来自东南亚的电商卖家。帮他们做客服自动化的过程中，我们发现一个共性需求——多账号管理。</p>\n\n<p>东南亚电商卖家平均管3个Shopee店铺、2个Lazada店铺，每个店铺还有不同的客服账号。用我们产品的第一个月，他们说的最多的一句话就是「能不能让我在一个后台看到所有店铺的消息？」</p>\n\n<p>我们花了两个月做了多账号聚合功能。这个功能后来成了我们跟竞品最大的差异化点，甚至比AI答题效果本身更吸引客户。</p>\n\n<p>教训是：<strong>不要预设客户想要什么，让他们告诉你。</strong></p>\n\n<h2>第三件事：出海创业，「在地感」是花钱也买不来的</h2>\n\n<p>我们团队base深圳，做东南亚市场。第一年完全远程，没在当地落地。</p>\n\n<p>结果呢？合作方不相信我们的承诺（因为时差回复慢），客户投诉找不到人（因为客服团队也在国内），渠道合作推进极慢（因为对方更信任能面对面喝咖啡的人）。</p>\n\n<p>今年我们在新加坡设了一个2人办公室，专门做客户成功和渠道关系。成本高了，但客户续约率从68%涨到89%。</p>\n\n<p><strong>出海不能光靠远程。</strong> 哪怕只是一个当地合伙人或者一个共享办公室工位，也能让客户感知到你是「自己人」。</p>\n\n<hr>\n\n<h2>给融资中的出海AI创始人几点建议</h2>\n\n<p>聊到最后，他给了几个融资相关的建议：</p>\n\n<ul>\n  <li><strong>MRR（月经常性收入）比ARR重要：</strong> 投资人更关心你上个月收了多少钱，而不是年化推测值</li>\n  <li><strong>准备好你的「退场假设」：</strong> 如果融资失败，你的业务能撑多久？这个问题的答案比BP里的财务预测更让人信服</li>\n  <li><strong>你的差异点要在开场30秒内说清楚：</strong> 投资人见的项目太多了，说不清差异点=没有差异点</li>\n</ul>\n\n<p>以上是这次访谈的核心内容。如果你也是出海AI赛道的创业者，欢迎联系璞合资本交流。</p>\n",
+   "geo_questions": [
+    "出海AI创业最需要克服什么困难？",
+    "出海创业者踩过哪些坑值得警惕？"
+   ]
+  },
+  {
+   "title": "2026世界人工智能大会（WAIC）— 上海，7月17日-20日",
+   "date": "2026-07-17",
+   "date_display": "7月17日-20日",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "活动",
+   "excerpt": "经国务院批准，世界人工智能大会（WAIC）由外交部、国家发改委、工信部、教育部、科技部等十部委和上海市政府共同主办，是全球AI领域最高规格盛会之一。2026年大会聚焦全球治理与产业落地。",
+   "tags": [
+    "WAIC",
+    "世界人工智能大会",
+    "AI活动",
+    "上海"
+   ],
+   "content": "\n<p>经国务院批准，世界人工智能大会（WAIC）由外交部、国家发展和改革委员会、工业和信息化部、教育部、科学技术部、国务院国有资产监督管理委员会、国家互联网信息办公室、中国科学院、中国科学技术协会和上海市人民政府共同主办。大会自2018年创办以来已成功举办八届，始终坚持国际化、高端化、专业化、年轻化等发力方向，逐步成长为全球人工智能领域最具影响力的行业盛会。</p>\n\n<p>习近平总书记指出，人工智能是新一轮科技革命和产业变革的重要驱动力量，要推动我国新一代人工智能健康发展。2020年，习总书记在浦东开发开放30周年庆祝大会上要求，上海要聚焦关键领域，发展创新型产业，加快打造人工智能等领域的世界级产业集群。</p>\n\n<h2>大会信息</h2>\n<table>\n  <tr><td><strong>大会名称</strong></td><td>世界人工智能大会暨人工智能全球治理高级别会议</td></tr>\n  <tr><td><strong>大会时间</strong></td><td>2026年7月17日-20日</td></tr>\n  <tr><td><strong>大会地点</strong></td><td>中国·上海</td></tr>\n  <tr><td><strong>大会形式</strong></td><td>会议论坛、展览展示、评奖赛事、应用体验、创新孵化、招才引智</td></tr>\n</table>\n\n<h2>六大核心内容</h2>\n<ul>\n  <li><strong>会议论坛</strong> — 汇聚世界顶级科学家、企业家、政府官员、专家学者、国际组织、投资人、初创团队</li>\n  <li><strong>展览展示</strong> — 最新AI技术成果与应用场景集中展示</li>\n  <li><strong>评奖赛事</strong> — 发掘全球优秀AI创新项目</li>\n  <li><strong>应用体验</strong> — 沉浸式AI应用场景体验</li>\n  <li><strong>创新孵化</strong> — 链接创业团队与产业资源</li>\n  <li><strong>招才引智</strong> — 全球AI人才对接平台</li>\n</ul>\n\n<h2>关于璞合资本</h2>\n<p>璞合资本作为专注出海/AI Agent/AI智能硬件的精品FA机构，将持续关注WAIC动态。如您是参展/参会的AI创业者或投资人，欢迎联系我们深度交流。</p>\n\n<p><strong>关注璞合资本</strong> — 我们将在大会前后发布参会指南、亮点预告和会后复盘。</p>\n",
+   "geo_questions": [
+    "近期有哪些AI出海值得参加的活动？",
+    "WAIC 2026有哪些看点和参会价值？"
+   ]
+  },
+  {
+   "title": "路演30分钟，投资人前10分钟就做了决定——你的开场白值不值得重写？",
+   "date": "2026-06-09",
+   "date_display": "6月9日",
+   "author": "Helen",
+   "author_role": "Project Manager",
+   "category": "BP实战",
+   "excerpt": "投资人平均在路演前10分钟就形成了初步判断。如果你的开场白还在说「我们团队有10年经验」或者「这是一个千亿市场」，你可能已经输了。",
+   "tags": [
+    "路演",
+    "创始人",
+    "融资实战",
+    "BP"
+   ],
+   "content": "\n<p>我陪创始人跑了几十场路演，发现一个残酷的现实：<strong>投资人的决定窗口比你想象的要短得多。</strong></p>\n\n<p>红杉的Roelof Botha说过一句让很多创始人难受的话——「我在前10分钟就基本知道要不要投了，剩下的时间只是在验证或推翻自己的判断。」</p>\n\n<p>这意味着你的开场白不是「暖场」，而是整个路演的胜负手。</p>\n\n<h2>三个最常见的开场白陷阱</h2>\n\n<h3>陷阱一：「我们先介绍一下市场背景」</h3>\n<p>很多创始人习惯用行业宏观数据开场：全球AI市场规模xxxx亿、年复合增长率xx%……</p>\n<p><strong>问题：</strong>投资人每天都在看赛道，你念的数字他们比你熟。占用最宝贵的注意力窗口讲他们已知的信息，等于浪费。</p>\n<p><strong>建议：</strong>直接切入具体问题。第一句话就让他们觉得「咦，这个角度我没想过」。</p>\n\n<h3>陷阱二：「我们团队有十年经验」</h3>\n<p>团队背景很重要，但它不该是开场第一件事。</p>\n<p><strong>问题：</strong>团队介绍是对你「是谁」的回答，但投资人最先想知道的是「你解决了什么问题」。顺序反了。</p>\n<p><strong>建议：</strong>前3分钟讲清楚「什么变化让你的产品现在必须存在」，再自然过渡到「为什么是我们来做」。</p>\n\n<h3>陷阱三：「我们的目标是三年内做到行业第一」</h3>\n<p>这种话投资人一年听几百遍，已经免疫了。</p>\n<p><strong>问题：</strong>宏大愿景没有错，但路演不是发布会。投资人要的是可验证的路径，而不是一个愿望。</p>\n<p><strong>建议：</strong>把愿景拆解为「未来12个月的3个里程碑」——具体、可衡量、有执行路径。</p>\n\n<h2>一个有效的开场白结构</h2>\n<p>我见过最有效的路演开场，基本都长这样：</p>\n<blockquote>「过去18个月，[某个具体行业] 发生了一个根本变化：[一句话描述变化]。这个变化导致 [目标用户] 遇到了 [一个具体的、正在痛的问题]。我们做了一个 [产品一句话]，上线 [时间] 以来，已经 [一个具体的数据验证]。」</blockquote>\n<p>这个结构的精髓在于：</p>\n<ul>\n  <li><strong>时间锚点</strong>（「过去18个月」）→制造紧迫感</li>\n  <li><strong>具体变化</strong> → 展示你对行业的洞察深度</li>\n  <li><strong>具体的用户痛</strong> → 让投资人立刻能带入场景</li>\n  <li><strong>数据验证</strong> → 证明你不是在画饼</li>\n</ul>\n\n<h2>投资人最想验证的三个问题</h2>\n<p>不管你用什么方式开场，整场路演本质上只回答三个问题：</p>\n<ol>\n  <li><strong>为什么是现在？</strong> —— 什么市场/技术/环境变化让这个窗口打开</li>\n  <li><strong>为什么是你？</strong> —— 你的团队为什么是这个赛道最合适的团队</li>\n  <li><strong>为什么是这条路？</strong> —— 你的产品/商业模式选择背后的逻辑</li>\n</ol>\n<p>30分钟的路演，最好在15-20分钟内把这三个问题讲清楚，留下10分钟深度对话。</p>\n\n<h2>一句话建议</h2>\n<p>下次路演前，把第一页PPT删掉。从第二页开始讲。</p>\n<p>因为你的第一页，投资人大概率不会记得。</p>\n",
+   "geo_questions": [
+    "创始人融资路演有哪些常见错误？",
+    "BP怎么写才能让投资人感兴趣？",
+    "早期融资BP最重要的几个要素是什么？"
+   ]
+  },
+  {
+   "title": "AI Agent正在从「万能助手」走向「垂直工人」——三个最值得关注的方向",
+   "date": "2026-06-09",
+   "date_display": "6月9日",
+   "author": "Sage",
+   "author_role": "BD Analyst",
+   "category": "赛道观察",
+   "excerpt": "2025年的AI Agent赛道在卷「通用能力」，2026年风向变了——投资人开始追捧能解决特定行业痛点的「垂直Agent」。本文拆解三个正在跑出来的方向。",
+   "tags": [
+    "AI Agent",
+    "赛道观察",
+    "智能硬件",
+    "AI出海"
+   ],
+   "content": "\n<p>这半年我密集看了40+个AI Agent项目，一个明显的变化正在发生——</p>\n\n<p><strong>2025年的时候，每个BP都说「我们的AI Agent什么都能做」。</strong></p>\n<p><strong>2026年，投资人只问你「你能做什么？」</strong></p>\n\n<p>从「万能」到「专精」的转向，背后有两个驱动因素：一是大模型能力趋同让通用Agent很难建立壁垒，二是行业客户愿意为「解决一个具体问题」付费，但不愿意为「全能演示」买单。</p>\n\n<p>以下三个方向是我认为当前最值得关注的：</p>\n\n<h2>方向一：客服Agent的「出海本地化」升级</h2>\n<p>AI客服不新鲜，但出海场景下有一个被忽视的刚需：<strong>多语言+多时区+多渠道的协同问题</strong>。</p>\n<p>东南亚一个电商品牌可能同时运营Shopee、Lazada、TikTok Shop、独立站4个渠道，覆盖5种语言，客户咨询分布在3个时区。传统方案要么贵（招本地团队），要么体验差（翻译插件）。</p>\n<p>出海Agent玩家的机会在于：<strong>不是做更好用的聊天机器人，而是做「出海客服OS」</strong>——把渠道整合、多语言路由、工单管理、数据分析打包成一个产品。最近拿到融资的几个出海客服项目，估值逻辑都在往这个方向靠。</p>\n\n<h2>方向二：硬件领域的「Agent+IoT」</h2>\n<p>智能硬件和AI Agent的结合正在产生化学反应，但不是在消费端——在工业和服务端。</p>\n<p>逻辑：IoT设备产生大量数据，但传统OT系统没法用大模型做决策。给工业设备接一个Agent层，可以做到：</p>\n<ul>\n  <li>设备异常时自动排查原因 + 生成维修工单</li>\n  <li>多设备协同调度（比如产线机器人+AGV的配合）</li>\n  <li>跨工厂的知识复用在设备端的落地</li>\n</ul>\n<p>这个方向在深圳已经看到一些团队在做，创业者在工业自动化和AI的交叉背景。值得注意的是，他们的估值逻辑是「硬件+软件+数据」三层叠加，天花板比纯软件Agent高不少。</p>\n\n<h2>方向三：跨境电商的「全流程Agent」</h2>\n<p>出海赛道里、电商是最不缺钱的场景。但大部分产品只解决一个环节——选品、Listing优化、广告投放、客服——各做一个Agent。</p>\n<p>真正有价值的是<strong>跨流程的数据打通</strong>：一个Agent知道广告预算的变化会影响库存计划，知道退货率上升意味着需要调整Listing描述。这不是简单的API对接，而是需要理解电商运营逻辑的行业Agent。</p>\n<p>目前这个方向的产品还不多，但头部电商品牌已经开始内部搭建。独立创业公司的窗口预计还有6-9个月。</p>\n\n<h2>一句话判断</h2>\n<p>下半年的趋势是：<strong>通用Agent讲故事越来越难，垂直Agent拿钱的效率在加速。</strong></p>\n<p>核心问题不是你模型多强，而是你在一个具体行业里积累了多深的数据和流程理解。</p>\n",
+   "geo_questions": [
+    "2026年AI Agent赛道有哪些新趋势？",
+    "出海AI硬件创业有哪些坑需要避开？",
+    "AI创业选垂直方向还是通用方向？"
+   ]
+  },
+  {
+   "title": "Q2出海赛道资本扫描：谁在出手、谁在观望、谁在调整策略？",
+   "date": "2026-06-09",
+   "date_display": "6月9日",
+   "author": "Iris",
+   "author_role": "IR Assistant",
+   "category": "资本视角",
+   "excerpt": "出海AI赛道的融资并没有冷下来，只是钱在换手——从「广撒网」转向「精准下注」。本文梳理Q2以来值得关注的募资和出手信号。",
+   "tags": [
+    "投资机构",
+    "募资动态",
+    "资本视角",
+    "出海"
+   ],
+   "content": "\n<p>Q2以来我持续扫描了47家重点关注机构的动态，几个清晰的信号值得拿出来说：</p>\n\n<h2>信号一：美元基金仍在加仓出海/AI，但结构在变</h2>\n<p>Kindred Ventures完成$3.55亿新基金募资，明确把AI模型/基础设施/应用/机器人列为投资重点。Madrona Ventures也在加大AI基础设施方向布局。</p>\n<p>值得注意的变化：<strong>中前台GP在变</strong>。一些传统消费/企服方向的GP，过去半年在系统性转向出海AI，带来了新的决策偏好——他们更看重营收指标和实际落地，对纯技术故事容忍度下降。</p>\n\n<h2>信号二：产业资本正在成为出海AI的重要资金来源</h2>\n<p>CVC（产业投资基金）在这波出海AI融资中扮演的角色在提升。星纳赫资本、天图投资等产业背景机构，对有明确场景的AI出海项目投融资热情明显高于纯财务VC。</p>\n<p>逻辑也清晰：产业资本有耐心（不急着2-3年退出）、有资源（能带来客户和渠道）、有场景（理解出海业务的真需求）。</p>\n<p>对创始人来说，如果你的项目有明确的产业应用场景，建议优先接触相关CVC——它们不仅是钱，更是战略背书。</p>\n\n<h2>信号三：人民币基金的「出海心态」在快速成熟</h2>\n<p>过去人民币基金投出海最大的障碍是「看不懂海外市场」。但Q2以来这个局面在变化——不止一家人民币基金在内部设了「出海专项」投资团队。</p>\n<p>几个驱动因素：</p>\n<ul>\n  <li>港股IPO通道在改善（阶跃星辰等有望港股上市）</li>\n  <li>中东/Southeast Asia市场验证了盈利能力（不是纯烧钱）</li>\n  <li>国内一级市场标的稀缺，倒逼机构「走出去」</li>\n</ul>\n\n<h2>信号四：募资端在回暖，但分配不均</h2>\n<p>几个二线基金在Q2完成或接近完成新基金募资，但钱更多流向了有「AI叙事+实际收益」双重标签的GP。纯赛道基金募资仍然吃力。</p>\n<p>这意味着：<strong>GP端的马太效应在加剧</strong>——头部基金越募越多，腰部基金靠DPI说话。对创始人来说，拿头部基金的钱不仅是钱的问题，更是对后续融资的背书效应。</p>\n\n<h2>一句话总结</h2>\n<p><strong>出海AI正在从「试验性配置」变成「系统性布局」。</strong> 机构端的资金、团队、策略都在向这个方向倾斜。对创始人来说，现在找融资的窗口条件比半年好，但竞争也更激烈了——投资人的筛选标准在快速提高。</p>\n",
+   "geo_questions": [
+    "2026年出海AI融资市场怎么样？",
+    "哪些投资机构在投出海AI赛道？",
+    "出海AI项目融资估值逻辑有什么变化？"
+   ]
+  },
+  {
+   "id": 1,
+   "title": "东南亚AI客服赛道观察：为什么中国2023年的答案正在被复制？",
+   "excerpt": "这个月我看了东南亚12家AI客服创业公司，发现一个很有意思的现象——它们的产品形态和叙事逻辑，几乎都在复刻中国2023年的路线。但复制答案的同时，也复制了当年的坑。",
+   "author": "Sage",
+   "author_role": "赛道观察员",
+   "category": "赛道观察",
+   "date": "2026-06-04",
+   "date_display": "2026.06.04",
+   "date_rfc": "Thu, 04 Jun 2026 09:00:00 +0800",
+   "tags": [
+    "东南亚",
+    "AI客服",
+    "出海",
+    "赛道分析"
+   ],
+   "content": "<p>过去两周，我用 Agent 系统扫描了东南亚12家 AI 客服方向的早期项目（种子轮到 A 轮），覆盖新加坡、印尼、菲律宾、越南四个市场。结论很直白：</p>\n\n<p class=\"gold\">东南亚 AI 客服正在走中国 2023 年的路，但路边的坑一个都没少。</p>\n\n<p>先看数据：2026 Q1 东南亚 AI 客服赛道融资总额约 $1.8 亿，同比增长 210%（<a href=\"https://www.<a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a> 口径）。活跃玩家从 2024 年的 20+ 家增长到 60+ 家。但真正让人兴奋的，不是融了多少钱，而是这些钱的流向和产品形态暴露出的规律。</p>\n\n\n<h2>他们都在「抄」什么？</h2>\n\n<p>我梳理了12家产品的核心功能模块，发现高度重合：</p>\n\n<ul>\n  <li><strong>多语言客服机器人</strong> — 英语+本地语言（印尼语/泰语/越南语）混合应答</li>\n  <li><strong>WhatsApp 集成</strong> —必选项，因为东南亚电商 70%+ 客服发生在 WhatsApp</li>\n  <li><strong>知识库 RAG</strong> —上传文档自动生成 FAQ 答案库</li>\n  <li><strong>人工转接 + 工单系统</strong> — 类似 <a href=\"https://www.<a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a> 的基础能力</li>\n</ul>\n\n<p>这跟中国 2023 年 AI 客服创业公司的功能清单几乎一模一样。区别在于：中国玩家 2024 年已经开始卷 Agentic Workflow（自动执行多步任务），而东南亚大部分还停留在「被动问答」阶段。</p>\n\n\n<h2>三个被忽视的坑</h2>\n\n<p>复制路线不可怕，可怕的是连坑一起复制。我看下来，三个典型问题：</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑一：多语言 ≠ 本地化</div>\n  <p>印尼语有 700+ 方言，越南语南北口音差异巨大。大部分产品用 <a href=\"https://translate.google.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Google Translate</a> 级别的 NLP 做本地化，导致精准率在 65-75% 之间徘徊。中国 2023 年的教训是：方言覆盖不够，客服机器人会变成「客户劝退器」。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑二：SaaS 定价不适合当地 LTV</div>\n  <p>中国 SaaS 经历了 2023-2024 的惨烈教育——中小企业根本付不起 $500+/月。东南亚大部分国家人均 GDP 还低于中国，$200/月就是天花板。我看到几家项目还按美国定价逻辑在打，危险。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">⚠️ 坑三：基础设施差带来的交付成本</div>\n  <p>印尼和菲律宾的互联网稳定性、支付基础设施（不到 40% 人口有银行卡）、以及 WhatsApp API 的政策限制，让原本简单的 SaaS 部署变成「半定制化项目制」。有一家创业公司告诉我，50% 的技术团队时间花在解决集成问题上。</p>\n</div>\n\n\n<h2>谁在真正的创新？</h2>\n\n<p>12 家里，有 2 家让我印象深刻：</p>\n\n<ul>\n  <li><strong>一家新加坡的种子轮项目</strong>：不做通用客服，只做跨境电商退换货场景的 AI Agent。每天处理 10,000+ 退换请求，自动化率 87%。垂直得狠，数据壁垒深。</li>\n  <li><strong>一家雅加达的 Pre-A 项目</strong>：把客服 AI 和当地支付系统（<a href=\"https://www.gopay.co.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">GoPay/OVO/DANA</a>）深度打通，用户直接在对话里完成退款。这是东南亚特有场景，中国玩家做不了。</li>\n</ul>\n\n<p>这两家的共性是：<strong>没有试图复制硅谷模板，而是从本地真实场景长出产品</strong>。</p>\n\n\n<h2>对创始人的建议</h2>\n\n<p>如果你想在东南亚做 AI 客服方向，我的建议很简单：</p>\n\n<ol>\n  <li><strong>别卷通用型</strong> — 大厂（Zendesk、Intercom）和本地巨头（GoTo、Grab）早晚入场</li>\n  <li><strong>选一个东南亚独有的垂直场景</strong> — 退换货、跨境支付客服、本地物流追踪，都是好切入点</li>\n  <li><strong>定价腰斩再腰斩</strong> — 按印尼中小企业能承受的价格倒推，而不是按你的成本</li>\n  <li><strong>从交付能力建立壁垒</strong> — 把集成经验产品化，让后来者追不上</li>\n</ol>\n\n<blockquote>\n  <p>东南亚 AI 客服赛道正在经历中国 2023 的翻版——窗口期有 12-18 个月，第一批跑通 PMF 的团队会拿到最大红利。但前提是，别把 2023 年的坑一起搬过来。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://developers.facebook.com/docs/whatsapp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">WhatsApp Business API</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资数据与创始人访谈整理，不构成投资建议。如有出海 AI 项目融资需求，欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "2026年AI Agent赛道有哪些新趋势？",
+    "出海AI硬件创业有哪些坑需要避开？",
+    "AI创业选垂直方向还是通用方向？"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "BP写到第3页投资人就不看了？这5个结构错误你很可能在犯",
+   "excerpt": "我做FA PM这几年，看过300+份BP，平均每份停留时间不到3分钟。80%的BP在第三页就输掉了——不是内容不好，是结构在劝退。",
+   "author": "Helen",
+   "author_role": "资深FA PM",
+   "category": "BP实战",
+   "date": "2026-06-04",
+   "date_display": "2026.06.04",
+   "date_rfc": "Thu, 04 Jun 2026 12:00:00 +0800",
+   "tags": [
+    "BP",
+    "融资",
+    "路演",
+    "创始人"
+   ],
+   "content": "<h2>3分钟法则</h2>\n\n<p>先做一道算术题：一个合伙人平均一天看 5-10 份 BP，每份 15-20 页。他的注意力曲线在第 3 页达到峰值，之后直线下降。如果你前 3 页没有回答他真正关心的 3 个问题，后面 12 页写得再好也没用。</p>\n\n<p>哪三个问题？</p>\n\n<ol>\n  <li><strong>你是做什么的？</strong> — 一句话说清楚（不是 slogan，是业务本质）</li>\n  <li><strong>你凭什么能做成？</strong> — 团队+壁垒</li>\n  <li><strong>为什么是现在？</strong> — 市场窗口 + 时机</li>\n</ol>\n\n\n<h2>最常见的 5 个结构错误</h2>\n\n<h3>❌ 错误1：第一页放公司简介而非问题</h3>\n\n<p>大部分 BP 第一页：「XX 公司成立于 X 年，致力于打造……」投资人内心 OS：「关我什么事？」</p>\n\n<p><strong>✅ 正确做法：</strong> 第一页直接上「痛点」——用一张图或一组数据让投资人感受到「这个市场出问题了，不解决不行」。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 案例</div>\n  <p>一个出海项目第一页放了一张东南亚物流延误的实时数据图：<em>「72% 的跨境订单在雅加达滞留超过3天，每天损失 $2.3M」</em>。比任何公司介绍都有力。</p>\n</div>\n\n\n<h3>❌ 错误2：TAM/SAM/SOM 放前三页</h3>\n\n<p>「AI 客服市场 2030 年将达到 $500 亿」——这句废话投资人每天听 10 遍。你放第三页，等于告诉他「我没什么特别要说的」。</p>\n\n<p><strong>✅ 正确做法：</strong> 市场数据放到第 7-8 页，或者直接跟 GTM 策略合并——用市场数据来支撑你的「为什么现在进场」。前三页是抢注意力的，不是做报告的。</p>\n\n\n<h3>❌ 错误3：团队页只有头像和经历</h3>\n\n<p>「CEO 曾在腾讯工作 5 年」「CTO 前阿里 P8」——然后就没了。投资人会想：这跟我有什么关系？</p>\n\n<p><strong>✅ 正确做法：</strong> 团队页要回答「为什么是这些人能做成这件事」——</p>\n\n<ul>\n  <li>CEO 在腾讯期间负责的某条业务线，年 GMV $X 亿，正好跟现在做的方向高度相关</li>\n  <li>CTO 在大厂做的某个技术框架，恰好是当前产品的底层能力</li>\n  <li>或者更重要的：<strong>你们团队之前一起共事过吗？合作多久了？</strong></li>\n</ul>\n\n\n<h3>❌ 错误4：产品功能介绍堆砌</h3>\n\n<p>用半页列了 8 个功能模块，每个配一个截图。</p>\n\n<p><strong>✅ 正确做法：</strong> 只讲 1-2 个核心功能——最能体现壁垒和差异性的那个。用「为什么别家做不了」代替「我们有什么」。</p>\n\n\n<h3>❌ 错误5：财务预测变成「自嗨曲线」</h3>\n\n<p>「2027 年营收 $50M」下面没有任何支撑假设。投资人的反应：「凭什么？」</p>\n\n<p><strong>✅ 正确做法：</strong> 每一行预测都写清楚假设：</p>\n\n<ul>\n  <li>用户数增长 = 基于某个渠道的获客测试数据 × 投入预算</li>\n  <li>客单价 = 已经签下的种子客户合同单价</li>\n  <li>毛利率 = 同类 SaaS 的平均值或你的 pilot 数据</li>\n</ul>\n\n\n<h2>一份好 BP 的黄金结构（10页版）</h2>\n\n<p>我帮项目改得最多的一个结构模板：</p>\n\n<ol>\n  <li><strong>痛点</strong> — 一张图触发共鸣</li>\n  <li><strong>解决方案</strong> — 一句话+一张示意图</li>\n  <li><strong>为什么是现在</strong> — 市场窗口 + 技术拐点</li>\n  <li><strong>产品亮点</strong> — 1-2 个核心差异（Demo 截图）</li>\n  <li><strong>商业模式</strong> — 怎么挣钱，算清 unit economics</li>\n  <li><strong>壁垒</strong> — 技术/数据/网络效应/渠道（选最强的一个）</li>\n  <li><strong>团队</strong> — 不是简历堆砌，是「为什么是我们」</li>\n  <li><strong>市场与GTM</strong> — 优先攻哪个客户群，为什么</li>\n  <li><strong>财务与预测</strong> — 有假设依据的预测</li>\n  <li><strong>融资需求</strong> — 多少钱，花在哪，里程碑是什么</li>\n</ol>\n\n<blockquote>\n  <p>最后说一句：BP 不是产品说明书，是「约 meeting 的工具」。目的是让投资人想见你，不是看完 BP 就做决定。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.intercom.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Intercom</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.investopedia.com/terms/t/total-addressable-market-tam.asp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Investopedia</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.docsend.com/blog/how-much-time-do-investors-spend-reading-pitch-decks/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">DocSend</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为早期出海 AI 项目提供 BP 打磨和路演培训。如需帮助，欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "创始人融资路演有哪些常见错误？",
+    "BP怎么写才能让投资人感兴趣？",
+    "早期融资BP最重要的几个要素是什么？"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Q2出海AI赛道融资复盘：谁在拿钱、估值逻辑变了什么？",
+   "excerpt": "整理了 Q2 出海 AI 方向的 32 笔融资，有几个结构性变化值得每个创始人和投资人注意。",
+   "author": "Iris",
+   "author_role": "IR 分析师",
+   "category": "资本视角",
+   "date": "2026-06-04",
+   "date_display": "2026.06.04",
+   "date_rfc": "Thu, 04 Jun 2026 15:00:00 +0800",
+   "tags": [
+    "融资趋势",
+    "估值",
+    "出海",
+    "Q2复盘"
+   ],
+   "content": "<h2>Q2 出海 AI 赛道融资全景</h2>\n\n<p>Pulito Capital IR 团队跟踪了 2026 Q2（4月-6月）出海 AI 方向的 32 笔公开融资事件，覆盖 Agent、硬件、应用三个子赛道，阶段从种子轮到 B 轮。</p>\n\n<p>几个核心数据：</p>\n\n<div class=\"highlight-box\">\n  <p><strong>总融资额：</strong> 约 $4.2 亿（已披露）<br>\n  <strong>平均轮次金额：</strong> 种子轮 $120 万 / 天使轮 $280 万 / A 轮 $850 万<br>\n  <strong>美元基金占比：</strong> 58% · 人民币基金 32% · 混合型 10%<br>\n  <strong>地理分布：</strong> 东南亚 45% / 中东 22% / 拉美 15% / 非洲 10% / 其他 8%</p>\n</div>\n\n\n<h2>三个结构性变化</h2>\n\n<h3>1. 投资人开始区分「AI+」和「+AI」了</h3>\n\n<p>Q1 的时候，很多标的只要贴上「AI」就能拿到溢价。Q2 开始变了——投资人问的是：</p>\n\n<blockquote>\n  <p>「你这到底是用 AI 重新定义一个品类（AI+），还是在现有产品上加个 AI 功能（+AI）」</p>\n</blockquote>\n\n<p>我们的数据验证了这一点：</p>\n\n<ul>\n  <li><strong>AI+ 项目</strong>（Agent Native / AI First）平均估值溢价 35%，融资速度快 2 倍</li>\n  <li><strong>+AI 项目</strong>（传统 SaaS 加了 copilot）估值与 Q4 2025 持平，且投资人 DD 周期拉长了 40%</li>\n</ul>\n\n<p>换句话说：<strong>AI 的「标签红利」正在消退，结构红利才开始</strong>。如果你的产品设计不是从 AI 能力倒推的，投资人越来越不买账。</p>\n\n\n<h3>2. 估值锚点从「对标美国」切换到「对标本地」</h3>\n\n<p>2025 年出海项目讲估值故事的标准句式：「这个赛道在美国是 $X 亿，东南亚只有 1/10，所以我们……」</p>\n\n<p>2026 Q2 这个逻辑失效了。投资人开始问更具体的问题：</p>\n\n<ul>\n  <li>你瞄准的这个东南亚市场的 ARPU 到底是多少？</li>\n  <li>对标的是 <a href=\"https://investors.grab.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Grab/GoTo</a> 还是 Goto 的估值，还是他们收购的某个业务线的估值？</li>\n  <li>当地有没有上市公司可以类比？P/S 倍数多少？</li>\n</ul>\n\n<p>我们的观察：<strong>能用「本地上市公司对标+Unit Economics」讲估值故事的创始人，融资成功率高出 2.3 倍</strong>。</p>\n\n\n<h3>3.「深度科技」标签在硬件赛道失效</h3>\n\n<p>Q1 我们注意到一批 AI 硬件项目靠「自研芯片」「多模态模型」「空间计算平台」拿到不错估值。Q2 投资人的态度变了——他们开始做一个更简单的选择题：</p>\n\n<p><strong>「你这个硬件，第一天能卖给谁？」</strong></p>\n\n<p>能回答清楚的，拿钱。回答不清楚的，一律按「没有 PMF」处理，估值打 7 折。硬件赛道的投资人正在从技术崇拜转向场景导向——这对出海项目尤其关键，因为海外市场的渠道验证本身就需要时间。</p>\n\n\n<h2>Q3 展望：三个信号值得关注</h2>\n\n<ol>\n  <li><strong>中东主权基金加速入场</strong> — <a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a>、PIF 都在组建专门的 AI 投资团队，关注跨境 SaaS 和 AI 硬件。对出海项目，这可能是一个被低估的融资来源</li>\n  <li><strong>美元基金的回流趋势</strong> — 几家头部美元基金 Q2 在东南亚设立办公室，东南亚本地基金也在募资，人民币-美元混合结构的需求在上升</li>\n  <li><strong>垂直 Agent 融资窗口持续</strong> — 通用 Agent 融资越来越难，但做垂直场景（电商客服、跨境物流、出海合规）的 Agent 项目估值仍然坚挺</li>\n</ol>\n\n<blockquote>\n  <p>以上数据基于公开信息和 Pulito Capital 尽职调查网络的交叉验证。如需完整版 Q2 融资分析报告，欢迎扫码添加微信联系</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://investors.grab.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Grab Investor Relations</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：<a href=\"https://www.<a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a>、<a href=\"https://<a href=\"https://pitchbook.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a>、<a href=\"https://36kr.com/overseas\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\"><a href=\"https://36kr.com/overseas\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">36氪出海</a></a>、Pulito Capital IR 追踪网络</p>",
+   "geo_questions": [
+    "2026年出海AI融资市场怎么样？",
+    "哪些投资机构在投出海AI赛道？",
+    "出海AI项目融资估值逻辑有什么变化？"
+   ]
+  },
+  {
+   "id": 4,
+   "title": "天使轮融资协议中的「清算优先权」：创始人最容易被坑的一个条款",
+   "excerpt": "清算优先权这个条款，80% 的天使轮创始人签的时候没看懂。等看懂的时候，往往是公司快要被并购或清算了——但那时候已经来不及了。",
+   "author": "Lex",
+   "author_role": "法务合伙人",
+   "category": "合规法务",
+   "date": "2026-06-04",
+   "date_display": "2026.06.04",
+   "date_rfc": "Thu, 04 Jun 2026 20:00:00 +0800",
+   "tags": [
+    "法务",
+    "条款陷阱",
+    "天使轮",
+    "股权架构"
+   ],
+   "content": "<h2>一个真实的案例</h2>\n\n<p>去年有个出海 AI 硬件项目找我审协议。创始人在天使轮拿了 $200 万，条款里写的是「1x 非参与清算优先权」，看起来没问题对吧？</p>\n\n<p>结果 A 轮的时候，A 轮投资方要求加上「参与权」（Participating），并且追索到天使轮。创始人没太在意。今年公司以 $1,500 万被收购——创始人算完账发现，自己到手的比预期少了 60%。</p>\n\n<p>问题就出在清算优先权的「参与」二字上。</p>\n\n\n<h2>清算优先权到底在说什么？</h2>\n\n<p>一句话：<strong>公司被并购或清算时，钱先分给投资人，再分给创始人</strong>。</p>\n\n<p>但「先分多少」「分完还有没有」——这就是条款的微妙之处。</p>\n\n\n<h2>三种常见形态（从好到坏排序）</h2>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🟢 1x 非参与清算优先权（Non-Participating）</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额（$200 万），剩下按持股比例分配。</p>\n  <p><strong>对创始人：</strong> ⭐⭐⭐⭐⭐ 最佳</p>\n  <p><strong>适用场景：</strong> 优质项目、强势创始人。这是市场标准条款（Market Standard）。如果你的项目足够好，就坚持要这个。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🟡 1x 参与清算优先权（Participating）——但设上限（Capped）</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额，再按持股比例参与剩余分配——但总额不超过投资额的 2x/3x。</p>\n  <p><strong>对创始人：</strong> ⭐⭐⭐ 可以接受</p>\n  <p><strong>适用场景：</strong> 如果必须给参与权，一定要争取加上 cap。常见的 cap 是 2x-3x。</p>\n</div>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">🔴 1x 参与清算优先权（Participating）——无上限</div>\n  <p><strong>含义：</strong> 投资人先拿回 1 倍投资额，再按持股比例参与剩余分配，没有上限。</p>\n  <p><strong>对创始人：</strong> ⭐ 最差，慎签</p>\n  <p><strong>后果：</strong> 上面的案例就是这种。公司稍微卖得不好，创始人可能一分都拿不到。</p>\n</div>\n\n\n<h2>一个算账的例子</h2>\n\n<p>假设：公司天使轮融资 $200 万，投资人占 20%。3 年后公司以 $1,000 万被收购。</p>\n\n<table style=\"width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;color:#e8e8f0\">\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.3)\">\n    <th style=\"text-align:left;padding:10px;color:var(--gold);font-weight:600\">条款类型</th>\n    <th style=\"text-align:right;padding:10px;color:var(--gold);font-weight:600\">投资人拿到</th>\n    <th style=\"text-align:right;padding:10px;color:var(--gold);font-weight:600\">创始人团队拿到</th>\n  </tr>\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.1)\">\n    <td style=\"padding:10px\">非参与 (最好)</td>\n    <td style=\"text-align:right;padding:10px\">$200 万</td>\n    <td style=\"text-align:right;padding:10px\">$800 万</td>\n  </tr>\n  <tr style=\"border-bottom:1px solid rgba(212,175,55,0.1)\">\n    <td style=\"padding:10px\">参与·有上限 (2x)</td>\n    <td style=\"text-align:right;padding:10px\">$360 万</td>\n    <td style=\"text-align:right;padding:10px\">$640 万</td>\n  </tr>\n  <tr>\n    <td style=\"padding:10px\">参与·无上限 (最差)</td>\n    <td style=\"text-align:right;padding:10px\">$400 万</td>\n    <td style=\"text-align:right;padding:10px\">$600 万</td>\n  </tr>\n</table>\n\n<p>如果公司卖得再低一点（$500 万）：</p>\n\n<ul>\n  <li>非参与：投资人拿 $200 万，创始人拿 $300 万</li>\n  <li>参与·无上限：投资人拿 $200 万 + ($300 万 × 20%) = $260 万，创始人拿 $240 万</li>\n</ul>\n\n<p>差距 60 万，对早期创始人来说，可能是一套房的首付。</p>\n\n\n<h2>给创始人的 3 条建议</h2>\n\n<ol>\n  <li><strong>天使轮一定争取「Non-Participating」</strong> — 这个阶段项目不确定性最高，保留下行保护是合理的。大多数专业机构不会在天使轮强推参与权。</li>\n  <li><strong>如果必须给「Participating」，一定要加 Cap</strong> — 上限设在 2x-3x。同时争取在 A 轮时把参与权取消（或是把天使轮转为 Non-participating）。</li>\n  <li><strong>让律师审查，并且让律师解释清楚「worst case scenario」</strong> — 不要只看模版。让律师算一遍：如果我卖 $X，我能拿多少？X 从低到高跑三个场景。</li>\n</ol>\n\n<blockquote>\n  <p>提醒一句：条款没有绝对的好坏，核心是「你理解了你在签什么」。签完协议后看不懂的条款，大概率对你不利。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://angel.co/<a href=\"https://www.nvca.org/model-legal-documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Term Sheet</a>s\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">AngelList</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">YC <a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">SAFE</a></a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.nvca.org/model-legal-documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">NVCA</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。融资协议审核请咨询专业律师。璞合资本提供融资协议审阅服务，欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "天使轮融资协议有哪些关键条款需要注意？",
+    "出海项目的股权架构怎么设计？",
+    "Vesting Schedule怎么设置才合理？"
+   ]
+  },
+  {
+   "id": 5,
+   "title": "AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱",
+   "excerpt": "这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。",
+   "author": "Sage",
+   "author_role": "赛道观察员",
+   "category": "赛道观察",
+   "date": "2026-06-05",
+   "date_display": "2026.06.05",
+   "date_rfc": "Fri, 05 Jun 2026 09:00:00 +0800",
+   "tags": [
+    "AI硬件",
+    "深圳工厂",
+    "PMF",
+    "出海供应链"
+   ],
+   "content": "<p>先说一个反直觉的事实：</p>\n\n<p class=\"gold\">2026 Q1 AI硬件出海项目的死亡率高达63%——但死因不是技术不行，而是第一批货没卖出去。</p>\n\n<p>我花了两周时间，跑了深圳宝安、东莞长安一共12家AI硬件代工厂，见了20多位创业者。覆盖品类从AI眼镜、AI录音笔到AI宠物陪伴机器人。本来想看看技术进展，结果发现了一个更值得说的事——<strong>PMF陷阱正在批量消耗创始人的钱和信心</strong>。</p>\n\n\n<h2>陷阱一：把「工具」当成「产品」</h2>\n\n<p>这可能是最普遍的坑。一个AI录音笔项目的创始人是大厂语音算法出身，技术能力没得说。他给我看产品时很兴奋：「我们把Whisper做了硬件适配，离线转录准确率97%，还加了实时翻译。」</p>\n\n<p>我问了一句：「第一批1000台卖给谁了？」</p>\n\n<p>他说：「还没量产，先发<a href=\"https://www.<a href=\"https://www.kickstarter.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Kickstarter</a>.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Kickstarter</a>看看。」</p>\n\n<p>这就是问题。他做的是一个<strong>功能</strong>（离线转录+翻译），而不是一个<strong>产品</strong>（为什么非要用这个硬件而不是App？在什么场景下用户会掏出这个而不是手机？）</p>\n\n<p>在工厂的视角看，这种项目的生命周期是：开模→试产→发现问题→改模→再试产→放弃。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 区分方法</div>\n  <p>问自己一个问题：<strong>如果这个AI功能被做成App免费了，你的硬件还卖得掉吗？</strong>如果答案是不确定，你很可能在做工具而不是产品。</p>\n</div>\n\n\n<h2>陷阱二：低估「ID→量产」之间的隐形死胡同</h2>\n\n<p>深圳工厂的朋友跟我说了句话我印象很深：<strong>「很多创始人以为ID设计做完就完成了大半，其实ID做完，真正的坑才开始。」</strong></p>\n\n<p>几个真实案例：</p>\n\n<ul>\n  <li>某AI眼镜项目，ID很漂亮，但散热方案没留空间。量产时才发现芯片在连续使用20分钟后表面温度达到53°C——不能戴。改结构，重新开模，+8周，+¥30万。</li>\n  <li>某AI宠物摄像头，结构设计时没考虑东南亚高湿度环境。第一批1000台出货到曼谷后，15%在两周内出现镜头起雾。退货率炸了。</li>\n  <li>某AI学习机，选择了全金属外壳做高端感，结果忽略了海外物流成本——单台运费从预估的$5.2涨到$12.8，直接把毛利打平了。</li>\n</ul>\n\n<p>这些坑的共同点：<strong>创始人在做ID的时候，脑子里只有「好看」，没有「活着」</strong>。散热、防水、防震、物流成本、包装体积——每一件事都能杀死一条产品线。</p>\n\n\n<h2>陷阱三：用「国内打法」做「海外渠道」</h2>\n\n<p>出海AI硬件最惨烈的死法是什么？按国内的打法备货、定价、铺渠道，然后发现海外不吃这一套。</p>\n\n<p>一个做AI学习机的项目，国内打法很熟：抖音投流→直播间转化→抖音小店成交。出海选了<a href=\"https://seller.tiktokglobalshop.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">TikTok Shop</a>+独立站。第一批备了5000台。</p>\n\n<p>结果：</p>\n<ul>\n  <li>TikTok Shop上架的审核周期4周（国内2天）</li>\n  <li>用户从看到到购买的转化链路拖长2-3倍</li>\n  <li>退货率12%（国内同类产品5-6%）</li>\n  <li>物流+关税让成本上升40%</li>\n</ul>\n\n<p>5000台只卖出不到1000台，剩下的4000台堆在海外仓每天吃仓储费。</p>\n\n<p>创始人复盘时说了一句话：「在国内我们什么渠道打法都懂，到了海外就像换了个游戏。」</p>\n\n\n<h2>给创始人的四个建议</h2>\n\n<ol>\n  <li><strong>先做100台MVP</strong> — 别一上来就开模5000台。用手板+小批量试产（100-200台）卖给目标用户，验证「有人真的愿意花钱买」再放大。</li>\n  <li><strong>找有出海经验的硬件PM</strong> — 深圳不缺硬件工程师，缺的是出过货到海外、踩过坑的PM。这个角色值他年薪的十倍。</li>\n  <li><strong>把物流成本算进定价模型</strong> — 很多创始人的定价公式是 <a href=\"https://www.investopedia.com/terms/b/bill-of-materials.asp\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">BOM</a>×3=出厂价。但出海硬件的实际成本是：BOM+模具摊销+物流+关税+海外仓+退货损耗。按这个算，BOM×5都未必有正毛利。</li>\n  <li><strong>渠道验证前置</strong> — 在开模之前，先搞清楚目标市场的渠道逻辑。<a href=\"https://sellercentral.amazon.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Amazon</a>还是独立站？批发还是DTC？每个渠道的获客成本和退货率是多少？这些数据应该出现在BP的第2页，而不是第9页。</li>\n</ol>\n\n<blockquote>\n  <p>AI硬件是个好赛道，但这个赛道不奖励「想法最强」的人，只奖励「第一批货卖得掉」的人。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://sellercentral.amazon.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Amazon</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://seller.tiktokglobalshop.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">TikTok Shop</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://github.com/openai/whisper\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Whisper</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于深圳-东莞硬件供应链实地调研整理。如有AI硬件出海项目融资需求，欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "2026年AI Agent赛道有哪些新趋势？",
+    "出海AI硬件创业有哪些坑需要避开？",
+    "AI创业选垂直方向还是通用方向？"
+   ]
+  },
+  {
+   "id": 6,
+   "title": "投资人问「你的壁垒是什么？」——别告诉我你答的是「技术领先」",
+   "excerpt": "我审过的300+份BP里，「壁垒」页的平均质量是最低的。90%的创始人把「技术领先」「先发优势」「团队背景」写上去了——而这三点在投资人眼里几乎等于「没有壁垒」。",
+   "author": "Helen",
+   "author_role": "资深FA PM",
+   "category": "BP实战",
+   "date": "2026-06-05",
+   "date_display": "2026.06.05",
+   "date_rfc": "Fri, 05 Jun 2026 12:00:00 +0800",
+   "tags": [
+    "壁垒",
+    "BP",
+    "融资技巧",
+    "竞争分析"
+   ],
+   "content": "<h2>为什么「技术领先」不算壁垒？</h2>\n\n<p>每次看BP翻到壁垒页，我内心都是复杂的——因为我知道接下来大概率会看到这三个词中的一个：</p>\n\n<ul>\n  <li><strong>技术领先</strong> — 大厂能挖你的人，能花更多钱</li>\n  <li><strong>先发优势</strong> — 先发不是壁垒，先发后跑得快才是</li>\n  <li><strong>团队背景</strong> — 投资人是投你这个人，不是投你的壁垒</li>\n</ul>\n\n<p>不是说这些不重要，而是——<strong>它们经不起<a href=\"https://www.cbinsights.com/research/tech-moat/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">压力测试</a></strong>。</p>\n\n<p>投资人问壁垒的时候，真正在问的是：</p>\n\n<div class=\"highlight-box\">\n  <p style=\"font-size:1.1rem;color:var(--gold);font-weight:500\">「如果腾讯/字节/阿里明天决定做你这件事，你还能活多久？」</p>\n</div>\n\n<p>大部分创始人的「技术领先」在这个问题面前撑不过三秒。</p>\n\n\n<h2>真正有效的四种壁垒</h2>\n\n<p>我过去一年看过几百个项目，真正让我觉得「这个壁垒靠谱」的不超过10%。总结下来，有效的壁垒只有四种：</p>\n\n\n<h3>🛡️ 1. 数据网络效应</h3>\n\n<p><strong>最强的一种。</strong> 用户越多→数据越多→模型越好→产品越好→用户越多。这是一个自我强化的飞轮。</p>\n\n<p>典型案例：一个做AI跨境电商选品的项目，早期就是靠工具卖 $29/月 拉用户。两年后积累了1.2亿条 SKU 级销售数据。新竞争者从零开始，即使技术一样好，没有数据就做不到同样的预测准确率。</p>\n\n<p><strong>在BP里怎么呈现：</strong></p>\n<ul>\n  <li>不用写「我们有数据积累」——要写「我们积累了X条数据，新竞争者要达到同等水平需要Y个月和$Z万」</li>\n  <li>给投资人算时间账和资金账</li>\n</ul>\n\n\n<h3>🛡️ 2. 渠道独占</h3>\n\n<p><strong>被低估的一种。</strong> 尤其是在出海赛道。如果某个市场/渠道只有你能进去，这就是最强壁垒。</p>\n\n<p>案例：一个做印尼 B2B 食材供应链的 AI 项目。他们的壁垒不是什么 AI 算法，而是签下了雅加达最大的生鲜批发市场的数字结算独家协议。所有交易数据从他们手上过，竞争对手要进来只能铺地推硬抢。</p>\n\n<p><strong>关键区别：</strong> 渠道独占是有「排他性」的。如果你只是「跟渠道关系好」，那不算独占。</p>\n\n\n<h3>🛡️ 3. 规模化成本优势</h3>\n\n<p>不是靠低价，而是靠结构性的成本差异。比如AI驱动的自动化让边际成本接近零，或者供应链整合让采购成本低30%。</p>\n\n<p>一个出海AI翻译项目，壁垒是他们在菲律宾自建了人机协同的质量审核团队。纯机器翻译质量不够，纯人工太贵，他们找到的结合方式把成本压到了竞品的60%。而且规模越大，成本差距越大。</p>\n\n\n<h3>🛡️ 4. 监管准入</h3>\n\n<p><strong>在海外市场尤其好用。</strong> 金融、医疗、教育、数据合规——这些领域的牌照和认证本身就是壁垒。</p>\n\n<p>一个做东南亚<a href=\"https://en.wikipedia.org/wiki/Buy_now,_pay_later\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">BNPL</a>+AI风控的项目，最大壁垒是在印尼拿到了<a href=\"https://www.ojk.go.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OJK</a>的注册号。光走完审批流程就花了14个月。14个月够干什么？够一个竞争对手融两轮钱然后去别的国家了。</p>\n\n\n<h2>如果以上都没有，怎么办？</h2>\n\n<p>诚实比硬造一个壁垒好。</p>\n\n<p>我看到过最好的一个BP，壁垒页就写了一句话：</p>\n\n<blockquote>\n  <p>「目前我们还没有结构性壁垒。但我们通过两个手段快速建立：①我们用18个月跑通的数据管道，竞争对手要花24个月+$200万复现；②我们与3个头部渠道签了数据共享协议，锁定12个月窗口期。我们的时间线如下——」</p>\n</blockquote>\n\n<p>这个创始人没骗自己，也没骗投资人。他最后的融资结果是：TS在3周内签下来了。</p>\n\n\n<h2>一句话总结</h2>\n\n<p>投资人关于壁垒只有一个问题：<strong>「你凭什么认为3年后你还活着，而你最大的竞争对手死了？」</strong></p>\n\n<p>你的壁垒页，只要能扎扎实实回答这个问题，就赢了90%的BP。</p>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ojk.go.id\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OJK Indonesia</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.cbinsights.com/research/tech-moat/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">CB Insights</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为早期项目提供BP打磨和壁垒梳理服务。欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "创始人融资路演有哪些常见错误？",
+    "BP怎么写才能让投资人感兴趣？",
+    "早期融资BP最重要的几个要素是什么？"
+   ]
+  },
+  {
+   "id": 7,
+   "title": "中东主权基金正在系统性地布局AI——这波钱怎么拿？",
+   "excerpt": "Q2以来，PIF和Mubadala的AI投资团队明显在加速。我梳理了最近6个月中东资本在AI领域的投资图谱，发现他们的逻辑和美元基金完全不同。",
+   "author": "Iris",
+   "author_role": "IR 分析师",
+   "category": "资本视角",
+   "date": "2026-06-05",
+   "date_display": "2026.06.05",
+   "date_rfc": "Fri, 05 Jun 2026 15:00:00 +0800",
+   "tags": [
+    "中东资本",
+    "主权基金",
+    "AI投资",
+    "PIF",
+    "Mubadala",
+    "出海融资"
+   ],
+   "content": "<h2>先看几个数据</h2>\n\n<p>2026年前5个月，中东主权基金在AI领域的投资总额达到$28亿，超过2024全年的$22亿。而且这个数字还在加速——仅5月份就有$7.3亿的新增交易。</p>\n\n<p>几个值得关注的交易：</p>\n\n<ul>\n  <li><strong><a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></strong> 领投了某AI基础设施公司$4.5亿的C轮（沙特）</li>\n  <li><strong>Mubadala</strong> 参与了某AI Agent平台$2亿的B轮（阿布扎比）</li>\n  <li><strong><a href=\"https://www.qia.qa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">QIA</a></strong> 通过旗下基金对5家AI初创进行了战略投资（多哈）</li>\n  <li><strong>ADQ</strong> 宣布设立$10亿规模的AI专项基金（阿布扎比）</li>\n</ul>\n\n<p>但真正重要的不是这些数字，而是数字背后的逻辑。</p>\n\n\n<h2>中东主权基金的AI投资逻辑，和美元基金完全不一样</h2>\n\n<p>我花了点时间梳理了PIF、Mubadala、QIA、ADQ这四家基金的AI投资图谱，发现一个清晰的模式：</p>\n\n\n<h3>逻辑一：不是追求IRR，是追求「国家资产」</h3>\n\n<p>美元基金的逻辑是：投一笔钱→等5-7年→卖股份→拿回报。</p>\n\n<p>中东主权基金的逻辑是：投一笔钱→把技术/能力/团队搬回本国→变成国家基础设施的一部分。</p>\n\n<p>PIF投资AI公司时，几乎都会要求在沙特设立区域总部或研发中心。Mubadala更温和一些，但「技术本地化」也是加分项。</p>\n\n<p><strong>这对出海项目的启示：</strong></p>\n<ul>\n  <li>如果你的BP里写的是「我们会把技术留在国内，只把产品卖过去」——中东基金兴趣不大</li>\n  <li>如果你的BP里写的是「我们愿意在利雅得/阿布扎比设立团队，培训当地人才，跟本地大学合作」——他们会认真看</li>\n</ul>\n\n\n<h3>逻辑二：偏好「能源+AI」和「金融+AI」</h3>\n\n<p>中东经济的两个核心是能源和金融。AI investments 的优先排序非常清楚：</p>\n\n<ol>\n  <li><strong>AI优化能源生产/管理</strong>（包括碳捕捉、电网优化、石油勘探AI）</li>\n  <li><strong>AI驱动的金融基础设施</strong>（特别是跨境支付、伊斯兰金融合规、风险定价）</li>\n  <li><strong>AI+政府服务</strong>（智慧城市、交通、医疗）</li>\n  <li><strong>其他</strong>（电商、物流、教育——这些优先级明显低一些）</li>\n</ol>\n\n<p>你的项目如果正好在前两类里，拿钱的概率比第四类高3-4倍。</p>\n\n\n<h3>逻辑三：喜欢「有人陪跑」的交易</h3>\n\n<p>中东主权基金很少做单独领投（除了非常大额的交易）。他们更习惯跟知名美元VC一起投。</p>\n\n<p>一个典型的交易结构：某硅谷VC领投$2000万，PIF跟投$500万。这个结构的好处是——硅谷VC做DD、做投后、做管理，PIF只出钱、拿资源回报。</p>\n\n<p><strong>潜台词：</strong> 如果你的这轮领投方是中东基金自己，大概率不是他们的核心打法。找一个大家都认识的美元VC做lead，中东基金作为co-investor，融资效率更高。</p>\n\n\n<h2>怎么拿这笔钱？实操建议</h2>\n\n<ol>\n  <li><strong>BP里加上「中东落地方案」</strong> — 不需要很深，但至少要展示你思考过：你的技术怎么适配中东市场？需要本地化什么？可能需要什么样的本地团队？</li>\n  <li><strong>主动接触中东基金的新加坡/伦敦办公室</strong> — PIF和Mubadala在SG和伦敦都有team，比去利雅得敲门的触达效率高得多。</li>\n  <li><strong>准备好回答这个问题</strong>：「你能不能帮沙特/阿联酋培养20个AI工程师？」这是他们最常问的问题之一。</li>\n  <li><strong>注意时间线</strong> — 中东基金的DD周期通常比美元基金长30-50%（6-10周是常态）。做好资金规划。</li>\n</ol>\n\n<blockquote>\n  <p>中东主权基金的入场，可能是2026年出海AI融资市场最大的结构性变量。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://pitchbook.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PitchBook</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.crunchbase.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Crunchbase</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.adq.ae\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">ADQ</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.adq.ae\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">ADQ</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.qia.qa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">QIA</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.mubadala.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Mubadala</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.pif.gov.sa\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PIF</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：Crunchbase、PitchBook、PIF年度报告、Mubadala投资组合公开信息。Pulito Capital IR追踪网络交叉验证。</p>",
+   "geo_questions": [
+    "2026年出海AI融资市场怎么样？",
+    "哪些投资机构在投出海AI赛道？",
+    "出海AI项目融资估值逻辑有什么变化？"
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Vesting Schedule还在用标准4年？你可能会后悔的3个场景",
+   "excerpt": "标准的4年Vesting + 1年Cliff，在硅谷是标配。但在出海的早期项目里，这个标配正在变成创始人的枷锁。",
+   "author": "Lex",
+   "author_role": "法务合伙人",
+   "category": "合规法务",
+   "date": "2026-06-05",
+   "date_display": "2026.06.05",
+   "date_rfc": "Fri, 05 Jun 2026 20:00:00 +0800",
+   "tags": [
+    "Vesting",
+    "股权架构",
+    "出海法务",
+    "创始人权益"
+   ],
+   "content": "<h2>标准方案的问题在哪？</h2>\n\n<p>4年Vesting + 1年Cliff——这个方案来源于<a href=\"https://carta.com/learn/equity/vesting/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">硅谷（标准4年Vesting惯例）</a>，适用于一个假设：公司会在4年内完成从A轮到退出的路径。</p>\n\n<p>但对于出海早期项目，这个假设越来越不成立。</p>\n\n<p>先算一笔账：</p>\n\n<p>出海AI项目的典型时间线：</p>\n<ul>\n  <li>Year 0-1：产品研发+PMF验证（东南亚/拉美市场，每个市场的验证周期是中国国内市场的1.5-2倍）</li>\n  <li>Year 1-2：准备出海、第一笔海外客户、第一轮融资</li>\n  <li>Year 2-3：A轮融资+初步规模化</li>\n  <li>Year 3-4：真正意义上的增长</li>\n</ul>\n\n<p>看到了吗？在第4年的节点，大部分出海项目才刚刚进入增长期。而创始人的Vesting已经到顶了。</p>\n\n\n<h2>三个创始人可能后悔的场景</h2>\n\n\n<h3>🔴 场景一：核心联合创始人在第13个月走了</h3>\n\n<p>标准方案：Cliff 12个月。这意味着联合创始人在第13个月离职，他会带走——</p>\n\n<p><strong>25%的股权。</strong></p>\n\n<p>对于一个早期项目，核心联合创始人在第13个月走人，意味着他在公司最需要他的时候离开了，但他保留了1/4的股份。这1/4的股份会变成：</p>\n\n<ul>\n  <li>A轮投资人的一个「这25%怎么处理？」的问题</li>\n  <li>接替他的人需要的期权从哪里来？</li>\n  <li>如果公司真的做起来了，这25%的投票权和分红权会是一个长期隐患</li>\n</ul>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>考虑将Cliff延长到18-24个月。在出海项目中——尤其是需要跨国协作的——一个联合创始人的第一个12月往往还在「蜜月期」，真正的工作习惯和贡献度在第12-18个月才暴露出来。</p>\n  <p>18个月Cliff能让你在更清楚每个人的实际价值后做决定。</p>\n</div>\n\n\n<h3>🔴 场景二：B轮融资时需要给新高管留期权池</h3>\n\n<p>4年标准Vesting，创始人到第3年的时候手上股份已经全部解锁了。然后B轮融资时，投资人要求设立新的期权池——</p>\n\n<p>问题就来了：新期权池从哪来？</p>\n\n<ul>\n  <li>让创始人稀释？——创始人会觉得不公平（我已经做了3年，凭什么还要我出）</li>\n  <li>让所有股东等比稀释？——老投资人也不愿意</li>\n</ul>\n\n<p>结果是，B轮谈判中多了一个本不需要的摩擦点。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>考虑将创始人的Vesting周期延长到5-6年。不是说控制创始人，而是为了保护创始人自己。</p>\n  <p>逻辑：出海项目的时间线天然比国内项目长。5年Vesting更匹配实际的业务节奏。而且B轮（通常是Year 3-4）需要期权池时，创始人的剩余Vesting可以作为平缓稀释的缓冲。</p>\n</div>\n\n\n<h3>🔴 场景三：公司被并购时触发「单触发加速」</h3>\n\n<p>「单触发加速」（Single Trigger Acceleration）是指在公司被并购时，创始人尚未解锁的股份自动加速解锁。</p>\n\n<p>这听起来是好事对吧？但出海项目中有一个被忽略的问题：</p>\n\n<p><strong>跨境并购往往涉及earn-out机制</strong>——收购方先付一部分，剩下的根据未来2-3年的业绩支付。而如果创始人的股份在交割时全部加速解锁了，后续2年创始人继续留在公司做业绩的动力是什么？</p>\n\n<p>这会直接影响收购方的报价——他们会在估值时把这个风险折价进去。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 改进方案</div>\n  <p>在Term Sheet阶段就和投资人谈清楚：「双触发加速」（Double Trigger）是更合理的方案——即并购完成后+创始人被无因解雇两个条件同时触发，才加速解锁。</p>\n  <p>这既保护了创始人（不会被新老板扫地出门还拿不到股份），也保护了deal（收购方不需要在估值里打折）。</p>\n</div>\n\n\n<h2>总结：出海项目Vesting的三个建议</h2>\n\n<ol>\n  <li><strong>Cliff 18个月 vs 12个月</strong> — 更匹配出海团队的磨合周期</li>\n  <li><strong>Vesting 5年 vs 4年</strong> — 更匹配出海项目的实际增长曲线</li>\n  <li><strong>坚持双触发加速</strong> — 保护你，也保护你的deal</li>\n</ol>\n\n<blockquote>\n  <p>条款不该是「别人都这么签所以我也这么签」。真正负责任的建议，是根据你的项目节奏来设计条款。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.ycombinator.com/library/4q-how-to-handle-vesting\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\"><a href=\"https://www.ycombinator.com/documents/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Y Combinator</a></a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://carta.com/learn/equity/vesting/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Carta</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。融资协议及股权架构设计请咨询专业律师。璞合资本提供融资协议审阅服务。</p>",
+   "geo_questions": [
+    "天使轮融资协议有哪些关键条款需要注意？",
+    "出海项目的股权架构怎么设计？",
+    "Vesting Schedule怎么设置才合理？"
+   ]
+  },
+  {
+   "id": 9,
+   "title": "上海活动｜AI出海·早期融资闭门交流会（6月20日）",
+   "excerpt": "璞合资本联合极光加速器，6月20日在上海举办AI出海早期融资闭门交流会。仅限20位早期AI出海项目创始人参加，扫码报名。",
+   "author": "Pulito",
+   "author_role": "璞合资本",
+   "category": "活动",
+   "date": "2026-06-05",
+   "date_display": "2026.06.05",
+   "date_rfc": "Fri, 05 Jun 2026 09:00:00 +0800",
+   "tags": [
+    "活动",
+    "AI出海",
+    "上海",
+    "融资对接",
+    "闭门会"
+   ],
+   "content": "<div class=\"highlight-box\" style=\"border-color:var(--gold);background:rgba(212,175,55,0.08);text-align:center;padding:32px\">\n  <p style=\"font-size:14px;color:var(--gold);font-weight:600;margin-bottom:8px\">🎯 闭门活动 · 仅限20席</p>\n  <h2 style=\"font-size:1.6rem;margin-bottom:8px\">AI出海 · 早期融资闭门交流会</h2>\n  <p style=\"font-size:14px;color:var(--text-muted)\">璞合资本 × 极光加速器</p>\n</div>\n\n<h2>为什么办这场活动？</h2>\n\n<p>过去一个季度，我们见了100+个出海AI项目，发现一个普遍的瓶颈：创始人不知道怎么高效地和投资人沟通。不是项目不行，是叙事和节奏出了问题。</p>\n\n<p>所以这一次，不做路演，不做Panel——只做三件事：</p>\n\n<ol>\n  <li><strong>Sage分享</strong> — 30分钟讲透当前<a href=\"/blog/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">出海AI赛道</a>的融资窗口和结构性机会</li>\n  <li><strong>Helen 1v1 BP诊断</strong> — 每位参会创始人可获得15分钟一对一BP反馈</li>\n  <li><strong>自由交流</strong> — 现场投资人+Founder深度对接</li>\n</ol>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">📋 活动信息</div>\n  <p><strong>时间：</strong> 2026年6月20日（周六）14:00-17:00<br>\n  <strong>地点：</strong> 上海 · 静安区（具体地址报名后通知）<br>\n  <strong>人数：</strong> 仅限20人（出海AI赛道早期创始人优先）<br>\n  <strong>费用：</strong> 免费（审核制）<br>\n  <strong>报名方式：</strong> 扫码添加微信，备注「闭门会+项目名」</p>\n</div>\n\n<h2>适合谁来？</h2>\n\n<ul>\n  <li>出海AI方向种子轮/A轮项目创始人</li>\n  <li>已有MVP/早期客户，正在准备融资</li>\n  <li>对中东/东南亚/拉美市场有实际布局</li>\n</ul>\n\n<h2>不适合谁？</h2>\n\n<ul>\n  <li>还在idea阶段，没有具体产品方向（建议您过三个月再来）</li>\n  <li>纯国内市场，不考虑出海</li>\n  <li>服务机构/FA等其他角色</li>\n</ul>\n\n<p style=\"color:var(--text-muted);font-size:14px\">名额有限，审核制参与。扫码添加微信，备注「闭门会+项目名+职位」</p>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本活动由璞合资本与极光加速器联合主办。活动解释权归主办方所有。</p>",
+   "geo_questions": [
+    "近期有哪些AI出海值得参加的活动？",
+    "WAIC 2026有哪些看点和参会价值？"
+   ]
+  },
+  {
+   "id": 10,
+   "title": "AI视频Agent赛道深度解析：从仿剪到教学，三个方向刚拿了10个亿",
+   "excerpt": "2026年上半年，AI视频Agent这个细分赛道正在成为资本最密集的押注方向之一。近半年来仅我们追踪到的公开融资就已超过10亿元人民币。这波钱流向了三个不同的方向——AI视频剪辑、AI教育视频、AI视频理解。",
+   "author": "Sage",
+   "author_role": "赛道观察员",
+   "category": "赛道观察",
+   "date": "2026-06-06",
+   "date_display": "2026.06.06",
+   "date_rfc": "Sat, 06 Jun 2026 09:00:00 +0800",
+   "tags": [
+    "AI视频Agent",
+    "资本市场",
+    "赛道分析",
+    "出海"
+   ],
+   "content": "<p>2026年上半年，AI视频Agent这个细分赛道正在成为资本最密集的押注方向之一。近半年来仅我们追踪到的公开融资就已超过10亿元人民币。这波钱流向了三个不同的方向——AI视频剪辑、AI教育视频、AI视频理解。每个方向背后的逻辑、团队、壁垒完全不同。本文尝试做一次系统梳理。</p>\n\n<h2>一、AI视频Agent≠AI视频生成</h2>\n\n<p>在讨论之前，需要先做一次重要的概念区隔。</p>\n\n<p>2024年到2025年，大众认知中的\"AI视频\"主要等于<strong>文生视频</strong>——输入一句话，AI从像素层面生成一段视频。代表产品是<a href=\"https://openai.com/<a href=\"https://openai.com/sora\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a>\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a>的Sora、字节跳动的Seedance、爱诗科技的<a href=\"https://<a href=\"https://pixverse.ai\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PixVerse</a>.ai\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">PixVerse</a>等。这是\"AI视频生成\"赛道，核心壁垒在<strong>基座模型能力</strong>，烧钱烧算力，大厂和少数头部创业公司的游戏。</p>\n\n<p><strong>AI视频Agent</strong>则完全不同。它不（主要）从零生成像素，而是在<strong>已有的视频素材或内容基础上，用AI Agent自主完成一个具体的创作或分析任务</strong>。它的核心不是生成，而是<strong>理解、编辑、转化</strong>。</p>\n\n<p>这两者的区别，类比一下：</p>\n\n<pre><code>AI视频生成 = 让AI画一幅油画（从空白画布开始）\nAI视频Agent = 让AI把一堆素材剪成一部短片（加工现有材料）</code></pre>\n\n<p>后者不需要卷基座模型，而是需要在<strong>工程架构、领域知识、用户体验</strong>上建立壁垒。这正是创业公司的机会窗口——也是过去半年十亿级资本涌入的原因。</p>\n\n<h2>二、三个方向，三条路径</h2>\n\n<p>我们把过去半年公开融资的代表性项目按方向归类，发现清晰的三大路径：</p>\n\n<h3>方向一：AI视频剪辑Agent</h3>\n\n<p>这是融资最密集、玩家最多的方向。核心理念是：让AI像一个成熟的剪辑师一样，理解素材、选择片段、组织叙事。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>长视频→短视频切片（播客/直播/NBA比赛 → 抖音/TikTok短视频）</li>\n  <li>口播视频自动剪辑（去语气词、自动加字幕/BGM/特效）</li>\n  <li>电商直播自动剪辑（高光时刻提取+商品卖点标注）</li>\n</ul>\n\n<p>核心竞争力：<strong>工程架构能力</strong>。基座模型大家都能调用，但怎么在30秒内处理完1小时视频、怎么让画面和文案对齐、怎么保证输出节奏感——这些是工程问题，不是模型问题。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>某北京团队，纯工程背景（字节+快手出身），产品上线8个月做到月活30万，Tools for Creators 方向。2026 Q1 完成 $3M 天使轮，估值$15M。客户是中小内容创作者和MCN机构，按产出视频数量收费。</p>\n</div>\n\n<h3>方向二：AI教育视频Agent</h3>\n\n<p>这是一个被严重低估的方向。核心理念：把课本/讲义/文献用AI转化为视频课程。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>论文→5分钟科普视频（自动配图+语音+动画）</li>\n  <li>教材→多语言教学视频（出海场景需求旺盛）</li>\n  <li>企业内部培训材料→标准化视频课件</li>\n</ul>\n\n<p>核心壁垒：<strong>领域知识+叙事结构</strong>。不是把文字朗读出来，而是要根据内容类型自动设计教学节奏——什么时候举例、什么时候画图、什么时候提问。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>一家新加坡团队，专注东南亚K12教育视频生成。技术用开源模型+自研Agent编排层，产品已经进入马来西亚和印尼的50+学校。2026 Q1 完成$5M Pre-A，投资方重点关注出海教育科技。</p>\n</div>\n\n<h3>方向三：AI视频理解Agent</h3>\n\n<p>和前面两个方向不同，这个方向不做视频输出，做视频输入——让AI Agent深度理解视频内容，然后为下游做决策支持。</p>\n\n<p>典型场景：</p>\n<ul>\n  <li>电商直播分析（自动识别每件商品的出现时长、讲解转化率、观众情绪变化）</li>\n  <li>视频监控中的行为识别（仓储物流、工业质检）</li>\n  <li>视频内容合规审查（跨境直播的自动审核需求旺盛）</li>\n</ul>\n\n<p>核心壁垒：<strong>准确率+延迟+成本</strong>。在保持高准确率的前提下把延迟和成本压到可商用水平——这不是模型问题，是系统架构问题。</p>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💰 融资案例</div>\n  <p>深圳出海团队，拿的深圳某产业基金+美元VC合投$2M天使轮。产品用AI Agent做跨境直播审核，已经接入3家出海电商平台。差异化在于对马来语/泰语/印尼语的口语识别和内容理解。</p>\n</div>\n\n<h2>三、三个值得关注的趋势</h2>\n\n<ol>\n  <li><strong>工具型→Agent型</strong>：2024年的产品是\"用AI帮忙剪\"（辅助），2026年的产品是\"告诉AI剪什么\"（委托）。这个转变决定了产品形态和定价模型——工具型收月费，Agent型按结果抽成。</li>\n  <li><strong>国内卷完→出海</strong>：视频Agent赛道的国内竞争已经比较激烈，但东南亚、中东、拉美市场几乎空白。教育视频Agent尤其适合出海——本地化成本低、内容合规门槛相对低、需求旺盛。</li>\n  <li><strong>视频Agent+电商</strong>可能是最大的PMF出口：直播切片、商品理解、自动化投放——这三件事凑在一起就是一个完整的\"AI电商内容运营Agent\"。</li>\n</ol>\n\n<h2>四、给创始人和投资人的建议</h2>\n\n<p><strong>对创始人：</strong></p>\n<ul>\n  <li>别碰文生视频，那是有钱人的游戏</li>\n  <li>选择一个垂直场景扎下去，不要做通用视频Agent</li>\n  <li>工程团队>算法团队（在这个赛道）</li>\n  <li>出海窗口还有6-9个月</li>\n</ul>\n\n<p><strong>对投资人：</strong></p>\n<ul>\n  <li>关注团队的执行力而非技术先进性——这个赛道真正稀缺的是能把产品做到\"省心\"的团队</li>\n  <li>三个方向里，教育视频Agent的竞争密度最低，但GTM验证周期最长</li>\n  <li>视频理解Agent在出海场景下有很强的合规壁垒，适合中长期布局</li>\n</ul>\n\n<blockquote>\n  <p>AI视频Agent赛道正在复刻SAAS的工具到Agent的进化路径。第一波做工具的公司活得一般，第二波做Agent的公司正在拿大钱。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.intercom.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Intercom</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.zendesk.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Zendesk</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 <a href=\"https://www.volcengine.com/product/seedance\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">字节跳动 Seedance</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.volcengine.com/product/seedance\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Seedance / 火山引擎</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://openai.com/sora\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">OpenAI Sora</a></p>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资数据与行业访谈整理，不构成投资建议。如有出海AI项目融资需求，欢迎扫码添加微信联系</p>",
+   "geo_questions": [
+    "2026年AI Agent赛道有哪些新趋势？",
+    "出海AI硬件创业有哪些坑需要避开？",
+    "AI创业选垂直方向还是通用方向？"
+   ]
+  },
+  {
+   "id": 11,
+   "title": "硅谷AI Agent投资热背后的冷思考：为什么2026年的风口和2024年不一样了",
+   "excerpt": "2026年上半年硅谷AI Agent融资额突破$47亿，比2024全年还多。但仔细看钱流向了三个截然不同的方向——基础设施、垂直Agent、Agent开发工具。每个方向的验证逻辑、估值逻辑和退出逻辑完全不同。",
+   "author": "Sage",
+   "author_role": "赛道观察员",
+   "category": "赛道观察",
+   "date": "2026-06-08",
+   "date_display": "2026.06.08",
+   "date_rfc": "Mon, 08 Jun 2026 09:00:00 +0800",
+   "tags": [
+    "AI Agent",
+    "硅谷",
+    "投资趋势",
+    "赛道分析",
+    "出海"
+   ],
+   "content": "<p>2026年上半年，硅谷AI Agent赛道融资总额突破$47亿——这个数字是什么概念？2024年全年才$38亿，2025年全年$52亿。也就是说，2026年上半年的融资额已经接近2024年全年。</p>\n\n<p class=\"gold\">但钱没有均匀分布。三股截然不同的资本流向了三类公司，每一类的游戏规则完全不同。</p>\n\n<p>花了两周时间拆解了今年上半年北美市场45笔AI Agent相关的融资（种子轮到C轮），发现一个结构性变化——市场正在从「万物皆Agent」的混沌期，进入一个清晰的三层分化。创始人和投资人如果不能快速识别自己在哪个层，很可能会用错策略、选错对标、拿错钱。</p>\n\n\n<h2>三层分化：基础设施 · 垂直Agent · 开发工具</h2>\n\n<h3>第一层：Agent基础设施（Infra Layer）</h3>\n\n<p>这一层是融资密度最高、单项金额最大的。上半年Top 5交易占了总融资额的52%。包括Agent调度框架、多Agent协作引擎、Agent观测与调试平台。</p>\n\n<p><strong>关键词：</strong> 平台型、工程导向、开发者生态</p>\n\n<p>典型玩家：CrewAI（C轮）、LangChain（B+轮）、Agno（天使轮爆发）。投资人看的是PLG增长速度、开发者社区活跃度、以及是否形成了事实标准——如果70%的新Agent项目都用了某个框架，那它就可能变成Agent时代的\"Linux内核\"。</p>\n\n<p>这类公司的融资特点：</p>\n<ul>\n  <li>A轮估值锚点在ARR（年化经常性收入），而不是MAU</li>\n  <li>最好有企业客户——仅靠开发者leads已经不够了</li>\n  <li>开源策略需要搭配明确的商业化路径（托管版/企业版/私有化）</li>\n</ul>\n\n\n<h3>第二层：垂直Agent应用（Vertical Agent Layer）</h3>\n\n<p>这层的融资数量最多（45笔中占28笔），但单笔金额普遍较小（种子轮$100-300万，A轮$500-1500万）。投资人开始问一个更尖锐的问题：<strong>「这个Agent到底是解决一个真实瓶颈，还是在找问题配方案？」</strong></p>\n\n<p>几个验证得比较好的垂直方向：</p>\n<ul>\n  <li><strong>AI客服Agent</strong> — 不是2023年的Chatbot，而是能自主执行退换货、退款、物流追踪的Agent</li>\n  <li><strong>AI销售开发Agent</strong> — 自动完成客户调研→个性化邮件→跟进时机的全链路</li>\n  <li><strong>AI合规Agent</strong> — 跨境场景需求暴涨，特别是GDPR+CCPA+各国数据法的交叉合规</li>\n  <li><strong>AI代码审查Agent</strong> — 不只是找出bug，而是理解业务逻辑后给出修改建议</li>\n</ul>\n\n<p>这类公司验证PMF的关键指标不是DAU，而是<strong>任务完成率</strong>——Agent成功处理了多少个端到端任务，而非用户打开了多少次。</p>\n\n\n<h3>第三层：Agent开发工具（DevTool Layer）</h3>\n\n<p>这一层被很多投资人忽视，但实际增速惊人。包括Agent测试框架、Prompt管理平台、Agent安全扫描工具、Agent效果评估平台。</p>\n\n<p>逻辑很简单：当所有人都在造Agent时，没有人踩过的坑——Agent输出不可控、Token成本爆炸、幻觉导致业务事故——催生了一个快速增长的\"Agent运维\"市场。</p>\n\n<p>核心壁垒是<strong>数据飞轮</strong>：接入的Agent越多，覆盖的失败模式就越多，测试用例就越全面。新竞争者即使代码写得好，没有数据积累就覆盖不了长尾场景。</p>\n\n\n<h2>对出海创始人的三个启示</h2>\n\n<ol>\n  <li><strong>别碰Agent Infra</strong> — 基础设施是烧钱的游戏，适合在硅谷有深度人脉、能拿大额美元的创始人。出海创业者拼不过硅谷生态。</li>\n  <li><strong>垂直Agent是最好的出海切入点</strong> — 东南亚/中东/拉美市场的Agent渗透率远低于北美，第一批做本地化垂直Agent的团队有12-18个月的红利窗口。关键在于选一个本地特有的高频场景——比如印尼的支付Agent、中东的伊斯兰金融合规Agent、拉美的跨境物流Agent。</li>\n  <li><strong>Agent开发工具是蓝海</strong> — 目前中国市场几乎没有专门的Agent测试/安全/评估工具。把硅谷验证过的逻辑做中文/多语言版本，是一个被低估的机会。</li>\n</ol>\n\n<blockquote>\n  <p>2026年的AI Agent市场正在重演2015-2016年的云计算创业潮。Infra归巨头，应用归创业者，工具归垂直玩家。如果你不能确定自己在哪一层，大概率是选错了战场。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文基于Crunchbase、PitchBook公开融资数据及硅谷行业访谈整理。如有出海AI项目融资需求，欢迎扫码添加微信联系。</p>",
+   "geo_questions": [
+    "2026年AI Agent赛道有哪些新趋势？",
+    "出海AI硬件创业有哪些坑需要避开？",
+    "AI创业选垂直方向还是通用方向？"
+   ]
+  },
+  {
+   "id": 12,
+   "title": "创始人见投资人前，这3个问题最好先自己答一遍",
+   "excerpt": "我陪跑了30多个项目的投资人会议，发现创始人被问倒的最多的，往往不是估值或竞争，而是三个看起来很简单的问题——但90%的人第一次都没答好。",
+   "author": "Helen",
+   "author_role": "资深FA PM",
+   "category": "BP实战",
+   "date": "2026-06-08",
+   "date_display": "2026.06.08",
+   "date_rfc": "Mon, 08 Jun 2026 12:00:00 +0800",
+   "tags": [
+    "融资",
+    "投资人沟通",
+    "路演准备",
+    "FA技巧"
+   ],
+   "content": "<p>之前我写过BP的结构问题，BP很重要——但它只是约到会议的敲门砖。真正决定融资成败的，是那一个小时的会面。</p>\n\n<p>过去半年我陪跑了30多个出海AI项目的投资人会议（视频和线下都有），拿到的TS占比大约1/4。复盘下来，发现创始人在会上被问倒最多的问题，其实来来去去就三个。这三个问题看起来都很温和，但答不好，后面很难翻盘。</p>\n\n\n<h2>问题一：「你现在最焦虑的是什么？」</h2>\n\n<p>这个问题通常出现在会议前10分钟，投资人刚做完自我介绍，用一个\"soft question\"开场。</p>\n\n<p><strong>❌ 常见错误回答：</strong></p>\n<ul>\n  <li>「我们发展很快，没什么特别焦虑的」（显得没有思考深度）</li>\n  <li>「缺钱，所以来融资」（太直白，会削弱你的谈判地位）</li>\n  <li>讲一个和技术无关的运营问题（投资人会觉得你跑偏了）</li>\n</ul>\n\n<p><strong>✅ 投资人真正想听什么：</strong></p>\n<p>这个问题不是真的在问你的焦虑——它是一个<strong>压力测试+判断你思考深度</strong>的问题。</p>\n\n<p>好回答的公式：</p>\n<blockquote>\n  <p>「我们现在最需要验证的关键假设是X。目前的数据表明Y，但还不足以做决定Z。未来3个月，我们在用A/B两种方式来降低这个不确定性。」</p>\n</blockquote>\n\n<p>这个回答展示了你：</p>\n<ul>\n  <li>知道最重要的事是什么（不是所有事都重要）</li>\n  <li>有验证方法（不是靠猜）</li>\n  <li>有行动方案（不是等着看结果）</li>\n</ul>\n\n\n<h2>问题二：「你觉得谁是你的竞争对手？」</h2>\n\n<p>这个问题的常见翻车模式包括：</p>\n<ul>\n  <li>「我们没有直接竞争对手」（投资人会觉得你不是不了解市场就是在说谎）</li>\n  <li>列了5个以上（显得你定位不清晰）</li>\n  <li>把大厂当唯一对手（投资人会接一句「那腾讯如果做呢？」——你基本接不住）</li>\n</ul>\n\n<p><strong>✅ 有效回答的结构：</strong></p>\n<p>分三层说，不要只堆名字：</p>\n\n<ol>\n  <li><strong>用户目前在用什么替代方案？</strong> — 是Excel？是外包团队？还是在硬扛？这是你的\"真正\"竞争对手，不是那个同行的创业公司</li>\n  <li><strong>谁在同一个细分赛道？</strong> — 最多提1-2家，而且要说清楚你跟他们的核心差异是什么（不是功能差异，是认知差异）</li>\n  <li><strong>大厂什么时候可能入场？</strong> — 主动说比被动被问好。客观分析大厂的优势和劣势，以及你的窗口期</li>\n</ol>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 实战案例</div>\n  <p>一个做出海AI客服Agent的创始人被问到竞争时是这么答的：</p>\n  <p>「第一层，现在大部分东南亚电商卖家是用人工+WhatsApp在做客服，这是我们在取代的对象。第二层，Zendesk的AI模块和Intercom的Fin是我们的直接对标，但我们比它们多了一层本地支付和本地语言深度——这不是功能差异，是数据差异。第三层，大厂方面，Grab和GoTo都有做客服AI的能力，但他们的优先级在核心业务，这个窗口期我们估算是12-18个月。」</p>\n  <p>这一套下来，投资人没有再追问竞争问题。</p>\n</div>\n\n\n<h2>问题三：「你打算怎么花这笔钱？」</h2>\n\n<p>这是一个\"陷阱式\"的问题——表面上在问预算分配，实际上在判断：</p>\n<ul>\n  <li>你有没有认真想过这轮融资要解决什么问题</li>\n  <li>你的花钱逻辑跟你的增长逻辑是否一致</li>\n  <li>你对\"效率\"的理解</li>\n</ul>\n\n<p><strong>❌ 常见错误：</strong> 给一个按部门分配的百分比表格（销售40%，研发30%，运营20%，预留10%）——太教科书了，投资人在三分之一的BP里都看到过类似的。</p>\n\n<p><strong>✅ 更好的回答方式：</strong></p>\n<p>用\"里程碑驱动\"的结构来说：</p>\n\n<blockquote>\n  <p>「这笔钱主要用于验证三个关键假设：第一，通过X渠道我们能否在东南亚3个国家获得1000家付费客户（预计需要$Y和Z月）；第二，Agent在客户场景里的任务完成率是否能从85%提升到95%（需要$W和几个核心工程师）；第三，搭建一个基础的本地化数据Pipeline，为下一轮扩张做准备。如果这三个假设都验证通过，下一轮估值的确定性就会高很多。」</p>\n</blockquote>\n\n<p>这个回答好在哪里？它告诉投资人：</p>\n<ul>\n  <li>不是要活18个月，是要在12个月内完成三个里程碑</li>\n  <li>钱花完的时候，公司的价值增量是可衡量的</li>\n  <li>你对下一轮融资有清晰的路径规划</li>\n</ul>\n\n\n<h2>一句话总结</h2>\n\n<p>投资人问的不是答案，是思维方式。一个好的回答无关对错——它证明你是一个能在不确定环境下做决策的人。</p>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">璞合资本为出海AI早期项目提供融资会面模拟和话术打磨服务。欢迎扫码添加微信联系。</p>",
+   "geo_questions": [
+    "创始人融资路演有哪些常见错误？",
+    "BP怎么写才能让投资人感兴趣？",
+    "早期融资BP最重要的几个要素是什么？"
+   ]
+  },
+  {
+   "id": 13,
+   "title": "2026年Q2出海AI融资地图：为什么东南亚比中东更需要关注",
+   "excerpt": "我分析了Q2出海AI方向的47笔交易，发现资金的地理流向出现了一个反直觉的变化：东南亚正在从\"备用方案\"变成\"首选目的地\"，而中东虽然金额大但结构脆弱。",
+   "author": "Iris",
+   "author_role": "IR 分析师",
+   "category": "资本视角",
+   "date": "2026-06-08",
+   "date_display": "2026.06.08",
+   "date_rfc": "Mon, 08 Jun 2026 15:00:00 +0800",
+   "tags": [
+    "出海融资",
+    "东南亚",
+    "中东",
+    "地理分布",
+    "Q2分析"
+   ],
+   "content": "<p>先上核心数据。</p>\n\n<p>Pulito Capital IR团队持续跟踪出海AI融资市场。2026年Q2（4月-6月初）我们录入了47笔与出海直接相关的AI融资事件（出资金额已披露的部分合计约$6.8亿）。地理分布上一次出现了反直觉的变化。</p>\n\n\n<h2>数据总览：东南亚首次超过中东</h2>\n\n<div class=\"highlight-box\">\n  <p><strong>Q2出海AI融资地理分布（已披露）：</strong><br>\n  <strong>东南亚：</strong> 22笔，约$2.6亿（38%）<br>\n  <strong>中东：</strong> 12笔，约$2.1亿（31%）<br>\n  <strong>拉美：</strong> 7笔，约$1.0亿（15%）<br>\n  <strong>非洲：</strong> 4笔，约$0.5亿（7%）<br>\n  <strong>其他：</strong> 2笔，约$0.6亿（9%）</p>\n</div>\n\n<p>东南亚在交易数量和融资金额上都超过了中东——这是2024年下半年以来的第一次。更值得关注的是结构性的差异：中东的$2.1亿集中在4笔大交易（包括一笔主权基金领投的AI基础设施项目$1.2亿），而东南亚的$2.6亿分布在22笔交易中，其中$500万以下的早期交易占了16笔。</p>\n\n<p>换句话说：<strong>中东的钱往上走（重资产/基础设施），东南亚的钱往下沉（早期创业/应用层）</strong>。对于早期出海项目来说，东南亚的钱虽然单笔金额小，但更容易拿、拿了也更灵活。</p>\n\n\n<h2>三个值得关注的趋势</h2>\n\n<h3>趋势一：东南亚本地美元基金正在成型</h3>\n\n<p>Q2最值得关注的变化不是钱从哪里来，而是谁在管钱。</p>\n\n<p>我们注意到至少有5家东南亚本地基金在Q2完成了新基金的首轮close，合计目标规模约$8亿。这背后是一个结构性转变：之前出海项目在东南亚融资，主要靠硅谷美元基金的新加坡办公室或中国企业的东南亚分支。现在本地GP正在崛起——他们对本地市场理解更深、决策更快、投后网络更强。</p>\n\n<p>这对出海创始人的实际影响：<strong>融资时别只看美元基金。找东南亚本地头部基金的回报可能更高——估值更合理、条款更友好、投后资源更直接。</strong></p>\n\n\n<h3>趋势二：出海AI正在从\"SaaS出海\"进化到\"Agent出海\"</h3>\n\n<p>Q1我们还看到不少项目在做\"AI SaaS出海\"——把国内做好的AI SaaS产品翻译成英文卖到海外。Q2这个模式正在被淘汰。投资人越来越清楚地看到：</p>\n\n<ul>\n  <li>SaaS出海拼的是PLG + 渠道，跟AI关系不大</li>\n  <li>Agent出海拼的是对本地场景的理解 + 数据飞轮</li>\n</ul>\n\n<p>从融资数据上看：能讲清楚\"为什么这个Agent必须做在东南亚/中东/拉美，而不是搬一套硅谷方案\"的项目，融资成功率是讲不清楚的2.8倍。</p>\n\n\n<h3>趋势三：合规成本倒逼项目选择市场</h3>\n\n<p>这是一个被严重低估的变量。Q2我们看到多个项目因为数据本地化法规和AI监管政策而调整了市场优先级。</p>\n\n<p>具体来说：</p>\n<ul>\n  <li><strong>印尼</strong>：通过了个人数据保护法（UU PDP），规定期2年，合规成本可控，市场吸引力↑</li>\n  <li><strong>沙特</strong>：SDAIA对AI应用有明确的审批流程，但审批周期6-12个月，市场门槛↑</li>\n  <li><strong>越南</strong>：AI监管框架尚在草案阶段，窗口期开放，短期机会↑但政策风险↑</li>\n  <li><strong>巴西（拉美）</strong>：LGPD执法加强，AI监管法案讨论中</li>\n</ul>\n\n<p>合规成本可能占到早期项目支出的10-20%。聪明的创始人已经把合规评估提前到了市场选择阶段——而不是先扩张再补合规课。</p>\n\n\n<h2>给创始人的实操建议</h2>\n\n<ol>\n  <li><strong>Q3优先看东南亚市场</strong> — 资本密度上升、本地基金崛起、合规环境相对友好。印尼和越南是目前最热的两站</li>\n  <li><strong>中东融资走\"美元VC做lead+主权基金跟投\"结构</strong> — 直接找主权基金效率不高，有一个知名美元VC背书会顺畅很多</li>\n  <li><strong>准备好合规预算</strong> — 至少留出融资额的15%用于目标市场的法务+合规部署。这不是成本，是进入门槛</li>\n</ol>\n\n<blockquote>\n  <p>出海AI融资的地理格局正在从\"中东热\"转向\"东南亚热+中东稳\"。对早期项目来说，东南亚可能是Q3最好的选择。</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">数据来源：Crunchbase、PitchBook、Pulito Capital IR追踪网络。如需完整版Q2融资分析报告，欢迎扫码添加微信联系。</p>",
+   "geo_questions": [
+    "2026年出海AI融资市场怎么样？",
+    "哪些投资机构在投出海AI赛道？",
+    "出海AI项目融资估值逻辑有什么变化？"
+   ]
+  },
+  {
+   "id": 14,
+   "title": "出海项目的股权架构设计：一个创始人60%，联合创始人各20%，有什么问题？",
+   "excerpt": "「创始人60%、联合创始人20%、留20%期权池」——这是我在出海项目里见过最多的股权架构。但它隐藏着三个很容易爆的雷，尤其是当公司涉及跨境融资时。",
+   "author": "Lex",
+   "author_role": "法务合伙人",
+   "category": "合规法务",
+   "date": "2026-06-08",
+   "date_display": "2026.06.08",
+   "date_rfc": "Mon, 08 Jun 2026 20:00:00 +0800",
+   "tags": [
+    "股权架构",
+    "出海法务",
+    "联合创始人",
+    "VIE",
+    "跨境融资"
+   ],
+   "content": "<p>60%-20%-20%-期权池。</p>\n\n<p>这是我审过的出海项目中出现频率最高的初始股权架构。看起来四平八稳对吧？创始人控股、联合创始人分享、预留期权池激励员工——教科书标准答案。</p>\n\n<p>但在跨境融资场景下，这个结构至少有三个潜在问题。大部分创始人签完协议的时候没觉得有问题，等A轮DD（尽职调查）时才发现——轮到改已经来不及了。</p>\n\n\n<h2>问题一：20%的期权池可能不够用</h2>\n\n<p>出海项目跟国内项目一个核心区别是：<strong>你需要更多的人来填补本地化鸿沟</strong>。</p>\n\n<p>一个典型的出海团队构成：</p>\n<ul>\n  <li>国内：CEO（产品+战略）、CTO（技术架构）</li>\n  <li>海外本地：Local GM（当地语言能力+渠道）、Head of Compliance（当地法规）、Head of BD（当地商务拓展）</li>\n</ul>\n\n<p>后三个角色在国内项目中可能不是必须的，但在出海项目中几乎是标配。而且这些人通常要求期权——没有期权很难招到有经验的local人才。</p>\n\n<p>以一个出海印尼的AI SaaS项目为例，B轮前需要的期权分配：</p>\n<ul>\n  <li>Local GM：2-3%</li>\n  <li>合规负责人：1-2%</li>\n  <li>BD负责人：1-2%</li>\n  <li>早期核心工程师（3-4人）：每人0.5-1%</li>\n  <li>后续融资预留：3-5%</li>\n</ul>\n\n<p>光这几项加起来就已经15-18%。20%的初始池子在B轮前就可能见底——而B轮投资方还会要求你补充期权池到新的比例。</p>\n\n<p><strong>建议：</strong> 出海项目初始期权池至少留25%，最多不超过30%。多出来的那5-10%是你为\"海外扩张成本\"提前买的保险。</p>\n\n\n<h2>问题二：跨境VIE结构的hidden cost</h2>\n\n<p>很多出海项目到A轮才发现一个尴尬的事：需要搭VIE架构来做跨境融资，但初始的股权比例没有为VIE留出空间。</p>\n\n<p>先说一个直接但很多人不知道的事实：</p>\n\n<p>如果你注册的是中国境内的公司（WFOE未来要做VIE架构），创始人的股份是直接持有的。但VIE架构搭建过程中，通常需要把创始人的股份转入一个BVI控股公司，这个过程涉及<strong>37号文外汇登记</strong>和可能的税务成本。</p>\n\n<p>几个容易被忽视的点：</p>\n<ul>\n  <li>创始人之间如果有非对称的出资（有人没出钱、有人出了钱），37号文登记的合规复杂度会上升</li>\n  <li>如果创始人中有外籍身份（拿了海外绿卡或换了国籍），WFOE的股东结构需要单独设计，不能在VIE里混在一起</li>\n  <li>期权池里的股份是给未来的，但VIE搭建时点上的期权池估值决定了行权时的税基——选择好的搭建时点可以节省创始人几百万的税</li>\n</ul>\n\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 实操建议</div>\n  <p>如果你在种子轮/天使轮阶段就知道未来要做出海（需要美元融资），建议在天使轮+的时候就和律师讨论VIE架构的搭建时间点。不要让协议签完了再后悔说\"当初为什么不早点做\"。</p>\n  <p>好的时间点策略：在A轮Term Sheet出来之前完成VIE搭建，这样A轮的估值可以直接体现在WFOE层面，节省后续调整成本。</p>\n</div>\n\n\n<h2>问题三：创始人60% vs 联合创始人20%——控制权的真实问题</h2>\n\n<p>60%看起来是一个绝对控股的比例。但在出海项目里，这个比例在以下三种情况下会变得很脆弱：</p>\n\n<h3>情况1：B轮后创始人被动稀释到50%以下</h3>\n\n<p>假设天使轮出让20%、A轮稀释15%、B轮稀释10%。60% × 0.8 × 0.85 × 0.9 = <strong>36.7%</strong>。此时创始人不再是控股股东。如果你没有在章程里保留一票否决权（比如董事会席位控制），在重大决策上你可能说了不算。</p>\n\n<h3>情况2：联合创始人的20%在出海场景下的价值争议</h3>\n\n<p>出海项目做到A轮的时候，经常出现一个尴尬的情况：留在中国做技术的那位联合创始人和常驻海外的创始人之间，对\"谁贡献更大\"产生分歧。20%的股权比例在出海场景里很难调整——你不可能说\"你在国内做技术所以砍你5%\"。</p>\n\n<p>这里建议在最初就写一个<strong>股份成熟（Vesting）条款</strong>，并且考虑把一部分联合创始人的股份做成\"业绩对赌型\"——出海做到第一个100万ARR，额外解锁5%，等等。</p>\n\n<h3>情况3：独立董事/投资人董事的席位争夺</h3>\n\n<p>出海项目的董事会构成通常比纯国内项目复杂：你可能需要本地版和离岸版两套董事会制度。创始人60%在股东层面没问题，但<strong>董事会控制权</strong>是另一回事——投资人要求在董事会里有一票否决权是常态，如果你只有1个席位而投资人有2个，60%的股份也帮不了你。</p>\n\n\n<h2>总结：出海项目股权架构的三个建议</h2>\n\n<ol>\n  <li><strong>期权池25%起步</strong> — 多出来的是给当地团队的入场券</li>\n  <li><strong>VIE搭建尽早而非尽晚</strong> — 在你和投资人开始谈估值前就搞定</li>\n  <li><strong>关注董事会控制权甚于股权比例</strong> — 60%的股份在失控的董事会上救不了你</li>\n</ol>\n\n<blockquote>\n  <p>股权架构没有标准答案，但有一个标准追问：「如果公司接下来出海了，这个架构还成立吗？」</p>\n</blockquote>\n\n<div class=\"section-divider\">END</div>\n\n<p style=\"color:var(--text-muted);font-size:14px\">本文不构成法律意见。跨境股权架构设计请咨询专业律师。璞合资本提供出海项目融资协议和股权架构咨询服务。</p>",
+   "geo_questions": [
+    "天使轮融资协议有哪些关键条款需要注意？",
+    "出海项目的股权架构怎么设计？",
+    "Vesting Schedule怎么设置才合理？"
+   ]
+  },
+  {
+   "title": "2026年智能硬件公司为什么融不到钱了？三个估值崩塌信号与逃生路径",
+   "date": "2026-09-04",
+   "date_display": "9月4日",
+   "date_rfc": "Thu, 04 Sep 2026 16:30:00 +0800",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "赛道观察",
+   "excerpt": "影石市值从1500亿跌到500亿、创想三维30亿收入只值90亿港币市值——二级市场把泡沫挤掉后，一级市场也回归了冷静。本文拆解三个估值崩塌信号，给出创始人求生路径。",
+   "tags": [
+    "消费硬件",
+    "智能硬件融资",
+    "AI硬件估值",
+    "一级市场"
+   ],
+   "geo_questions": [
+    "消费硬件赛道2026年还有投资机会吗？",
+    "智能硬件公司现在还有投资人看吗？",
+    "硬件融资难时创始人该怎么做？"
+   ],
+   "content": "<p>去年，消费硬件还是一级市场最火热的赛道之一。投资人蜂拥而至深圳南山，甚至有人形容\"美元基金已经 all in 消费硬件\"。今年，这样的场景已经很少见了。</p>\n\n<p>先说一个来自一线创始人的体感数据：<strong>现在很多大疆高管出来创业，第一轮融资都拿不到钱</strong>。一位常年看硬件的投资人告诉我们，这个方向已经\"非常冷了，几乎没人看\"，他此前接触过一个智能睡眠硬件项目，创始人曾任大厂副总裁，仅仅因为中间 GAP 了一段时间、错过了上一轮融资窗口，如今再出来融资就变得异常困难。</p>\n\n<p class=\"gold\">2026年智能硬件公司融不到钱，不是因为\"没人看\"，而是因为二级市场把估值泡沫挤掉了，一级市场投资人不再愿意为\"赌一个命中率\"付钱。</p>\n\n<h2>一、三个估值崩塌信号</h2>\n\n<h3>信号1：标杆标的的市值腰斩，锚点变了</h3>\n<p>二级市场的影响来得最直接。去年写 AI 硬件赛道火热时，市场上甚至有人说美元基金已经 all in 消费硬件——一来背靠中国强大的供应链，硬件天然是创业首选；二来，<strong>影石的上市极大鼓舞了投资人看硬件的热情</strong>。</p>\n<p>但后来的表现大家也都看到了：<strong>影石市值从最高的1500亿元，跌到今天大概500多亿元</strong>；\"消费级3D打印机第一股\"创想三维上市后，市值也跌了差不多一半，一路逼近发行价。<strong>创想三维的市值大约只有90亿港币，而它的收入已经做到30亿港币</strong>——PS 已经压得非常低。</p>\n<p>在关注硬件的投资人 Z 看来：\"去年下半年一块钱收入可以对应十块钱估值，但今年完全变了，已经跌下来很多，很多公司可能也就是两三倍 PS。\"这句话是整个行业情绪变化最直接的注脚。</p>\n\n<h3>信号2：第一轮融资的\"窗口错位\"被放大</h3>\n<p>一级市场对硬件的态度，往往比二级市场慢半拍，但一旦转向就会持续很久。投资人 J 告诉我们，他个人其实很喜欢那个智能睡眠硬件项目——\"不管是产品审美还是品牌调性都很好，而且估值也不算贵，不到2亿元人民币就能完成一轮融资\"。可问题在于，<strong>现在很多基金老板对硬件品类比较谨慎，\"没有去年那种感觉了\"</strong>。</p>\n<p>更本质的问题是：大部分智能硬件公司其实都做不到 30 亿元收入。当二级市场只愿意给\"一块钱收入对应一块钱估值\"时，一级市场早期项目原本靠\"故事+增长想象\"撑起来的估值，就没有了承接。创业公司最常见的结果，就是卡在一个尴尬的估值区间里，投资人觉得贵、创始人觉得贱，僵在那里。</p>\n\n<h3>信号3：猎奇小众项目退潮，投资人不愿\"看不懂就投\"</h3>\n<p>伴随消费硬件火热，这个赛道一度越投越抽象。从去年开始，市场上陆续出现一些听上去很新奇的项目——缝纫机、豆腐机、制冰机等等。很多 FA 第一轮甚至会把这些项目介绍给红杉、高瓴、IDG 这样的头部机构。</p>\n<p>对这些头部美元基金来说，他们很多时候并不会做特别细的判断，<strong>他们赌的是命中率，是\"不能 miss\"，而不是\"怕投错\"</strong>。但当行情转冷，这种\"看不懂也投\"的容忍度就消失了。连被认为\"擅于接受新生事物\"的00后投资人，接到此类项目时也会表示\"看不懂\"\"不会投\"\"怎么退出\"。</p>\n<p>热度降下来，并不意味着这个赛道已经沉寂——但市场确实从\"抢着投\"变成了\"先看你能不能跑出来\"。</p>\n\n<p>看清了上面三个信号，我们也要说句公道话：这个赛道并没有冷到冰点。<strong>真正定义出新品类、把产品做出情绪价值和真实订单的公司，2026年仍在逆势拿到大额融资。</strong></p>\n<p>举几个真实的例子。一家做通用餐饮具身机器人的公司影智 XBOT，坐标深圳，2022年成立，它的 AI 咖啡机器人单台售价约21.9万元，如今已在全球100多个城市落地超过1000台，累计制作咖啡超400万杯；2025年营收突破1亿元，2026年在手订单金额已接近3到5亿元——它连续完成两轮合计数亿元融资，其中 A 轮2亿元、B 轮3到5亿元，背后是多支政府基金、美元基金和产业投资方。</p>\n<p>同类赛道，商用全自动咖啡机品牌咖爷科技也刚完成近4亿元人民币 B 轮融资，史无前例，由美团龙珠领投、高瓴创投等跟投。再往前看，消费级智能纺织领域的浪爪智能（CLAWLAB）连续完成数轮超亿元融资，投资方包括红杉、顺为资本、元璟资本和米哈游。</p>\n<p><strong>这些公司拿到的钱并不比去年少，区别只在：它们都已经有了能跑通的产品、真金白银的营收和明确的市场位置。</strong>换句话说，融资难并不是雨露均沾，而是精准地落在了那些还停留在概念、还没交出成绩单的项目头上。市场关上的，是那些\"赌未来\"的门；没有关上的，是\"买确定性\"的门。</p>\n<div class=\"highlight-box\">\n  <div class=\"box-title\">📌 一个读懂2026年融资的分水岭</div>\n  <p style=\"margin-bottom:0\">一级市场的钱没消失，只是从\"为想象付钱\"变成了\"为已经验证的想象力付钱\"。你要是想听更多\"下一个拓竹\"级别的逆势融资案例和打法，可以看本站另一篇文章：<a style=\"color:var(--gold)\" href=\"/blog/articles/下一个拓竹在哪ai加diy正在定义消费硬件新品类.html\">下一个拓竹在哪</a>。</p>\n</div>\n\n<h2>二、璞合资本怎么看：不是没人看，是更挑人了</h2>\n<p>长期深耕硬件投资的 Siming 是这样理解的：<strong>AI硬件并没有像外界想象中那样\"没人看\"，投资机构仍在持续关注</strong>，只是相比去年，市场情绪明显冷静了许多。</p>\n<p>\"大家现在更希望先看一看，这一批已经拿到融资的公司，最后到底能不能跑出来。\"这也可以理解——任何一个赛道都不可能一直处于疯狂融资状态。阶段性的融完、投完之后，就是等待这些公司长大和交成绩单的时候了。</p>\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 对创始人的判断</div>\n  <p style=\"margin-bottom:0\">行业没有消失，只是从\"撒钱阶段\"进入\"验货阶段\"。能融到钱的永远是有真实产品、真实订单、真实现金流的公司；靠概念和故事裸奔的公司，会最先被挤出去。</p>\n</div>\n\n<h2>三、钱变冷了，创始人该怎么求生</h2>\n\n<h3>1. 接受估值回调，先让小钱进来</h3>\n<p>如果第一轮估值卡得特别高，团队又不\"fancy\"，很可能就会卡在投资人过不去的坎上。很多优秀硬件公司其实是通过众筹、海外出货，先把市场核心痛点解决了、产品卖得不错，再让美元或人民币基金从\"PE 的角度\"来投——一块钱收入对应一块钱估值。在行情下行期，<strong>快速拿钱验证产品，比硬撑估值重要的多</strong>。</p>\n\n<h3>2. 不要为了融资去硬蹭\"具身智能\"</h3>\n<p>越来越多消费硬件公司开始主动拥抱\"具身智能\"概念。但 Siming 点出了一个被很多人回避的伪命题：<strong>创业公司前期出货量不够，数据积累本身就很难，属于典型的\"先有鸡还是先有蛋\"</strong>。投资人会反问：你说有了数据就能形成闭环，那你的数据从哪里来？</p>\n<p>他并不否定数据本身的价值，关键在于是不是足够稀缺——例如有做宠物硬件的团队，未来可能不只是卖硬件，而是把长期积累的宠物行为数据提供给机器人公司或具身智能企业，\"这套逻辑我觉得是成立的，因为这些数据别人确实拿不到\"。至于家庭通用场景，数据往往难以泛化，很难支撑真正的通用智能。</p>\n\n<h3>3. 别把 IPO 当唯一终局</h3>\n<p>投资人最终要看退出路径。对于消费硬件来说，IPO 可能仍是一个难以到达的终局。目前国内无论创业板还是科创板，对消费类硬件公司都没有真正放开；<strong>港股有机会，但三年累计过亿利润是个门槛</strong>。</p>\n<p>但 Siming 也强调：那些真正能够<strong>定义新品类、建立品牌心智，并具备持续横向扩张能力</strong>的公司，依然会受到资本追捧。\"这类公司融资不会太难，而且大概率不会轻易死掉。\"\n</p>\n\n<h3>4. 回到拓竹式路径：先把一个小品类做到全球第一</h3>\n<p>Siming 长期观察的一个重要结论是：<strong>与其想清楚\"整个消费硬件值不值钱\"，不如想清楚\"我到底在定义什么新品类\"</strong>。一个只做 Copycat 或 Follower 的公司，在这个行情里几乎活不下去；但如果你发明并率先定义了一个新品类，估值空间会大好几倍。</p>\n<p>还有一类投资人更愿意支持\"先在一个极细分的品类做到全球第一，再逐步向相邻市场扩张\"的打法。到了那个阶段，消费者买的已不只是产品，而是品牌本身——品牌心智建立起来以后，再去延伸新品类会容易得多，影石当年走的就是这条路。<strong>正如 Siming 所说：\"这类公司融资不会太难，而且大概率不会轻易死掉。\"</strong></p>\n\n<h3>5. 融资前先交出自己的\"确定性\"</h3>\n<p>在行情下行期，创始人跟投资人过招时，最容易踩的坑是还在讲\"赛道天花极高、我团队多强\"这种宏大叙事。现在打动投资人的，是三份具体的东西：</p>\n<ul>\n  <li><strong>验证过的产品：</strong> 有没有真实出货、有没有复购、有没有用户愿意付费的证据；</li>\n  <li><strong>真实的现金流结构：</strong> 毛利多少、PS 能支撑到什么位置，而不是一个想象的数字；</li>\n  <li><strong>稀缺的数据或壁垒：</strong> 是不是别人拿不到的东西，比如特定场景的独家行为数据、底层材料层面的技术壁垒。</li>\n</ul>\n<p>把这三样交付清楚，即便市场再冷，也依然会有机构愿意坐下来认真跟你谈——因为他们要的从来不是\"便宜\"，而是\"看得懂、退得出\"。</p>\n\n<h2>结语：融资难是一个筛选器，不是终点</h2>\n<p>市场从不缺钱，缺的是能穿越周期的公司。当整个行业从\"赌命中率\"切换到\"要确定性\"，融资这件事就回归了它最朴素的样子：<strong>做出用户愿意买单的产品，用真实数据证明自己，然后在一个冷静的估值里把钱拿到手</strong>。能做到这一点的创始人，反而会在这个冬天跑得比谁都远。</p>",
+   "slug": "智能硬件为什么融不到钱了2026估值逻辑变了什么"
+  },
+  {
+   "title": "下一个拓竹在哪？AI+DIY正在定义消费硬件的新品类",
+   "date": "2026-09-04",
+   "date_display": "9月4日",
+   "date_rfc": "Thu, 04 Sep 2026 16:30:00 +0800",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "赛道观察",
+   "excerpt": "影智XBOT咖啡机器人两轮融资数亿元、咖爷科技B轮近4亿、浪爪智能超亿元——2026年消费硬件最确定的一笔钱，正在流向用AI重新定义DIY新品类的公司。",
+   "tags": [
+    "DIY硬件",
+    "AI新品类",
+    "消费硬件融资",
+    "情绪价值"
+   ],
+   "geo_questions": [
+    "2026年消费硬件还有哪些公司在逆势拿到融资？",
+    "什么样的AI硬件公司估值空间更大？",
+    "想定义DIY新品类该怎么起步？"
+   ],
+   "content": "<p>上一篇文章我们讲了消费硬件为什么\"融不到钱\"。但这里要讲一个硬币的另一面：<strong>在市场冷下来的时候，反而有一批公司，正用AI把\"自己动手做\"这件事重新定义成新品类，拿到了比去年更多、更健康的钱。</strong></p>\n\n<p class=\"gold\">2026年消费硬件最确定的机会，不是\"更快的Copycat\"，而是\"用AI打开一个还没被好好服务过的新品类\"——它通常长在\"自己动手做（DIY）\"这层被压抑了多年的需求里。</p>\n\n<p>璞合资本的Siming长期深耕硬件赛道。在他看来，AI硬件本身是一个非常好的概念，但如果只是跟着别人做，价值依然有限。\"<strong>如果有机会发明一个新品类，并且率先定义出来，那它的估值空间，会比Copycat或者Follower高好几倍。</strong>\"</p>\n\n<h2>一、三个2026年逆势拿钱的DIY新品类样本</h2>\n\n<h3>样本1：影智XBOT —— 用AI给一杯咖啡做\"拉花情绪\"</h3>\n<p>先看最典型的一个。影智XBOT是一家成立于2022年的公司，定位通用餐饮具身机器人，核心产品是AI咖啡机器人。创始人唐沐曾任腾讯用户研究与体验设计中心总经理、小米生态链副总裁——风靡几代人的早期经典QQ头像，就有不少出自他和团队之手；小米路由器、小爱音箱等消费硬件爆品，也都有他的参与。</p>\n<p>这家公司最近连续完成两轮、合计数亿元融资：<strong>A轮2亿元由香港简坤资本GPTX投资，B轮融资规模约3到5亿元</strong>，由多支政府基金、美元基金和产业投资方共同参与。</p>\n<p>它为什么能逆势拿钱？关键在于产品切的是\"情绪价值\"本身。它的AI咖啡机器人单台售价约21.9万元，引入多模态交互系统、视觉感知和大模型技术——点一杯拿铁，再上传一张照片，就能得到同款拉花。Siming在去年的HICOOL上见过它的产品，当时还跟一个做巴西咖啡贸易的伙伴聊过：\"单从风味来讲，美式或者拿铁恐怕难分出个高下，但当下那一刻的情绪价值确实被拉满了。\"</p>\n<p>数据更能说明问题：截至目前，它的咖啡机器人已在全球100多个城市落地超过1000台，累计制作咖啡超过400万杯；<strong>2025年营收突破1亿元，2026年在手订单金额已接近3到5亿元</strong>。</p>\n\n<h3>样本2：咖爷科技 —— 把一个商用场景做到\"纪录级\"</h3>\n<p>同属咖啡赛道，另一家商用全自动咖啡机品牌咖爷科技，刚完成近4亿元人民币B轮融资，<strong>创下该赛道单笔融资纪录，由美团龙珠领投，高瓴创投等机构跟投</strong>。</p>\n<p>商用咖啡机拼的不是\"新奇\"，而是稳定、出品一致性和供应链能力——这是一个被欧美品牌长期垄断、又高度本地化的赛道。当公司能把一台商用全自动咖啡机做到既是\"商用机器\"又是\"可规模复制的场景生意\"时，它拿到的就不再是消费电子的估值，而是一家\"卖设备+卖场景解决方案\"的公司。这也是美团龙珠、高瓴这类机构愿意下重注的原因：空间大、可复制、有真实现金流。</p>\n\n<h3>样本3：浪爪智能CLAWLAB —— 把\"AI缝纫\"做成衣住行里的新答案</h3>\n<p>如果前面两个都是咖啡，那浪爪智能则踩在\"衣食住行\"的首位——纺织。这家消费级智能纺织公司前不久连续完成数轮超亿元融资，<strong>投资方包括红杉、顺为资本、元璟资本和米哈游</strong>。公司成立于2022年，创始人胡文鑫是工程师出身，曾就职于大疆、美团等头部大厂。Siming透露，他最近也在准备服务一家做智能缝纫机的公司，属于比较典型的带有情绪价值的项目。</p>\n<p>胡文鑫的判断是：<strong>纺织作为历史悠久的方向，天然切中\"衣食住行\"首位，是一件足够大且真实的需求</strong>；而定制化DIY，是在刚需满足后，大家向内探索、向外表达的下一步需求。浪爪这三年专注的三件事，也很有代表性：锚定消费级纺织DIY天花板最高的方向沿途攻坚；积累足够弹药为后续品类大爆发做准备；建立开放、极致的氛围吸引更多人加入。</p>\n\n<h2>二、为什么是\"DIY\"？——被大工业压抑的需求回来了</h2>\n<p>很多人会问：这几个品类看起来风马牛不相及（咖啡、商用咖啡机、缝纫），凭什么放到一起讲？</p>\n<p>如果你用一个\"用户视角\"去看，就能发现它们的共性：<strong>它们都在服务\"我自己想要、但我用市面上的标准品得不到\"的那部分需求——自己拉一杯带照片拉花的咖啡、自己缝一件独一无二的衣服。</strong></p>\n<p>大工业时代，效率和规模把所有人都推向了\"标准品\"，DIY被压到了一个很小的角落。而今天，AI把定制化的成本打了下来：结合AI之后，这些产品可以实现高度定制化，让越来越多喜欢时尚、热爱DIY的年轻人参与进来——<strong>\"就像拓竹，打开了DIY的新纪元\"</strong>，Siming这样总结。</p>\n<p>对资本和消费者两端来说，DIY带来的情绪价值完全可以构成买单的理由。最典型的例子莫过于消费级3D打印——拓竹就是靠DIY市场，把一个原本小众的\"极客爱好\"做成了生意。</p>\n<div class=\"highlight-box\">\n  <div class=\"box-title\">💡 本质判断</div>\n  <p style=\"margin-bottom:0\">DIY不是一个细分赛道，而是一种被长期压抑、如今正在被AI大规模释放的\"需求层\"。谁率先用AI把某一种DIY做到\"体验足够好、成本足够低\"，谁就有机会定义一个新品类。</p>\n</div>\n\n<p>这里也要回答一个常被问到的问题：<strong>为什么2026年，而不是更早？</strong>答案并不只在于AI技术本身，而在于成本曲线的拐点。过去几年，定制化的\"智能化\"往往意味着高昂的算法和工程投入，只有几百元起步的3D打印机那样的单品才能覆盖；如今随着大模型把多模态理解、生成和交互的成本大幅拉低，一台缝纫机、一台咖啡机也能在几乎不增加硬件太多成本的前提下，获得\"理解图片→生成方案→执行\"的能力。换句话说：<strong>AI让\"新品类\"的边际成本，降到了一个能做To C生意的临界点之下。</strong></p>\n<p>从创业者和投资人的角度看，还有一个更务实的判断维度——验证成本。真正好的\"新品类\"，往往能先用较小的第一批产品、海外众筹或小范围的种子用户验证出真需求，再逐步放大。正如我们前一篇讲的那样，很多优秀硬件公司都是通过众筹、海外出货，先把市场核心痛点解决了，产品卖得不错，机构再以\"PE逻辑\"（一块钱收入对应一块钱估值）进场。DIY赛道的魅力正在于此：它天然适合用\"小步快跑、先验证再放大\"的打法起步，不需要一上来就烧巨额补贴去教育市场。</p>\n\n<p>不过，在动手前还有一个容易踩的坑：<strong>不要把\"DIY\"本身当成护城河，要看护城河在AI层的上下游哪里。</strong>很多团队以为把大模型接进去、让用户能改个参数、生成个图案就算\"AI+DIY\"了——但在Z看来，这类\"只做上层算法\"的产品技术壁垒很低，很容易被跟进和打价格战。真正能长期站住的产品，往往要么在材料或器件层面有壁垒，要么在数据或场景积累上别人拿不到。举个来自Siming的例子：做宠物硬件的团队，未来可能不只是卖硬件，而是把长期积累的宠物行为数据提供给机器人公司或具身智能企业——\"这套逻辑是成立的，因为这些数据别人确实拿不到\"。稀缺的数据，往往比一层容易复制的算法值钱得多。</p>\n\n<h2>三、反向提示：不是所有\"新品类\"都能成</h2>\n<p>当然，这个逻辑不是所有项目都成立。长期看硬件的投资人Z提醒，<strong>按兴趣爱好划分的硬件，比如无弦吉他，由于技术壁垒较低，后来者很容易进入，价格战也会打得很激烈</strong>。除非公司一开始就有比较好的生态构建能力和快速拓品能力，否则很容易陷入内卷，导致增速和毛利快速下滑。</p>\n<p>再比如3D打印确实是好方向，但当市场已有一家做到\"30亿元收入、90亿港币市值\"时，后来者的估值想象空间就要打折扣。Z认为，<strong>能被市场长期认可的，往往是\"大硬件大软件\"（如DIY硬件、CNC、3D打印这类复杂产品，有大品类且存在技术壁垒）或\"小硬件加大软件\"（涉及底层材料、器件再到上层算法，形成完整技术壁垒）</strong>。随着Codex以及各种Coding Agent出现，软件开发门槛大幅降低之后，小硬件更需要从材料层面就建立壁垒，才有机会在消费电子里拿到长期位置。</p>\n\n<h2>四、关于\"具身\"和数据的冷思考</h2>\n<p>最后补一个很多创始人会纠结的问题。<strong>DIY产品要不要叠加\"具身智能\"或人形机器人的故事，来拉高估值？</strong>Siming的建议是谨慎——影智这类公司确实在从咖啡机器人往\"通用家庭服务\"叙事演进，号称用全球百余座城市、上千个场景的持续部署换取数据闭环。但Siming也直言，<strong>这里其实有一点伪命题：创业公司前期出货量不够，数据积累本身就很难，属于典型的\"先有鸡还是先有蛋\"</strong>。投资人会反问：你说有了数据就能形成闭环，那数据从哪里来？</p>\n<p>他自己的判断是：数据价值本身没有问题，关键在于数据是否足够稀缺，而家庭通用场景的数据往往难以泛化，很难支撑真正的通用智能。所以对大多数做DIY新品类的中小公司而言，与其硬蹭\"具身智能\"叙事，不如先把单品卖好、把真实场景的数据沉淀下来——等哪天数据真的成为别人拿不到的稀缺资产时，故事自然会成立，估值空间也会水到渠成。</p>\n\n<h2>五、给想\"定义新品类\"的创始人三句话</h2>\n<p>结合影智、咖爷、浪爪以及市场上大量案例，Siming和璞合把这些规律总结成三条：</p>\n<ul>\n  <li><strong>别追风口，去找\"被压抑的需求\"。</strong>新品类往往来自用户想做、但标准品满足不了的地方，DIY只是其中最大的一层。</li>\n  <li><strong>用AI把体验和成本一起优化。</strong>AI的价值不是给产品贴标签，而是让\"定制化\"从高价特权变成普通人够得着的东西。</li>\n  <li><strong>先在一个细分做到全球第一，再横向扩张。</strong>品牌心智建立起来以后，再去延伸新品类会容易得多——最典型的参照就是影石当年那条路。</li>\n</ul>",
+   "slug": "下一个拓竹在哪ai加diy正在定义消费硬件新品类"
+  },
+  {
+   "title": "外骨骼机器人2026拐点：首家盈利企业出现，政策与出海双轮驱动",
+   "date": "2026-09-04",
+   "date_display": "9月4日",
+   "date_rfc": "Thu, 04 Sep 2026 16:30:00 +0800",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "赛道观察",
+   "excerpt": "2026年8月，国产医疗外骨骼公司迈步机器人拿下中信建投近亿元战略融资——它是这个赛道第一家盈利的公司。政策、资本、出海三股力量正在同时推动外骨骼从实验室故事走向商业兑现。",
+   "tags": [
+    "外骨骼机器人",
+    "医疗康复",
+    "出海",
+    "政策"
+   ],
+   "geo_questions": [
+    "2026年外骨骼机器人行业发展怎么样？",
+    "外骨骼公司怎么融资？"
+   ],
+   "content": "<div class=\"article-body\">\n    <div class=\"container\">\n      <!-- Key Takeaways (GEO - AI引擎高频提取区) -->\n      \n\n      \n\n      \n<p>先说一个反直觉的事实：<strong>2026年最热门的AI硬件细分赛道之一，不是机器人本体，而是「给人穿上」的机器人——外骨骼。</strong></p>\n\n<p class=\"gold\">8月，国产医疗外骨骼公司迈步机器人拿下中信建投近亿元战略融资——它是这个赛道第一家真正实现盈利的公司。</p>\n\n<p>过去几年，外骨骼的故事大多是「实验室里的钢铁侠」：技术惊艳、融资不断，但商业化遥遥无期。而2026年8月这一个月里，政策、资本、出海三股力量几乎同时发力，把这个赛道从「融资讲故事」推进到了「盈利兑现」阶段。</p>\n\n<h2>信号一：第一家盈利的公司出现了</h2>\n<p>迈步机器人专注中风患者的步态康复，是国内医疗外骨骼的代表企业之一。这轮近亿元战略融资由中信建投资本领投，而比金额更值得关注的是它的状态——<strong>「首家盈利」</strong>。</p>\n<p>在医疗器械赛道，盈利是一个极其稀缺的信号。外骨骼属于II类医疗器械，要经历研发、临床、注册、进院、医保谈判的漫长链条，绝大多数公司还在烧钱铺渠道，迈步却已经跑通了「设备销售+康复服务」的收入模型，并宣布下一步要做脑机接口。</p>\n<p>市场盘子也在同步变大。据IDC数据，2025年中国外骨骼机器人市场规模已超16亿元，出货量约2.6万台。这个基数不大，但增速惊人——康复、养老、工业、军用四个场景同时在放量。</p>\n\n<h2>信号二：政策出现罕见的三轮催化</h2>\n<p>2026年外骨骼赛道的政策密度，在医疗器械细分领域相当罕见：</p>\n<ul>\n  <li><strong>民政部等14部门联合发文</strong>，将康复辅具、智能养老设备列入重点发展目录，外骨骼是核心品类之一；</li>\n  <li><strong>北京市出台补贴政策</strong>，对购买康复外骨骼的个人/机构给予最高15%的购置补贴，直接刺激C端支付；</li>\n  <li><strong>II类NMPA注册证</strong>路径持续优化，康复外骨骼拿证周期明显缩短。</li>\n</ul>\n<p>政策的意义不只是「利好」，而是<strong>把支付方从「医院预算」扩展到了「个人+医保+财政补贴」三轨并行</strong>——这是外骨骼商业模型能跑通的关键前提。</p>\n\n<h2>信号三：资本密集进场，三个月三笔大额融资</h2>\n<p>过去三个月，外骨骼赛道的融资密度明显上升：</p>\n<ul>\n  <li>迈步机器人：近亿元战略融资，中信建投资本（2026年8月）；</li>\n  <li>程天科技：B+轮亿元级融资（2026年3月）；</li>\n  <li>极壳科技：B+轮3.4亿元（2026年5月）。</li>\n</ul>\n<p>更值得注意的是资金性质——中信建投、国资背景资金加速进入，说明这个赛道已经从「VC的早期试验田」升级为「战略资本认可的主航道」。</p>\n\n<h2>为什么说外骨骼是「AI硬件出海」的典型样本</h2>\n<p>外骨骼出海有几个天然优势，正好踩中中国供应链的红利：</p>\n<ul>\n  <li><strong>需求端成熟</strong>：日本、欧洲老龄化程度更深，康复体系成熟，外骨骼的支付方（保险/医保）比国内更早ready；</li>\n  <li><strong>成本端碾压</strong>：核心部件（伺服电机、传感器、碳纤维结构件）国产化率提升，中国厂商能把整机成本压到欧美同行的1/3-1/2；</li>\n  <li><strong>认证路径清晰</strong>：CE/FDA对外骨骼的监管框架已相对明确，中国厂商出海认证的可预期性在提高。</li>\n</ul>\n<p>这也解释了为什么头部玩家几乎都在布局出海——<strong>「中国制造+海外支付」是外骨骼赛道最性感的商业模型</strong>。</p>\n\n<h2>两条路线正在分化：医疗级 vs 消费级</h2>\n<p>外骨骼赛道内部正在分裂成两条完全不同的路线：</p>\n<ul>\n  <li><strong>医疗级</strong>：门槛高（注册证+临床+进院），客单价高（单套数万至数十万元），现金流稳定，代表是迈步、程天；</li>\n  <li><strong>消费级</strong>：主打养老助行、户外运动、轻康复场景，走电商+出海渠道，拼的是产品定义能力和成本控制，增速更快但竞争更卷。</li>\n</ul>\n<p>对创业者而言，两条路线需要完全不同的团队基因：医疗级拼临床资源和合规能力，消费级拼产品化和渠道。最怕的是<strong>用消费级的打法做医疗级，或用医疗级的节奏做消费级</strong>。</p>\n\n<blockquote>\n  <p>外骨骼赛道的拐点已至：盈利、政策、出海三把钥匙同时到齐。接下来拼的不是谁的技术参数更高，而是谁先把「卖给谁、怎么卖、怎么赚钱」讲清楚。</p>\n</blockquote>\n\n\n      <div class=\"article-conclusion\">\n        \n<h2>给外骨骼创业者的三条建议</h2>\n<ul>\n  <li><strong>先定路线再定产品</strong>：医疗级还是消费级，决定你的团队、融资节奏和估值逻辑，两条路线的投资人完全不是同一批人；</li>\n  <li><strong>把出海写进第一版BP</strong>：海外支付方更成熟，外骨骼是最适合「中国供应链+海外市场」的AI硬件品类之一，出海叙事能显著提升估值天花板；</li>\n  <li><strong>关注「数据飞轮」</strong>：康复外骨骼天然产生步态数据，谁能把数据沉淀成康复方案/算法壁垒，谁就能从「卖硬件」升级到「卖服务」。</li>\n</ul>\n<p>璞合资本专注AI硬件与出海方向的早期融资，如果你在做外骨骼、康复机器人或相关AI硬件项目，欢迎和我们聊聊。</p>\n\n      </div>\n\n      <div class=\"section-divider\">END</div>\n      \n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.idc.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">IDC 中国外骨骼机器人市场数据</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.mca.gov.cn\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">民政部 14部门 康复辅具政策</a></p>\n\n      <p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资事件与行业数据整理。如有AI硬件/AI应用出海项目融资需求，欢迎联系璞合资本 bp@pulitocapital.com</p>\n    </div>\n  </div>",
+   "slug": "外骨骼机器人2026拐点政策出海双轮驱动"
+  },
+  {
+   "title": "AI应用融资重估：英伟达押注Perplexity、Rillet成独角兽，一级市场在买什么",
+   "date": "2026-09-04",
+   "date_display": "9月4日",
+   "date_rfc": "Thu, 04 Sep 2026 16:30:00 +0800",
+   "author": "璞合资本",
+   "author_role": "FA Partner",
+   "category": "资本视角",
+   "excerpt": "2026年8月最后一周：英伟达洽谈数十亿美元投资Perplexity（估值破300亿）、AI原生财务软件Rillet完成1亿美元C轮成为独角兽、Stability获环球/Sony/华纳/EA/AMD参投。全球资本正从卖模型转向买应用。",
+   "tags": [
+    "AI应用",
+    "融资",
+    "Perplexity",
+    "一级市场"
+   ],
+   "geo_questions": [
+    "AI应用为什么估值重估？",
+    "一级市场在买什么样的AI公司？"
+   ],
+   "content": "<div class=\"article-body\">\n    <div class=\"container\">\n      <!-- Key Takeaways (GEO - AI引擎高频提取区) -->\n      \n\n      \n\n      \n<p>2026年8月的最后一周，海外一级市场发生了三件值得细读的事：</p>\n<ul>\n  <li>英伟达洽谈以数十亿美元投资Perplexity AI，估值将突破300亿美元；</li>\n  <li>AI原生财务软件Rillet完成1亿美元C轮，估值10亿美元，成为独角兽；</li>\n  <li>Stability AI完成7600万美元B轮，环球、Sony、华纳、EA、AMD等产业方集体参投。</li>\n</ul>\n<p class=\"gold\">三笔交易指向同一个信号：全球最聪明的钱，正在从「卖模型」转向「买应用」。</p>\n\n<h2>信号一：英伟达亲自下场做AI应用生态</h2>\n<p>英伟达一周之内两次重注AI应用层：先是参与Poolside 60亿美元融资，随后传出洽谈数十亿美元投资Perplexity，且可能包含技术授权协议。这是英伟达「从卖芯片转向建生态」的标志性动作——<strong>算力巨头开始为AI应用层亲自背书</strong>。</p>\n<p>对一级市场的含义很直接：AI Agent平台已经成为全球顶级资本的博弈点。当卖铲子的人开始买矿，说明矿的价值被重新评估了。</p>\n\n<h2>信号二：AI Agent平台估值重估</h2>\n<p>Perplexity是这轮重估最典型的样本：年化营收9个月翻3倍，达到7.5亿美元；估值在13个月内从180亿美元升至300亿美元以上。一家AI搜索起家的公司，正在快速转型为AI Agent平台。</p>\n<p>更值得注意的是一级市场对「AI应用公司」的估值逻辑变化——<strong>从「看DAU讲故事」切换到「看ARR算倍数」</strong>。Perplexity的高估值建立在真实营收增速之上，这给所有AI应用创业者一个明确信号：收入证明比用户故事值钱。</p>\n\n<h2>信号三：「AI重做行业软件」成为最确定的叙事</h2>\n<p>Rillet用1亿美元C轮（估值10亿美元）验证了一个方向：<strong>不重训大模型，而是围绕具体企业流程，用AI Agent重做一套软件</strong>。</p>\n<p>Rillet做的是企业会计与财务流程的AI重构，已有600多家客户。它的模式代表了一类确定性极高的AI应用创业方向：目标明确（替代/重构一个具体流程）、付费意愿强（企业级SaaS）、不需要赌模型能力上限（调用现有模型即可）。这类公司正在成为海外AI应用融资的主力军。</p>\n\n<h2>信号四：产业方开始为内容生成买单</h2>\n<p>Stability AI的7600万美元B轮，投资方名单罕见地出现了环球、Sony、华纳、EA——全球最大的音乐、影视、游戏公司。产业方真金白银入局，说明AI生成内容已经越过「玩具期」，进入生产工作流。</p>\n<p>这轮融资的产业资本属性，比金额本身更重要：<strong>内容行业的巨头们正在用投资锁定AI工具链的话语权</strong>，这也为AI内容出海赛道提供了商业化拐点的佐证。</p>\n\n<h2>对国内AI应用创业者的三点启示</h2>\n<ul>\n  <li><strong>估值锚点已经出现</strong>：海外AI应用公司已被验证可以独立撑起10亿美元以上估值（Rillet、Perplexity），国内同赛道项目的估值天花板随之打开；</li>\n  <li><strong>「AI重做行业流程」是最稳的叙事</strong>：比起做通用大模型或泛娱乐应用，围绕财务、法律、制造、客服等具体流程做AI重构，商业确定性最高；</li>\n  <li><strong>营收增速是重估期的硬通货</strong>：一级市场对AI应用的定价正在向ARR靠拢，尽早建立可验证的收入曲线，比任何时候都重要。</li>\n</ul>\n\n<blockquote>\n  <p>AI应用融资进入「重估期」：资本不再为概念买单，只为「已经有人在用的产品」和「正在增长的收入」买单。对创业者来说，这是最坏的时代，也是最好的时代。</p>\n</blockquote>\n\n\n      <div class=\"article-conclusion\">\n        \n<h2>重估期怎么融资：三条实操建议</h2>\n<ul>\n  <li><strong>把ARR放在BP第一页</strong>：重估期的投资人先看收入增速再看产品，用可验证的营收数据替代宏大叙事；</li>\n  <li><strong>讲清楚「AI重做了什么」</strong>：不是「我们用了AI」，而是「我们用AI把XX流程重做了一遍，效率提升X倍」——具体流程比抽象能力值钱；</li>\n  <li><strong>出海叙事加分</strong>：海外市场对AI应用付费意愿更强，中国团队+海外市场的组合，在重估期能获得明显的估值溢价。</li>\n</ul>\n<p>璞合资本专注AI应用与出海的早期融资，如果你正在做AI Agent、AI原生软件或AI硬件出海项目，欢迎和我们聊聊。</p>\n\n      </div>\n\n      <div class=\"section-divider\">END</div>\n      \n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.perplexity.ai\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Perplexity AI 官方</a></p>\n<p style=\"color:var(--text-muted);font-size:12px\">📎 参考来源：<a href=\"https://www.rillet.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--gold)\">Rillet 官网</a></p>\n\n      <p style=\"color:var(--text-muted);font-size:14px\">本文基于公开融资事件与行业数据整理。如有AI硬件/AI应用出海项目融资需求，欢迎联系璞合资本 bp@pulitocapital.com</p>\n    </div>\n  </div>",
+   "slug": "ai应用融资重估英伟达押注perplexity一级市场在买什么"
+  }
+ ]
 }
