@@ -10,7 +10,7 @@
   'use strict';
 
   // ====== 配置（替换成真实 ID 后即生效）======
-  var CLARITY_ID = 'CLARITY_PROJECT_ID';   // Clarity 项目 ID，如 'abcd1234ef'
+  var CLARITY_ID = 'yl8fv6xxj5';   // Clarity 项目 ID（2026-09-20 上线）
   var BAIDU_ID = '2d2bf075e079fd20b1d207c6c63c3615';  // 百度统计 hm.js ID（2026-09-20 上线，站点 23254514）
   // =========================================
 
