@@ -171,6 +171,8 @@ def generate_index(articles):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
   <script>document.documentElement.classList.add('js')</script>
+  <!-- 站点统计（归因：百度统计 + Clarity；UTM 规范配合） -->
+  <script src="/assets/analytics.js" defer></script>
   <style>
     *,*::before,*::after{{margin:0;padding:0;box-sizing:border-box}}
     :root{{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--text-muted:#8892B0;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif}}
@@ -350,7 +352,12 @@ BAIDU_TOKEN = os.environ.get("BAIDU_ZIYUAN_TOKEN", "AgshR8YotwUmhPcT")
 BAIDU_PUSH_API = "http://data.zz.baidu.com/urls?site=https://www.pulitocapital.com&token="
 
 def push_to_baidu(articles):
-    """推送给百度搜索资源平台（主动推送）"""
+    """推送给百度搜索资源平台（主动推送）
+
+    ⚠️ 2026-09-20 修正：配额极小（当日实测 remain≈9 条/天），
+    旧逻辑一次推 40+ 条会把配额一次性烧光且大部分失败。
+    现改为：只推「最新 1 篇 + 站点首页/blog 页」，且记录已推 URL 跨次去重。
+    """
     if not BAIDU_TOKEN:
         print("  ⏭️  百度推送跳过：未设置 BAIDU_ZIYUAN_TOKEN")
         return
@@ -361,11 +368,25 @@ def push_to_baidu(articles):
         print("  ⏭️  百度推送跳过：需要 requests 库（pip install requests）")
         return
 
-    urls = []
-    urls.append(f"{SITE_URL}/")
-    urls.append(f"{SITE_URL}/blog/")
-    for art in articles:
-        urls.append(f"{SITE_URL}/blog/articles/{art['slug']}.html")
+    # 跨次去重账本
+    ledger_path = os.path.join(BASE, ".baidu_pushed.json")
+    pushed = set()
+    if os.path.exists(ledger_path):
+        try:
+            with open(ledger_path, encoding="utf-8") as f:
+                pushed = set(json.load(f))
+        except Exception:
+            pushed = set()
+
+    # 候选：首页 + blog 页 + 最新 6 篇（不推全量，避免烧配额）
+    candidates = [f"{SITE_URL}/", f"{SITE_URL}/blog/"]
+    for art in articles[:6]:
+        candidates.append(f"{SITE_URL}/blog/articles/{art['slug']}.html")
+
+    urls = [u for u in candidates if u not in pushed]
+    if not urls:
+        print("  ⏭️  百度推送跳过：候选 URL 均已推送过")
+        return
 
     data = "\n".join(urls)
     try:
@@ -376,9 +397,19 @@ def push_to_baidu(articles):
             timeout=10
         )
         result = resp.json()
-        print(f"  📡 百度推送: 成功{result.get('success',0)}条 剩余{result.get('remain',0)}条/天")
+        ok = result.get("success", 0)
+        remain = result.get("remain", 0)
+        print(f"  📡 百度推送: 提交{len(urls)}条 成功{ok}条 剩余{remain}条/天")
+        if ok:
+            # 只把真正成功的记入账本
+            for u in urls[:ok]:
+                pushed.add(u)
+            with open(ledger_path, "w", encoding="utf-8") as f:
+                json.dump(sorted(pushed), f, ensure_ascii=False, indent=1)
         if result.get("not_same_site"):
             print(f"  ⚠️  未验证站点，{result['not_same_site']}条未推送")
+        if result.get("error"):
+            print(f"  ⚠️  百度返回错误: {result}")
     except Exception as e:
         print(f"  ⚠️  百度推送失败: {e}")
 
