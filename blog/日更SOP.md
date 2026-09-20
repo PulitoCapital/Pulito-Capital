@@ -101,3 +101,52 @@ curl -s https://www.pulitocapital.com/blog/ -o /tmp/b.html; grep -c "共" /tmp/b
 ## 8. 失败与恢复
 
 - 若某 09:30 跑失败（网络/内容卡壳）：**不要静默跳过**——隔离任务应立即降级：① 用已缓存备选短讯顶上 ② 若仍不可，报备 Siming「今日日更未发出+原因+补发安排」，第二日可同日补 2 篇（快速讯+主线）追赶，不积压。
+
+---
+
+## 9. 传播归因规范（2026-09-20 上线，必读）
+
+**前置：站点统计已上线** —— `assets/analytics.js`（百度统计 + Microsoft Clarity，条件加载、不阻塞渲染）。
+已注入：所有文章页（`blog/template.html`）、`blog/index.html`（gen.py 内置）、根 `index.html`、`en/index.html`。
+⚠️ 两个统计 ID 目前是**占位符**（`CLARITY_PROJECT_ID` / `BAIDU_ANALYTICS_ID`），拿到真实 ID 后替换 `/assets/analytics.js` 顶部两行即可全站生效——**不需要重发文章**。
+
+**文章底部已内置双 CTA 留资条**（模板自动注入，每篇都有）：
+「我是创始人·聊融资」→ chat.pulitocapital.com（小璞）｜「我是投资人·看项目」→（小合）｜邮件 bp@pulitocapital.com
+
+### UTM 规范（对外分享必须带，否则无归因）
+
+生成工具：`workspace/utm_link.py`
+```bash
+python3 utm_link.py                 # 最新一篇 · 全渠道
+python3 utm_link.py --slug xxx      # 指定文章
+python3 utm_link.py --ch 知乎        # 单渠道
+python3 utm_link.py --list          # 渠道对照表
+```
+
+| 参数 | 含义 | 取值 |
+|---|---|---|
+| `utm_source` | 平台 | zhihu / wechat / xhs / jike / linkedin / toutiao / baijiahao / 36kr / jiqizhixin / geekpark / huxiu / weibo / group / email |
+| `utm_medium` | 形态 | answer（知乎回答）/ post（推文）/ note（图文）/ share（随手转）/ moments（朋友圈）/ article（原创投稿）/ newsletter |
+| `utm_campaign` | 日期 | YYYYMMDD（同日多渠道可区分场次） |
+
+**规则：**
+1. 任何对外分享（知乎/公众号/小红书/即刻/领英/社群）**必须**用 `utm_link.py` 生成的链接，不许直接复制裸链接
+2. 官网内部跳转、RSS、sitemap **不带** UTM（避免统计污染 + 避免重复收录）
+3. 同一篇文发多平台，各自 source 不同 → 月底可回答「哪个平台真带线索」
+4. 不改历史链接、不加 UTM 到 canonical
+
+### 归因闭环（内容 → 线索）
+
+- 读者从带 UTM 链接进入 → analytics.js 记录来源 → 点击 CTA 进双 Agent → 双 Agent 留资时带上 `utm_source` → 回写主库
+- 目标：**月底能回答「哪篇文章、哪个平台，带来几个创始人 BP」**
+
+## 10. 百度推送配额修复（2026-09-20）
+
+**问题：** gen.py 原逻辑每次把全量 40+ 条 URL 一次性推送，但百度普通收录配额实测仅 **~8-10 条/天** → 一次跑完全部烧光且大部分返回失败；且 `.env` 里的 token 是失效的（`token is not valid`），覆盖了代码内有效 token。
+
+**已修：**
+- `.env` token 改为有效值（`AgshR8YotwUmhPcT`）；`workspace/.env` 已备份旧值到 `/tmp`
+- gen.py 推送逻辑改为：只推「首页 + blog 页 + 最新 6 篇」，且用 `blog/.baidu_pushed.json` 账本**跨次去重**（推过的不再推）
+- 实测：提交 8 条 → 成功 8 条（此前是 42 条全废）
+
+**运维提示：** 若发现百度收录慢，优先检查 `blog/.baidu_pushed.json` 是否积压；需要全量重推时可清空该账本（但会消耗当日配额）。
