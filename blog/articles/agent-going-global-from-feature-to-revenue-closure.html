@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」 | 璞合资本 | Pulito Capital — AI Agent & 智能硬件FA</title>
+  <meta name="description" content="Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。">
+  <meta name="keywords" content="AI Agent出海 · AI应用 · 定价 · 数据闭环 · 璞合观点,璞合资本,AI Agent,AI硬件,出海融资">
+  <meta name="author" content="璞合资本">
+  <!-- Speakable Schema (GEO - AI语音朗读标记) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".article-summary", ".article-conclusion"]
+    }
+  }
+  </script>
+  <!-- Article meta -->
+  <meta property="article:published_time" content="2026-09-25">
+  <meta property="article:tag" content="AI Agent出海 · AI应用 · 定价 · 数据闭环 · 璞合观点">
+  <meta property="article:author" content="璞合资本">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」">
+  <meta property="og:description" content="Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.pulitocapital.com/blog/articles/agent-going-global-from-feature-to-revenue-closure">
+  <meta property="og:site_name" content="璞合资本 Pulito Capital">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://www.pulitocapital.com/assets/og-image.webp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」">
+  <meta name="twitter:description" content="Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.pulitocapital.com/blog/articles/agent-going-global-from-feature-to-revenue-closure">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--gold-rgb:212,175,55;--white:#FFFFFF;--text-muted:#8892B0;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font-en);color:#fff;background:var(--navy);line-height:1.8;-webkit-font-smoothing:antialiased}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;height:auto;display:block;border-radius:8px}
+    .container{max-width:800px;margin:0 auto;padding:0 24px}
+    .gold{color:var(--gold)}
+    .gold-divider{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:24px}
+
+    /* Nav */
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:12px 0;background:rgba(2,12,69,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.1)}
+    .navbar .container{display:flex;align-items:center;justify-content:space-between;max-width:1200px}
+    .nav-logo{display:flex;align-items:center;gap:10px}
+    .nav-logo svg{width:28px;height:28px}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1}
+    .nav-logo-text .cn{font-family:var(--font-cn);font-size:14px;font-weight:500;letter-spacing:0.1em}
+    .nav-logo-text .en{font-size:6px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:3px}
+    .nav-links{display:flex;gap:24px;list-style:none}
+    .nav-links a{font-size:14px;color:var(--text-muted);transition:color 0.2s}
+    .nav-links a:hover{color:var(--gold)}
+
+    /* Article Header */
+    .article-header{padding:120px 0 48px;position:relative;overflow:hidden}
+    .article-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.3),transparent)}
+    .article-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.3);padding:4px 12px;border-radius:4px;font-size:12px;color:var(--gold);margin-bottom:20px}
+    .article-header h1{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;line-height:1.3;letter-spacing:-0.02em;margin-bottom:20px}
+    .article-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--text-muted);margin-bottom:8px}
+    .article-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--text-muted);display:inline-block}
+    .article-author{display:flex;align-items:center;gap:10px}
+    .article-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)}
+    .article-header .excerpt{font-size:clamp(1rem,1.8vw,1.2rem);color:var(--text-muted);line-height:1.7;margin-top:24px;padding:16px 20px;border-left:3px solid var(--gold);background:rgba(212,175,55,0.03);border-radius:0 4px 4px 0}
+
+    /* Article Body */
+    .article-body{padding:48px 0 64px;position:relative}
+    .article-body h2{font-size:clamp(1.4rem,2.5vw,1.75rem);font-weight:700;margin:48px 0 16px;color:#fff;letter-spacing:-0.01em;line-height:1.4}
+    .article-body h3{font-size:clamp(1.15rem,2vw,1.35rem);font-weight:600;margin:36px 0 12px;color:var(--gold);line-height:1.4}
+    .article-body p{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:20px;line-height:1.9}
+    .article-body p.gold{color:var(--gold);font-weight:500}
+    .article-body ul,.article-body ol{padding-left:24px;margin-bottom:24px}
+    .article-body li{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:10px;line-height:1.8}
+    .article-body li::marker{color:var(--gold)}
+    .article-body strong{color:#fff}
+    .article-body blockquote{padding:20px 24px;margin:32px 0;border-left:3px solid var(--gold);background:rgba(212,175,55,0.05);border-radius:0 8px 8px 0;font-style:italic;color:#d0d0e0}
+    .article-body blockquote p{margin-bottom:0;color:#d0d0e0}
+    .article-body .highlight-box{padding:24px;margin:32px 0;border-radius:8px;border:1px solid rgba(212,175,55,0.3);background:rgba(10,26,92,0.5)}
+    .article-body .highlight-box p:last-child{margin-bottom:0}
+    .article-body .highlight-box .box-title{font-size:14px;font-weight:600;color:var(--gold);margin-bottom:12px}
+    .article-body code{background:rgba(212,175,55,0.1);padding:2px 8px;border-radius:3px;font-size:0.9em;color:var(--gold)}
+    .article-body img{margin:32px auto;border-radius:8px;max-width:100%}
+    .article-body .caption{text-align:center;font-size:13px;color:var(--text-muted);margin-top:-24px;margin-bottom:32px}
+
+    /* Divider */
+    .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0;color:var(--text-muted);font-size:12px}
+    .section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.2))}
+    .section-divider::after{background:linear-gradient(270deg,transparent,rgba(212,175,55,0.2))}
+
+    /* Footer */
+    .article-footer{padding:48px 0;border-top:1px solid rgba(212,175,55,0.15)}
+    .article-footer .back-link{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:15px;transition:gap 0.2s}
+    .article-footer .back-link:hover{gap:12px}
+    .article-footer .back-link svg{width:16px;height:16px}
+
+    /* Tags */
+    .article-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}
+    .article-tags span{padding:4px 12px;border-radius:4px;font-size:12px;background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.2);color:var(--gold)}
+
+    .page-footer{background:var(--navy-footer);padding:32px 24px;text-align:center;font-size:13px;color:var(--text-muted);border-top:1px solid rgba(212,175,55,0.1)}
+
+    /* SVG illustration container */
+    .article-illustration{margin:32px 0;padding:24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.1);text-align:center}
+    .article-illustration svg{max-width:100%}
+
+    @media(max-width:600px){
+      .nav-links{display:none}
+      .article-header{padding:100px 0 32px}
+      .article-body{padding:32px 0 48px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」",
+    "description": "Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。",
+    "author": {
+      "@type": "Person",
+      "name": "璞合资本",
+      "jobTitle": "FA Partner"
+    },
+    "datePublished": "2026-09-25",
+    "publisher": {
+      "@type": "Organization",
+      "name": "璞合资本 Pulito Capital"
+    }
+  }
+  </script>
+    <!-- FAQ Schema (GEO - AI引擎问答引用) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」", "acceptedAnswer": {"@type": "Answer", "text": "Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。"}},
+      {"@type": "Question", "name": "2026 年 AI Agent 出海的真正分水岭是什么？", "acceptedAnswer": {"@type": "Answer", "text": "Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。"}},
+      {"@type": "Question", "name": "AI Agent 出海怎么定价才合理？", "acceptedAnswer": {"@type": "Answer", "text": "Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。"}}
+    ]
+  }
+  </script>
+  <!-- BreadcrumbList (GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pulitocapital.com"},
+      {"@type": "ListItem", "position": 2, "name": "洞察", "item": "https://www.pulitocapital.com/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」"}
+    ]
+  }
+  </script>
+  <!-- Baidu Verification -->
+  <!-- 搜狗搜索验证 -->
+  <meta name="sogou_site_verification" content="1ZxPvS3PJe" />
+  <meta name="baidu-site-verification" content="codeva-TAH0cRBC6P">
+  <meta name="google-site-verification" content="TODO_ADD_FROM_GSC" />
+  <meta name="msvalidate.01" content="TODO_ADD_FROM_BING" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" font-family="Montserrat,sans-serif" font-size="56" font-weight="900" letter-spacing="-2">P</text>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="cn">璞合资本</span>
+          <span class="en">PULITO CAPITAL</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">首页</a></li>
+        <li><a href="/blog/">洞察</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <article class="article-header">
+    <div class="container">
+      <div class="article-badge">🏷️ 赛道观察</div>
+      <h1>Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」</h1>
+      <div class="article-meta">
+        <div class="article-author">
+          <div class="article-avatar">璞</div>
+          <span>璞合资本 · FA Partner</span>
+        </div>
+        <span class="dot"></span>
+        <span>9月25日</span>
+      </div>
+      <div class="excerpt">Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。</div>
+    </div>
+  </article>
+
+  <div class="article-body">
+    <div class="container">
+          <!-- Key Takeaways (GEO - AI引擎高频提取区) -->
+    <div class="geo-tldr" style="background:rgba(10,26,92,0.5);border:1px solid rgba(212,175,55,0.25);border-radius:8px;padding:20px 24px;margin-bottom:32px">
+      <div style="font-size:12px;color:var(--gold);font-weight:600;margin-bottom:10px;letter-spacing:0.05em">📌 KEY TAKEAWAYS</div>
+      <ul style="margin:0;padding-left:18px;font-size:clamp(0.9rem,1.6vw,1rem);color:#e8e8f0;line-height:1.8">
+        <li>赛道：赛道观察 · 作者：璞合资本 · FA Partner</li>
+        <li>核心洞察：Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。</li>
+        <li>标签：AI Agent出海 · AI应用 · 定价 · 数据闭环 · 璞合观点</li>
+      </ul>
+    </div>
+    <div class="article-summary" style="margin-bottom:24px;padding:16px 20px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold);font-size:14px;color:var(--text-muted);line-height:1.7">
+      <strong style="color:var(--gold);font-size:12px;letter-spacing:0.1em">📌 关键摘要</strong><br>
+      Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。
+    </div>
+    <p>过去一年，出海这条赛道上有一个词被反复提起，又被反复误解——<strong>「Agent 原生」</strong>。很多团队把它当成一句贴在产品介绍里的形容词，但如果你真的跟着钱走一圈就会发现，投资端开始较真了：你说的 Agent，到底是「功能」还是「生意」？</p>
+
+<p class="lead">这周璞合在几个海外侧的项目尽调和机构沟通里，越来越频繁地听到同一个判断——<strong>2026 年下半场，出海 AI 应用的分水岭，已经从「会不会做 Agent」变成了「Agent 能不能自己闭环收钱」。</strong></p>
+
+<h2>一、Agent 出海，正在从「卖软件」变成「卖结果」</h2>
+
+<p>一个很典型的信号：海外客户不再愿意为一个「能调大模型 API 的壳」付费，他们开始为「一个我能把它丢给某个岗位、它自己把活儿干完」的东西买单。这意味着定价逻辑变了。</p>
+
+<p>过去 SaaS 出海的定价，是「座位费 + 订阅费」，你卖的是工具，客户的采购理由是「提效」。但现在这批跑得快的团队，卖的是<strong>按结果计费</strong>——按处理的一个工单、一个订单、一屏客服会话、一段合规审查来收费。工具费是天花板，结果费才是天花板之上的东西。</p>
+
+<p>璞合观点：这轮出海能不能起量，核心不看模型能力（那是底座、是标配），看的是<strong>你能不能把 Agent 装进一个海外客户已经存在的、愿意为结果付费的场景里</strong>。场景要窄，切口要深，收钱要直接。</p>
+
+<h2>二、谁在买单，决定了你要讲什么故事</h2>
+
+<p>在海外，为 Agent 付费的三类人，口味完全不同：</p>
+
+<ul>
+<li><strong>北美 SMB（中小企业）</strong>：要的是「少雇一个人」的直接替代，对价格敏感，看重见效速度。卖点是「当天跑通、按月回本」。</li>
+<li><strong>欧洲中大型企业</strong>：要的是合规和可控，先谈数据主权、GDPR、审计留痕，再谈效率。卖点是「可控、可审计、可回滚」。</li>
+<li><strong>东南亚/中东的成长型企业</strong>：要的是「跳过人力瓶颈」的杠杆，一个人带十个 Agent 顶一个团队。卖点是「规模跃迁」。</li>
+</ul>
+
+<p>有意思的是，很多团队拿着一套「全球通用」的 pitch 去打这三个市场，结果三个都打不动。因为<strong>同一个 Agent，在这三个市场里讲的是三个完全不同的购买理由</strong>。出海最大的幻觉之一，是以为「产品好」就等于「市场接受」。</p>
+
+<h2>三、真正的护城河，不在模型，在数据闭环</h2>
+
+<p>现在人人都能接大模型，接完之后呢？如果一个 Agent 做的只是「转发模型输出」，那它本质上没有壁垒，客户换一个方案的成本几乎是零。</p>
+
+<p>璞合在看的，是那些能形成<strong>「越用越准」正反馈</strong>的 Agent：每一次交互都在沉淀结构化的、行业专属的数据，反过来让模型在这个垂直场景里表现更好。这才是护城河——<strong>不是模型，是你在一个垂直场景里跑出来的、别人拿不走的数据资产</strong>。</p>
+
+<p>这个逻辑，和我们这两年看的 AI 硬件出海其实是同一个东西：硬件退烧退的是「造品类」的幻觉，Agent 出海要警惕的，是「造功能」的幻觉。真正值钱的，从来是「在一个真实场景里，被真实客户反复用、反复付费，然后越用越厚」的那个东西。</p>
+
+<h2>四、给创始人的三句实在话</h2>
+
+<p>如果你是正在做出海 AI Agent 的创始人，璞合只想提醒三件事：</p>
+
+<blockquote>
+<p><strong>第一，先把「结果」卖出去，再谈「平台」。</strong>别一上来就做通用 Agent 平台，先在一个垂直场景里，让客户为结果付费，跑通现金流。</p>
+<p><strong>第二，定价敢按结果收，才证明产品真有价值。</strong>如果你只敢按订阅收、不敢按结果收，说明你内心也清楚这产品还没有不可替代。</p>
+<p><strong>第三，数据闭环是你唯一天然壁垒，早一天开始沉淀，晚一天被别人复制。</strong></p>
+</blockquote>
+
+<h2>结语</h2>
+
+<p>出海的魅力在于，它把一家公司的真实成色，放在一个更大、更残酷、也没有人情分可讲的市场里检验。<strong>Agent 出海 2026 的下半场，拼的不是谁的 Demo 更炫，是谁的 Agent 真的能在海外客户的口袋里，自己把钱收回来。</strong></p>
+
+<p>这是璞合最近看项目时越来越笃定的一个判断，也把它分享给正在这条路上的你。</p>
+
+    </div>
+  </div>
+
+  <!-- CTA 留资条（内容 → 双客服 Agent 转化承接） -->
+  <div class="container" style="padding:0 24px">
+    <div class="pulito-cta" style="margin:8px 0 0;padding:28px 24px;border-radius:10px;background:linear-gradient(135deg,rgba(212,175,55,0.10),rgba(10,26,92,0.55));border:1px solid rgba(212,175,55,0.28);text-align:center">
+      <div style="font-size:17px;font-weight:700;color:#fff;margin-bottom:8px">你在做出海 AI 硬件 / AI Agent？</div>
+      <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7">想聊融资节奏、估值口径、投资人匹配 —— 直接找我们，不用绕</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="https://chat.pulitocapital.com/?from=blog_founder&utm_source=blog&utm_medium=cta&utm_campaign=article_founder" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:var(--gold);color:var(--navy);font-size:15px;font-weight:700;text-decoration:none">🚀 我是创始人 · 聊融资</a>
+        <a href="https://chat.pulitocapital.com/?from=blog_investor&utm_source=blog&utm_medium=cta&utm_campaign=article_investor" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:15px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.2)">💼 我是投资人 · 看项目</a>
+      </div>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:16px;margin-bottom:0">或直接邮件 <a href="mailto:bp@pulitocapital.com" style="color:var(--gold)">bp@pulitocapital.com</a></p>
+    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="container">
+      <a href="/blog/" class="back-link">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>← 返回所有文章</span>
+      </a>
+      <div class="article-tags">
+        <span>AI Agent出海</span><span>AI应用</span><span>定价</span><span>数据闭环</span><span>璞合观点</span>
+        <span>AI Agent出海</span><span>AI应用</span><span>定价</span><span>数据闭环</span><span>璞合观点</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Author & Related (GEO) -->
+  <div style="margin-top:32px;padding:20px 24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12)">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)">璞</div>
+      <div>
+        <div style="font-size:14px;color:#fff;font-weight:600">璞合资本 · FA Partner</div>
+        <div style="font-size:12px;color:var(--text-muted)">璞合资本 · AI Native精品投行</div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin-bottom:8px">📖 查看更多 <a href="/blog/" style="color:var(--gold)">璞合洞察</a> · 赛道观察 · BP实战 · 资本视角 · 合规法务 · 创始人访谈</p>
+    <div style="margin-top:32px;padding-top:24px;border-top:1px solid rgba(212,175,55,0.15)"><div style="font-size:13px;color:var(--text-muted);margin-bottom:16px">📖 继续阅读</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <a href="/blog/articles/ai-hardware-cooling-is-not-ai-its-category-invention.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">赛道观察</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">AI 硬件这波退烧，凉的不是 AI，是「造品类」的幻觉</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月24日</div>
+          </a>
+          <a href="/blog/articles/personal-ai-entry-two-bets-2026.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">赛道观察</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">个人 AI 的入口，正在被两种钱同时下注——从 Hark 的 60 亿美元到深圳桌面上的一百万美元众筹</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月21日</div>
+          </a>
+          <a href="/blog/articles/agent-vc-freeze-going-global-2026.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">媒体报道</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">转载导读｜Agent 被 VC「速冻」的夏天：出海，是 AI 应用创业者更好的活法，还是更高的门槛？</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月18日</div>
+          </a>
+        </div>
+      </div>
+    <div style="margin-top:32px;padding:24px;border-radius:8px;background:linear-gradient(135deg,rgba(212,175,55,0.08),rgba(10,26,92,0.4));border:1px solid rgba(212,175,55,0.2);text-align:center">
+      <div style="font-size:15px;font-weight:600;color:#fff;margin-bottom:8px">📬 璞合资本 — AI Native精品投行</div>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px;line-height:1.7">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。</p>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">欢迎访问璞合资本公众号 · 项目合作发 bp@pulitocapital.com</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:var(--gold);color:var(--btn-text);font-size:14px;font-weight:600;text-decoration:none">🏠 访问璞合首页</a>
+        <a href="/blog/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,0.15)">📖 浏览全部文章</a>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--text-muted)">分享本文：<span style="color:var(--gold)">https://www.pulitocapital.com/blog/articles/agent-going-global-from-feature-to-revenue-closure</span></p>
+  </div>
+
+  <footer class="page-footer">
+    <p>© 2026 璞合资本 Pulito Capital. All rights reserved.</p>
+  </footer>
+  <!-- 站点统计（归因：百度统计 + Clarity；UTM 规范配合） -->
+  <script src="/assets/analytics.js" defer></script>
+  <!-- Baidu auto-push -->
+  <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();</script>
+</body>
+</html>
