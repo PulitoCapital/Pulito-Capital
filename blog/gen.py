@@ -3,7 +3,7 @@
 璞合资本博客生成器
 读取 articles.json → 渲染模板 → 生成文章 HTML + 列表页 + RSS + sitemap
 """
-import json, os, shutil, glob
+import json, os, shutil, glob, re
 from datetime import datetime, timezone
 import html as html_mod
 
@@ -99,11 +99,24 @@ def generate_articles(articles):
         geo_qs = art.get("geo_questions", [])
         safe_geo_q1 = safe_json_str(geo_qs[0]) if len(geo_qs) > 0 else safe_cat
         safe_geo_q2 = safe_json_str(geo_qs[1]) if len(geo_qs) > 1 else "更多内容请查看原文"
-        # FAQPage JSON-LD：用全部 geo_questions 生成 N 题，answer 用文章摘要（对应解答）
+        # FAQPage JSON-LD 生成（2026-10-01 优化）：
+        # 1）若正文含 <h2>Q1/Q2... 结构，则「问题→后段答案」配对提取（真正的 FAQ 问答页）
+        # 2）否则回退到 geo_questions + 文章摘要（问题→文章摘要，语义对应）
         faq_items = []
-        for q in geo_qs:
-            q_safe = safe_json_str(q)
-            faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, safe_excerpt))
+        qa_pairs = re.findall(r'<h2>\s*(Q\d+[^<]*)</h2>\s*(.*?)(?=<h2|$)', art.get("content", ""), re.S)
+        if qa_pairs:
+            for q_html, a_html in qa_pairs:
+                q_text = re.sub(r'<[^>]+>', '', q_html).strip()
+                q_text = re.sub(r'^Q\d+[：:]\s*', '', q_text).strip()  # 去掉 Q1： 编号前缀
+                a_text = re.sub(r'<[^>]+>', ' ', a_html)
+                a_text = re.sub(r'\s+', ' ', a_text).strip()
+                q_safe = safe_json_str(q_text)
+                a_safe = safe_json_str(a_text)
+                faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, a_safe))
+        if not faq_items:
+            for q in geo_qs:
+                q_safe = safe_json_str(q)
+                faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, safe_excerpt))
         faq_json_ld = ",\n      ".join(faq_items) if faq_items else '{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (safe_title, safe_excerpt)
 
         subs = {
