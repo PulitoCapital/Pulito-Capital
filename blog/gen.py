@@ -99,6 +99,12 @@ def generate_articles(articles):
         geo_qs = art.get("geo_questions", [])
         safe_geo_q1 = safe_json_str(geo_qs[0]) if len(geo_qs) > 0 else safe_cat
         safe_geo_q2 = safe_json_str(geo_qs[1]) if len(geo_qs) > 1 else "更多内容请查看原文"
+        # FAQPage JSON-LD：用全部 geo_questions 生成 N 题，answer 用文章摘要（对应解答）
+        faq_items = []
+        for q in geo_qs:
+            q_safe = safe_json_str(q)
+            faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, safe_excerpt))
+        faq_json_ld = ",\n      ".join(faq_items) if faq_items else '{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (safe_title, safe_excerpt)
 
         subs = {
             "TITLE": art["title"],
@@ -116,6 +122,7 @@ def generate_articles(articles):
             "CATEGORY_SAFE": safe_cat,
             "GEO_Q1_SAFE": safe_geo_q1,
             "GEO_Q2_SAFE": safe_geo_q2,
+            "FAQ_JSON_LD_SAFE": faq_json_ld,
             "SLUG": slug,
             "CONTENT": art["content"],
             "TAGS_HTML": tags_html,

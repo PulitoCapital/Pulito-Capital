@@ -27,6 +27,10 @@
 
 **唯一规范入口 = articles.json + gen.py**（方案A 2026-09-04 落地）。禁止手工直接写 html 到 articles/ 后再手动改 index/rss。
 
+> 🚫 **硬性红线（2026-10-01 新增）**：
+> 1. **禁止写 `/tmp` 临时 python 脚本去操作 articles.json**——直接把条目写进 `blog/articles.json` 即可。历史事故：agent 写 `/tmp/new_article.py` 后在工作区根目录跑 `python3 /tmp/new_article.py`，因脚本内相对路径 `blog/articles.json` 找不到文件而崩溃（2026-10-01）。
+> 2. **所有命令必须在 `/home/ubuntu/.openclaw/workspace/pulito-site` 根目录执行**（先用 `cd` 切过去），禁止在其他 cwd 跑 gen.py / git。
+
 写入步骤：
 1. 打开 `blog/articles.json`，读 `articles` 数组（按 date 倒序，最新在前）。
 2. 在数组**头部(最新 date=今天)**插入新条目。字段必须齐：
