@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做 | 璞合资本 | Pulito Capital — AI Agent & 智能硬件FA</title>
+  <meta name="description" content="华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。">
+  <meta name="keywords" content="媒体报道 · AI应用 · 3D生成 · AI硬件 · 出海 · 璞合导读,璞合资本,AI Agent,AI硬件,出海融资">
+  <meta name="author" content="品玩 PingWest">
+  <!-- Speakable Schema (GEO - AI语音朗读标记) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".article-summary", ".article-conclusion"]
+    }
+  }
+  </script>
+  <!-- Article meta -->
+  <meta property="article:published_time" content="2026-10-06">
+  <meta property="article:tag" content="媒体报道 · AI应用 · 3D生成 · AI硬件 · 出海 · 璞合导读">
+  <meta property="article:author" content="品玩 PingWest">
+  <!-- Open Graph -->
+  <meta property="og:title" content="转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做">
+  <meta property="og:description" content="华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.pulitocapital.com/blog/articles/meshy-arr-100m-vertical-vs-general-model">
+  <meta property="og:site_name" content="璞合资本 Pulito Capital">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://www.pulitocapital.com/assets/og-image.webp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做">
+  <meta name="twitter:description" content="华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.pulitocapital.com/blog/articles/meshy-arr-100m-vertical-vs-general-model">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--gold-rgb:212,175,55;--white:#FFFFFF;--text-muted:#8892B0;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font-en);color:#fff;background:var(--navy);line-height:1.8;-webkit-font-smoothing:antialiased}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;height:auto;display:block;border-radius:8px}
+    .container{max-width:800px;margin:0 auto;padding:0 24px}
+    .gold{color:var(--gold)}
+    .gold-divider{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:24px}
+
+    /* Nav */
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:12px 0;background:rgba(2,12,69,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.1)}
+    .navbar .container{display:flex;align-items:center;justify-content:space-between;max-width:1200px}
+    .nav-logo{display:flex;align-items:center;gap:10px}
+    .nav-logo svg{width:28px;height:28px}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1}
+    .nav-logo-text .cn{font-family:var(--font-cn);font-size:14px;font-weight:500;letter-spacing:0.1em}
+    .nav-logo-text .en{font-size:6px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:3px}
+    .nav-links{display:flex;gap:24px;list-style:none}
+    .nav-links a{font-size:14px;color:var(--text-muted);transition:color 0.2s}
+    .nav-links a:hover{color:var(--gold)}
+
+    /* Article Header */
+    .article-header{padding:120px 0 48px;position:relative;overflow:hidden}
+    .article-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.3),transparent)}
+    .article-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.3);padding:4px 12px;border-radius:4px;font-size:12px;color:var(--gold);margin-bottom:20px}
+    .article-header h1{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;line-height:1.3;letter-spacing:-0.02em;margin-bottom:20px}
+    .article-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--text-muted);margin-bottom:8px}
+    .article-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--text-muted);display:inline-block}
+    .article-author{display:flex;align-items:center;gap:10px}
+    .article-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)}
+    .article-header .excerpt{font-size:clamp(1rem,1.8vw,1.2rem);color:var(--text-muted);line-height:1.7;margin-top:24px;padding:16px 20px;border-left:3px solid var(--gold);background:rgba(212,175,55,0.03);border-radius:0 4px 4px 0}
+
+    /* Article Body */
+    .article-body{padding:48px 0 64px;position:relative}
+    .article-body h2{font-size:clamp(1.4rem,2.5vw,1.75rem);font-weight:700;margin:48px 0 16px;color:#fff;letter-spacing:-0.01em;line-height:1.4}
+    .article-body h3{font-size:clamp(1.15rem,2vw,1.35rem);font-weight:600;margin:36px 0 12px;color:var(--gold);line-height:1.4}
+    .article-body p{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:20px;line-height:1.9}
+    .article-body p.gold{color:var(--gold);font-weight:500}
+    .article-body ul,.article-body ol{padding-left:24px;margin-bottom:24px}
+    .article-body li{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:10px;line-height:1.8}
+    .article-body li::marker{color:var(--gold)}
+    .article-body strong{color:#fff}
+    .article-body blockquote{padding:20px 24px;margin:32px 0;border-left:3px solid var(--gold);background:rgba(212,175,55,0.05);border-radius:0 8px 8px 0;font-style:italic;color:#d0d0e0}
+    .article-body blockquote p{margin-bottom:0;color:#d0d0e0}
+    .article-body .highlight-box{padding:24px;margin:32px 0;border-radius:8px;border:1px solid rgba(212,175,55,0.3);background:rgba(10,26,92,0.5)}
+    .article-body .highlight-box p:last-child{margin-bottom:0}
+    .article-body .highlight-box .box-title{font-size:14px;font-weight:600;color:var(--gold);margin-bottom:12px}
+    .article-body code{background:rgba(212,175,55,0.1);padding:2px 8px;border-radius:3px;font-size:0.9em;color:var(--gold)}
+    .article-body img{margin:32px auto;border-radius:8px;max-width:100%}
+    .article-body .caption{text-align:center;font-size:13px;color:var(--text-muted);margin-top:-24px;margin-bottom:32px}
+
+    /* Divider */
+    .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0;color:var(--text-muted);font-size:12px}
+    .section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.2))}
+    .section-divider::after{background:linear-gradient(270deg,transparent,rgba(212,175,55,0.2))}
+
+    /* Footer */
+    .article-footer{padding:48px 0;border-top:1px solid rgba(212,175,55,0.15)}
+    .article-footer .back-link{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:15px;transition:gap 0.2s}
+    .article-footer .back-link:hover{gap:12px}
+    .article-footer .back-link svg{width:16px;height:16px}
+
+    /* Tags */
+    .article-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}
+    .article-tags span{padding:4px 12px;border-radius:4px;font-size:12px;background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.2);color:var(--gold)}
+
+    .page-footer{background:var(--navy-footer);padding:32px 24px;text-align:center;font-size:13px;color:var(--text-muted);border-top:1px solid rgba(212,175,55,0.1)}
+
+    /* SVG illustration container */
+    .article-illustration{margin:32px 0;padding:24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.1);text-align:center}
+    .article-illustration svg{max-width:100%}
+
+    @media(max-width:600px){
+      .nav-links{display:none}
+      .article-header{padding:100px 0 32px}
+      .article-body{padding:32px 0 48px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做",
+    "description": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。",
+    "author": {
+      "@type": "Person",
+      "name": "品玩 PingWest",
+      "jobTitle": "媒体转载 · 璞合资本导读"
+    },
+    "datePublished": "2026-10-06",
+    "publisher": {
+      "@type": "Organization",
+      "name": "璞合资本 Pulito Capital"
+    }
+  }
+  </script>
+    <!-- FAQ Schema (GEO - AI引擎问答引用) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Meshy ARR 破 1 亿美元意味着什么", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}},
+      {"@type": "Question", "name": "3D 生成为什么是 AI 应用的隐形金矿", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}},
+      {"@type": "Question", "name": "通用模型和垂直模型是什么分工关系", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}},
+      {"@type": "Question", "name": "AI 应用如何按交付结果收费", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}},
+      {"@type": "Question", "name": "2026年 AI 应用赛道还有哪些真付费的生意", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}},
+      {"@type": "Question", "name": "3D 生成对 3D 打印硬件出海有什么影响", "acceptedAnswer": {"@type": "Answer", "text": "华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。"}}
+    ]
+  }
+  </script>
+  <!-- BreadcrumbList (GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pulitocapital.com"},
+      {"@type": "ListItem", "position": 2, "name": "洞察", "item": "https://www.pulitocapital.com/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做"}
+    ]
+  }
+  </script>
+  <!-- Baidu Verification -->
+  <!-- 搜狗搜索验证 -->
+  <meta name="sogou_site_verification" content="1ZxPvS3PJe" />
+  <meta name="baidu-site-verification" content="codeva-TAH0cRBC6P">
+  <meta name="google-site-verification" content="TODO_ADD_FROM_GSC" />
+  <meta name="msvalidate.01" content="TODO_ADD_FROM_BING" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" font-family="Montserrat,sans-serif" font-size="56" font-weight="900" letter-spacing="-2">P</text>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="cn">璞合资本</span>
+          <span class="en">PULITO CAPITAL</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">首页</a></li>
+        <li><a href="/blog/">洞察</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <article class="article-header">
+    <div class="container">
+      <div class="article-badge">🏷️ 媒体报道</div>
+      <h1>转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做</h1>
+      <div class="article-meta">
+        <div class="article-author">
+          <div class="article-avatar">品</div>
+          <span>品玩 PingWest · 媒体转载 · 璞合资本导读</span>
+        </div>
+        <span class="dot"></span>
+        <span>10月6日</span>
+      </div>
+      <div class="excerpt">华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。</div>
+    </div>
+  </article>
+
+  <div class="article-body">
+    <div class="container">
+          <!-- Key Takeaways (GEO - AI引擎高频提取区) -->
+    <div class="geo-tldr" style="background:rgba(10,26,92,0.5);border:1px solid rgba(212,175,55,0.25);border-radius:8px;padding:20px 24px;margin-bottom:32px">
+      <div style="font-size:12px;color:var(--gold);font-weight:600;margin-bottom:10px;letter-spacing:0.05em">📌 KEY TAKEAWAYS</div>
+      <ul style="margin:0;padding-left:18px;font-size:clamp(0.9rem,1.6vw,1rem);color:#e8e8f0;line-height:1.8">
+        <li>赛道：媒体报道 · 作者：品玩 PingWest · 媒体转载 · 璞合资本导读</li>
+        <li>核心洞察：华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。</li>
+        <li>标签：媒体报道 · AI应用 · 3D生成 · AI硬件 · 出海 · 璞合导读</li>
+      </ul>
+    </div>
+    <div class="article-summary" style="margin-bottom:24px;padding:16px 20px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold);font-size:14px;color:var(--text-muted);line-height:1.7">
+      <strong style="color:var(--gold);font-size:12px;letter-spacing:0.1em">📌 关键摘要</strong><br>
+      华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。
+    </div>
+    <div class="highlight-box">
+<p><strong>📎 本文为转载导读</strong>｜原文《Meshy ARR 破 1 亿美元，3D 生成开始长成更大的生意》，作者周一笑，来自科技媒体「品玩 PingWest」。以下为<strong>璞合资本的独立导读</strong>——我们借原文的公开事实做拆解与延伸判断，不照抄原文长文，不涉及璞合任何在管/拟投项目的未公开信息。原文链接：<a href="https://www.pingwest.com/a/317988" target="_blank" rel="noopener">https://www.pingwest.com/a/317988</a></p>
+</div>
+
+<div class="highlight-box">
+<div class="box-title">📌 一句话速览</div>
+<p>一家华人团队做的 AI 3D 生成公司 Meshy，ARR 不到两年从 100 万美元涨到 1 亿美元，涨了 100 倍，跑赢 HeyGen、仅次于 Cursor 等极少数头部。它验证了一个被很多人低估的判断——<strong>通用模型越强，专业垂直模型的生意反而越好做</strong>。这篇导读，璞合想讲透三件事：3D 生成为什么是「AI 应用里的隐形金矿」、它凭什么敢按「交付结果」而不是「卖工具」收费、以及这条「垂直模型 + Agent 工作流」的路径，对中国 AI 硬件与 AI 应用创业者意味着什么。</p>
+</div>
+
+<p>国庆假期的最后一天，聊一个不太「热闹」、但很有含金量的信号。</p>
+
+<p>Meta 的模型又在刷榜、某家 Agent 又拿了笔大钱，这些每天都看得到。但真正值得做一级市场的人停下来多读两遍的，往往是那种「不声不响把账算明白」的公司。Meshy 这一条，就属于这种：ARR 破 1 亿美元这件事本身，比很多融资新闻更硬核。因为 ARR 不是估值、不是融资额、不是 GMV，它是<strong>已经沉淀下来的、年化的、持续付费的收入</strong>。这个数到了 1 亿美元，等于市场用真金白银投了票。</p>
+
+<h2>一、3D 生成为什么是「AI 应用里的隐形金矿」</h2>
+
+<p>很多人对 3D 生成的直觉是「是个小圈子工具」——建模是专业人士的活，用户盘子不大。但原文给了一组反直觉的数据：视频和语音面向的是全球数十亿创作者，3D 创作者远没到这个量级，<strong>在更窄的起点上，Meshy 却跑出了比 HeyGen 还快的增速</strong>。这件事只有一个合理解释：3D 生成已经从「尝鲜工具」切进了「实际生产环节」。</p>
+
+<p>璞合把它拆成三层看：</p>
+
+<ul>
+<li><strong>第一层，是「成本被重估」。</strong>传统方式做一个 3D 模型，大约两周、1000 美元；Meshy 压缩到几分钟、约 1 美元。原来的成本大头是「人力」，现在变成了「算力 + 订阅」。当一项过去按人天计价的工作，开始可以按软件订阅计价，它就从「工具」变成了「生产力」。</li>
+<li><strong>第二层，是「门槛被击穿」。</strong>以前一个买 3D 打印机的人，不等于会用建模软件。现在拓竹把 Meshy 接进 MakerWorld，用户上传一张图就能生成可打印的模型。用户不用打开 Meshy，也能用上 Meshy——这叫「能力被嵌入到别的主场景里」，是工具类 AI 应用最理想的分发形态。</li>
+<li><strong>第三层，是「边界在扩张」。</strong>从桌游微缩模型（Thorns Tavern 缩短九成生产时间、降 80% 成本），到游戏公司（三七互娱建模时间砍半），再到 GPT-6 Astra 里直接调用 Meshy 插件完成「一把椅子扩展到 20 件家具」的完整任务，3D 生成正在从「资产生产」走向「体验生产」。</li>
+</ul>
+
+<blockquote>璞合观点：一级市场里，我们看 AI 应用最怕的是「只有 demo、没有回款」。Meshy 的价值在于，它把一个技术判断，翻译成了一份能对上的账单。这是 AI 应用最稀缺的质地。</blockquote>
+
+<h2>二、它凭什么敢按「交付结果」收费</h2>
+
+<p>原文引用了红杉资本合伙人 Julien Bek 的一篇文章《Services: The New Software》，核心判断是：<strong>AI 公司可以直接对「完成的工作」收费，而不是只对「软件」收费。</strong></p>
+
+<p>这句话值得所有做 AI 应用的创始人抄下来。原文的会计行业例子很锋利：一家公司一年可能只花 1 万美元买 QuickBooks，却要花 12 万美元请会计真正完成记账。软件拿到的预算有限，大头一直付给「完成工作的人」。放到 3D 里，一套建模软件只是成本的一部分，真正做资产的是建模师的时间。</p>
+
+<p>Meshy 的聪明之处在于，它把收费的锚，从「工具订阅」挪到了「资产交付」：个人创作者按月订阅，游戏公司持续生成角色和道具，开发者按 API 调用付费。9 月发布的 Meshy 7.1 甚至上了 Ultra 4K 模式，能把盔甲刻花、布料织纹、鳞片直接做进几何结构里——对 3D 打印来说，这一步就是「画在贴图上」和「真能打印出凹凸」的本质差别。</p>
+
+<blockquote>璞合观点：当 AI 应用开始按「结果」而不是「用了几次」收费，它才真正摆脱了「GPT 套壳工具」的估值陷阱。判断一个 AI 应用值不值得投，第一问不是「模型多强」，而是「客户最后到底得到了什么可验收的结果」。</blockquote>
+
+<h2>三、通用模型越强，垂直模型为什么反而更好做</h2>
+
+<p>这可能是原文里最反直觉、也最值得琢磨的一段。</p>
+
+<p>现在行业里流行一种焦虑：GPT-6、Astra 这些通用模型什么都会，是不是把垂直应用公司的路都堵死了？但 Meshy 创始人胡渊鸣的判断正好相反——<strong>通用模型越强，专业垂直模型的分工反而越清晰、越有利。</strong>他举的例子很具体：Astra 这类视觉语言模型「知道」人脸上有两只眼睛、角色手里有剑，但要「照着一张照片精确还原眼睛大小、剑的角度」，专业生成模型更擅长。Astra 搭一个模型往往要十几分钟，基于扩散模型的 Meshy 可以压到一分钟以内。</p>
+
+<p>这意味着一个清晰的 Agent 分工正在成型：通用大模型负责理解任务、拆解步骤、调用工具；专业垂直模型负责把具体环节做到极致。原文提到的 Figma 数据也印证了这条逻辑——Figma Design 的 MCP 周活一季度涨了 5 倍，用 MCP 的大客户付费席位增速快约 70%。<strong>入口在通用大模型，利润在专业垂直模型。</strong></p>
+
+<p>璞合把这条路径落到我们的赛道判断上：</p>
+
+<ul>
+<li><strong>对 AI 应用创业者：</strong>与其做一个「什么都想干的 Agent」，不如做一个「在某个具体交付环节上，比通用模型快一个数量级」的垂直能力。通用模型是入口，你是被调用的那个「专业引擎」，被调用本身就是最好的分发。</li>
+<li><strong>对 AI 硬件创业者：</strong>3D 生成的爆发，直接喂给了 3D 打印这条硬件线。拓竹、Creality、Elegoo 这些切片软件都接了 Meshy——当「内容生成」和「硬件履约」打通，一件「想法→数字资产→物理实体」的闭环就成立了。这是 AI 硬件出海里，一条被低估的「内容供给」红利。</li>
+<li><strong>对投资人：</strong>别再只盯着「通用大模型」的独角兽叙事，把目光往「垂直交付层」挪一挪。那些 ARR 曲线又陡、又有具体客户和具体场景的公司，才是 AI 应用这一轮真正能跑出规模的标的。</li>
+</ul>
+
+<h2>四、一条更大的增长曲线，和一个还没答案的问题</h2>
+
+<p>原文最后落到 Meshy 的下一条曲线——Mora，一个想「实时生成可以探索、可以互动的世界」的多模态开放世界架构。它不靠端到端视频模型去「模拟整个世界」，而是先建造、再渲染：Coding Agent 负责逻辑和玩法，3D 生成负责资产和空间，实时视频模型负责画面和声音。</p>
+
+<p>这个方向璞合看得很心动，但也很冷静。原文诚实列了两个还没答案的问题：一是<strong>低延迟</strong>，玩家每做一个动作画面都要实时生成出来；二是<strong>好不好玩没法量化</strong>，AI 生成的游戏机制到底行不行，学界还没有衡量方法。这恰恰是一级市场最该有的态度——看到一个 1 亿美元 ARR 的生意，同时清醒地知道，它的「第二步」还在研究期。</p>
+
+<blockquote>璞合观点：Meshy 这个案例真正的价值，不是「3D 生成要火了」这么简单，而是它给整个 AI 应用赛道打了一个样——<strong>垂直、可交付、真付费、有具体场景。</strong>当通用模型的焦虑蔓延时，能被调用的垂直引擎，才是这轮 AI 浪潮里最扎实的一批资产。</blockquote>
+
+<p>节后第一个工作日，璞合想用这篇导读提醒我们自己和关注硬件的朋友：<strong>热闹之外，把账算明白的生意，才经得起时间。</strong></p>
+
+    </div>
+  </div>
+
+  <!-- CTA 留资条（内容 → 双客服 Agent 转化承接） -->
+  <div class="container" style="padding:0 24px">
+    <div class="pulito-cta" style="margin:8px 0 0;padding:28px 24px;border-radius:10px;background:linear-gradient(135deg,rgba(212,175,55,0.10),rgba(10,26,92,0.55));border:1px solid rgba(212,175,55,0.28);text-align:center">
+      <div style="font-size:17px;font-weight:700;color:#fff;margin-bottom:8px">你在做出海 AI 硬件 / AI Agent？</div>
+      <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7">想聊融资节奏、估值口径、投资人匹配 —— 直接找我们，不用绕</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="https://chat.pulitocapital.com/?from=blog_founder&utm_source=blog&utm_medium=cta&utm_campaign=article_founder" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:var(--gold);color:var(--navy);font-size:15px;font-weight:700;text-decoration:none">🚀 我是创始人 · 聊融资</a>
+        <a href="https://chat.pulitocapital.com/?from=blog_investor&utm_source=blog&utm_medium=cta&utm_campaign=article_investor" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:15px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.2)">💼 我是投资人 · 看项目</a>
+      </div>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:16px;margin-bottom:0">或直接邮件 <a href="mailto:bp@pulitocapital.com" style="color:var(--gold)">bp@pulitocapital.com</a></p>
+    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="container">
+      <a href="/blog/" class="back-link">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>← 返回所有文章</span>
+      </a>
+      <div class="article-tags">
+        <span>媒体报道</span><span>AI应用</span><span>3D生成</span><span>AI硬件</span><span>出海</span><span>璞合导读</span>
+        <span>媒体报道</span><span>AI应用</span><span>3D生成</span><span>AI硬件</span><span>出海</span><span>璞合导读</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Author & Related (GEO) -->
+  <div style="margin-top:32px;padding:20px 24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12)">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)">品</div>
+      <div>
+        <div style="font-size:14px;color:#fff;font-weight:600">品玩 PingWest · 媒体转载 · 璞合资本导读</div>
+        <div style="font-size:12px;color:var(--text-muted)">璞合资本 · AI Native精品投行</div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin-bottom:8px">📖 查看更多 <a href="/blog/" style="color:var(--gold)">璞合洞察</a> · 赛道观察 · BP实战 · 资本视角 · 合规法务 · 创始人访谈</p>
+    <div style="margin-top:32px;padding-top:24px;border-top:1px solid rgba(212,175,55,0.15)"><div style="font-size:13px;color:var(--text-muted);margin-bottom:16px">📖 继续阅读</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <a href="/blog/articles/embodied-home-robot-huawei-founder-10yi-2026.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">媒体报道</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">转载导读｜华为大模型负责人下场做家庭具身，一年融超10亿：具身热的钱，到底在为谁下注？</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月29日</div>
+          </a>
+          <a href="/blog/articles/agent-vc-freeze-going-global-2026.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">媒体报道</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">转载导读｜Agent 被 VC「速冻」的夏天：出海，是 AI 应用创业者更好的活法，还是更高的门槛？</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月18日</div>
+          </a>
+          <a href="/blog/articles/2026-q3-hardware-financing-review-where-money-flows.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">资本视角</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">融资复盘：2026 年 Q3，钱到底在给谁、又在对谁说不</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">10月5日</div>
+          </a>
+        </div>
+      </div>
+    <div style="margin-top:32px;padding:24px;border-radius:8px;background:linear-gradient(135deg,rgba(212,175,55,0.08),rgba(10,26,92,0.4));border:1px solid rgba(212,175,55,0.2);text-align:center">
+      <div style="font-size:15px;font-weight:600;color:#fff;margin-bottom:8px">📬 璞合资本 — AI Native精品投行</div>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px;line-height:1.7">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。</p>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">欢迎访问璞合资本公众号 · 项目合作发 bp@pulitocapital.com</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:var(--gold);color:var(--btn-text);font-size:14px;font-weight:600;text-decoration:none">🏠 访问璞合首页</a>
+        <a href="/blog/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,0.15)">📖 浏览全部文章</a>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--text-muted)">分享本文：<span style="color:var(--gold)">https://www.pulitocapital.com/blog/articles/meshy-arr-100m-vertical-vs-general-model</span></p>
+  </div>
+
+  <footer class="page-footer">
+    <p>© 2026 璞合资本 Pulito Capital. All rights reserved.</p>
+  </footer>
+  <!-- 站点统计（归因：百度统计 + Clarity；UTM 规范配合） -->
+  <script src="/assets/analytics.js" defer></script>
+  <!-- Baidu auto-push -->
+  <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();</script>
+</body>
+</html>
