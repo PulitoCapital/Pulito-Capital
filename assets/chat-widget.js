@@ -200,8 +200,8 @@
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            // 已知身份→直接用对 agent；未知→auto(走 SDR 首轮判定)
-            agent: activeAgent || "auto",
+            // 始终 auto：让后端 SDR 每轮实时判断创始人/投资人，不再用 localStorage 锁死角色导致分流失效
+            agent: "auto",
             message: text, visitorId: vid, lang: isEn ? "en" : "zh",
           }),
         });
