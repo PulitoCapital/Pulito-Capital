@@ -1,0 +1,266 @@
+# 璞合资本 Pulito Capital — 全量内容索引（llms-full）
+
+> AI-Native 精品投行（FA），专注跨境出海、AI 智能硬件、AI Agent 的早期公司股权融资。服务种子轮至 A 轮（$500K–$10M）。本文档为 www.pulitocapital.com 全部洞察文章的完整索引，供大语言模型与 AI Agent 深度解读与引用。
+
+## 关于璞合
+- [官网首页](https://www.pulitocapital.com/)
+- [洞察 Blog](https://www.pulitocapital.com/blog/)
+- [联系人/BP 投递]：bp@pulitocapital.com；合作/媒体 contact@pulitocapital.com
+- llms.txt（精炼目录）：https://www.pulitocapital.com/llms.txt
+
+
+## 赛道观察
+
+### 东南亚AI客服赛道观察：为什么中国2023年的答案正在被复制？
+- 链接：<https://www.pulitocapital.com/blog/articles/东南亚ai客服赛道观察为什么中国2023年的答案正在被复制.html>
+- 摘要：这个月我看了东南亚12家AI客服创业公司，发现一个很有意思的现象——它们的产品形态和叙事逻辑，几乎都在复刻中国2023年的路线。但复制答案的同时，也复制了当年的坑。
+
+### AI硬件出海：我跑了一圈深圳工厂，发现三个没人提的PMF陷阱
+- 链接：<https://www.pulitocapital.com/blog/articles/ai硬件出海我跑了一圈深圳工厂发现三个没人提的pmf陷阱.html>
+- 摘要：这两周我跑了深圳宝安、东莞长安12家AI硬件代工厂，跟创始人聊了一圈。结论很直接：AI硬件出海的最大敌人不是技术，是PMF——而大部分项目在第一轮硬碰之前就已经犯了三个致命错误。
+
+### AI视频Agent赛道深度解析：从仿剪到教学，三个方向刚拿了10个亿
+- 链接：<https://www.pulitocapital.com/blog/articles/ai视频agent赛道深度解析从仿剪到教学三个方向刚拿了10个亿.html>
+- 摘要：2026年上半年，AI视频Agent这个细分赛道正在成为资本最密集的押注方向之一。近半年来仅我们追踪到的公开融资就已超过10亿元人民币。这波钱流向了三个不同的方向——AI视频剪辑、AI教育视频、AI视频理解。
+
+### 硅谷AI Agent投资热背后的冷思考：为什么2026年的风口和2024年不一样了
+- 链接：<https://www.pulitocapital.com/blog/articles/硅谷ai-agent投资热背后的冷思考为什么2026年的风口和2024年不一样了.html>
+- 摘要：2026年上半年硅谷AI Agent融资额突破$47亿，比2024全年还多。但仔细看钱流向了三个截然不同的方向——基础设施、垂直Agent、Agent开发工具。每个方向的验证逻辑、估值逻辑和退出逻辑完全不同。
+
+### AI Agent正在从「万能助手」走向「垂直工人」——三个最值得关注的方向
+- 链接：<https://www.pulitocapital.com/blog/articles/ai-agent正在从万能助手走向垂直工人三个最值得关注的方向.html>
+- 摘要：2025年的AI Agent赛道在卷「通用能力」，2026年风向变了——投资人开始追捧能解决特定行业痛点的「垂直Agent」。本文拆解三个正在跑出来的方向。
+
+### 2026年智能硬件公司为什么融不到钱了？三个估值崩塌信号与逃生路径
+- 链接：<https://www.pulitocapital.com/blog/articles/智能硬件为什么融不到钱了2026估值逻辑变了什么.html>
+- 摘要：影石市值从1500亿跌到500亿、创想三维30亿收入只值90亿港币市值——二级市场把泡沫挤掉后，一级市场也回归了冷静。本文拆解三个估值崩塌信号，给出创始人求生路径。
+
+### 下一个拓竹在哪？AI+DIY正在定义消费硬件的新品类
+- 链接：<https://www.pulitocapital.com/blog/articles/下一个拓竹在哪ai加diy正在定义消费硬件新品类.html>
+- 摘要：影智XBOT咖啡机器人两轮融资数亿元、咖爷科技B轮近4亿、浪爪智能超亿元——2026年消费硬件最确定的一笔钱，正在流向用AI重新定义DIY新品类的公司。
+
+### 外骨骼机器人2026拐点：首家盈利企业出现，政策与出海双轮驱动
+- 链接：<https://www.pulitocapital.com/blog/articles/外骨骼机器人2026拐点政策出海双轮驱动.html>
+- 摘要：2026年8月，国产医疗外骨骼公司迈步机器人拿下中信建投近亿元战略融资——它是这个赛道第一家盈利的公司。政策、资本、出海三股力量正在同时推动外骨骼从实验室故事走向商业兑现。
+
+### 外骨骼赛道为什么突然「热」了：一场政策、资本与出海合流的商业化拐点
+- 链接：<https://www.pulitocapital.com/blog/articles/waiguge-saidao-recuperation-inflection.html>
+- 摘要：外骨骼与医疗康复机器人赛道正从「讲了多年故事」走向「有人开始赚钱」。政策兜底需求、资本为技术定价、出海打开估值空间，三股力量在同一个窗口期合流。璞合梳理了这轮升温背后的真需求、风险点与给创业者和投资人的实操建议。
+
+### 周日随手记：钱开始挑「会赚钱的人」了
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-capital-prefers-profitable.html>
+- 摘要：周日随手记。把本周公开融资捋了一遍，最大感受不是哪个赛道又爆了，而是钱悄悄从「讲故事」转向「算账」——开始挑会赚钱的人。可穿戴数据入口被验证，物理AI烧钱也变得挑剔场景，能定义新品类、跑通复购现金流的团队，永远不缺钱。
+
+### 这一周的钱，都流向了「会赚钱的人」——物理AI、AI穿戴与Agent记忆，三条主线与五个判断
+- 链接：<https://www.pulitocapital.com/blog/articles/weekly-note-money-flows-to-proven-operators-physical-ai-wearables-agent-memory.html>
+- 摘要：本周一级市场的钱没有变少，但挑人的标准变了：小鹏机器人超9亿美元首轮、Sharpa获阿里美团腾讯京东联合押注、Ultrahuman智能戒指7000万美元验证「数据入口」。璞合把四条资金主线拆成五个判断——物理AI的整船式融资、可穿戴AI的数据闭环、Agent记忆的独立成赛道、英伟达转向买生态，最后收成一句话：钱开始挑「会赚钱的人」。
+
+### 周日随手记：具身智能不缺钱，缺的是「谁在算账」
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-embodied-ai-who-does-the-math.html>
+- 摘要：周日随手记。这周具身智能被两张截图刷屏：梅卡曼德创始人邵天兰朋友圈炮轰「攒局型创业」，直指数采中心关联交易做高收入，并点名银河通用。抛开站队，这场口水战真正戳中的是整个赛道的定价逻辑——当空转的钱被当成有含金量的收入去讲故事，赛道的信用就开始被透支。璞合的一点个人判断：赛道不缺钱，缺的是替你算账的人。
+
+### 这一周的一级市场，钱开始给「能算清账的人」开价——具身、AI应用、AI硬件出海四条主线
+- 链接：<https://www.pulitocapital.com/blog/articles/weekly-capital-pays-for-proven-operators-sept-2026.html>
+- 摘要：从近1亿美元的华人具身种子轮，到AI应用半年融50亿、企业级AI员工估值50亿美元，再到AI眼镜C+轮近10亿与速卖通品牌首发——2026年9月这一周，一级市场密集披露的融资事件指向同一件事：定价权正从「想象力」交还给「兑现力」。璞合按物理AI、AI应用、AI硬件出海、出海收入结构四条主线复盘，并给出对创业者BP的具体校准。
+
+### 这一周，具身智能的钱开始挑「能交付的人」——从中国机器人峰会、机器人出海报告到一周融资结构，四条主线与三个判断
+- 链接：<https://www.pulitocapital.com/blog/articles/weekly-embodied-ai-from-narrative-to-delivery-sept-2026.html>
+- 摘要：第九届中国机器人峰会闭幕，主题是「智变与质变」，圆桌上反复被提的不是订单而是「泡沫」；同期科技日报一篇《中国机器人出海，热潮之下有隐忧》撕开出海滤镜。这一周的钱，正从「叙事」转向「交付」——璞合拆成四条主线与三个判断，讲清楚具身智能的第一轮红利退到了哪里。
+
+### 周日的冷水：AI 硬件出海，众筹破百万不是终点，是起点
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-ai-hardware-crowdfunding-is-just-the-start.html>
+- 摘要：这周深圳一家 AI Operator 硬件公司上 Kickstarter，20 小时众筹破百万美元，看着很燃。同一周，前 8 个月机器人赛道融资 1245 亿、一批机器人公司却在破产清算。把两份消息放一起看：钱变多了，但口味变了——不再为声量定价，而是为交付、复购和经营定价。璞合周日的一点个人判断。
+
+### 个人 AI 的入口，正在被两种钱同时下注——从 Hark 的 60 亿美元到深圳桌面上的一百万美元众筹
+- 链接：<https://www.pulitocapital.com/blog/articles/personal-ai-entry-two-bets-2026.html>
+- 摘要：同一周，硅谷的 Hark 在还没出货时融到超 7 亿美元、投后 60 亿；深圳一个桌面盒子在 Kickstarter 上 20 小时众筹破百万美元。两条路、两种钱，指向同一个问题：个人 AI 的入口到底长在哪。璞合从一级市场视角拆解这轮「入口之争」到底在赌什么。
+
+### AI 硬件这波退烧，凉的不是 AI，是「造品类」的幻觉
+- 链接：<https://www.pulitocapital.com/blog/articles/ai-hardware-cooling-is-not-ai-its-category-invention.html>
+- 摘要：同一周，桌面 AI 硬件众筹破百万美元，媒体却泼了一盆冷水：AI 消费硬件退烧的不是 AI，是「造品类」。定义新品类成本近乎为零，投资人开口谈的已是复购与产品体系。璞合聊聊这轮降温到底在敲什么钟。
+
+### Agent 出海的真正分水岭：从「会做功能」到「能自己收钱」
+- 链接：<https://www.pulitocapital.com/blog/articles/agent-going-global-from-feature-to-revenue-closure.html>
+- 摘要：Agent 出海的下半场，投资端开始较真的不是模型能力，而是 Agent 能不能自己闭环收钱。定价从「订阅费」转向「结果费」，护城河从「模型」转向「数据闭环」。璞合聊聊这轮出海的分水岭到底在哪里。
+
+### 出海硬件这周被反复验证的三步兑现链：众筹、量产、复购
+- 链接：<https://www.pulitocapital.com/blog/articles/going-global-hardware-three-step-cash-in-chain.html>
+- 摘要：这一周多家出海 AI 硬件公司在同一件事上撞了车：众筹破百万后，真正的坎才刚开始。璞合把这周信号拆成一条三步兑现链——众筹验证需求、量产验证工程、复购验证产品，哪一环掉链子，前面的热闹都白搭。
+
+### 周日的坦白：这周我一直在说「交付」和「复购」，其实我最想说的是别急着上桌
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-dont-rush-to-the-table-2026.html>
+- 摘要：这周连着写了众筹兑现链、Agent 收钱、AI 硬件退烧，绕来绕去都指向同一个字眼：交付。周日想坦白一句更私人的话——真正拉开差距的，可能不是谁先做出了东西，而是谁忍得住「再等等」。璞合观点，不硬凑字数。
+
+### 融资复盘｜钱会迟到，人先动了：为什么「人才流向」是比融资事件更早的一级市场信号
+- 链接：<https://www.pulitocapital.com/blog/articles/talent-flow-before-funding-primary-market-signal-2026.html>
+- 摘要：这周公开融资侧偏安静，但人才雷达连着抓到几条真信号：一批大厂VP、首席科学家级核心骨干几乎同时出走创业，且方向出奇一致——具身智能+家庭场景+出海。钱会迟到，人先动了。本文复盘「人才流向」为何是比融资事件更早的先手信号。
+
+### Q4 出海窗口已开：这个假期，别让竞品替你签了海外的单
+- 链接：<https://www.pulitocapital.com/blog/articles/q4-outbound-window-ai-agent-hardware-2026.html>
+- 摘要：进入十月，海外市场正式进入Q4旺季：黑五、圣诞、年底预算抢收，三件事叠加在同一条时间线上。璞合这一年反复验证的一个信号是——出海团队真正的分水岭，不在功能多少，而在于能不能把四季度这波需求窗口，兑换成实实在在的订单和下一轮融资的谈判筹码。
+
+### 这一周具身智能的大佬们不约而同回了家：家庭场景，才是下一个消费级硬件的共识终点
+- 链接：<https://www.pulitocapital.com/blog/articles/embodied-home-scene-consensus-talent-going-home-2026.html>
+- 摘要：这一周，璞合的人才雷达抓到一批反常信号：几位在大厂/明星公司做到 VP、首席科学家位置的人，几乎在同一窗口出走创业，方向却出奇一致——家庭场景的具身智能。比起还在讨论人形的人，他们的动作更务实。本文试着把这条线讲明白。
+
+### 周日观察：这轮家庭机器人创业，最难的决定不是做什么，是敢「回家」
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-going-home-is-hardest-home-robot-2026.html>
+- 摘要：从大厂一号位、明星公司副总裁位置上主动掉头回家做机器人的人，状态不一样——他们不是被逼出走，而是主动把到手的确定性还了回去。家庭场景是最难啃的考场，正因如此它才是下一个。周日说句更私人的话。
+
+### 这轮家庭机器人创业，真正的胜负手不是「像人」，是「肯回家」
+- 链接：<https://www.pulitocapital.com/blog/articles/family-robot-startup-return-home-scene-convergence-20261010.html>
+- 摘要：一年前没人相信家庭机器人，现在它成了唯一「钱+人+项目」三重齐发的赛道。但真正的分水岭，不是谁家的机器人更像人，而是谁肯老老实实回家——回厨房、回卧室、回那个没有结构化的真实家庭，去解决一个高频、可验证的小问题。
+
+### 周日坦白：出海创始人最容易自我感动的，是把「翻译」当成「本地化」
+- 链接：<https://www.pulitocapital.com/blog/articles/sunday-note-translation-is-not-localization-2026.html>
+- 摘要：这周见了好几个准备出海的创始人，BP里都有「本地化」三个字，细问下来的落地动作就是请人把界面翻了个语言。这可能是出海路上最贵的一个自我安慰。真正能活下来、能复购的团队，聊的不是翻译，是当地那一套没人写在明面上的规矩。
+
+## 资本视角
+
+### Q2出海AI赛道融资复盘：谁在拿钱、估值逻辑变了什么？
+- 链接：<https://www.pulitocapital.com/blog/articles/q2出海ai赛道融资复盘谁在拿钱估值逻辑变了什么.html>
+- 摘要：整理了 Q2 出海 AI 方向的 32 笔融资，有几个结构性变化值得每个创始人和投资人注意。
+
+### 中东主权基金正在系统性地布局AI——这波钱怎么拿？
+- 链接：<https://www.pulitocapital.com/blog/articles/中东主权基金正在系统性地布局ai这波钱怎么拿.html>
+- 摘要：Q2以来，PIF和Mubadala的AI投资团队明显在加速。我梳理了最近6个月中东资本在AI领域的投资图谱，发现他们的逻辑和美元基金完全不同。
+
+### 2026年Q2出海AI融资地图：为什么东南亚比中东更需要关注
+- 链接：<https://www.pulitocapital.com/blog/articles/2026年q2出海ai融资地图为什么东南亚比中东更需要关注.html>
+- 摘要：我分析了Q2出海AI方向的47笔交易，发现资金的地理流向出现了一个反直觉的变化：东南亚正在从"备用方案"变成"首选目的地"，而中东虽然金额大但结构脆弱。
+
+### Q2出海赛道资本扫描：谁在出手、谁在观望、谁在调整策略？
+- 链接：<https://www.pulitocapital.com/blog/articles/q2出海赛道资本扫描谁在出手谁在观望谁在调整策略.html>
+- 摘要：出海AI赛道的融资并没有冷下来，只是钱在换手——从「广撒网」转向「精准下注」。本文梳理Q2以来值得关注的募资和出手信号。
+
+### AI应用融资重估：英伟达押注Perplexity、Rillet成独角兽，一级市场在买什么
+- 链接：<https://www.pulitocapital.com/blog/articles/ai应用融资重估英伟达押注perplexity一级市场在买什么.html>
+- 摘要：2026年8月最后一周：英伟达洽谈数十亿美元投资Perplexity（估值破300亿）、AI原生财务软件Rillet完成1亿美元C轮成为独角兽、Stability获环球/Sony/华纳/EA/AMD参投。全球资本正从卖模型转向买应用。
+
+### 估值顶到回购平衡点了，这轮怎么融？一次「老股回购压估值 + 跟投产业协同」结构拆解
+- 链接：<https://www.pulitocapital.com/blog/articles/valuation-capped-buyback-balanced-structure-restructure.html>
+- 摘要：一家已拿过领头机构TS、账上还有占股比不小的老股东等着退出的硬科技公司，续融卡在「估值被老股回购压到失去吸引力」的死结上。璞合用一条【补缺口→换结构→分层】的重组路径，把它从困局里解出来：不硬拉整轮，而是把一桩本已僵死的续融，重做成老股东加磅摸底+跟投主力+产业协同+国资补缺的分层结构。全文为脱敏复盘，拆每一步的取舍。
+
+### 国庆不放假的外循环：做出海的你，这几天别跟着国内节奏一起停
+- 链接：<https://www.pulitocapital.com/blog/articles/national-day-outbound-founders-offbeat-q4-2026.html>
+- 摘要：国庆七天，国内投资人大多休假，但出海这条线上的人几乎不休息：美国客户照常上班、中东拉美的询盘不等你、跨境收付和物流不停摆。这篇短评想提醒做出海的团队——你与国内资本的节奏本就不在一个时钟里，把假期错位变成融资窗口，四季度才抢得到先手。
+
+### 融资复盘：2026 年 Q3，钱到底在给谁、又在对谁说不
+- 链接：<https://www.pulitocapital.com/blog/articles/2026-q3-hardware-financing-review-where-money-flows.html>
+- 摘要：Q3 收官，一级市场冷得清醒：具身智能成了唯一「钱+人+项目」三线齐烧的赛道，AI 眼镜靠海外众筹真金验证，中东主权基金继续扫货，而大量纯叙事、无回款验证的硬件项目正在被无声淘汰。这篇复盘，把这一季钱的流向掰开揉碎讲清楚。
+
+### 复盘：出海 AI 硬件项目，我们到底在为什么「稀缺」买单
+- 链接：<https://www.pulitocapital.com/blog/articles/ai-hardware-moat-scarcity-review-2026.html>
+- 摘要：过去一个月推进了一批出海 AI 硬件项目后，璞合复盘出一个反复出现的判断：投资人要的从来不是「多一个 AI 硬件项目」，而是「多一个三年后还站着赚钱的项目」。所谓护城河，本质是「可被复制的稀缺」。本文拆解三种伪护城河、四种真壁垒，并给创始人一套四点稀缺性压力测试。
+
+## BP实战
+
+### BP写到第3页投资人就不看了？这5个结构错误你很可能在犯
+- 链接：<https://www.pulitocapital.com/blog/articles/bp写到第3页投资人就不看了这5个结构错误你很可能在犯.html>
+- 摘要：我做FA PM这几年，看过300+份BP，平均每份停留时间不到3分钟。80%的BP在第三页就输掉了——不是内容不好，是结构在劝退。
+
+### 投资人问「你的壁垒是什么？」——别告诉我你答的是「技术领先」
+- 链接：<https://www.pulitocapital.com/blog/articles/投资人问你的壁垒是什么别告诉我你答的是技术领先.html>
+- 摘要：我审过的300+份BP里，「壁垒」页的平均质量是最低的。90%的创始人把「技术领先」「先发优势」「团队背景」写上去了——而这三点在投资人眼里几乎等于「没有壁垒」。
+
+### 创始人见投资人前，这3个问题最好先自己答一遍
+- 链接：<https://www.pulitocapital.com/blog/articles/创始人见投资人前这3个问题最好先自己答一遍.html>
+- 摘要：我陪跑了30多个项目的投资人会议，发现创始人被问倒的最多的，往往不是估值或竞争，而是三个看起来很简单的问题——但90%的人第一次都没答好。
+
+### 路演30分钟，投资人前10分钟就做了决定——你的开场白值不值得重写？
+- 链接：<https://www.pulitocapital.com/blog/articles/路演30分钟投资人前10分钟就做了决定你的开场白值不值得重写.html>
+- 摘要：投资人平均在路演前10分钟就形成了初步判断。如果你的开场白还在说「我们团队有10年经验」或者「这是一个千亿市场」，你可能已经输了。
+
+### 一场15场路演看下来，我摸清了机构开口第一句在说什么——AI硬科技创业者如何从投资人自我介绍里读出真信号
+- 链接：<https://www.pulitocapital.com/blog/articles/how-to-read-investor-self-intro-15-roadshows.html>
+- 摘要：一周内密集跟完一批面向机构的路演，最容易被创业者忽略的信息，反而是每家投资人开场那几十秒的自我介绍。谁的钱更耐心、谁有返投要求、谁大概率只是来「见见」——答案全藏在模式、规模、阶段、返投这四句话里。璞合把15场路演的开场自述做了横向对比，拆出一套能直接用于融资节奏校准的读法（全文已脱敏，不含具体机构与项目信息）。
+
+## 合规法务
+
+### 天使轮融资协议中的「清算优先权」：创始人最容易被坑的一个条款
+- 链接：<https://www.pulitocapital.com/blog/articles/天使轮融资协议中的清算优先权创始人最容易被坑的一个条款.html>
+- 摘要：清算优先权这个条款，80% 的天使轮创始人签的时候没看懂。等看懂的时候，往往是公司快要被并购或清算了——但那时候已经来不及了。
+
+### Vesting Schedule还在用标准4年？你可能会后悔的3个场景
+- 链接：<https://www.pulitocapital.com/blog/articles/vesting-schedule还在用标准4年你可能会后悔的3个场景.html>
+- 摘要：标准的4年Vesting + 1年Cliff，在硅谷是标配。但在出海的早期项目里，这个标配正在变成创始人的枷锁。
+
+### 出海项目的股权架构设计：一个创始人60%，联合创始人各20%，有什么问题？
+- 链接：<https://www.pulitocapital.com/blog/articles/出海项目的股权架构设计一个创始人60联合创始人各20有什么问题.html>
+- 摘要：「创始人60%、联合创始人20%、留20%期权池」——这是我在出海项目里见过最多的股权架构。但它隐藏着三个很容易爆的雷，尤其是当公司涉及跨境融资时。
+
+## 媒体报道
+
+### 没人看消费硬件了
+- 链接：<https://www.pulitocapital.com/blog/articles/没人看消费硬件了.html>
+- 摘要：投中网专访璞合资本Siming：消费硬件热潮退去，AI硬件并非“没人看”，市场只是回归冷静——谁能定义新品类，谁才有真正的估值空间。
+
+### 中国AI出海进入「验证期」：原生AI公司怎么在海外赚钱？
+- 链接：<https://www.pulitocapital.com/blog/articles/china-ai-going-global-verification-native-ai-profit.html>
+- 摘要：潮涌AI盘点了15家「AI原生、中国或华人团队、主战场在海外」的新锐公司：从不到10人做到百万美元ARR的Flowith，到ARR冲上4亿美元的Manus，没有一家靠广告赚钱，全走订阅、按量计费或企业授权。璞合导读拆解这批样本背后的出海新逻辑——钱从故事流向算账，小团队如何撬动全球收入。
+
+### Agent商业化元年，谁在真正赚钱？WAIC 2026一线高管的观点，读给做AI应用的创业者听
+- 链接：<https://www.pulitocapital.com/blog/articles/agent-commercialization-year-waic-2026-founder-takeaways.html>
+- 摘要：2026 WAIC上，腾讯云、阿里云、金山办公、安永、百型智能等一线高管给出同一个判断：Agent的胜负不在模型能力，而在场景、计费和交付。璞合导读把这批观点翻译成做AI应用的人真正关心的四个问题——智能体怎么收费、护城河到底是模型还是软件、客户会不会变成Agent、创业者该往哪切。
+
+### 转载导读｜2026年AI硬件到底在发生什么？一线投资人的「30种答案」里，璞合挑出四条主线与五个判断
+- 链接：<https://www.pulitocapital.com/blog/articles/ai-hardware-2026-30-investor-answers-pulito-reading.html>
+- 摘要：AI硬件底层技术正在标准化、白牌化，创新红利被快速摊薄——这是霞光社（Let's ChuHai）访谈十余位一线投资人后给出的核心判断。璞合资本把这篇《2026年硬件行业的30种答案》读薄成四条主线（具身落地、消费健康与情绪、Maker赛道、垂直生产力工具）与五个判断，帮做出海/AI硬件的创业者看清洗牌期真正该讲什么。
+
+### 转载导读｜Agent 被 VC「速冻」的夏天：出海，是 AI 应用创业者更好的活法，还是更高的门槛？
+- 链接：<https://www.pulitocapital.com/blog/articles/agent-vc-freeze-going-global-2026.html>
+- 摘要：2026 上半年 AI Agent 融资 83 起、同比 +131%，下半年却被 VC「速冻」。钱没消失，而是从「通用 Agent」转向「能算清账的垂直 To B」与「出海」。璞合把「霞光AI实验室」这篇《Agent 的坠落，只用了一个夏天》读薄成四部分：资本在怕什么、To B 的 SaaS 与 FDE 两条成本账、出海更好的付费土壤与更高的本地化门槛，以及什么样的出海 Agent 项目还值得拿钱。
+
+### 转载导读｜华为大模型负责人下场做家庭具身，一年融超10亿：具身热的钱，到底在为谁下注？
+- 链接：<https://www.pulitocapital.com/blog/articles/embodied-home-robot-huawei-founder-10yi-2026.html>
+- 摘要：一家 2025 年 8 月才成立的家庭具身智能公司，一年融资超 10 亿，最近一笔数亿元天使+++轮，创始人是华为诺亚方舟实验室生成式大模型方向负责人。璞合把 36氪这篇专访读薄：资本这一轮为什么从通用应用转向家庭具身、「大厂技术派」画像为什么在具身赛道格外值钱、以及「一年 10 亿」背后藏着的剪刀差风险。
+
+### 转载导读｜Meshy ARR 破 1 亿美元：通用模型越强，垂直模型的生意越好做
+- 链接：<https://www.pulitocapital.com/blog/articles/meshy-arr-100m-vertical-vs-general-model.html>
+- 摘要：华人团队 Meshy 的 ARR 不到两年从 100 万美元涨到 1 亿美元，跑赢 HeyGen、直追 Cursor。它验证了一个反直觉的判断：通用模型越强，专业垂直模型的生意反而越好做。璞合拆解 3D 生成凭什么按「交付结果」而非「卖工具」收费，以及这条路径对中国 AI 硬件与应用创业者的启示。
+
+### 转载导读｜李泽湘孵化的「音乐乐高」：儿童 AI 硬件，该从「会聊天」升级到「能创作」了
+- 链接：<https://www.pulitocapital.com/blog/articles/musekey-music-lego-children-ai-hardware-creation-upgrade-2026.html>
+- 摘要：李泽湘系深圳科创学院孵化的 MuseKey，用一个反常识切口切入被成人市场集体绕开的空白——让 3-8 岁孩子先创作、再学习，产品形态是一块「没有屏幕的音乐乐高」。璞合拆解儿童 AI 硬件为什么必须从「会聊天」升级到「能创作」，以及「先出海验证、再回国内」的路径，对出海 AI 硬件创业者的三条提醒。
+
+### 转载导读｜AI找药卡在量产：药企为什么愿意既做客户、又当股东
+- 链接：<https://www.pulitocapital.com/blog/articles/multiply-labs-physical-ai-production-bottleneck-2026.html>
+- 摘要：旧金山机器人公司 Multiply Labs 完成 7500 万美元 B 轮，累计融资破 1 亿美元，药企阿斯利康既是投资方又是客户。这条新闻真正值得说透的不是「Physical AI 又火了」，而是：为什么买单方愿意一边下单、一边买股权。璞合拆解 Physical AI 项目到底该怎么算账，以及对具身智能创业者的三点提醒。
+
+### 244页AI年度报告：下一轮，AI竞争规则变了｜Air Street《State of AI 2026》导读
+- 链接：<https://www.pulitocapital.com/blog/articles/air-street-state-of-ai-2026-jinqiu-guide.html>
+- 摘要：Air Street Capital 连续第九年发布《State of AI Report 2026》，锦秋基金完成中文编译。这份244页报告最刺眼的一个信号，是「AI开始研发AI」——Anthropic 由 Claude 主导的模型研发任务占比半年从不足1%飙到26%。对聚焦AI应用与硬件出海的创业者来说，真正该盯的不是谁赢了模型竞赛，而是这四条被反复验证的变化线：科研加速、中国开源模型上位、具身智能中美双押、以及AI从卖工具走向卖结果。
+
+## 活动
+
+### 上海活动｜AI出海·早期融资闭门交流会（6月20日）
+- 链接：<https://www.pulitocapital.com/blog/articles/上海活动ai出海早期融资闭门交流会6月20日.html>
+- 摘要：璞合资本联合极光加速器，6月20日在上海举办AI出海早期融资闭门交流会。仅限20位早期AI出海项目创始人参加，扫码报名。
+
+### 2026世界人工智能大会（WAIC）— 上海，7月17日-20日
+- 链接：<https://www.pulitocapital.com/blog/articles/2026世界人工智能大会waic-上海7月17日-20日.html>
+- 摘要：经国务院批准，世界人工智能大会（WAIC）由外交部、国家发改委、工信部、教育部、科技部等十部委和上海市政府共同主办，是全球AI领域最高规格盛会之一。2026年大会聚焦全球治理与产业落地。
+
+### IFA 2026 刚闭幕：中国AI硬件出海，已经从「卖货」进入「立品牌」阶段
+- 链接：<https://www.pulitocapital.com/blog/articles/ifa-2026-china-ai-hardware-brand-going-global.html>
+- 摘要：9月4日-8日柏林IFA 2026刚闭幕，近一半参展商来自中国，AI眼镜、割草机器人、智能戒指、扫地机器人、3D打印把「AI落地物理硬件」做成主旋律。璞合现场复盘：这一届最大的信号不是哪家又发新品，而是中国硬件出海从「卖货」转向「立品牌」——本地AI中枢、DTC心智、渠道自建三条线同时收网。文末附9月23日深圳AI硬件出海投融资大会议程看点。
+
+### 9月23日深圳南山：一场把「出海全链路」和「投融资」缝在一起的大会，为什么值得出海硬件团队跑一趟
+- 链接：<https://www.pulitocapital.com/blog/articles/0923-shenzhen-ai-hardware-going-global-capital-summit.html>
+- 摘要：9月23日，深圳南山将举办 AIZQ2026 AI硬件出海生态投融资大会（9:00-18:00），主题「硬核出海·资本同航」。璞合把议程拆开看了一遍：上午七场落地实操（众筹/合规/算力/收付/品牌），下午16个项目分四赛道路演+投资人问答，配套专属展区与闭门晚宴。这篇不吹大会，只说清楚三件事——它解决了出海硬件团队哪些真实的卡点、哪类团队最该去、以及去之前该准备什么。
+
+### 10月湾区出海活动季：哪些场子值得创始人花一整个下午，哪些可以不去
+- 链接：<https://www.pulitocapital.com/blog/articles/oct-gba-going-global-event-season-founder-guide.html>
+- 摘要：每年10月到11月，深圳、香港、新加坡一带的出海/AI硬件活动密度明显上升，创始人时间是最稀缺的资源。璞合把自己踩场踩出来的三条判断摊开：优先挑「有真项目、能一对一聊」的场子，避开「趋势空转」式大会；带着一个具体问题去，比带一百页PPT更有用；活动是引子，会后48小时的跟进才决定这一趟值不值。
+
+## 投融资问答
+
+### 出海AI融资常见问题FAQ｜璞合资本
+- 链接：<https://www.pulitocapital.com/blog/articles/出海ai融资常见问题faq璞合资本.html>
+- 摘要：关于出海AI项目融资的常见问题合集：估值、投资人选择、条款清单、路演准备等，璞合资本为你一一解答。
+
+## 创始人访谈
+
+### 创始人访谈｜出海AI创业一年，我学会的三件事
+- 链接：<https://www.pulitocapital.com/blog/articles/创始人访谈出海ai创业一年我学会的三件事.html>
+- 摘要：和一位做出海AI客服的创始人聊了3个小时，从他踩过的坑里总结出三条值得所有出海AI创业者警醒的经验。
