@@ -35,6 +35,13 @@
   var VID_KEY = "pulito_vid_v3";
   var vid = localStorage.getItem(VID_KEY);
   if (!vid) { vid = genFingerprint(); localStorage.setItem(VID_KEY, vid); }
+  // 读取 ?chat=founder|investor → 跳到官网后直接唤起小璞/小合并预置角色
+  var deepRole = "";
+  try {
+    var qp = new URLSearchParams(location.search);
+    var c = (qp.get("chat") || "").toLowerCase();
+    if (c === "founder" || c === "investor") deepRole = c;
+  } catch (e) {}
   // 记住上次对话解析出的身份（延续），存独立 key 避免被清
   var ROLE_KEY = "pulito_role_" + vid;
   var curRole = (deepRole || localStorage.getItem(ROLE_KEY)) || ""; // ""|founder|investor（URL 参数优先）
@@ -44,13 +51,6 @@
   if (!autoCount.n) autoCount = { n: 0, t: 0 };
 
   var isEn = location.pathname.indexOf("/en/") === 0;
-  // 读取 ?chat=founder|investor → 跳到官网后直接唤起小璞/小合并预置角色
-  var deepRole = "";
-  try {
-    var qp = new URLSearchParams(location.search);
-    var c = (qp.get("chat") || "").toLowerCase();
-    if (c === "founder" || c === "investor") deepRole = c;
-  } catch (e) {}
   var AVATAR_DEF = isEn
     ? "https://www.pulitocapital.com/assets/avatars/jade-circle.png"
     : "https://www.pulitocapital.com/assets/avatars/pula-circle.png";
