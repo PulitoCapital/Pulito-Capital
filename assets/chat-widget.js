@@ -37,13 +37,20 @@
   if (!vid) { vid = genFingerprint(); localStorage.setItem(VID_KEY, vid); }
   // 记住上次对话解析出的身份（延续），存独立 key 避免被清
   var ROLE_KEY = "pulito_role_" + vid;
-  var curRole = localStorage.getItem(ROLE_KEY) || ""; // ""|founder|investor
+  var curRole = (deepRole || localStorage.getItem(ROLE_KEY)) || ""; // ""|founder|investor（URL 参数优先）
   // 行为触发次数
   var AUTO_KEY = "pulito_auto_" + vid;
   var autoCount = loadStore(AUTO_KEY, { n: 0, t: 0 });
   if (!autoCount.n) autoCount = { n: 0, t: 0 };
 
   var isEn = location.pathname.indexOf("/en/") === 0;
+  // 读取 ?chat=founder|investor → 跳到官网后直接唤起小璞/小合并预置角色
+  var deepRole = "";
+  try {
+    var qp = new URLSearchParams(location.search);
+    var c = (qp.get("chat") || "").toLowerCase();
+    if (c === "founder" || c === "investor") deepRole = c;
+  } catch (e) {}
   var AVATAR_DEF = isEn
     ? "https://www.pulitocapital.com/assets/avatars/jade-circle.png"
     : "https://www.pulitocapital.com/assets/avatars/pula-circle.png";
@@ -124,7 +131,6 @@
     btn.addEventListener("click", function () { togglePanel(); hideBadge(); });
     function hideBadge() { badge.classList.remove("show"); badgeShownThisPage = true; }
 
-    /* 面板 */
     var panel = document.createElement("div");
     panel.id = "pulito-chat-panel";
     panel.innerHTML =
@@ -163,6 +169,8 @@
     }
     if (!curRole) applyAgent("");
     else applyAgent(curRole);
+    // 深链自动开窗（角色已由 curRole 经 deepRole 优先预置）
+    if (deepRole) { openPanel(); hideBadge(); }
 
     function addMsg(text, who) {
       var d = document.createElement("div");
