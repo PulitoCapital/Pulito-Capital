@@ -54,11 +54,11 @@
   var AVATAR_DEF = isEn
     ? "https://www.pulitocapital.com/assets/avatars/jade-circle.png"
     : "https://www.pulitocapital.com/assets/avatars/pula-circle.png";
-  var TITLE_DEF = isEn ? "Pulito Capital · Investor Concierge" : "璞合资本 · 创始人接待";
-  var SUBTITLE_DEF = isEn ? "AI concierge for investors" : "AI 前台小璞，聊聊你的项目 👋";
+  var TITLE_DEF = isEn ? "Pulito Capital · Concierge" : "璞合资本 · 前台小璞";
+  var SUBTITLE_DEF = isEn ? "AI concierge — founder or investor, all welcome" : "找融资 or 看项目，都可以聊 👋";
   var GREETING_DEF = isEn
-    ? "Hi 👋 I'm Jade. Which firm are you with, and what stage do you focus on?"
-    : "你好，我是璞合的 AI 前台。你是来找融资的创始人，还是投资人想看项目呢？";
+    ? "Hi 👋 I'm Pulito's AI concierge. Are you a founder raising, or an investor looking at deals?"
+    : "你好，我是璞合的前台小璞。你是来找融资的创始人，还是想看项目的投资人呢？";
   var PLACEHOLDER_DEF = isEn ? "Type your message…" : "说点什么吧…";
 
   /* 解析 data-sdr 页面区块(守门 CTA)显示名——页面在关键按钮/区块上加属性即可 */
@@ -106,7 +106,7 @@
     /* 浮动按钮 */
     var btn = document.createElement("div");
     btn.id = "pulito-chat-btn";
-    btn.title = curRole === "investor" ? "Investor Concierge · Jade" : (curRole === "founder" ? "创始人接待 · 小璞" : "璞合 AI 前台");
+    btn.title = "璞合资本 · 前台小璞";
     btn.innerHTML = '<img src="' + AVATAR_DEF + '" alt="chat" loading="lazy">';
     document.body.appendChild(btn);
 
@@ -155,17 +155,15 @@
       try { localStorage.setItem(ROLE_KEY, a); } catch (e) {}
       var zh = a !== "investor";
       var set = {
-        founder: { src: "https://www.pulitocapital.com/assets/avatars/pula-circle.png", t: "璞合资本 · 创始人接待", s: "AI 前台小璞，聊聊你的项目 👋", ph: "说说你的项目方向…" },
-        investor: { src: "https://www.pulitocapital.com/assets/avatars/jade-circle.png", t: "Pulito Capital · Investor Concierge", s: "AI concierge for investors", ph: "Type your message…" },
-        _: { src: zh ? "https://www.pulitocapital.com/assets/avatars/pula-circle.png" : "https://www.pulitocapital.com/assets/avatars/jade-circle.png", t: zh ? "璞合资本 · AI 前台" : "Pulito Capital · Concierge", s: zh ? "让我们聊聊，帮你找到对的人 🤝" : "Let's find the right person for you", ph: zh ? "说点什么吧…" : "Type your message…" }
+        founder: { src: "https://www.pulitocapital.com/assets/avatars/pula-circle.png", t: "璞合资本 · 前台小璞", s: "找融资 or 看项目，都可以聊 👋", ph: "说说你的项目方向…" },
+        investor: { src: "https://www.pulitocapital.com/assets/avatars/jade-circle.png", t: "璞合资本 · 前台小璞", s: "找融资 or 看项目，都可以聊 👋", ph: "说说你的项目方向…" },
+        _: { src: zh ? "https://www.pulitocapital.com/assets/avatars/pula-circle.png" : "https://www.pulitocapital.com/assets/avatars/jade-circle.png", t: zh ? "璞合资本 · 前台小璞" : "Pulito Capital · Concierge", s: zh ? "找融资 or 看项目，都可以聊 🤝" : "Let's find the right person for you", ph: zh ? "说点什么吧…" : "Type your message…" }
       };
       var v = set[a] || set._;
       hdAvatar.src = v.src; hdT.textContent = v.t; hdS.textContent = v.s;
       inp.placeholder = v.ph;
       btn.innerHTML = '<img src="' + v.src + '" alt="chat" loading="lazy">';
-      if (a === "investor") btn.title = "Investor Concierge · Jade";
-      else if (a === "founder") btn.title = "创始人接待 · 小璞";
-      else btn.title = "璞合 AI 前台";
+      btn.title = isEn ? "Pulito Capital · Concierge" : "璞合资本 · 前台小璞";
     }
     if (!curRole) applyAgent("");
     else applyAgent(curRole);
