@@ -1,0 +1,47 @@
+{
+  "protocol": "agent-card/1.0.0",
+  "name": "璞合资本 · 小璞 Pula",
+  "organization": {
+    "name": "璞合资本 Pulito Capital",
+    "url": "https://www.pulitocapital.com"
+  },
+  "description": "璞合资本（Pulito Capital）的 AI 前台与导购 Agent，为「做出海的 AI 智能硬件 / AI Agent 公司」提供融资顾问咨询与线索筛选，同时接待投资人了解脱敏项目管线。",
+  "descriptionEn": "AI concierge of Pulito Capital, a boutique AI-native FA focused on Global-from-Day-One, AI Hardware and AI Agents (seed → Series A). Qualifies founders for fundraising advisory and investors for deal flow.",
+  "agents": [
+    {
+      "name": "小璞 Pula",
+      "role": "创始人接待 / 融资顾问导购",
+      "language": ["zh-CN"],
+      "capabilities": [
+        "出海 AI 硬件 / AI Agent 项目融资咨询",
+        "项目阶段与融资匹配度初筛",
+        "BP 投递引导与提交路径说明",
+        "融资 FAQ（估值 / 周期 / 收费）"
+      ],
+      "tags": ["FA", "出海", "AI硬件", "AI Agent", "融资顾问"]
+    },
+    {
+      "name": "小合 Jade",
+      "role": "投资人接待 / 项目管线导购",
+      "language": ["en", "zh-CN"],
+      "capabilities": [
+        "投资人机构 / 阶段 / 规模画像确认",
+        "脱敏项目管线展示（赛道 / 阶段 / 亮点，不含公司名）",
+        "NDA 流程说明与 IR 对接引导"
+      ],
+      "tags": ["FA", "investor relations", "deal flow", "AI硬件", "AI Agent"]
+    }
+  ],
+  "url": "https://www.pulitocapital.com",
+  "contact": {
+    "email": "bp@pulitocapital.com",
+    "contactEmail": "contact@pulitocapital.com",
+    "website": "https://www.pulitocapital.com"
+  },
+  "llmsIndex": "https://www.pulitocapital.com/llms.txt",
+  "llmsFullIndex": "https://www.pulitocapital.com/llms-full.txt",
+  "boundaries": {
+    "note": "本卡片为描述性名片，不暴露内部交易数据接口。涉及在管项目公司名、创始人名、融资明细均严格保密，仅经 NDA 与人工渠道披露。",
+    "noteEn": "Descriptive agent card only; no internal deal-data endpoint exposed. Portfolio company names, founder names and financials are confidential and disclosed only under NDA via human channels."
+  }
+}
