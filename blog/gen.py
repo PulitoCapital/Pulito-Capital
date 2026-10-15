@@ -12,6 +12,35 @@ def safe_json_str(s):
     """Escape a string for safe embedding in JSON within HTML."""
     return s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n').replace('\r', '\\r').replace('\t', '\\t')
 
+
+def _clean_text(html_text):
+    """去掉 HTML 标签/实体，压缩空白，返回纯文本。"""
+    t = re.sub(r'<[^>]+>', ' ', html_text)
+    t = (t.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+          .replace('&quot;', '"').replace('&nbsp;', ' ').replace('&#39;', "'"))
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+
+def _pick_best_paragraph(question, paragraphs):
+    """为 geo_question（关键词形态）从段落池里挑最相关的一段作独立答案。
+    打分：question 抽出的中英 token 在段落里出现的个数；返回原文段落（不截断）。"""
+    if not question or not paragraphs:
+        return None
+    # 抽出中文连续段(>=2字) + 英文数字连续段(>=2字符)
+    tokens = re.findall(r'[A-Za-z0-9]{2,}|[\u4e00-\u9fff]{2,}', question)
+    if not tokens:
+        return None
+    best, best_score = None, 0
+    for p in paragraphs:
+        if not p:
+            continue
+        score = sum(1 for tk in tokens if tk in p)
+        if score > best_score:
+            best_score = score
+            best = p
+    return best if (best is not None and best_score > 0) else None
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE = os.path.join(BASE, "template.html")
 META_FILE = os.path.join(BASE, "articles.json")
@@ -114,9 +143,23 @@ def generate_articles(articles):
                 a_safe = safe_json_str(a_text)
                 faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, a_safe))
         if not faq_items:
+            # 2026-10-15 优化：fallback 不再让所有问题共用同一段 excerpt，
+            # 而是按 geo_question 关键词从正文段落池里挑「最相关段落」作独立答案，
+            # 语义对齐，避免 FAQPage 的 answer 全部雷同（对 AI 引擎引用质量更好）。
+            # 关键：每选走一段就把它从池里移除，保证不同问题答案互斥不重复。
+            para_pool = [_clean_text(p) for p in re.findall(r'<p[^>]*>(.*?)</p>', art.get("content", ""), re.S)]
+            para_pool = [p for p in para_pool if p]
             for q in geo_qs:
                 q_safe = safe_json_str(q)
-                faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, safe_excerpt))
+                ans = _pick_best_paragraph(q, para_pool)
+                if ans:
+                    para_pool.remove(ans)  # 互斥：该段不再被后续问题复用
+                    if len(ans) > 150:
+                        ans = ans[:150].rstrip('，。；、:： ') + '。'
+                    a_safe = safe_json_str(ans)
+                else:
+                    a_safe = safe_excerpt
+                faq_items.append('{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (q_safe, a_safe))
         faq_json_ld = ",\n      ".join(faq_items) if faq_items else '{"@type": "Question", "name": "%s", "acceptedAnswer": {"@type": "Answer", "text": "%s"}}' % (safe_title, safe_excerpt)
 
         subs = {
