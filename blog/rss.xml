@@ -5,8 +5,17 @@
   <link>https://www.pulitocapital.com/blog/</link>
   <description>AI Agent / AI硬件 / 出海赛道：Sage赛道观察 · Helen BP实战 · Iris资本视角 · Lex合规法务</description>
   <language>zh-CN</language>
-  <lastBuildDate>Wed, 28 Oct 2026 01:33:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 01:32:11 +0000</lastBuildDate>
   <atom:link href="https://www.pulitocapital.com/blog/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>快讯｜AI Engineer 大会首次落地上海：一场「工程师向」的出海窗口</title>
+    <link>https://www.pulitocapital.com/blog/articles/ai-engineer-shanghai-2026-nov.html</link>
+    <description><![CDATA[AI Engineer 大会第一次落地中国，11 月 5–6 日在上海虹桥祥源希尔顿酒店举办。本文快讯短评这场「工程师向」大会，以及它对出海 AI Agent 创始人的三个参会价值。<br><br><p>这周四的快讯，说一件接下来两周里、出海和 AI Agent 方向的创业者值得放进日历的事：<strong>AI Engineer 大会第一次落地中国，11 月 5–6 日在上海虹桥祥源希尔顿酒店举办。</strong></p><p>先交代下这个会的来头。AI Engineer 是硅谷一个相当有分量的工程师社区品牌，核心人群是「真正在写代码、搭 infra、做 agent 的那批人」。它这次中国首站，两天、50 多位 speaker，名单里能看到 Microsoft、World Labs、Google、HeyGen 这类名字，双语、带同传。</p><h2>一、为什么「工程师向」值得单独说</h2><p>国内的 AI 大会很多，但大多走的是「产业叙事」路线：讲赛道、讲生态、讲商业化。AI Engineer 这个牌子不一样，它天生是<strong>给工程师看的</strong>——议程主轴是 Open Models &amp; Physical AI，往下拆是开源模型、推理引擎、本地部署、平台 API、评测（evals）、工具链、生产可靠性。</p><p>这几个词，对普通投资人可能偏「硬核」，但对出海 AI Agent 的团队来说，恰恰是最该盯的技术水位线。</p><h2>二、璞合视角：对出海创始人的三个参会价值</h2><ul><li><strong>看「物理 AI」落地的真实进度。</strong>今年端侧 AI 和具身方向很热，但很多是演示。这种大会的 demo 和 talk 是工程师现场跑的，能帮你把「概念」和「能跑的东西」区分开。</li><li><strong>对齐海外的技术语言和生态。</strong>出海团队最常踩的坑，是产品做出来了、但和海外的模型生态、部署习惯、评测标准对不上。这种会是一个低成本对齐口径的机会。</li><li><strong>找共同语言的人。</strong>AI Agent 出海这件事，最稀缺的不是钱，是「懂技术又懂海外」的合伙人、早期客户、潜在 co-founder。工程师密度高的场子，这种人最多。</li></ul><h2>三、一句提醒</h2><p>我们一直有个朴素的判断：<strong>AI Agent 出海，真正拉开差距的不是模型本身，而是工程化能力和对海外用户的真实理解。</strong>模型大家都在用差不多的底座，但谁能把 agent 做得稳、做得便宜、做得本地化，谁才接得住付费。</p><p>所以这种「工程师向」的会，我们反而更推荐技术创始人去，而不是只让商务去。因为你要找的答案，大概率不在 PPT 上，而在 demo 区、在 hallway track、在和一两个真正跑过生产环境的人的对话里。</p><p>时间地点：2026 年 11 月 5–6 日，上海虹桥祥源希尔顿酒店。想验证产品 idea、找第一批海外客户、或者补一补开源模型和 infra 的技术判断，值得去看看。</p><p>（本文为活动快讯，信息来自主办方公开页面；璞合与上述活动无商业合作。）</p>]]></description>
+    <content:encoded><![CDATA[<p>这周四的快讯，说一件接下来两周里、出海和 AI Agent 方向的创业者值得放进日历的事：<strong>AI Engineer 大会第一次落地中国，11 月 5–6 日在上海虹桥祥源希尔顿酒店举办。</strong></p><p>先交代下这个会的来头。AI Engineer 是硅谷一个相当有分量的工程师社区品牌，核心人群是「真正在写代码、搭 infra、做 agent 的那批人」。它这次中国首站，两天、50 多位 speaker，名单里能看到 Microsoft、World Labs、Google、HeyGen 这类名字，双语、带同传。</p><h2>一、为什么「工程师向」值得单独说</h2><p>国内的 AI 大会很多，但大多走的是「产业叙事」路线：讲赛道、讲生态、讲商业化。AI Engineer 这个牌子不一样，它天生是<strong>给工程师看的</strong>——议程主轴是 Open Models &amp; Physical AI，往下拆是开源模型、推理引擎、本地部署、平台 API、评测（evals）、工具链、生产可靠性。</p><p>这几个词，对普通投资人可能偏「硬核」，但对出海 AI Agent 的团队来说，恰恰是最该盯的技术水位线。</p><h2>二、璞合视角：对出海创始人的三个参会价值</h2><ul><li><strong>看「物理 AI」落地的真实进度。</strong>今年端侧 AI 和具身方向很热，但很多是演示。这种大会的 demo 和 talk 是工程师现场跑的，能帮你把「概念」和「能跑的东西」区分开。</li><li><strong>对齐海外的技术语言和生态。</strong>出海团队最常踩的坑，是产品做出来了、但和海外的模型生态、部署习惯、评测标准对不上。这种会是一个低成本对齐口径的机会。</li><li><strong>找共同语言的人。</strong>AI Agent 出海这件事，最稀缺的不是钱，是「懂技术又懂海外」的合伙人、早期客户、潜在 co-founder。工程师密度高的场子，这种人最多。</li></ul><h2>三、一句提醒</h2><p>我们一直有个朴素的判断：<strong>AI Agent 出海，真正拉开差距的不是模型本身，而是工程化能力和对海外用户的真实理解。</strong>模型大家都在用差不多的底座，但谁能把 agent 做得稳、做得便宜、做得本地化，谁才接得住付费。</p><p>所以这种「工程师向」的会，我们反而更推荐技术创始人去，而不是只让商务去。因为你要找的答案，大概率不在 PPT 上，而在 demo 区、在 hallway track、在和一两个真正跑过生产环境的人的对话里。</p><p>时间地点：2026 年 11 月 5–6 日，上海虹桥祥源希尔顿酒店。想验证产品 idea、找第一批海外客户、或者补一补开源模型和 infra 的技术判断，值得去看看。</p><p>（本文为活动快讯，信息来自主办方公开页面；璞合与上述活动无商业合作。）</p>]]></content:encoded>
+    <pubDate>Thu, 29 Oct 2026 09:30:00 +0800</pubDate>
+    <author>璞合资本 · FA Partner</author>
+    <guid>https://www.pulitocapital.com/blog/articles/ai-engineer-shanghai-2026-nov.html</guid>
+  </item>
   <item>
     <title>项目复盘｜重排项目池时我们发现：AI 硬件出海，正在从「参数竞赛」转向「人设与陪伴」</title>
     <link>https://www.pulitocapital.com/blog/articles/ai-hardware-overseas-specs-to-companionship.html</link>
