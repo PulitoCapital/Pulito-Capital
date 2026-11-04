@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门 | 璞合资本</title>
+  <meta name="description" content="最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。">
+  <meta name="keywords" content="BP实战 · 早期项目 · 初筛方法论 · 赛道对齐 · 璞合观点,璞合资本,AI Agent,AI硬件,出海融资">
+  <meta name="author" content="璞合资本">
+  <!-- Speakable Schema (GEO - AI语音朗读标记) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".article-summary", ".article-conclusion"]
+    }
+  }
+  </script>
+  <!-- Article meta -->
+  <meta property="article:published_time" content="2026-11-04">
+  <meta property="article:tag" content="BP实战 · 早期项目 · 初筛方法论 · 赛道对齐 · 璞合观点">
+  <meta property="article:author" content="璞合资本">
+  <!-- Open Graph -->
+  <meta property="og:title" content="BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门">
+  <meta property="og:description" content="最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.pulitocapital.com/blog/articles/early-stage-screening-track-redflags-synergy.html">
+  <meta property="og:site_name" content="璞合资本 Pulito Capital">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://www.pulitocapital.com/assets/og-image.webp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门">
+  <meta name="twitter:description" content="最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.pulitocapital.com/blog/articles/early-stage-screening-track-redflags-synergy.html">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;600;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--navy:#020C45;--navy-footer:#0A1A5C;--gold:#D4AF37;--gold-rgb:212,175,55;--white:#FFFFFF;--text-muted:#8892B0;--font-en:'Inter','Noto Sans SC',sans-serif;--font-cn:'Noto Sans SC','Inter',sans-serif}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font-en);color:#fff;background:var(--navy);line-height:1.8;-webkit-font-smoothing:antialiased}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;height:auto;display:block;border-radius:8px}
+    .container{max-width:800px;margin:0 auto;padding:0 24px}
+    .gold{color:var(--gold)}
+    .gold-divider{width:48px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:24px}
+
+    /* Nav */
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:12px 0;background:rgba(2,12,69,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,175,55,0.1)}
+    .navbar .container{display:flex;align-items:center;justify-content:space-between;max-width:1200px}
+    .nav-logo{display:flex;align-items:center;gap:10px}
+    .nav-logo svg{width:28px;height:28px}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1}
+    .nav-logo-text .cn{font-family:var(--font-cn);font-size:14px;font-weight:500;letter-spacing:0.1em}
+    .nav-logo-text .en{font-size:6px;font-weight:500;color:var(--gold);letter-spacing:0.2em;margin-top:3px}
+    .nav-links{display:flex;gap:24px;list-style:none}
+    .nav-links a{font-size:14px;color:var(--text-muted);transition:color 0.2s}
+    .nav-links a:hover{color:var(--gold)}
+
+    /* Article Header */
+    .article-header{padding:120px 0 48px;position:relative;overflow:hidden}
+    .article-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.3),transparent)}
+    .article-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.3);padding:4px 12px;border-radius:4px;font-size:12px;color:var(--gold);margin-bottom:20px}
+    .article-header h1{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:700;line-height:1.3;letter-spacing:-0.02em;margin-bottom:20px}
+    .article-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--text-muted);margin-bottom:8px}
+    .article-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--text-muted);display:inline-block}
+    .article-author{display:flex;align-items:center;gap:10px}
+    .article-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)}
+    .article-header .excerpt{font-size:clamp(1rem,1.8vw,1.2rem);color:var(--text-muted);line-height:1.7;margin-top:24px;padding:16px 20px;border-left:3px solid var(--gold);background:rgba(212,175,55,0.03);border-radius:0 4px 4px 0}
+
+    /* Article Body */
+    .article-body{padding:48px 0 64px;position:relative}
+    .article-body h2{font-size:clamp(1.4rem,2.5vw,1.75rem);font-weight:700;margin:48px 0 16px;color:#fff;letter-spacing:-0.01em;line-height:1.4}
+    .article-body h3{font-size:clamp(1.15rem,2vw,1.35rem);font-weight:600;margin:36px 0 12px;color:var(--gold);line-height:1.4}
+    .article-body p{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:20px;line-height:1.9}
+    .article-body p.gold{color:var(--gold);font-weight:500}
+    .article-body ul,.article-body ol{padding-left:24px;margin-bottom:24px}
+    .article-body li{font-size:clamp(1rem,1.8vw,1.125rem);color:#e8e8f0;margin-bottom:10px;line-height:1.8}
+    .article-body li::marker{color:var(--gold)}
+    .article-body strong{color:#fff}
+    .article-body blockquote{padding:20px 24px;margin:32px 0;border-left:3px solid var(--gold);background:rgba(212,175,55,0.05);border-radius:0 8px 8px 0;font-style:italic;color:#d0d0e0}
+    .article-body blockquote p{margin-bottom:0;color:#d0d0e0}
+    .article-body .highlight-box{padding:24px;margin:32px 0;border-radius:8px;border:1px solid rgba(212,175,55,0.3);background:rgba(10,26,92,0.5)}
+    .article-body .highlight-box p:last-child{margin-bottom:0}
+    .article-body .highlight-box .box-title{font-size:14px;font-weight:600;color:var(--gold);margin-bottom:12px}
+    .article-body code{background:rgba(212,175,55,0.1);padding:2px 8px;border-radius:3px;font-size:0.9em;color:var(--gold)}
+    .article-body img{margin:32px auto;border-radius:8px;max-width:100%}
+    .article-body .caption{text-align:center;font-size:13px;color:var(--text-muted);margin-top:-24px;margin-bottom:32px}
+
+    /* Divider */
+    .section-divider{display:flex;align-items:center;gap:16px;margin:48px 0;color:var(--text-muted);font-size:12px}
+    .section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.2))}
+    .section-divider::after{background:linear-gradient(270deg,transparent,rgba(212,175,55,0.2))}
+
+    /* Footer */
+    .article-footer{padding:48px 0;border-top:1px solid rgba(212,175,55,0.15)}
+    .article-footer .back-link{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:15px;transition:gap 0.2s}
+    .article-footer .back-link:hover{gap:12px}
+    .article-footer .back-link svg{width:16px;height:16px}
+
+    /* Tags */
+    .article-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px}
+    .article-tags span{padding:4px 12px;border-radius:4px;font-size:12px;background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.2);color:var(--gold)}
+
+    .page-footer{background:var(--navy-footer);padding:32px 24px;text-align:center;font-size:13px;color:var(--text-muted);border-top:1px solid rgba(212,175,55,0.1)}
+
+    /* SVG illustration container */
+    .article-illustration{margin:32px 0;padding:24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.1);text-align:center}
+    .article-illustration svg{max-width:100%}
+
+    @media(max-width:600px){
+      .nav-links{display:none}
+      .article-header{padding:100px 0 32px}
+      .article-body{padding:32px 0 48px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门",
+    "description": "最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。",
+    "author": {
+      "@type": "Person",
+      "name": "璞合资本",
+      "jobTitle": "FA Partner"
+    },
+    "datePublished": "2026-11-04",
+    "publisher": {
+      "@type": "Organization",
+      "name": "璞合资本 Pulito Capital"
+    }
+  }
+  </script>
+    <!-- FAQ Schema (GEO - AI引擎问答引用) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "FA 如何初筛早期项目", "acceptedAnswer": {"@type": "Answer", "text": "很多人以为 FA 初筛就是打分——技术几分、团队几分、赛道几分，加权平均出一个数，过线就接，不过线就拒。这个理解对了一半。分数是给复盘用的，真正决定「接不接、进不进观察池」的，其实是三个更硬的闸门：赛道对不对、红旗多不多、有没有协同。今天把这三个闸门拆开讲。"}},
+      {"@type": "Question", "name": "BP 评估 赛道 红旗 协同", "acceptedAnswer": {"@type": "Answer", "text": "赛道对齐，判断的是「你有没有资格帮它」；红旗识别，判断的是「你帮它的代价是什么」；生态协同，判断的是「你帮它和你帮别人之间有没有乘数」。"}},
+      {"@type": "Question", "name": "早期项目 初筛 方法论", "acceptedAnswer": {"@type": "Answer", "text": "璞合观点 ：早期项目初筛，真正的功夫不在「打一个漂亮的分数」，而在「把赛道、风险、协同三件事想透」。赛道对齐决定你有没有资格，红旗识别决定代价大小，生态协同决定值不值得。三者想清楚，接或不接，都是清醒的选择，而不是拍脑袋。"}},
+      {"@type": "Question", "name": "AI 生物医药 赛道 融资", "acceptedAnswer": {"@type": "Answer", "text": "举一个最近的真实案例（脱敏）。我们碰到一个 AI 驱动的生物医药平台，技术底子相当硬——创始人是海外顶尖高校博士、全球前 2% 科学家，算法有真东西，天使轮融资诉求也不算离谱。按「赛道好不好」的标准，AI+生物医药未来肯定是大方向，这项目单看技术评分能给到 7 分上下。"}}
+    ]
+  }
+  </script>
+  <!-- BreadcrumbList (GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pulitocapital.com"},
+      {"@type": "ListItem", "position": 2, "name": "洞察", "item": "https://www.pulitocapital.com/blog/"},
+      {"@type": "ListItem", "position": 3, "name": "BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门"}
+    ]
+  }
+  </script>
+  <!-- Baidu Verification -->
+  <!-- 搜狗搜索验证 -->
+  <meta name="sogou_site_verification" content="1ZxPvS3PJe" />
+  <meta name="baidu-site-verification" content="codeva-TAH0cRBC6P">
+  <meta name="google-site-verification" content="TODO_ADD_FROM_GSC" />
+  <meta name="msvalidate.01" content="TODO_ADD_FROM_BING" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-logo">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="90" height="90" fill="#D4AF37" rx="1"/>
+          <rect x="18" y="18" width="64" height="64" fill="#020C45" rx="0"/>
+          <text x="50" y="50" text-anchor="middle" dominant-baseline="central" fill="#D4AF37" font-family="Montserrat,sans-serif" font-size="56" font-weight="900" letter-spacing="-2">P</text>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="cn">璞合资本</span>
+          <span class="en">PULITO CAPITAL</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">首页</a></li>
+        <li><a href="/blog/">洞察</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <article class="article-header">
+    <div class="container">
+      <div class="article-badge">🏷️ BP实战</div>
+      <h1>BP实战｜早期项目初筛，我们在筛什么：赛道、红旗、协同三个闸门</h1>
+      <div class="article-meta">
+        <div class="article-author">
+          <div class="article-avatar">璞</div>
+          <span>璞合资本 · FA Partner</span>
+        </div>
+        <span class="dot"></span>
+        <span>11月4日</span>
+      </div>
+      <div class="excerpt">最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。</div>
+    </div>
+  </article>
+
+  <div class="article-body">
+    <div class="container">
+          <!-- Key Takeaways (GEO - AI引擎高频提取区) -->
+    <div class="geo-tldr" style="background:rgba(10,26,92,0.5);border:1px solid rgba(212,175,55,0.25);border-radius:8px;padding:20px 24px;margin-bottom:32px">
+      <div style="font-size:12px;color:var(--gold);font-weight:600;margin-bottom:10px;letter-spacing:0.05em">📌 KEY TAKEAWAYS</div>
+      <ul style="margin:0;padding-left:18px;font-size:clamp(0.9rem,1.6vw,1rem);color:#e8e8f0;line-height:1.8">
+        <li>赛道：BP实战 · 作者：璞合资本 · FA Partner</li>
+        <li>核心洞察：最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。</li>
+        <li>标签：BP实战 · 早期项目 · 初筛方法论 · 赛道对齐 · 璞合观点</li>
+      </ul>
+    </div>
+    <div class="article-summary" style="margin-bottom:24px;padding:16px 20px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold);font-size:14px;color:var(--text-muted);line-height:1.7">
+      <strong style="color:var(--gold);font-size:12px;letter-spacing:0.1em">📌 关键摘要</strong><br>
+      最近集中看了几个 BP，想讲清楚一件事：FA 初筛到底在筛什么。不是打分，而是三个硬闸门——赛道对不对、红旗多不多、有没有协同。赛道对齐决定你有没有资格帮，红旗识别决定代价大小，生态协同决定值不值得。本文用脱敏案例拆解这套位置判断框架。
+    </div>
+    <p>最近集中看了几个 BP，有出海消费软件的，有 AI 硬件的，还有一个 AI 驱动生物医药平台的。看完之后我想把一件事讲清楚：<strong>初筛这件事，到底在筛什么。</strong></p><p>很多人以为 FA 初筛就是打分——技术几分、团队几分、赛道几分，加权平均出一个数，过线就接，不过线就拒。这个理解对了一半。分数是给复盘用的，真正决定「接不接、进不进观察池」的，其实是三个更硬的闸门：赛道对不对、红旗多不多、有没有协同。今天把这三个闸门拆开讲。</p><h2>闸门一：赛道对齐，筛的不是「赛道好不好」，是「跟你的盘子对不对」</h2><p>先讲一个最容易踩的误区。判断一个项目值不值得跟进，第一反应是「这个赛道好不好」。但赛道好不好，跟你该不该接，是两回事。</p><p>举一个最近的真实案例（脱敏）。我们碰到一个 AI 驱动的生物医药平台，技术底子相当硬——创始人是海外顶尖高校博士、全球前 2% 科学家，算法有真东西，天使轮融资诉求也不算离谱。按「赛道好不好」的标准，AI+生物医药未来肯定是大方向，这项目单看技术评分能给到 7 分上下。</p><p>但问题在于：<strong>这不是我们璞合的赛道。</strong>我们专注的是 AI 应用、AI 智能硬件、出海三个方向。一个 AI 制药/抗体发现平台，跟这三个方向都不沾边。这意味着什么？意味着就算我们接下这个案子，我们对这个赛道里「谁在真投、谁在观望、估值锚在哪、退出路径怎么走」的判断力，是打折的。FA 的价值不在转发 BP，在于对赛道的水温和交易结构的判断——赛道不对口，这个判断力就是我们的短板。</p><p>所以第一个闸门的正确问法，不是「这个赛道热不热」，而是「这个赛道是不是我天天在跑、天天有体感的那块地」。</p><p>这个「体感」到底值多少钱，再举一个对照的例子。同样是最近，我们看了一个机器视觉加机器人应用的项目——给工业机器人装上眼睛和触觉，服务的是苹果、华为这类大厂供应链。这个项目单看赛道，机器视觉加工业自动化，也没有 AI 应用那么性感，但它落在一个我们天天在跑、而且投资人对水温和估值锚都有共识的领域里。我们判断它的时候，能立刻说清楚「这家估值贵不贵、对标谁、退出路径在哪」——因为这就是我们擅长的地。</p><p>两者的差别不在项目本身的优劣，而在我们自己的位置。同样是 7.5 分的项目，一个落在我天天跑的地里，我能帮它把交易结构谈清楚、把投资人名单拉准；另一个落在我不熟的生物医药赛道里，我只能转发 BP、当个传声筒。前者才是 FA 该赚的钱，后者是占位、是消耗。所以第一个闸门真正筛掉的，不是差项目，是「我们帮不动的项目」。</p><h2>闸门二：红旗识别，筛的不是「项目有没有毛病」，是「毛病是不是致命的」</h2><p>没有一个早期项目是干净的。创始团队有历史包袱、股权有瑕疵、客户集中在单一巨头、估值拍得激进——这些都是常态，不是拒掉的理由。关键是要分清：哪些红旗是「可以谈的」，哪些是「致命的」。</p><p>我们内部对红旗有个简单的分级。第一类是<strong>合规与权属类</strong>——比如数据合规边界不清、核心 IP 的权属跟老东家/学校纠缠、创始人跟上一段创业经历没切割干净。这类红旗一旦做实，轻则交割翻车，重则项目本身有法律风险，属于「宁缺勿滥」的一档。</p><p>第二类是<strong>股权与控制权类</strong>——比如一号位持股过低、期权池工商变更没做完、核心团队认缴与实缴对不上。这类红旗通常能谈、能修，但要在签约前摊开讲清楚，不能等到尽调阶段才爆雷。</p><p>第三类是<strong>叙事复用类</strong>——一个本质是传统业务的生意，硬套一层 AI 的故事。这类红旗最隐蔽，因为它不违法、不违规，但它意味着商业模式的真实成色要打问号。识别它的方法很简单：把「AI」两个字从 BP 里抠掉，看这个生意还成不成立。</p><p>第三个闸门的本质，是风险定价。红旗本身不一定是坏事，坏的是「没看见」。</p><p>这里要强调一个细节：<strong>红旗识别的功夫，一大半花在「问对人」上，而不是「看 BP」上。</strong>BP 是创始人想让你看到的东西，是被修饰过的。真正的红旗，往往藏在 BP 之外——藏在工商信息里（股权有没有实缴、期权池有没有做完）、藏在创始人上一段经历里（跟老东家的竞业和 IP 切割）、藏在跟圈子里的人的闲聊里（这个人靠谱不靠谱、口碑怎么样）。</p><p>我们最近就碰到一个典型：一个硬件项目的 BP 写得非常漂亮，技术指标、量产交付、用户数都很好看，但翻工商信息发现，一位早期股东的认缴和实缴对不上，而且期权池的工商变更还没做完。这些细节在 BP 里一个字都不会写，但它直接影响后面的交割能不能走通。如果初筛阶段没扒出来，等到尽调阶段再爆，就是白白浪费双方几个月的时间。</p><p>所以第二个闸门对我们的内部要求是：<strong>初筛不是读一遍 BP 就完事，而是一次小型的尽调预演。</strong>能查到工商就查工商，能问到人就问人，能在 30 分钟内扒出来的红旗，绝不留到签约之后。</p><h2>闸门三：生态协同，筛的不是「这个项目单点强不强」，是「它能不能让整个盘子变强」</h2><p>这是我最想讲、也最容易被忽略的一个闸门。回到开头那个 AI 生物医药平台的例子——按前两个闸门，它赛道不对口、商业模式还处在从服务型向产品型的转身期，按理说应该直接放下。</p><p>但我们最后把它放进了观察池。原因不是它本身多强，而是<strong>它跟我们盘子里的项目能产生协同</strong>：我们有一个做 AI for Science 计算生物的项目，有一个做蛋白质/酶工程的项目，而这个抗体发现平台，正好卡在两者之间的交叉点上——它的算法能力能喂给前者，它的应用场景能接住后者。</p><p>这就引出一个初筛里非常重要的判断维度：<strong>一个项目进不进你的盘子，看的不是它自己，而是它能不能让你已有的项目变得更好。</strong>FA 不是零散地做一个个单子，是在经营一张网。有些项目单看平庸，放进网里就是关键的连接节点；有些项目单看惊艳，但跟你没有任何化学反应，接了也是孤岛。</p><h2>三个闸门合起来：初筛不是打分，是回答「我在不在你最能帮上忙的地方」</h2><p>把三个闸门叠在一起，初筛这件事的真相就清楚了：它不是一个打分表，而是一套「位置判断」。</p><p>赛道对齐，判断的是「你有没有资格帮它」；红旗识别，判断的是「你帮它的代价是什么」；生态协同，判断的是「你帮它和你帮别人之间有没有乘数」。</p><p>对我们璞合来说，这个框架还有一层更朴素的意义。我们是一个精品 FA，团队就几个人，精力是硬约束。每一个接进来的案子，都在占用我们给签约项目找钱的时间。所以初筛要做的，是把「我们接得住、帮得上、还能放大」的项目留下来，把「接了也帮不动」的项目体面地放下。</p><div class="highlight-box"><p><strong>璞合观点</strong>：早期项目初筛，真正的功夫不在「打一个漂亮的分数」，而在「把赛道、风险、协同三件事想透」。赛道对齐决定你有没有资格，红旗识别决定代价大小，生态协同决定值不值得。三者想清楚，接或不接，都是清醒的选择，而不是拍脑袋。</p></div><p>如果你是一个正在融资的创始人，这篇文章对你也有用：下次见 FA 的时候，与其问「你们能帮我融多少钱」，不如问「你们对这条赛道的体感是什么、你们盘子里有没有能跟我产生协同的项目」。能清楚回答这两个问题的 FA，才值得你把时间交给他。</p><h2>写在最后：初筛是门槛，不是终点</h2><p>还有一句话得说清楚：初筛通过，不代表项目就高枕无忧了。初筛只是第一道门，后面的评估、签约、投资人匹配、尽调、交割，每一关都比初筛更重。但初筛的价值在于，它决定了你后面的精力花在哪。</p><p>对我们这样几个人的精品 FA 来说，最贵的不是钱，是注意力。初筛做得越清醒，后面签约项目的推进就越专注；初筛做得越糊弄，后面就要用十倍的时间去填坑。所以我们宁可在初筛这一关「劝退」一些看起来不错、但跟我们不对路的项目，也要把精力留给那些真正落在我们地里的、我们能帮上忙的案子。</p><p>说到底，FA 这份工作的诚实，不在于接多少个案子，而在于敢不敢说一句：这个案子，我们不擅长，帮你对接更合适的人。这份清醒，才是对一个创始人最大的负责。</p>
+    </div>
+  </div>
+
+  <!-- CTA 留资条（内容 → 双客服 Agent 转化承接） -->
+  <div class="container" style="padding:0 24px">
+    <div class="pulito-cta" style="margin:8px 0 0;padding:28px 24px;border-radius:10px;background:linear-gradient(135deg,rgba(212,175,55,0.10),rgba(10,26,92,0.55));border:1px solid rgba(212,175,55,0.28);text-align:center">
+      <div style="font-size:17px;font-weight:700;color:#fff;margin-bottom:8px">你在做出海 AI 硬件 / AI Agent？</div>
+      <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7">想聊融资节奏、估值口径、投资人匹配 —— 直接找我们，不用绕</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="https://www.pulitocapital.com/?chat=founder&utm_source=blog&utm_medium=cta&utm_campaign=article_founder" target="_blank" rel="noopener" data-sdr="founder" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:var(--gold);color:var(--navy);font-size:15px;font-weight:700;text-decoration:none">🚀 我是创始人 · 聊融资</a>
+        <a href="https://www.pulitocapital.com/?chat=investor&utm_source=blog&utm_medium=cta&utm_campaign=article_investor" target="_blank" rel="noopener" data-sdr="investor" style="display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:15px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.2)">💼 我是投资人 · 看项目</a>
+      </div>
+      <p style="font-size:13px;color:var(--text-muted);margin-top:16px;margin-bottom:0">或直接邮件 <a href="mailto:bp@pulitocapital.com" style="color:var(--gold)">bp@pulitocapital.com</a></p>
+    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="container">
+      <a href="/blog/" class="back-link">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>← 返回所有文章</span>
+      </a>
+      <div class="article-tags">
+        <span>BP实战</span><span>早期项目</span><span>初筛方法论</span><span>赛道对齐</span><span>璞合观点</span>
+        <span>BP实战</span><span>早期项目</span><span>初筛方法论</span><span>赛道对齐</span><span>璞合观点</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Author & Related (GEO) -->
+  <div style="margin-top:32px;padding:20px 24px;border-radius:8px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12)">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--gold),rgba(212,175,55,0.3));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--navy)">璞</div>
+      <div>
+        <div style="font-size:14px;color:#fff;font-weight:600">璞合资本 · FA Partner</div>
+        <div style="font-size:12px;color:var(--text-muted)">璞合资本 · AI Native精品投行</div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.7;margin-bottom:16px;padding:12px 16px;border-radius:6px;background:rgba(212,175,55,0.06);border-left:3px solid var(--gold)">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。欢迎访问璞合资本公众号，项目合作请发 bp@pulitocapital.com。</p>
+    <p style="font-size:13px;color:var(--text-muted);line-height:1.6;margin-bottom:8px">📖 查看更多 <a href="/blog/" style="color:var(--gold)">璞合洞察</a> · 赛道观察 · BP实战 · 资本视角 · 合规法务 · 创始人访谈</p>
+    <div style="margin-top:32px;padding-top:24px;border-top:1px solid rgba(212,175,55,0.15)"><div style="font-size:13px;color:var(--text-muted);margin-bottom:16px">📖 继续阅读</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <a href="/blog/articles/bp-review-ai-hardware-cold-start-to-first-ts-2026.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">BP实战</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">BP实战：一家AI硬件出海项目，从冷启动到第一张TS的融资长跑复盘</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">10月21日</div>
+          </a>
+          <a href="/blog/articles/how-to-read-investor-self-intro-15-roadshows.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">BP实战</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">一场15场路演看下来，我摸清了机构开口第一句在说什么——AI硬科技创业者如何从投资人自我介绍里读出真信号</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">9月16日</div>
+          </a>
+          <a href="/blog/articles/repost-2026-ai-glasses-money-flows-upstream-capacity.html" style="display:block;padding:16px;border-radius:6px;background:rgba(10,26,92,0.3);border:1px solid rgba(212,175,55,0.12);text-decoration:none;transition:all 0.2s">
+            <div style="font-size:11px;color:var(--gold);margin-bottom:6px">赛道观察</div>
+            <div style="font-size:14px;color:#fff;font-weight:600;line-height:1.4">转载导读｜AI眼镜的钱，正在从「整机故事」流向「上游产能」</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px">11月3日</div>
+          </a>
+        </div>
+      </div>
+    <div style="margin-top:32px;padding:24px;border-radius:8px;background:linear-gradient(135deg,rgba(212,175,55,0.08),rgba(10,26,92,0.4));border:1px solid rgba(212,175,55,0.2);text-align:center">
+      <div style="font-size:15px;font-weight:600;color:#fff;margin-bottom:8px">📬 璞合资本 — AI Native精品投行</div>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px;line-height:1.7">璞合资本是AI Native时代的精品投行，专注为跨境出海、AI硬件、AI Agent的早期公司提供股权融资、战略咨询等财务顾问服务。</p>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:16px">欢迎访问璞合资本公众号 · 项目合作发 bp@pulitocapital.com</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:var(--gold);color:var(--btn-text);font-size:14px;font-weight:600;text-decoration:none">🏠 访问璞合首页</a>
+        <a href="/blog/" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;border-radius:6px;background:rgba(255,255,255,0.1);color:#fff;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,0.15)">📖 浏览全部文章</a>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--text-muted)">分享本文：<span style="color:var(--gold)">https://www.pulitocapital.com/blog/articles/early-stage-screening-track-redflags-synergy.html</span></p>
+  </div>
+
+  <footer class="page-footer">
+    <p>© 2026 璞合资本 Pulito Capital. All rights reserved.</p>
+  </footer>
+  <!-- 站点统计（归因：百度统计 + Clarity；UTM 规范配合） -->
+  <script src="/assets/analytics.js" defer></script>
+  <!-- Baidu auto-push -->
+  <script>(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'}var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();</script>
+</body>
+</html>
